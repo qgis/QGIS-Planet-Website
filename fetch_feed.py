@@ -28,6 +28,7 @@ def fetch_and_create_post(subscriber_name, subscriber, feed_url):
 def process_entry(entry, subscriber, subscriber_name):
     try:
         title = entry.title
+        print(entry)
         # authors = entry.authors
         image_url = entry.links[-1].href
         if image_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')):
@@ -92,11 +93,10 @@ def sanitize_name(name):
     return re.sub(r'[^a-zA-Z0-9_-]', '_', name).lower()
 
 
-def generate_markdown_content(title, image_name, entry_date, image_url, summary, sanitized_subscriber, subscriber_name):
+def generate_markdown_content(title, entry_date, image_url, summary, sanitized_subscriber, subscriber_name):
     return f"""---
 source: "blog"
 title: "{title}"
-image: "{image_name}"
 date: "{entry_date}"
 link: "{image_url}"
 draft: "true"
@@ -130,14 +130,14 @@ if __name__ == "__main__":
     with open(SUBSCRIBERS_JSON_PATH, 'r') as f:
         subscribers = json.load(f)
     
-    # subscribers = [
-    #     {
-    #         "feed": "https://merginmaps.com/rss/qgis",
-    #         "name": "Mergin Maps",
-    #         "shortname": "Mergin Maps",
-    #         "is_active": True
-    #     }
-    # ]
+    subscribers = [
+        {
+            "feed": "https://merginmaps.com/rss/qgis",
+            "name": "Mergin Maps",
+            "shortname": "Mergin Maps",
+            "is_active": True
+        }
+    ]
 
     # Iterate over the subscribers and fetch posts for active ones with a progress bar
     for subscriber in tqdm(subscribers, desc="Processing subscribers"):
