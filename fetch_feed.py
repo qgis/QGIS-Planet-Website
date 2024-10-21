@@ -16,16 +16,16 @@ import re
 SUBSCRIBERS_JSON_PATH = os.path.join(os.path.dirname(__file__), 'data', 'subscribers.json')
 
 
-def fetch_and_create_post(subscriber, feed_url):
+def fetch_and_create_post(subscriber_name, subscriber, feed_url):
     try:
         feed = feedparser.parse(feed_url)
         for entry in feed.entries:
-            process_entry(entry, subscriber)
+            process_entry(entry, subscriber, subscriber_name)
     except Exception as e:
         print(f"Failed to process feed for {subscriber}: {e}")
 
 
-def process_entry(entry, subscriber):
+def process_entry(entry, subscriber, subscriber_name):
     try:
         title = entry.title
         # authors = entry.authors
@@ -39,7 +39,7 @@ def process_entry(entry, subscriber):
         summary = get_summary(entry)
         sanitized_subscriber = sanitize_name(subscriber)
 
-        content = generate_markdown_content(title, file_name, entry_date, image_url, summary, sanitized_subscriber)
+        content = generate_markdown_content(title, file_name, entry_date, image_url, summary, sanitized_subscriber, subscriber_name)
         subscriber_folder = os.path.join("content", "community-blogs", sanitized_subscriber)
         os.makedirs(subscriber_folder, exist_ok=True)
         markdown_filename = os.path.join(subscriber_folder, f"{file_name}.md")
@@ -92,7 +92,7 @@ def sanitize_name(name):
     return re.sub(r'[^a-zA-Z0-9_-]', '_', name).lower()
 
 
-def generate_markdown_content(title, image_name, entry_date, image_url, summary, sanitized_subscriber):
+def generate_markdown_content(title, image_name, entry_date, image_url, summary, sanitized_subscriber, subscriber_name):
     return f"""---
 source: "blog"
 title: "{title}"
@@ -101,7 +101,8 @@ date: "{entry_date}"
 link: "{image_url}"
 draft: "true"
 showcase: "planet"
-subscriber: "{sanitized_subscriber}"
+folder: "{sanitized_subscriber}"
+author: "{subscriber_name}"
 ---
 
 {summary}
@@ -141,4 +142,4 @@ if __name__ == "__main__":
     # Iterate over the subscribers and fetch posts for active ones with a progress bar
     for subscriber in tqdm(subscribers, desc="Processing subscribers"):
         if subscriber['is_active']:
-            fetch_and_create_post(subscriber['shortname'], subscriber['feed'])
+            fetch_and_create_post(subscriber['name'], subscriber['shortname'], subscriber['feed'])

@@ -1,11 +1,5 @@
 [
   {
-    "feed": "http://linfiniti.com/feed",
-    "name": "Linfiniti",
-    "shortname": "Linfiniti",
-    "is_active": true
-  },
-  {
     "feed": "http://spatialgalaxy.net/feed/",
     "name": "Spatial Galaxy",
     "shortname": "spatialgalaxy.net",
@@ -66,7 +60,7 @@
     "is_active": true
   },
   {
-    "feed": "http://neteler.org/blog/feed",
+    "feed": "https://neteler.org/feed",
     "name": "Markus Neteler",
     "shortname": "Markus Neteler",
     "is_active": true
