@@ -3,174 +3,203 @@
     "feed": "http://spatialgalaxy.net/feed/",
     "name": "Spatial Galaxy",
     "shortname": "spatialgalaxy.net",
-    "is_active": true
+    "is_active": true,
+    "foldername": "spatialgalaxy_net"
   },
   {
     "feed": "http://underdark.wordpress.com/feed/",
     "name": "Anita Graser",
     "shortname": "Anita Graser",
-    "is_active": true
+    "is_active": true,
+    "foldername": "anita_graser"
   },
   {
     "feed": "http://blog.sourcepole.ch/categories/qgis/atom.xml",
     "name": "Sourcepole",
     "shortname": "sourcepole",
-    "is_active": true
+    "is_active": true,
+    "foldername": "sourcepole"
   },
   {
     "feed": "http://nathanw.net/feed.xml",
     "name": "Nathans QGIS and GIS blog",
     "shortname": "Nathans QGIS and GIS blog",
-    "is_active": true
+    "is_active": true,
+    "foldername": "nathans_qgis_and_gis_blog"
   },
   {
     "feed": "http://www.qgis.nl/feed/?lang=en",
     "name": "QGIS Dutch Community",
     "shortname": "qgis.nl",
-    "is_active": true
+    "is_active": true,
+    "foldername": "qgis_nl"
   },
   {
     "feed": "http://www.rcarrillo.org/taxonomy/term/6/feed",
     "name": "rcarrillo.org",
     "shortname": "rcarrillo.org",
-    "is_active": true
+    "is_active": true,
+    "foldername": "rcarrillo_org"
   },
   {
     "feed": "http://faunaliagis.wordpress.com/feed/",
     "name": "Faunalia",
     "shortname": "Faunalia",
-    "is_active": true
+    "is_active": true,
+    "foldername": "faunalia"
   },
   {
     "feed": "http://3nids.wordpress.com/feed/",
     "name": "QGIS Tips",
     "shortname": "QGIS Tips",
-    "is_active": true
+    "is_active": true,
+    "foldername": "qgis_tips"
   },
   {
     "feed": "http://nyalldawson.net/category/qgis/feed/",
     "name": "nyalldawson.net",
     "shortname": "nyalldawson.net",
-    "is_active": true
+    "is_active": true,
+    "foldername": "nyalldawson_net"
   },
   {
     "feed": "http://infogeoblog.wordpress.com/category/gis/qgis/feed/",
     "name": "Info Geo Blog",
     "shortname": "infogeoblog",
-    "is_active": true
+    "is_active": true,
+    "foldername": "infogeoblog"
   },
   {
     "feed": "https://neteler.org/feed",
     "name": "Markus Neteler",
     "shortname": "Markus Neteler",
-    "is_active": true
+    "is_active": true,
+    "foldername": "markus_neteler"
   },
   {
     "feed": "http://ukqgis.wordpress.com/feed/",
     "name": "QGIS UK",
     "shortname": "QGIS UK",
-    "is_active": true
+    "is_active": true,
+    "foldername": "qgis_uk"
   },
   {
     "feed": "https://kartoza.com/en/blog/category/qgis/feeds/atom/",
     "name": "Kartoza",
     "shortname": "Kartoza",
-    "is_active": false
+    "is_active": false,
+    "foldername": "kartoza"
   },
   {
     "feed": "https://www.lutraconsulting.co.uk/blog/categories/qgis/atom.xml",
     "name": "Lutra Consulting",
     "shortname": "LutraGIS",
-    "is_active": true
+    "is_active": true,
+    "foldername": "lutragis"
   },
   {
     "feed": "https://gisunchained.wordpress.com/feed/",
     "name": "Alexandre Neto's blog",
     "shortname": "Alexandre Neto's blog",
-    "is_active": true
+    "is_active": true,
+    "foldername": "alexandre_netos_blog"
   },
   {
     "feed": "http://www.naturalgis.pt/blog/atom.xml",
     "name": "Natural GIS",
     "shortname": "Natural GIS",
-    "is_active": true
+    "is_active": true,
+    "foldername": "natural_gis"
   },
   {
     "feed": "https://ieqgis.wordpress.com/feed/",
     "name": "Ireland QGIS User Group Blog",
     "shortname": "Ireland QGIS User Group Blog",
-    "is_active": true
+    "is_active": true,
+    "foldername": "ireland_qgis_user_group_blog"
   },
   {
     "feed": "http://www.itopen.it/category/gis/qgis/feed/lang-pref/en/",
     "name": "ItOpen",
     "shortname": "ItOpen",
-    "is_active": true
+    "is_active": true,
+    "foldername": "itopen"
   },
   {
     "feed": "http://qgis.dk/category/english/feed/",
     "name": "QGIS.dk articles",
     "shortname": "QGIS.dk",
-    "is_active": true
+    "is_active": true,
+    "foldername": "qgis_dk"
   },
   {
     "feed": "https://qgisgsoc2015.wordpress.com/category/reports/feed/",
     "name": "Marcus SOC reports",
     "shortname": "Marcus SOC reports",
-    "is_active": true
+    "is_active": true,
+    "foldername": "marcus_soc_reports"
   },
   {
     "feed": "https://blog.qgis.org/feed/",
     "name": "QGIS Project blog",
     "shortname": "QGIS Project blog",
-    "is_active": true
+    "is_active": true,
+    "foldername": "qgis_project_blog"
   },
   {
     "feed": "http://north-road.com/feed/?cat=QGIS",
     "name": "North Road",
     "shortname": "North Road",
-    "is_active": true
+    "is_active": true,
+    "foldername": "north_road"
   },
   {
     "feed": "http://imhere-asia.com/blog/rss-qgis.xml",
     "name": "Nirvns QGIS blogs",
     "shortname": "Nirvns QGIS blogs",
-    "is_active": true
+    "is_active": true,
+    "foldername": "nirvns_qgis_blogs"
   },
   {
     "feed": "http://oslandia.com/en/tag/qgis-en/feed/atom/",
     "name": "QGIS Oslandia",
     "shortname": "QGIS Oslandia",
-    "is_active": true
+    "is_active": true,
+    "foldername": "qgis_oslandia"
   },
   {
     "feed": "http://qgis-polska.org/feed.php?ns=blog",
     "name": "QGIS Polska blog",
     "shortname": "QGIS Polska blog",
-    "is_active": true
+    "is_active": true,
+    "foldername": "qgis_polska_blog"
   },
   {
     "feed": "https://www.opengis.ch/tag/qgis-org/feed/",
     "name": "OPENGIS.ch blog",
     "shortname": "opengisch",
-    "is_active": true
+    "is_active": true,
+    "foldername": "opengisch"
   },
   {
     "feed": "https://www.maptiler.com/news/feed/qgis.xml",
     "name": "maptiler.com",
     "shortname": "maptiler",
-    "is_active": true
+    "is_active": true,
+    "foldername": "maptiler"
   },
   {
     "feed": "https://github.com/opengisch/qfield/releases.atom",
     "name": "QField releases",
     "shortname": "qfield",
-    "is_active": true
+    "is_active": true,
+    "foldername": "qfield"
   },
   {
     "feed": "https://merginmaps.com/rss/qgis",
     "name": "Mergin Maps",
     "shortname": "Mergin Maps",
-    "is_active": true
+    "is_active": true,
+    "foldername": "mergin_maps"
   }
 ]

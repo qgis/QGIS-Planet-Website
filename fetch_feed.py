@@ -16,43 +16,39 @@ import re
 SUBSCRIBERS_JSON_PATH = os.path.join(os.path.dirname(__file__), 'data', 'subscribers.json')
 
 
-def fetch_and_create_post(subscriber_name, subscriber, feed_url):
+def fetch_and_create_post(subscriber_name, foldername, feed_url):
     try:
         feed = feedparser.parse(feed_url)
         for entry in feed.entries:
-            process_entry(entry, subscriber, subscriber_name)
+            process_entry(entry, subscriber_name, foldername)
     except Exception as e:
-        print(f"Failed to process feed for {subscriber}: {e}")
+        print(f"Failed to process feed for {subscriber_name}: {e}")
 
 
-def process_entry(entry, subscriber, subscriber_name):
+def process_entry(entry, subscriber_name, foldername):
     try:
         title = entry.title
-        print(entry)
-        # authors = entry.authors
         image_url = entry.links[-1].href
         if image_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')):
             file_name = get_image_name(image_url)
-            download_image(image_url, file_name, subscriber)
+            download_image(image_url, file_name, foldername)
 
         file_name = os.path.basename(os.path.normpath(image_url))
         entry_date = get_entry_date(entry)
         summary = get_summary(entry)
-        sanitized_subscriber = sanitize_name(subscriber)
 
-        content = generate_markdown_content(title, file_name, entry_date, image_url, summary, sanitized_subscriber, subscriber_name)
-        subscriber_folder = os.path.join("content", "community-blogs", sanitized_subscriber)
+        content = generate_markdown_content(title, file_name, entry_date, image_url, summary, foldername, subscriber_name)
+        subscriber_folder = os.path.join("content", "community-blogs", foldername)
         os.makedirs(subscriber_folder, exist_ok=True)
         markdown_filename = os.path.join(subscriber_folder, f"{file_name}.md")
         write_to_file(markdown_filename, content)
 
     except Exception as e:
-        print(f"Failed to process entry for {subscriber}: {e}")
+        print(f"Failed to process entry for {subscriber_name}: {e}")
 
 
 def get_image_name(image_url):
     path = urlparse(image_url).path
-    print(image_url)
     image_ext = os.path.splitext(path)[1]
     name = os.path.basename(os.path.normpath(image_url))
     image_name = f"{name}.{image_ext}".replace("..", ".")
@@ -89,11 +85,7 @@ def get_summary(entry):
         return ""
 
 
-def sanitize_name(name):
-    return re.sub(r'[^a-zA-Z0-9_-]', '_', name).lower()
-
-
-def generate_markdown_content(title, entry_date, image_url, summary, sanitized_subscriber, subscriber_name):
+def generate_markdown_content(title, entry_date, image_url, summary, foldername, subscriber_name):
     return f"""---
 source: "blog"
 title: "{title}"
@@ -101,7 +93,7 @@ date: "{entry_date}"
 link: "{image_url}"
 draft: "true"
 showcase: "planet"
-folder: "{sanitized_subscriber}"
+folder: "{foldername}"
 author: "{subscriber_name}"
 ---
 
@@ -114,10 +106,9 @@ def write_to_file(filename, content):
         f.write(content)
 
 
-def download_image(image_url, image_name, subscriber):
+def download_image(image_url, image_name, foldername):
     response = requests.get(image_url, stream=True)
-    sanitized_subscriber = sanitize_name(subscriber)
-    subscriber_folder = os.path.join("content", "community-blogs", sanitized_subscriber)
+    subscriber_folder = os.path.join("content", "community-blogs", foldername)
     os.makedirs(subscriber_folder, exist_ok=True)
     image_filename = os.path.join(subscriber_folder, image_name)
     with open(image_filename, 'wb') as out_file:
@@ -129,17 +120,8 @@ if __name__ == "__main__":
     # Load the subscribers from the JSON file
     with open(SUBSCRIBERS_JSON_PATH, 'r') as f:
         subscribers = json.load(f)
-    
-    subscribers = [
-        {
-            "feed": "https://merginmaps.com/rss/qgis",
-            "name": "Mergin Maps",
-            "shortname": "Mergin Maps",
-            "is_active": True
-        }
-    ]
 
     # Iterate over the subscribers and fetch posts for active ones with a progress bar
     for subscriber in tqdm(subscribers, desc="Processing subscribers"):
         if subscriber['is_active']:
-            fetch_and_create_post(subscriber['name'], subscriber['shortname'], subscriber['feed'])
+            fetch_and_create_post(subscriber['name'], subscriber['foldername'], subscriber['feed'])

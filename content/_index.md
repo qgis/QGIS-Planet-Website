@@ -1,7 +1,7 @@
 ---
 type: "page"
 title: "QGIS Planet"
-subtitle: "Your go-to source for the latest feeds and updates related to QGIS."
+subtitle: "Your go-to source for the latest posts and updates related to QGIS."
 
 draft: false
 heroSize: "is-medium"
