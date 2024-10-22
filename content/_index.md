@@ -9,6 +9,6 @@ heroLogo: "img/logosign.svg"
 HeroImage: "img/hegobg1.webp"
 HasBanner: true
 ButtonText: "Start Reading" 
-ButtonLink: "community-blogs/"
+ButtonLink: "posts/"
 LabelText: "Free and Open Source"
 ---

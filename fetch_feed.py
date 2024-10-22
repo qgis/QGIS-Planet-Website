@@ -14,6 +14,7 @@ import re
 
 # Path to the subscribers.json file
 SUBSCRIBERS_JSON_PATH = os.path.join(os.path.dirname(__file__), 'data', 'subscribers.json')
+ALL_POSTS_FOLDER = os.path.join("content", "posts", "all-posts")
 
 
 def fetch_and_create_post(subscriber_name, foldername, feed_url):
@@ -43,6 +44,12 @@ def process_entry(entry, subscriber_name, foldername):
         os.makedirs(subscriber_folder, exist_ok=True)
         markdown_filename = os.path.join(subscriber_folder, f"{file_name}.md")
         write_to_file(markdown_filename, content)
+        
+        # Copy the markdown file to the all-posts folder
+        os.makedirs(ALL_POSTS_FOLDER, exist_ok=True)
+        markdown_filename = os.path.join(ALL_POSTS_FOLDER, f"{file_name}.md")
+        write_to_file(markdown_filename, content)
+
 
     except Exception as e:
         print(f"Failed to process entry for {subscriber_name}: {e}")
@@ -128,7 +135,7 @@ url: '/community-blogs/{foldername}'
 ---
 
 {{{{< content-start  >}}}}
-{{{{< blogroll showcase="planet" subscriber="{foldername}">}}}}
+{{{{< blogroll showcase="planet" folder="community-blogs/{foldername}">}}}}
 {{{{< content-end  >}}}}
 """
     subscriber_folder = os.path.join("content", "community-blogs", foldername)

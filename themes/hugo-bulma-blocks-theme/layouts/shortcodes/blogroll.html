@@ -1,11 +1,11 @@
 {{ $showcaseType := .Get "showcase" | default "" }}
-{{ $subscriber := .Get "subscriber" | default "" }}
+{{ $folder := .Get "folder" | default "posts" }}
 <div class="content">
     <h1 class="title">{{ .Page.Title }}</h1>
     <div class="container is-min-height">
         <div class="columns is-multiline">
             {{ $.Scratch.Set "counter" 0 }}
-            {{ $headlessbundle := .Site.GetPage (printf "/community-blogs/%s" $subscriber) }}
+            {{ $headlessbundle := .Site.GetPage $folder }}
             {{ range ( $headlessbundle.Resources.ByType "page" ) }}
             {{ if eq .Params.showcase $showcaseType }}
                 {{ $count := add ($.Scratch.Get "counter") 1 }}
