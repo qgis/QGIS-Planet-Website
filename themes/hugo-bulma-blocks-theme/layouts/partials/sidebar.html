@@ -6,10 +6,15 @@
     <nav id="sidebar" class="sidebar">
         <ul class="content-wrapper">
             {{ $subscribers := getJSON "data/subscribers.json" }}
-            {{ range $subscribers }}
+            {{ $sortedSubscribers := sort $subscribers "name" }}
+            {{ range $sortedSubscribers }}
                 {{ if .is_active }}
+                    {{ $folderPath := printf "content/community-blogs/%s" .foldername }}
+                    {{ $fileCount := sub (len (readDir $folderPath)) 1 }}
                     <li>
-                        <a href="{{ .foldername }}">{{ .name }}</a>
+                        <a href="/community-blogs/{{ .foldername }}">{{ .name }} 
+                            <span class="tag">{{ $fileCount }}</span>
+                        </a>
                     </li>
                 {{ end }}
             {{ end }}

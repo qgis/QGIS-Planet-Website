@@ -19,6 +19,7 @@ SUBSCRIBERS_JSON_PATH = os.path.join(os.path.dirname(__file__), 'data', 'subscri
 def fetch_and_create_post(subscriber_name, foldername, feed_url):
     try:
         feed = feedparser.parse(feed_url)
+        create_index_file(subscriber_name, foldername)
         for entry in feed.entries:
             process_entry(entry, subscriber_name, foldername)
     except Exception as e:
@@ -37,7 +38,7 @@ def process_entry(entry, subscriber_name, foldername):
         entry_date = get_entry_date(entry)
         summary = get_summary(entry)
 
-        content = generate_markdown_content(title, file_name, entry_date, image_url, summary, foldername, subscriber_name)
+        content = generate_markdown_content(title, entry_date, image_url, summary, foldername, subscriber_name)
         subscriber_folder = os.path.join("content", "community-blogs", foldername)
         os.makedirs(subscriber_folder, exist_ok=True)
         markdown_filename = os.path.join(subscriber_folder, f"{file_name}.md")
@@ -91,7 +92,7 @@ source: "blog"
 title: "{title}"
 date: "{entry_date}"
 link: "{image_url}"
-draft: "true"
+draft: "false"
 showcase: "planet"
 folder: "{foldername}"
 author: "{subscriber_name}"
@@ -114,6 +115,26 @@ def download_image(image_url, image_name, foldername):
     with open(image_filename, 'wb') as out_file:
         shutil.copyfileobj(response.raw, out_file)
         print(f"Writing: {image_filename}")
+
+
+def create_index_file(subscriber_name, foldername):
+    content = f"""---
+type: "page"
+title: "{subscriber_name}"
+subtitle: ""
+draft: false
+sidebar: true
+url: '/community-blogs/{foldername}'
+---
+
+{{{{< content-start  >}}}}
+{{{{< blogroll showcase="planet" subscriber="{foldername}">}}}}
+{{{{< content-end  >}}}}
+"""
+    subscriber_folder = os.path.join("content", "community-blogs", foldername)
+    os.makedirs(subscriber_folder, exist_ok=True)
+    index_filename = os.path.join(subscriber_folder, "index.md")
+    write_to_file(index_filename, content)
 
 
 if __name__ == "__main__":

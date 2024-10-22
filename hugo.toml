@@ -20,6 +20,9 @@ staticDir = ['static']
 # the static file
 enableRobotsTXT = false
 
+[taxonomies]
+  author = "authors"
+
 [params]
 # Brand colours:
 primary1 = "#589632"
