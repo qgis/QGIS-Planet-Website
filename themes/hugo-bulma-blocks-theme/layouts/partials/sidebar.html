@@ -6,41 +6,68 @@
     <nav id="sidebar" class="sidebar">
         <ul class="content-wrapper">
 
-            {{ .Scratch.Delete "subscribers" }}
-            {{ range $.Site.RegularPages }}
-                {{ with .Param "subscribers" }}
-                    {{ $.Scratch.Delete "subscriber" }}
-                    {{ range $index, $subscriber := . }}
-                        {{ $subscriber := (printf `/%s` ($subscriber | urlize)) }}
-                        {{ $.Scratch.Add "subscriber" $subscriber }}
-                        {{ $.Scratch.Add "subscribers" (slice ($.Scratch.Get "subscriber")) }}
-                    {{ end }}
-                {{ end }}
-            {{ end }}
-            {{ $subscribers := uniq (.Scratch.Get "subscribers") | sort }}
+            <li {{ if eq $pageUrl "/" }} class="is-active"{{ end }}>
+                <a href="/" class="icon-text">
+                    <span class="icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    <span>Home</span>
+                </a>
+            </li>
 
-
-            {{ range $index, $value := $subscribers }}
-                {{ $subscriberTerms := (split (strings.TrimPrefix "/" .) "/") }}
-                {{ $depth := (len $subscriberTerms) }}
-                {{ $lastTerm := (delimit (last 1 $subscriberTerms) " ") }}
-                {{ $url := urls.Parse $lastTerm }}
-                {{ $path := $url.Path }}
-                {{ with $.Site.GetPage (printf `/subscribers/%s` $path) }}
-                <li>
-                    <a href="{{ .RelPermalink }}">
-                        {{ $subscriberName := "" }}
-                        {{ range $subscriberData := $.Site.Data.subscribers }}
-                            {{ if eq $subscriberData.shortname $path }}
-                                {{ $subscriberName = $subscriberData.name }}
+            <li {{ if findRE (replaceRE "/$" "" "posts") $pageUrl }} class="is-active"{{ end }}>
+                <div class="has-child">
+                    <a href="/posts" class="icon-text">
+                        <span class="icon">
+                            <i class="fas fa-link"></i>
+                        </span>
+                        <span>All Posts</span>
+                    </a>
+                    <span onclick="toggleSubMenu('posts')" class="drop-arrow"><img src="{{ "img/arrow.svg" | absURL }}"/></span>
+                </div>
+                <ul id="posts" class="collapsed">
+                    {{ .Scratch.Delete "subscribers" }}
+                    {{ range $.Site.RegularPages }}
+                        {{ with .Param "subscribers" }}
+                            {{ $.Scratch.Delete "subscriber" }}
+                            {{ range $index, $subscriber := . }}
+                                {{ $subscriber := (printf `/%s` ($subscriber | urlize)) }}
+                                {{ $.Scratch.Add "subscriber" $subscriber }}
+                                {{ $.Scratch.Add "subscribers" (slice ($.Scratch.Get "subscriber")) }}
                             {{ end }}
                         {{ end }}
-                        {{ $subscriberName | default .LinkTitle | default .Data.Term | default $path }}
-                    </a>
-                </li>
-                {{ end }}
-
-            {{ end }}
+                    {{ end }}
+                    {{ $subscribers := uniq (.Scratch.Get "subscribers") | sort }}
+        
+        
+                    {{ range $index, $value := $subscribers }}
+                        {{ $subscriberTerms := (split (strings.TrimPrefix "/" .) "/") }}
+                        {{ $depth := (len $subscriberTerms) }}
+                        {{ $lastTerm := (delimit (last 1 $subscriberTerms) " ") }}
+                        {{ $url := urls.Parse $lastTerm }}
+                        {{ $path := $url.Path }}
+                        {{ with $.Site.GetPage (printf `/subscribers/%s` $path) }}
+                        <li {{ if findRE (replaceRE "/$" "" $path) $pageUrl }} class="is-active"{{ end }}>
+                            <a href="{{ .RelPermalink }}" class="icon-text">
+                                <span class="icon">
+                                    <i class="fas fa-blog"></i>
+                                </span>
+                                <span>
+                                    {{ $subscriberName := "" }}
+                                    {{ range $subscriberData := $.Site.Data.subscribers }}
+                                        {{ if eq $subscriberData.shortname $path }}
+                                            {{ $subscriberName = $subscriberData.name }}
+                                        {{ end }}
+                                    {{ end }}
+                                    {{ $subscriberName | default .LinkTitle | default .Data.Term | default $path }}
+                                </span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+                
+            </li>
         </ul>
     </nav>
 </div>
