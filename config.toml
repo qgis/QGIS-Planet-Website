@@ -20,23 +20,27 @@ staticDir = ['static']
 # the static file
 enableRobotsTXT = false
 
+
 # URL structure
 [permalinks]
-    categories = "/categories/:slug/"
-    tags = "/tags/:slug/"
-    subscribers = "/subscribers/:slug/"
+	categories = "/categories/:slug/"
+	tags = "/tags/:slug/"
+	subscribers = "/subscribers/:slug/"
 
 # Taxonomies
 [taxonomies]
-    category = "categories"
-    tag = "tags"
-    subscriber = "subscribers"
+	category = "categories"
+	tag = "tags"
+	subscriber = "subscribers"
   
 [params]
   enableTagCloud = true
   # Display count of posts under each
   # category?
   displayPostsCount = true
+  # commit hash file
+  commitFile = "config/commit.toml"
+  githubRepo = "https://github.com/Xpirix/QGIS-Planet-Website"
   # Brand colours:
   primary1 = "#589632"
   primary2 = "#55828b"

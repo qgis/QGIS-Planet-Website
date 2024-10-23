@@ -1,5 +1,11 @@
 [
   {
+    "feed": "http://linfiniti.com/feed",
+    "name": "Linfiniti",
+    "shortname": "linfiniti",
+    "is_active": false
+  },
+  {
     "feed": "http://spatialgalaxy.net/feed/",
     "name": "Spatial Galaxy",
     "shortname": "spatialgalaxy_net",
