@@ -5,7 +5,16 @@
         <div class="columns is-multiline is-centered">
             {{ partial "sidebar.html" . }}
             <div class="content column is-9">
-                <h1 class="title">{{ .Title }}</h1>
+                <h1 class="title">
+                    {{ $path := .Title | lower }}
+                    {{ $subscriberName := "QGIS Planet" }}
+                    {{ range $subscriberData := $.Site.Data.subscribers }}
+                        {{ if eq $subscriberData.shortname $path }}
+                            {{ $subscriberName = $subscriberData.name }}
+                        {{ end }}
+                    {{ end }}
+                    {{ $subscriberName | default .LinkTitle | default .Data.Term | default $path }}
+                </h1>
                 {{ if .Params.subtitle }}
                     <p class="is-size-5">{{ .Params.subtitle }}</p>
                 {{ end }}

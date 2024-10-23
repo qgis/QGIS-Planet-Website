@@ -5,6 +5,42 @@
 <div class="column is-3">
     <nav id="sidebar" class="sidebar">
         <ul class="content-wrapper">
+
+            {{ .Scratch.Delete "subscribers" }}
+            {{ range $.Site.RegularPages }}
+                {{ with .Param "subscribers" }}
+                    {{ $.Scratch.Delete "subscriber" }}
+                    {{ range $index, $subscriber := . }}
+                        {{ $subscriber := (printf `/%s` ($subscriber | urlize)) }}
+                        {{ $.Scratch.Add "subscriber" $subscriber }}
+                        {{ $.Scratch.Add "subscribers" (slice ($.Scratch.Get "subscriber")) }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+            {{ $subscribers := uniq (.Scratch.Get "subscribers") | sort }}
+
+
+            {{ range $index, $value := $subscribers }}
+                {{ $subscriberTerms := (split (strings.TrimPrefix "/" .) "/") }}
+                {{ $depth := (len $subscriberTerms) }}
+                {{ $lastTerm := (delimit (last 1 $subscriberTerms) " ") }}
+                {{ $url := urls.Parse $lastTerm }}
+                {{ $path := $url.Path }}
+                {{ with $.Site.GetPage (printf `/subscribers/%s` $path) }}
+                <li>
+                    <a href="{{ .RelPermalink }}">
+                        {{ $subscriberName := "" }}
+                        {{ range $subscriberData := $.Site.Data.subscribers }}
+                            {{ if eq $subscriberData.shortname $path }}
+                                {{ $subscriberName = $subscriberData.name }}
+                            {{ end }}
+                        {{ end }}
+                        {{ $subscriberName | default .LinkTitle | default .Data.Term | default $path }}
+                    </a>
+                </li>
+                {{ end }}
+
+            {{ end }}
         </ul>
     </nav>
 </div>

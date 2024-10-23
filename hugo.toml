@@ -34,6 +34,9 @@ enableRobotsTXT = false
   
 [params]
   enableTagCloud = true
+  # Display count of posts under each
+  # category?
+  displayPostsCount = true
   # Brand colours:
   primary1 = "#589632"
   primary2 = "#55828b"
@@ -75,7 +78,7 @@ enableRobotsTXT = false
   info = "#93b023"
   success = "#589632"
   warning = "#EEE766"
-  link = "#ee7913"
+  link-color = "#ee7913"
   # Brand fonts to override bulma font families
   heading-font = "'Twemoji Country Flags', 'Trueno', sans-serif"
   text-font = "'Twemoji Country Flags', 'Trueno', sans-serif"
