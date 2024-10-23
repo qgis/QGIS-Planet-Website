@@ -47,7 +47,7 @@
                         {{ $path := $url.Path }}
                         {{ with $.Site.GetPage (printf `/subscribers/%s` $path) }}
                         <li {{ if findRE (replaceRE "/$" "" $path) $pageUrl }} class="is-active"{{ end }}>
-                            <a href="{{ $.Site.BaseURL }}{{ .RelPermalink }}" class="icon-text">
+                            <a href="{{ .RelPermalink }}" class="icon-text">
                                 <span class="icon">
                                     <i class="fas fa-blog"></i>
                                 </span>
