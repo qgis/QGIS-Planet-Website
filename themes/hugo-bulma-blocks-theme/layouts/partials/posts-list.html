@@ -1,0 +1,66 @@
+
+<section>
+    <div class="container content">
+        {{/* Get the title in the _index.md frontmatter in the parent folder */}}
+        <div class="columns is-multiline is-centered">
+            {{ partial "sidebar.html" . }}
+            <div class="content column is-9">
+                <h1 class="title">{{ .Title }}</h1>
+                {{ if .Params.subtitle }}
+                    <p class="is-size-5">{{ .Params.subtitle }}</p>
+                {{ end }}
+                {{ .Scratch.Delete "pages" }}
+
+                <!-- Section -->
+                {{ if (eq .Kind "section") }}
+                    <!-- Archives -->
+                    {{ if (eq .Section "archives") }}
+                        {{ $pages := (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+                        {{ .Scratch.Set "pages" $pages }}
+                    <!-- Regular Section -->
+                    {{ else }}
+                        {{ $sectionPage := .CurrentSection }}
+                        {{ range .Site.RegularPages }}
+                            {{ if (.IsDescendant $sectionPage) }}
+                                {{ $.Scratch.Add "pages" (slice .) }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+
+                <!-- Taxonomy (See `taxonomy` folder) -->
+
+                <!-- Taxonomy Term -->
+                {{ if (eq .Kind "term") }}
+                    {{ $pages := .Pages }}
+                    {{ $.Scratch.Set "pages" $pages }}
+                {{ end }}
+
+                <!-- Start List -->
+                {{ $pages := .Scratch.Get "pages" }}
+
+
+                {{ range $pages }}
+                    <div class="column is-12">
+                        <div class="container rich">
+                            <div class="cont coloring-1">
+                                <a href="{{ .Params.link }}">
+                                    <h3 class="title is-5">{{ .Params.title }}</h3>
+                                    <article class="subtitle is-7">
+                                        {{ .Date.Format "January 2, 2006 3:04 PM MST" }} by {{ .Params.author }}
+                                    </article>
+                                </a>
+                                <div class="content mt-3">
+                                    {{ .Page.RawContent | safeHTML }}
+                                </div>
+                                <a href="{{ .Params.link }}" class="button is-success is-outlined">Learn More</a>
+                            </div>
+                        </div>
+                        <!-- <div class="post-container p-5"></div> -->
+                    </div>
+
+                {{ end }}
+            </div>
+        </div>  
+    </div>
+</section>

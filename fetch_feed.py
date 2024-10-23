@@ -10,46 +10,40 @@ from urllib.parse import urlparse
 import requests
 import shutil
 from datetime import datetime
-import re
 
 # Path to the subscribers.json file
 SUBSCRIBERS_JSON_PATH = os.path.join(os.path.dirname(__file__), 'data', 'subscribers.json')
-ALL_POSTS_FOLDER = os.path.join("content", "posts", "all-posts")
+ALL_POSTS_FOLDER = os.path.join("content", "posts")
 
 
-def fetch_and_create_post(subscriber_name, foldername, feed_url):
+def fetch_and_create_post(subscriber_name, shortname, feed_url):
     try:
         feed = feedparser.parse(feed_url)
-        create_index_file(subscriber_name, foldername)
         for entry in feed.entries:
-            process_entry(entry, subscriber_name, foldername)
+            process_entry(entry, subscriber_name, shortname)
     except Exception as e:
         print(f"Failed to process feed for {subscriber_name}: {e}")
 
 
-def process_entry(entry, subscriber_name, foldername):
+def process_entry(entry, subscriber_name, shortname):
     try:
         title = entry.title
         image_url = entry.links[-1].href
         if image_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')):
             file_name = get_image_name(image_url)
-            download_image(image_url, file_name, foldername)
+            download_image(image_url, file_name, shortname)
 
         file_name = os.path.basename(os.path.normpath(image_url))
         entry_date = get_entry_date(entry)
         summary = get_summary(entry)
+        tags = get_tags(entry)
 
-        content = generate_markdown_content(title, entry_date, image_url, summary, foldername, subscriber_name)
-        subscriber_folder = os.path.join("content", "community-blogs", foldername)
-        os.makedirs(subscriber_folder, exist_ok=True)
-        markdown_filename = os.path.join(subscriber_folder, f"{file_name}.md")
-        write_to_file(markdown_filename, content)
+        content = generate_markdown_content(title, entry_date, image_url, summary, shortname, subscriber_name, tags)
         
         # Copy the markdown file to the all-posts folder
         os.makedirs(ALL_POSTS_FOLDER, exist_ok=True)
         markdown_filename = os.path.join(ALL_POSTS_FOLDER, f"{file_name}.md")
         write_to_file(markdown_filename, content)
-
 
     except Exception as e:
         print(f"Failed to process entry for {subscriber_name}: {e}")
@@ -93,7 +87,15 @@ def get_summary(entry):
         return ""
 
 
-def generate_markdown_content(title, entry_date, image_url, summary, foldername, subscriber_name):
+def get_tags(entry):
+    try:
+        return [tag.term.lower() for tag in entry.tags]
+    except AttributeError:
+        return []
+
+
+def generate_markdown_content(title, entry_date, image_url, summary, shortname, subscriber_name, tags):
+    tags_str = ", ".join([f'"{tag}"' for tag in tags])
     return f"""---
 source: "blog"
 title: "{title}"
@@ -101,8 +103,9 @@ date: "{entry_date}"
 link: "{image_url}"
 draft: "false"
 showcase: "planet"
-folder: "{foldername}"
+subscribers: ["{shortname}"]
 author: "{subscriber_name}"
+tags: [{tags_str}]
 ---
 
 {summary}
@@ -114,34 +117,13 @@ def write_to_file(filename, content):
         f.write(content)
 
 
-def download_image(image_url, image_name, foldername):
+def download_image(image_url, image_name):
     response = requests.get(image_url, stream=True)
-    subscriber_folder = os.path.join("content", "community-blogs", foldername)
-    os.makedirs(subscriber_folder, exist_ok=True)
-    image_filename = os.path.join(subscriber_folder, image_name)
+    os.makedirs(ALL_POSTS_FOLDER, exist_ok=True)
+    image_filename = os.path.join(ALL_POSTS_FOLDER, image_name)
     with open(image_filename, 'wb') as out_file:
         shutil.copyfileobj(response.raw, out_file)
         print(f"Writing: {image_filename}")
-
-
-def create_index_file(subscriber_name, foldername):
-    content = f"""---
-type: "page"
-title: "{subscriber_name}"
-subtitle: ""
-draft: false
-sidebar: true
-url: '/community-blogs/{foldername}'
----
-
-{{{{< content-start  >}}}}
-{{{{< blogroll showcase="planet" folder="community-blogs/{foldername}">}}}}
-{{{{< content-end  >}}}}
-"""
-    subscriber_folder = os.path.join("content", "community-blogs", foldername)
-    os.makedirs(subscriber_folder, exist_ok=True)
-    index_filename = os.path.join(subscriber_folder, "index.md")
-    write_to_file(index_filename, content)
 
 
 if __name__ == "__main__":
@@ -152,4 +134,4 @@ if __name__ == "__main__":
     # Iterate over the subscribers and fetch posts for active ones with a progress bar
     for subscriber in tqdm(subscribers, desc="Processing subscribers"):
         if subscriber['is_active']:
-            fetch_and_create_post(subscriber['name'], subscriber['foldername'], subscriber['feed'])
+            fetch_and_create_post(subscriber['name'], subscriber['shortname'], subscriber['feed'])
