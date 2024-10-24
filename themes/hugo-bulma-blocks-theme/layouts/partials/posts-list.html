@@ -1,4 +1,5 @@
 
+{{ $baseURL := .Site.BaseURL }}
 <section>
     <div class="container content">
         {{/* Get the title in the _index.md frontmatter in the parent folder */}}
@@ -7,13 +8,18 @@
             <div class="content column is-9">
                 <h1 class="title">
                     {{ $path := .Title | lower }}
-                    {{ $subscriberName := "QGIS Planet" }}
+                    {{ $subscriberName := "" }}
                     {{ range $subscriberData := $.Site.Data.subscribers }}
                         {{ if eq $subscriberData.shortname $path }}
                             {{ $subscriberName = $subscriberData.name }}
                         {{ end }}
                     {{ end }}
-                    {{ $subscriberName | default .LinkTitle | default .Data.Term | default $path }}
+                    {{ if $subscriberName }}
+                        Posts by
+                    {{ else if .Data.Term }}
+                        Tag:
+                    {{ end }}
+                    {{ $subscriberName | default .Data.Term | default "QGIS Planet" }}
                 </h1>
                 {{ if .Params.subtitle }}
                     <p class="is-size-5">{{ .Params.subtitle }}</p>
@@ -37,8 +43,6 @@
                     {{ end }}
                 {{ end }}
 
-                <!-- Taxonomy (See `taxonomy` folder) -->
-
                 <!-- Taxonomy Term -->
                 {{ if (eq .Kind "term") }}
                     {{ $pages := .Pages }}
@@ -59,12 +63,24 @@
                                     </a>
                                 </h2>
                                 <article class="subtitle is-7">
-                                    {{ .Date.Format "January 2, 2006 3:04 PM UTC" }} by {{ .Params.author }} under 
-                                    {{ $baseURL := .Site.BaseURL }}
-                                    {{ range .Params.tags }}
-                                        <a href="{{ $baseURL }}/tags/{{ . | urlize }}">
-                                            <span class="tag is-success is-light">{{ . }}</span>
+                                    <span class="has-text-weight-normal">
+                                        {{ .Date.Format "January 2, 2006 3:04 PM UTC" }}
+                                    </span> by 
+                                    <span class="has-text-weight-normal">
+                                        {{ $firstSubscriber := index .Params.subscribers 0 }}
+                                        <a href="{{ $baseURL }}/subscribers/{{ $firstSubscriber | urlize }}">
+                                            {{ .Params.author }} 
                                         </a>
+                                    </span>
+                                    
+                                    {{ $tags := .Params.tags }}
+                                    {{ if gt (len $tags) 0 }}
+                                        under
+                                        {{ range $tags }}
+                                            <a href="{{ $baseURL }}/tags/{{ . | urlize }}">
+                                                <span class="tag is-success is-light mb-1">{{ . }}</span>
+                                            </a>
+                                        {{ end }}
                                     {{ end }}
 
                                 </article>
