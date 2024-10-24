@@ -14,10 +14,10 @@ var fuseOptions = {
     threshold: 0.55,
     minMatchCharLength: 2,
     keys: [
-        {name: "title", weight: 0.45},
-        {name: "contents", weight: 0.4},
-        {name: "tags", weight: 0.1},
-        {name: "categories", weight: 0.05}
+        {name: "title", weight: 0.3},
+        {name: "contents", weight: 0.3},
+        {name: "tags", weight: 0.3},
+        {name: "categories", weight: 0.1}
     ]
 };
 
@@ -99,7 +99,7 @@ function populateResults(results) {
         var tags = "";
         if (value.item.tags) {
             value.item.tags.forEach(function (element) {
-                tags += "<span class='tag is-warning'><a href='/tags/" + element + "'>" + element + "</a></span> ";
+                tags += "<span class='tag is-success is-light'>" + element + "</span> ";
             });
         }
         
@@ -115,7 +115,7 @@ function populateResults(results) {
         var output = render(templateDefinition, {
             key: key,
             title: value.item.title,
-            link: value.item.permalink,
+            link: value.item.link,
             tags: tags,
             categories: categories,
             snippet: snippet

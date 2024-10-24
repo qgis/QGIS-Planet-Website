@@ -122,9 +122,17 @@ code
     img
       border-radius: 10px
 
-.language-select-container
-  background-color: #ecf1f4
+.post-container
+  background-color: #ecf1f4b0
   border-radius: 10px
-  color: #4d6370 !important
-  select
-    max-width: 50vw
+  // color: #4d6370 !important
+
+.pagination
+  position: sticky
+  bottom: 0
+  background: rgba(255, 255, 255, 0.9)
+  padding: 20px 0
+  z-index: 1
+  transition: background 0.3s ease
+  &:hover
+    background: rgba(255, 255, 255, 1)

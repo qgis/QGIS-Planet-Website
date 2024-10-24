@@ -1,0 +1,35 @@
+<div id="planetTagsModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card" style="max-height: 50vh; overflow-y: auto">
+      <header class="modal-card-head">
+        <p class="modal-card-title">QGIS Planet Tags</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        {{ .Scratch.Set "tags" (slice) }}
+        {{ range $.Site.RegularPages }}
+            {{ with .Param "tags" }}
+                {{ range . }}
+                    {{ $.Scratch.Add "tags" (printf `/%s` (urlize .)) }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ $tags := uniq (.Scratch.Get "tags") | sort }}
+
+        {{ range $index, $value := $tags }}
+            {{ $tagTerms := (split (strings.TrimPrefix "/" $value) "/") }}
+            {{ $depth := (len $tagTerms) }}
+            {{ $lastTerm := (delimit (last 1 $tagTerms) " ") }}
+            {{ $url := urls.Parse $lastTerm }}
+            {{ $path := $url.Path }}
+            {{ with $.Site.GetPage (printf `/tags/%s` $path) }}
+                {{ if .Data.Term }}
+                    <span class="tag is-success is-light mb-1">
+                        <a href="{{ .RelPermalink }}">{{ .Data.Term }}</a>
+                    </span>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+      </section>
+    </div>
+  </div>

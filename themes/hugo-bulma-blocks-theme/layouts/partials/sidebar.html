@@ -3,94 +3,104 @@
 
 <div id="hamburger-btn" onclick="toggleMenu()"><span id="ham-title"></span></div>
 <div class="column is-3">
-  <nav id="sidebar" class="sidebar">
-    {{/* print $pageUrl */}}
-    <ul class="content-wrapper">
-    {{/* urls are not unique, but we need to keep all items ids distinct. hence using increment var */}}
-    {{ $i := 0 }}
-    {{- range site.Menus.main }}
-        {{ $i = add $i 1 }}
-        {{ $menuItemID := printf "ul-%d" $i }}
-        <li {{ if findRE (replaceRE "/$" "" .URL) $pageUrl }} class="is-active"{{ end }}>
+    <nav id="sidebar" class="sidebar">
+        <ul class="content-wrapper">
 
-        {{ if .HasChildren }}
-            <div class="has-child">
-                {{/* LEVEL 1 */}}
-                {{ partial "link" . }}
-                <span onclick="toggleSubMenu('{{ $menuItemID }}')" class="drop-arrow"><img src="{{ "img/arrow.svg" | absURL }}"/></span>
-            </div>
-            <ul id="{{ $menuItemID }}" class="collapsed">
-                {{ range sort .Children "Weight" }}
-                    {{ $i = add $i 1 }}
-                    {{ $menuItemID := printf "ul-%d" $i }}
-                    <li {{ if findRE (replaceRE "/$" "" .URL) $pageUrl }} class="is-active"{{ end }}>
+            <li {{ if eq $pageUrl .Site.BaseURL }} class="is-active"{{ end }}>
+                <a href="{{ .Site.BaseURL }}" class="icon-text">
+                    <span class="icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li {{ if findRE (replaceRE "/$" "" "posts") $pageUrl }} class="is-active"{{ end }}>
+                <a href="{{ .Site.BaseURL }}/posts" class="icon-text">
+                    <span class="icon">
+                        <i class="fas fa-link"></i>
+                    </span>
+                    <span>All Posts</span>
+                </a>
+            </li>
 
-                    {{ if .HasChildren }}
-                        <div class="has-child">
-                            {{/* LEVEL 2 */}}
-                            {{ partial "link" . }}
-                            <span onclick="toggleSubMenu('{{ $menuItemID }}')" class="drop-arrow"><img src="{{ "img/arrow.svg" | absURL }}"/></span>
-                        </div>
-                        <ul id="{{ $menuItemID }}" class="collapsed">
-                            {{ range sort .Children "Weight" }}
-                                {{ $i = add $i 1 }}
-                                {{ $menuItemID := printf "ul-%d" $i }}
-                                <li {{ if findRE (replaceRE "/$" "" .URL) $pageUrl }} class="is-active"{{ end }}>
-
-                                {{ if .HasChildren }}
-                                    <div class="has-child">
-                                        {{/* LEVEL 3 */}}
-                                        {{ partial "link" . }}
-                                        <span onclick="toggleSubMenu('{{ $menuItemID }}')" class="drop-arrow"><img src="{{ "img/arrow.svg" | absURL }}"/></span>
-                                    </div>
-                                    <ul id="{{ $menuItemID }}" class="collapsed">
-                                        {{ range sort .Children "Weight" }}
-                                        {{ $i = add $i 1 }}
-                                            <li {{ if findRE (replaceRE "/$" "" .URL) $pageUrl }} class="is-active"{{ end }}>
-                                                {{/* LEVEL 4 */}}
-                                                {{ partial "link" . }}
-                                            </li>
-                                        {{ end }}
-                                    </ul>
-                                {{ else }}
-                                    {{/* LEVEL 3 */}}
-                                    {{ partial "link" . }}
-                                {{ end }}
-                                </li>
+            <li {{ if findRE (replaceRE "/$" "" "subscribers") $pageUrl }} class="is-active"{{ end }}>
+                <div class="has-child">
+                    <a onclick="toggleSubMenu('subscribers')" class="icon-text">
+                        <span class="icon">
+                            <i class="fas fa-users"></i>
+                        </span>
+                        <span>Subscribers</span>
+                    </a>
+                    <span onclick="toggleSubMenu('subscribers')" class="drop-arrow"><img src="{{ "img/arrow.svg" | absURL }}"/></span>
+                </div>
+                <ul id="subscribers" class="collapsed">
+                    {{ .Scratch.Delete "subscribers" }}
+                    {{ range $.Site.RegularPages }}
+                        {{ with .Param "subscribers" }}
+                            {{ $.Scratch.Delete "subscriber" }}
+                            {{ range $index, $subscriber := . }}
+                                {{ $subscriber := (printf `/%s` ($subscriber | urlize)) }}
+                                {{ $.Scratch.Add "subscriber" $subscriber }}
+                                {{ $.Scratch.Add "subscribers" (slice ($.Scratch.Get "subscriber")) }}
                             {{ end }}
-                        </ul>
-                    {{ else }}
-                        {{/* LEVEL 2 */}}
-                        {{ partial "link" . }}
+                        {{ end }}
                     {{ end }}
-                    </li>
-                {{ end }}
-            </ul>
-        {{ else }}
-            {{/* LEVEL 1 */}}
-            {{ partial "link" . }}
-        {{ end }}
-        </li>
-    {{- end }}
-    </ul>
-  </nav>
+                    {{ $subscribers := uniq (.Scratch.Get "subscribers") | sort }}
+        
+                    {{ range $index, $value := $subscribers }}
+                        {{ $subscriberTerms := (split (strings.TrimPrefix "/" .) "/") }}
+                        {{ $depth := (len $subscriberTerms) }}
+                        {{ $lastTerm := (delimit (last 1 $subscriberTerms) " ") }}
+                        {{ $url := urls.Parse $lastTerm }}
+                        {{ $path := $url.Path }}
+                        {{ with $.Site.GetPage (printf `/subscribers/%s` $path) }}
+                        <li {{ if findRE (replaceRE "/$" "" $path) $pageUrl }} class="is-active"{{ end }}>
+                            <a href="{{ .RelPermalink }}" class="icon-text">
+                                <span class="icon">
+                                    <i class="fas fa-blog"></i>
+                                </span>
+                                <span>
+                                    {{ $subscriberName := "" }}
+                                    {{ range $subscriberData := $.Site.Data.subscribers }}
+                                        {{ if eq $subscriberData.shortname $path }}
+                                            {{ $subscriberName = $subscriberData.name }}
+                                        {{ end }}
+                                    {{ end }}
+                                    {{ $subscriberName | default .LinkTitle | default .Data.Term | default $path }}
+                                </span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+                
+            </li>
+
+            <li>
+                <a class="tagcloudModalButton" href="#tagcloudModal" role="button" data-target="planetTagsModal">
+                <i class="fas fa-tags mr-3"></i>
+                Tags
+              </a>
+            </li>
+        </ul>
+    </nav>
 </div>
 {{ end }}
 
 <script>
 function rotateArrow(e) {
-    e.previousElementSibling.querySelector('img').classList.toggle('rotated');
+        e.previousElementSibling.querySelector('img').classList.toggle('rotated');
 }
 
 function toggleSubMenu(listId) {
-    let e = document.getElementById(listId);
-    e.classList.toggle('unfolded');
-    rotateArrow(e);
+        let e = document.getElementById(listId);
+        e.classList.toggle('unfolded');
+        rotateArrow(e);
 }
 
 function toggleMenu() {
-    document.getElementById('sidebar').classList.toggle('visible');
-    document.getElementById('hamburger-btn').classList.toggle('open');
+        document.getElementById('sidebar').classList.toggle('visible');
+        document.getElementById('hamburger-btn').classList.toggle('open');
 }
 
 // compose title for menu button: contatenate parent section titles
@@ -98,14 +108,14 @@ let activeListItem = document.getElementsByClassName('is-active')[0];
 let ham = document.getElementById('ham-title');
 let hamTitle = activeListItem.querySelector('a').textContent;
 if (activeListItem.parentElement.previousElementSibling != null) {
-    hamTitle = activeListItem.parentElement.previousElementSibling.querySelector('a').textContent + ' / ' + hamTitle;
+        hamTitle = activeListItem.parentElement.previousElementSibling.querySelector('a').textContent + ' / ' + hamTitle;
 }
 ham.textContent = hamTitle;
 
 // expand active section
 document.querySelectorAll('li.is-active,li:has(.is-active)').forEach(li => {
-    if (e = li.querySelector('ul')) {
-        e.classList.toggle('unfolded');
-    }
+        if (e = li.querySelector('ul')) {
+                e.classList.toggle('unfolded');
+        }
 });
 </script>
