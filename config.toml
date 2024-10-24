@@ -109,3 +109,6 @@ enableRobotsTXT = false
 
   ## This will turn on Coockie popup. True to show popup
   cookiesstate = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
