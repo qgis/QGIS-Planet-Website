@@ -53,12 +53,21 @@
                     <div class="column is-12">
                         <div class="container rich">
                             <div class="cont coloring-1">
-                                <a href="{{ .Params.link }}">
-                                    <h3 class="title is-5">{{ .Params.title }}</h3>
-                                    <article class="subtitle is-7">
-                                        {{ .Date.Format "January 2, 2006 3:04 PM MST" }} by {{ .Params.author }}
-                                    </article>
-                                </a>
+                                <h2 class="title is-4">
+                                    <a href="{{ .Params.link }}">
+                                        {{ .Params.title }}
+                                    </a>
+                                </h2>
+                                <article class="subtitle is-7">
+                                    {{ .Date.Format "January 2, 2006 3:04 PM UTC" }} by {{ .Params.author }} under 
+                                    {{ $baseURL := .Site.BaseURL }}
+                                    {{ range .Params.tags }}
+                                        <a href="{{ $baseURL }}/tags/{{ . | urlize }}">
+                                            <span class="tag is-success is-light">{{ . }}</span>
+                                        </a>
+                                    {{ end }}
+
+                                </article>
                                 <div class="content mt-3">
                                     {{ .Page.RawContent | safeHTML }}
                                 </div>
