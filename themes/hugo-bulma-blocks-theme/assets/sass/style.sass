@@ -128,8 +128,11 @@ code
   // color: #4d6370 !important
 
 .pagination
-    position: sticky
-    bottom: 0
-    background: #ffffffeb
-    padding: 20px 0
-    z-index: 1
+  position: sticky
+  bottom: 0
+  background: rgba(255, 255, 255, 0.9)
+  padding: 20px 0
+  z-index: 1
+  transition: background 0.3s ease
+  &:hover
+    background: rgba(255, 255, 255, 1)
