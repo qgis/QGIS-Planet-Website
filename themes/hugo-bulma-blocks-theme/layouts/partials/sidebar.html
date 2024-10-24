@@ -14,18 +14,26 @@
                     <span>Home</span>
                 </a>
             </li>
-
             <li {{ if findRE (replaceRE "/$" "" "posts") $pageUrl }} class="is-active"{{ end }}>
+                <a href="{{ .Site.BaseURL }}/posts" class="icon-text">
+                    <span class="icon">
+                        <i class="fas fa-link"></i>
+                    </span>
+                    <span>All Posts</span>
+                </a>
+            </li>
+
+            <li {{ if findRE (replaceRE "/$" "" "subscribers") $pageUrl }} class="is-active"{{ end }}>
                 <div class="has-child">
-                    <a href="{{ .Site.BaseURL }}/posts" class="icon-text">
+                    <a onclick="toggleSubMenu('subscribers')" class="icon-text">
                         <span class="icon">
-                            <i class="fas fa-link"></i>
+                            <i class="fas fa-users"></i>
                         </span>
-                        <span>All Posts</span>
+                        <span>Subscribers</span>
                     </a>
-                    <span onclick="toggleSubMenu('posts')" class="drop-arrow"><img src="{{ "img/arrow.svg" | absURL }}"/></span>
+                    <span onclick="toggleSubMenu('subscribers')" class="drop-arrow"><img src="{{ "img/arrow.svg" | absURL }}"/></span>
                 </div>
-                <ul id="posts" class="collapsed">
+                <ul id="subscribers" class="collapsed">
                     {{ .Scratch.Delete "subscribers" }}
                     {{ range $.Site.RegularPages }}
                         {{ with .Param "subscribers" }}
@@ -66,6 +74,13 @@
                     {{ end }}
                 </ul>
                 
+            </li>
+
+            <li>
+                <a class="tagcloudModalButton" href="#tagcloudModal" role="button" data-target="planetTagsModal">
+                <i class="fas fa-tags mr-3"></i>
+                Tags
+              </a>
             </li>
         </ul>
     </nav>

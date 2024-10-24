@@ -77,9 +77,9 @@
                                     {{ if gt (len $tags) 0 }}
                                         under
                                         {{ range $tags }}
-                                            <a href="{{ $baseURL }}/tags/{{ . | urlize }}">
-                                                <span class="tag is-success is-light mb-1">{{ . }}</span>
-                                            </a>
+                                                <span class="tag is-success is-light mb-1">
+                                                    <a href="{{ $baseURL }}/tags/{{ . | urlize }}">{{ . }}</a>
+                                                </span>
                                         {{ end }}
                                     {{ end }}
 
