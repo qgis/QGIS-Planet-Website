@@ -79,7 +79,7 @@
                                         under
                                         {{ range $tags }}
                                             <span class="tag is-success is-light mb-1">
-                                                <a href="{{ $baseURL }}/tags/{{ . | urlize }}">{{ . }}</a>
+                                                <a href="{{ $baseURL }}/tags/{{ . | urlize }}" class="truncate-tag">{{ . }}</a>
                                             </span>
                                         {{ end }}
                                     {{ end }}

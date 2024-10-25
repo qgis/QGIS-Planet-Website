@@ -55,7 +55,7 @@
                         {{ $path := $url.Path }}
                         {{ with $.Site.GetPage (printf `/subscribers/%s` $path) }}
                         <li {{ if findRE (replaceRE "/$" "" $path) $pageUrl }} class="is-active"{{ end }}>
-                            <a href="{{ .RelPermalink }}" class="icon-text">
+                            <a href="{{ .RelPermalink }}" class="icon-text truncate">
                                 <span class="icon">
                                     <i class="fas fa-blog"></i>
                                 </span>
@@ -75,12 +75,19 @@
                 </ul>
                 
             </li>
-
             <li>
-                <a class="tagcloudModalButton" href="#tagcloudModal" role="button" data-target="planetTagsModal">
-                <i class="fas fa-tags mr-3"></i>
-                Tags
-              </a>
+                <a 
+                    class="tagcloudModalButton icon-text" 
+                    href="#tagcloudModal" 
+                    role="button" 
+                    data-target="planetTagsModal"
+                    onclick="toggleMenu()"
+                >
+                    <span class="icon">
+                        <i class="fas fa-tags"></i>
+                    </span>
+                    <span>Tags</span>
+                </a>
             </li>
         </ul>
     </nav>

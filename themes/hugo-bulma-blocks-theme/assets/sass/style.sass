@@ -136,3 +136,23 @@ code
   transition: background 0.3s ease
   &:hover
     background: rgba(255, 255, 255, 1)
+
+.cont
+  max-width: 100%
+  .content
+    max-width: 100%
+
+
+%truncate
+  display: block
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+
+.truncate
+  @extend %truncate
+  width: 100%
+
+.truncate-tag
+  @extend %truncate
+  max-width: 200px
