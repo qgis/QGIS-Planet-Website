@@ -100,7 +100,7 @@ enableRobotsTXT = false
 
   ## Url to navigation web component
   uniNavHeaderUrl = 'https://qgis.github.io/qgis-uni-navigation/index.js'
-  uniNavHeaderLocationPrefix = ""
+  uniNavHeaderLocationPrefix = "https://qgis.org"
 
   ## Url to news feed. After URL change you have to check 
   ## themes/hugo-bulma-blocks-theme/layouts/partials/contextmenu.html 
