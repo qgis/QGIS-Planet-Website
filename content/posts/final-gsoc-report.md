@@ -10,4 +10,16 @@ author: "Marcus SOC reports"
 tags: ["reports"]
 ---
 
-What do I have completed this week? Added&#160;a dedicated threadPool for the Processing Toolbox to run the algorithms. Bugfix on the cancel option. Avoid connecting &#160;the&#160;signals every time the algorithm runs. This was making&#160;the slots to be called multiple times when running and cancelling the algorithm several times. Is there any blocking issue? I wasn&#8217;t &#8230; <a class="more-link" href="https://qgisgsoc2015.wordpress.com/2015/08/24/final-gsoc-report/">Continue reading <span class="screen-reader-text">Final GSoC report</span></a>
+<p><strong>What do I have completed this week?</strong></p>
+<ul>
+<li>
+<p align="justify">Added&nbsp;a dedicated threadPool for the Processing Toolbox to run the algorithms.</p>
+</li>
+<li>Bugfix on the cancel option. Avoid connecting &nbsp;the&nbsp;signals every time the algorithm runs. This was making&nbsp;the slots to be called multiple times when running and cancelling the algorithm several times.</li>
+</ul>
+<p><strong>Is there any blocking issue?</strong></p>
+<ul>
+<li>
+<p align="justify">I wasn&#8217;t able to fix the issue with the cancel option when you have more than one algorithm running. The issue turned out to be more complicated than I first expected.</p>
+</li>
+</ul>
