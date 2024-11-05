@@ -52,10 +52,12 @@ class FeedProcessor:
 
             file_name = os.path.basename(os.path.normpath(image_url))
             entry_date = self.get_entry_date(entry)
-            summary = self.get_summary(entry)
+            content = self.get_content(entry)
+            if not content:
+                content = self.get_summary(entry)
             tags = self.get_tags(entry)
 
-            content = self.generate_markdown_content(title, entry_date, image_url, summary, tags)
+            content = self.generate_markdown_content(title, entry_date, image_url, content, tags)
             
             # Copy the markdown file to the all-posts folder
             os.makedirs(ALL_POSTS_FOLDER, exist_ok=True)
@@ -99,6 +101,12 @@ class FeedProcessor:
             return entry.summary
         except AttributeError:
             return ""
+        
+    def get_content(self, entry):
+        try:
+            return entry.content[0].value
+        except AttributeError:
+            return None
 
     def get_tags(self, entry):
         try:

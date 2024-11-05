@@ -10,4 +10,4 @@ author: "QGIS Dutch Community"
 tags: ["uncategorized"]
 ---
 
-Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
+<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
