@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "How to contribute to GRASS GIS development"
-date: "2024-10-18T16:06:53+0000"
+date: "2024-10-29T11:06:53+0000"
 link: "https://neteler.org/blog/how-to-contribute-to-grass-gis-development/"
 draft: "false"
 showcase: "planet"

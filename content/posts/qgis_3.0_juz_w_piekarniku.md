@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "blog:qgis_3.0_juz_w_piekarniku"
-date: "2018-02-24T19:06:22+0200"
+date: "2018-02-24T19:06:22+0100"
 link: "http://qgis-polska.org/blog/qgis_3.0_juz_w_piekarniku"
 draft: "false"
 showcase: "planet"
