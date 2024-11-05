@@ -1,0 +1,3 @@
+baseURL = 'https://planet.qgis.org/'
+publishDir = "public"
+minify = true
