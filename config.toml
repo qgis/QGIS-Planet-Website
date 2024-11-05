@@ -82,7 +82,7 @@ enableRobotsTXT = false
   info = "#93b023"
   success = "#589632"
   warning = "#EEE766"
-  link-color = "#ee7913"
+  link-color = "#589632"
   # Brand fonts to override bulma font families
   heading-font = "'Twemoji Country Flags', 'Trueno', sans-serif"
   text-font = "'Twemoji Country Flags', 'Trueno', sans-serif"
