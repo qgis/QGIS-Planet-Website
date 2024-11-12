@@ -10,6 +10,10 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
     if: github.repository_owner == 'qgis' || github.repository_owner == 'Xpirix'
     steps:
     - name: '🛒 Checkout QGIS Planet Website'
@@ -42,5 +46,4 @@ jobs:
       with:
         commit_message: 'Posts scraped and committed via a GitHub Action.'
         repository: ./qgis-planet-website
-        token: ${{ secrets.GITHUB_TOKEN }}
         # push_options: --force
