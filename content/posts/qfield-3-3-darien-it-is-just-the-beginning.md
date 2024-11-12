@@ -18,7 +18,7 @@ tags: ["gis", "qfield", "qfield highlights", "qfield", "qgis.org"]
 
 
 
-<figure class="wp-block-image size-full"><img alt="" class="wp-image-14432" height="467" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/33splash.png?resize=750%2C467&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-14432" height="467" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/33splash.png?resize=750%2C467&#038;ssl=1" width="750" /></figure>
 
 
 
@@ -30,7 +30,7 @@ tags: ["gis", "qfield", "qfield highlights", "qfield", "qgis.org"]
 
 
 
-<figure class="wp-block-image size-full"><img alt="" class="wp-image-14468" height="386" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/transfer_attributes-1.png?resize=750%2C386&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-14468" height="386" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/transfer_attributes-1.png?resize=750%2C386&#038;ssl=1" width="750" /></figure>
 
 
 
@@ -42,7 +42,7 @@ tags: ["gis", "qfield", "qfield highlights", "qfield", "qgis.org"]
 
 
 
-<figure class="wp-block-image size-full"><img alt="" class="wp-image-14467" height="386" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/value_map_buttons-1.png?resize=750%2C386&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-14467" height="386" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/value_map_buttons-1.png?resize=750%2C386&#038;ssl=1" width="750" /></figure>
 
 
 
@@ -70,7 +70,7 @@ tags: ["gis", "qfield", "qfield highlights", "qfield", "qgis.org"]
 
 
 
-<figure class="wp-block-image size-full"><img alt="" class="wp-image-14465" height="386" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/plugin_manager-1.png?resize=750%2C386&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-14465" height="386" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/plugin_manager-1.png?resize=750%2C386&#038;ssl=1" width="750" /></figure>
 
 
 

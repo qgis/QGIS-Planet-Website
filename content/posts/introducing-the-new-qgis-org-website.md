@@ -18,7 +18,7 @@ tags: ["public service announcement"]
 
 
 
-<figure class="wp-block-image size-large"><a href="https://blog.qgis.org/wp-content/uploads/2024/07/image.png"><img alt="" class="wp-image-3003" height="677" src="https://blog.qgis.org/wp-content/uploads/2024/07/image.png?w=1024" tabindex="0" width="1024" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://blog.qgis.org/wp-content/uploads/2024/07/image.png"><img alt="" class="wp-image-3003" height="677" src="https://blog.qgis.org/wp-content/uploads/2024/07/image.png?w=1024" width="1024" /></a></figure>
 
 
 
@@ -38,7 +38,7 @@ tags: ["public service announcement"]
 
 
 <div class="wp-block-image">
-<figure class="alignleft size-large"><a href="https://blog.qgis.org/wp-content/uploads/2024/07/screenshot-from-2024-07-23-11-53-37.png"><img alt="Questions to be quickly answered by qgis.org" class="wp-image-3040" height="577" src="https://blog.qgis.org/wp-content/uploads/2024/07/screenshot-from-2024-07-23-11-53-37.png?w=1024" tabindex="0" title="Questions to be quickly answered by qgis.org" width="1024" /></a><figcaption class="wp-element-caption"><em>Initial analysis of the questions and actions to be quickly answered by qgis.org</em></figcaption></figure></div>
+<figure class="alignleft size-large"><a href="https://blog.qgis.org/wp-content/uploads/2024/07/screenshot-from-2024-07-23-11-53-37.png"><img alt="Questions to be quickly answered by qgis.org" class="wp-image-3040" height="577" src="https://blog.qgis.org/wp-content/uploads/2024/07/screenshot-from-2024-07-23-11-53-37.png?w=1024" title="Questions to be quickly answered by qgis.org" width="1024" /></a><figcaption class="wp-element-caption"><em>Initial analysis of the questions and actions to be quickly answered by qgis.org</em></figcaption></figure></div>
 
 
 <p></p>
@@ -61,7 +61,7 @@ tags: ["public service announcement"]
 
 
 
-<figure class="wp-block-image size-large"><a href="https://blog.qgis.org/wp-content/uploads/2024/07/screenshot-from-2024-07-23-11-55-44.png"><img alt="User group analysis" class="wp-image-3042" height="577" src="https://blog.qgis.org/wp-content/uploads/2024/07/screenshot-from-2024-07-23-11-55-44.png?w=1024" tabindex="0" title="User group analysis" width="1024" /></a><figcaption class="wp-element-caption"><em>User group and requirements analysis for the potential qgis.org visitors</em></figcaption></figure>
+<figure class="wp-block-image size-large"><a href="https://blog.qgis.org/wp-content/uploads/2024/07/screenshot-from-2024-07-23-11-55-44.png"><img alt="User group analysis" class="wp-image-3042" height="577" src="https://blog.qgis.org/wp-content/uploads/2024/07/screenshot-from-2024-07-23-11-55-44.png?w=1024" title="User group analysis" width="1024" /></a><figcaption class="wp-element-caption"><em>User group and requirements analysis for the potential qgis.org visitors</em></figcaption></figure>
 
 
 
@@ -101,7 +101,7 @@ tags: ["public service announcement"]
 
 
 
-<figure class="wp-block-image size-large"><a href="https://blog.qgis.org/wp-content/uploads/2024/07/image-2.png"><img alt="" class="wp-image-3022" height="144" src="https://blog.qgis.org/wp-content/uploads/2024/07/image-2.png?w=1024" tabindex="0" width="1024" /></a><figcaption class="wp-element-caption"><em>The universal menu bar </em></figcaption></figure>
+<figure class="wp-block-image size-large"><a href="https://blog.qgis.org/wp-content/uploads/2024/07/image-2.png"><img alt="" class="wp-image-3022" height="144" src="https://blog.qgis.org/wp-content/uploads/2024/07/image-2.png?w=1024" width="1024" /></a><figcaption class="wp-element-caption"><em>The universal menu bar </em></figcaption></figure>
 
 
 
@@ -133,7 +133,7 @@ tags: ["public service announcement"]
 
 
 
-<figure class="wp-block-image size-large"><a href="https://blog.qgis.org/wp-content/uploads/2024/07/image-1.png"><img alt="" class="wp-image-3012" height="405" src="https://blog.qgis.org/wp-content/uploads/2024/07/image-1.png?w=1024" tabindex="0" width="1024" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://blog.qgis.org/wp-content/uploads/2024/07/image-1.png"><img alt="" class="wp-image-3012" height="405" src="https://blog.qgis.org/wp-content/uploads/2024/07/image-1.png?w=1024" width="1024" /></a></figure>
 
 
 

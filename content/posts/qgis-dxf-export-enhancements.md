@@ -56,7 +56,7 @@ tags: ["news", "qgis", "qgis.org"]
 
 
 
-<figure class="wp-block-image size-full"><img alt="DXF Export, output layer attribute" class="wp-image-14294" height="750" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/04/output_layer_attribute.png?resize=732%2C750&#038;ssl=1" tabindex="0" width="732" /></figure>
+<figure class="wp-block-image size-full"><img alt="DXF Export, output layer attribute" class="wp-image-14294" height="750" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/04/output_layer_attribute.png?resize=732%2C750&#038;ssl=1" width="732" /></figure>
 
 
 
@@ -68,11 +68,11 @@ tags: ["news", "qgis", "qgis.org"]
 
 
 
-<figure class="wp-block-image size-full is-resized"><img alt="DXF Export algorithm, use only selected features" class="wp-image-14296" height="602" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/04/use_only_selected_features_alg.png?resize=750%2C602&#038;ssl=1" style="width: 840px; height: auto;" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-full is-resized"><img alt="DXF Export algorithm, use only selected features" class="wp-image-14296" height="602" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/04/use_only_selected_features_alg.png?resize=750%2C602&#038;ssl=1" style="width: 840px; height: auto;" width="750" /></figure>
 
 
 
-<figure class="wp-block-image size-full"><img alt="" class="wp-image-14297" height="750" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/04/use_only_selected_features_app.png?resize=732%2C750&#038;ssl=1" tabindex="0" width="732" /></figure>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-14297" height="750" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/04/use_only_selected_features_app.png?resize=732%2C750&#038;ssl=1" width="732" /></figure>
 
 
 

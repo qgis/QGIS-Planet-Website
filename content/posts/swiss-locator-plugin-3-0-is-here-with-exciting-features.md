@@ -68,7 +68,7 @@ tags: ["3d", "qgis", "elevation profile", "qgis.org", "swissalti3d", "vector til
 
 
 
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-14627" height="466" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/vt_leichte_basiskarte.png?resize=750%2C466&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-14627" height="466" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/vt_leichte_basiskarte.png?resize=750%2C466&#038;ssl=1" width="750" /></figure>
 
 
 
@@ -80,7 +80,7 @@ tags: ["3d", "qgis", "elevation profile", "qgis.org", "swissalti3d", "vector til
 
 
 
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-14625" height="466" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/vt_lightbasemap.png?resize=750%2C466&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-14625" height="466" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/vt_lightbasemap.png?resize=750%2C466&#038;ssl=1" width="750" /></figure>
 
 
 
@@ -88,7 +88,7 @@ tags: ["3d", "qgis", "elevation profile", "qgis.org", "swissalti3d", "vector til
 
 
 
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-14628" height="466" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/vt_leichte_basiskarte_imagery.png?resize=750%2C466&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-14628" height="466" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/vt_leichte_basiskarte_imagery.png?resize=750%2C466&#038;ssl=1" width="750" /></figure>
 
 
 
@@ -100,7 +100,7 @@ tags: ["3d", "qgis", "elevation profile", "qgis.org", "swissalti3d", "vector til
 
 
 
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-14626" height="466" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/vt_imagery_basemap.png?resize=750%2C466&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-14626" height="466" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/vt_imagery_basemap.png?resize=750%2C466&#038;ssl=1" width="750" /></figure>
 
 
 
@@ -108,7 +108,7 @@ tags: ["3d", "qgis", "elevation profile", "qgis.org", "swissalti3d", "vector til
 
 
 
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-14624" height="466" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/vt_basemap.png?resize=750%2C466&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-14624" height="466" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/vt_basemap.png?resize=750%2C466&#038;ssl=1" width="750" /></figure>
 
 
 

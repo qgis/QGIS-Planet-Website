@@ -18,7 +18,7 @@ tags: ["gis", "qfield", "qfield highlights", "qgis", "qfield", "qfieldcloud", "q
 
 
 
-<figure class="wp-block-image size-full"><img alt="" class="wp-image-14228" height="468" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/03/qfield32.png?resize=750%2C468&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-14228" height="468" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/03/qfield32.png?resize=750%2C468&#038;ssl=1" width="750" /></figure>
 
 
 
@@ -26,7 +26,7 @@ tags: ["gis", "qfield", "qfield highlights", "qgis", "qfield", "qfieldcloud", "q
 
 
 
-<figure class="wp-block-image size-full"><img alt="" class="wp-image-14229" height="464" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/03/session.png?resize=750%2C464&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-14229" height="464" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/03/session.png?resize=750%2C464&#038;ssl=1" width="750" /></figure>
 
 
 
@@ -64,7 +64,7 @@ tags: ["gis", "qfield", "qfield highlights", "qgis", "qfield", "qfieldcloud", "q
 
 
 
-<figure class="wp-block-image size-full"><img alt="" class="wp-image-14230" height="425" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/03/cloud.png?resize=750%2C425&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-14230" height="425" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/03/cloud.png?resize=750%2C425&#038;ssl=1" width="750" /></figure>
 
 
 

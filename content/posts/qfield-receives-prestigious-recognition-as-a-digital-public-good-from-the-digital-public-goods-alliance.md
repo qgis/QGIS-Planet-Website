@@ -22,7 +22,7 @@ tags: ["qfield", "press release", "qgis.org"]
 
 
 
-<figure class="wp-block-image"><img alt="" class="wp-image-14423" height="422" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image.jpeg?resize=750%2C422&#038;ssl=1" tabindex="0" width="750" /><figcaption class="wp-element-caption">QField 3.2 Statistics</figcaption></figure>
+<figure class="wp-block-image"><img alt="" class="wp-image-14423" height="422" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image.jpeg?resize=750%2C422&#038;ssl=1" width="750" /><figcaption class="wp-element-caption">QField 3.2 Statistics</figcaption></figure>
 
 
 
@@ -34,7 +34,7 @@ tags: ["qfield", "press release", "qgis.org"]
 
 
 
-<figure class="wp-block-image"><img alt="" class="wp-image-14428" height="422" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image-1.jpg?resize=750%2C422&#038;ssl=1" tabindex="0" width="750" /><figcaption class="wp-element-caption">Land surveying project Tonga</figcaption></figure>
+<figure class="wp-block-image"><img alt="" class="wp-image-14428" height="422" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image-1.jpg?resize=750%2C422&#038;ssl=1" width="750" /><figcaption class="wp-element-caption">Land surveying project Tonga</figcaption></figure>
 
 
 
@@ -80,7 +80,7 @@ tags: ["qfield", "press release", "qgis.org"]
 
 
 
-<figure class="wp-block-image"><img alt="" class="wp-image-14425" height="422" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image-2.jpeg?resize=750%2C422&#038;ssl=1" tabindex="0" width="750" /><figcaption class="wp-element-caption">Post-disaster assessment Tonga</figcaption></figure>
+<figure class="wp-block-image"><img alt="" class="wp-image-14425" height="422" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image-2.jpeg?resize=750%2C422&#038;ssl=1" width="750" /><figcaption class="wp-element-caption">Post-disaster assessment Tonga</figcaption></figure>
 
 
 
@@ -92,7 +92,7 @@ tags: ["qfield", "press release", "qgis.org"]
 
 
 
-<figure class="wp-block-image"><img alt="" class="wp-image-14426" height="563" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image-3.jpeg?resize=750%2C563&#038;ssl=1" tabindex="0" width="750" /><figcaption class="wp-element-caption">Land surveying project Tonga</figcaption></figure>
+<figure class="wp-block-image"><img alt="" class="wp-image-14426" height="563" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image-3.jpeg?resize=750%2C563&#038;ssl=1" width="750" /><figcaption class="wp-element-caption">Land surveying project Tonga</figcaption></figure>
 
 
 
@@ -124,7 +124,7 @@ tags: ["qfield", "press release", "qgis.org"]
 
 
 
-<figure class="wp-block-image"><img alt="" class="wp-image-14427" height="422" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image.jpg?resize=750%2C422&#038;ssl=1" tabindex="0" width="750" /></figure>
+<figure class="wp-block-image"><img alt="" class="wp-image-14427" height="422" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image.jpg?resize=750%2C422&#038;ssl=1" width="750" /></figure>
 
 
 
@@ -144,7 +144,7 @@ tags: ["qfield", "press release", "qgis.org"]
 
 
 
-<figure class="wp-block-image"><img alt="" class="wp-image-14424" height="422" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image-1.jpeg?resize=750%2C422&#038;ssl=1" tabindex="0" width="750" /><figcaption class="wp-element-caption">OPENGIS.ch</figcaption></figure>
+<figure class="wp-block-image"><img alt="" class="wp-image-14424" height="422" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/06/image-1.jpeg?resize=750%2C422&#038;ssl=1" width="750" /><figcaption class="wp-element-caption">OPENGIS.ch</figcaption></figure>
 
 
 

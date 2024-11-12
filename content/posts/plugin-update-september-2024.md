@@ -26,7 +26,7 @@ tags: ["plugin update"]
 
 
 
-<figure class="wp-block-image size-large is-resized"><a href="https://blog.qgis.org/wp-content/uploads/2024/10/plugin_intelligeo.png"><img alt="" class="wp-image-3129" height="576" src="https://blog.qgis.org/wp-content/uploads/2024/10/plugin_intelligeo.png?w=1024" style="width: 613px; height: auto;" tabindex="0" width="1024" /></a></figure>
+<figure class="wp-block-image size-large is-resized"><a href="https://blog.qgis.org/wp-content/uploads/2024/10/plugin_intelligeo.png"><img alt="" class="wp-image-3129" height="576" src="https://blog.qgis.org/wp-content/uploads/2024/10/plugin_intelligeo.png?w=1024" style="width: 613px; height: auto;" width="1024" /></a></figure>
 
 
 
@@ -34,7 +34,7 @@ tags: ["plugin update"]
 
 
 
-<figure class="wp-block-image size-large is-resized"><a href="https://blog.qgis.org/wp-content/uploads/2024/10/plugin_treeeyed.png"><img alt="" class="wp-image-3131" height="527" src="https://blog.qgis.org/wp-content/uploads/2024/10/plugin_treeeyed.png?w=1024" style="width: 608px; height: auto;" tabindex="0" width="1024" /></a></figure>
+<figure class="wp-block-image size-large is-resized"><a href="https://blog.qgis.org/wp-content/uploads/2024/10/plugin_treeeyed.png"><img alt="" class="wp-image-3131" height="527" src="https://blog.qgis.org/wp-content/uploads/2024/10/plugin_treeeyed.png?w=1024" style="width: 608px; height: auto;" width="1024" /></a></figure>
 
 
 

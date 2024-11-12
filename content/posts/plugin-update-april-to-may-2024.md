@@ -26,7 +26,7 @@ tags: ["plugin update"]
 
 
 
-<figure class="wp-block-image size-large"><a href="https://github.com/ViperMiniQ/Viper-QGIS-snake-clone/blob/main/images/snake_10fps_animation.gif"><img alt="" class="wp-image-2991" height="338" src="https://blog.qgis.org/wp-content/uploads/2024/07/snake_10fps_animation.gif?w=600" tabindex="0" width="600" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://github.com/ViperMiniQ/Viper-QGIS-snake-clone/blob/main/images/snake_10fps_animation.gif"><img alt="" class="wp-image-2991" height="338" src="https://blog.qgis.org/wp-content/uploads/2024/07/snake_10fps_animation.gif?w=600" width="600" /></a></figure>
 
 
 

@@ -75,7 +75,7 @@ gis=#</code></pre>
 
 
 
-<figure class="wp-block-image"><img alt="" class="wp-image-14336" height="310" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/05/image.png?resize=750%2C182&amp;ssl=1" tabindex="0" width="1279" /></figure>
+<figure class="wp-block-image"><img alt="" class="wp-image-14336" height="310" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2024/05/image.png?resize=750%2C182&amp;ssl=1" width="1279" /></figure>
 
 
 
