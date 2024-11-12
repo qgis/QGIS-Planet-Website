@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'qgis' || github.repository_owner == 'Xpirix'
     steps:
-    - name: '🛒 Checkout QGIS Website'
+    - name: '🛒 Checkout QGIS Planet Website'
       uses: actions/checkout@v3
       with:
         ref: main
@@ -35,11 +35,11 @@ jobs:
       run: |
         cd ./qgis-planet-website
         pipenv run pip freeze
-        pipenv run ./fetch_feeds.py
+        pipenv run python ./fetch_feeds.py
 
     - name: '✉️ Commit'
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: 'Funders scraped and committed via a GitHub Action.'
+        commit_message: 'Posts scraped and committed via a GitHub Action.'
         repository: ./qgis-planet-website
         # push_options: --force
