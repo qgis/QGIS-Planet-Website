@@ -16,6 +16,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         ref: main
+        path: ./qgis-planet-website
 
     - name: '🐍 Setup Python'
       uses: actions/setup-python@v3
@@ -26,16 +27,19 @@ jobs:
 
     - name: '🚸Install Python deps'
       run: |
+        cd ./qgis-planet-website
         pip install pipenv && pipenv install -r REQUIREMENTS.txt && pipenv sync --bare
         pipenv run pip freeze
 
     - name: '🗞️ Fetch Feed Content'
       run: |
+        cd ./qgis-planet-website
         pipenv run pip freeze
-        pipenv run python ./fetch_feeds.py
+        pipenv run ./fetch_feeds.py
 
     - name: '✉️ Commit'
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: 'Posts scraped and committed via a GitHub Action.'
+        repository: ./qgis-planet-website
         # push_options: --force
