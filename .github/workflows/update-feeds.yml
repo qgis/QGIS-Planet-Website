@@ -42,4 +42,5 @@ jobs:
       with:
         commit_message: 'Posts scraped and committed via a GitHub Action.'
         repository: ./qgis-planet-website
+        token: ${{ secrets.GITHUB_TOKEN }}
         # push_options: --force
