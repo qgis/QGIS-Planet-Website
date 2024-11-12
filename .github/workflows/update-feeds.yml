@@ -33,7 +33,6 @@ jobs:
 
     - name: '🗞️ Fetch Feed Content'
       run: |
-        cd ./qgis-planet-website
         pipenv run pip freeze
         pipenv run python ./fetch_feeds.py
 
