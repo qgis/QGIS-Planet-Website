@@ -6,18 +6,18 @@ By Tim Sutton and QGIS Contributors.
 
 ## Project Status
 
-[![Deploy Hugo site to Pages](https://github.com/Xpirix/QGIS-Planet-Website/actions/workflows/github-pages.yml/badge.svg)](https://github.com/Xpirix/QGIS-Planet-Website/actions/workflows/github-pages.yml)
-![Website Status](https://img.shields.io/website-up-down-green-red/http/qgis.github.io/QGIS-Website.svg)
-![License](https://img.shields.io/github/license/Xpirix/QGIS-Planet-Website.svg)
+[![Deploy Hugo site to Pages](https://github.com/qgis/QGIS-Planet-Website/actions/workflows/github-pages.yml/badge.svg)](https://github.com/qgis/QGIS-Planet-Website/actions/workflows/github-pages.yml)
+![Website Status](https://img.shields.io/website-up-down-green-red/http/qgis.github.io/QGIS-Planet-Website.svg)
+![License](https://img.shields.io/github/license/qgis/QGIS-Planet-Website.svg)
 
-![](https://img.shields.io/github/issues/Xpirix/QGIS-Planet-Website.svg)
-![](https://img.shields.io/github/issues-closed/Xpirix/QGIS-Planet-Website.svg)
-![](https://img.shields.io/github/issues-pr/Xpirix/QGIS-Planet-Website.svg)
-![](https://img.shields.io/github/issues-pr-closed/Xpirix/QGIS-Planet-Website.svg)
+![](https://img.shields.io/github/issues/qgis/QGIS-Planet-Website.svg)
+![](https://img.shields.io/github/issues-closed/qgis/QGIS-Planet-Website.svg)
+![](https://img.shields.io/github/issues-pr/qgis/QGIS-Planet-Website.svg)
+![](https://img.shields.io/github/issues-pr-closed/qgis/QGIS-Planet-Website.svg)
 
 
 Project stars:
-![Stars](https://starchart.cc/Xpirix/QGIS-Planet-Website.svg)
+![Stars](https://starchart.cc/qgis/QGIS-Planet-Website.svg)
 
 ## 🏃Before you start
 
@@ -29,7 +29,7 @@ This web site is a static site built using [Hugo](https://gohugo.io/).
 
 development
 ```
-git clone https://github.com/Xpirix/QGIS-Planet-Website.git
+git clone https://github.com/qgis/QGIS-Planet-Website.git
 cd QGIS-Planet-Website
 ```
 
@@ -77,7 +77,7 @@ If you are using VSCode, I recommend the following extensions:
 Clone the repo:
 
 ```
-git clone https://github.com/Xpirix/QGIS-Planet-Website.git
+git clone https://github.com/qgis/QGIS-Planet-Website.git
 ```
 
 Run the site:
@@ -155,7 +155,7 @@ Also some bulma theme overrides are placed in themes/hugo-bulma-blocks-theme/ass
 
 The layout of the landing page is themes/hugo-bulma-blocks-theme/layouts/index.html: the main page has many diverse blocks, that are not used anywhere else, hence its content is mostly in the partials.
 
-The ``content/_index.md`` contains the front matter of the page and the contents for the `feature` shortcodes. Just edit whatever you like there. The blocks shortcodes are described [here](https://github.com/Xpirix/QGIS-Planet-Website/blob/main/docs/shortcodes.md)
+The ``content/_index.md`` contains the front matter of the page and the contents for the `feature` shortcodes. Just edit whatever you like there. The blocks shortcodes are described [here](https://github.com/qgis/QGIS-Planet-Website/blob/main/docs/shortcodes.md)
 
 
 ## 📃 Adding a top level page
@@ -178,7 +178,7 @@ markdown as ```/img/foo.png```.
 
 The site uses a number of shortcodes to create reusable blocks of content. These are defined in the ```themes/hugo-bulma-blocks-theme/layouts/shortcodes/``` folder.
 
-The shortcodes with screenshots are described [here](https://github.com/Xpirix/QGIS-Planet-Website/blob/main/docs/shortcodes.md)
+The shortcodes with screenshots are described [here](https://github.com/qgis/QGIS-Planet-Website/blob/main/docs/shortcodes.md)
 
 
 ### Sidebar
