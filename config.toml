@@ -40,7 +40,7 @@ enableRobotsTXT = false
   displayPostsCount = true
   # commit hash file
   commitFile = "config/commit.toml"
-  githubRepo = "https://github.com/Xpirix/QGIS-Planet-Website"
+  githubRepo = "https://github.com/qgis/QGIS-Planet-Website"
   # Brand colours:
   primary1 = "#589632"
   primary2 = "#55828b"
