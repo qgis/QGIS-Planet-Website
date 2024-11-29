@@ -36,6 +36,19 @@ cd QGIS-Planet-Website
 
 ## 🧑💻 Development
 
+### Using Nix
+The development environment is using Nix flakes. Please visit https://nixos.wiki/wiki/Flakes for more details.
+
+Start the Nix development environment by running:
+
+```sh
+nix develop # Add  --experimental-features 'nix-command flakes' if you haven't enable Nix flakes
+hugo server
+# If you want to run VSCode:
+./vscode
+```
+
+### Install Hugo Locally
 First install hugo for your local machine:
 
 **📝 Note:** we need to install the 'extended' hugo version which includes a SASS compiler. If you don't install the extended version you will get errors like this when compiling:
@@ -51,19 +64,17 @@ You can find the extended version in the [releases page](https://github.com/gohu
 
 ![Download](./img/hugo-download.png)
 
-
-
-### 🐧 Linux: 
+#### 🐧 Linux: 
 
 Download the deb above and then do 
 
 ``sudo dpkg -i hugo_extended_0.107.0_linux-amd64.deb``
 
-### 🪟 Windows: 
+#### 🪟 Windows: 
 
 [Follow these notes](https://gohugo.io/installation/windows/)
 
-### 🍏 macOS: 
+#### 🍏 macOS: 
 
 [Follow these notes](https://gohugo.io/installation/macos/)
 

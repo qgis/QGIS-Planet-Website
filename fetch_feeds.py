@@ -3,7 +3,6 @@
 import feedparser
 import os
 import json
-from tqdm import tqdm
 from urllib.parse import urlparse
 import requests
 import shutil
@@ -218,8 +217,8 @@ if __name__ == "__main__":
     with open(SUBSCRIBERS_JSON_PATH, 'r') as f:
         subscribers = json.load(f)
 
-    # Iterate over the subscribers and fetch posts for active ones with a progress bar
-    for subscriber in tqdm(subscribers, desc="Processing subscribers"):
+    # Iterate over the subscribers and fetch posts for active ones
+    for subscriber in subscribers:
         if subscriber['is_active']:
             processor = FeedProcessor(subscriber['name'], subscriber['shortname'], subscriber['feed'])
             processor.fetch_and_create_post()
