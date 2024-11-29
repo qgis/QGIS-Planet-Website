@@ -53,5 +53,11 @@
             "title": "content",
             "path": "[[workspace]]/content"
         }
-    ]
+    ],
+    "python.testing.pytestArgs": ["--base-url=http://localhost:1313", "test"],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "playwright.env": {
+        "baseURL": "http://localhost:1313"
+    },
 }
