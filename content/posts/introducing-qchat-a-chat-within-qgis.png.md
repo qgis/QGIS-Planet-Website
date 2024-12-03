@@ -7,7 +7,7 @@ draft: "false"
 showcase: "planet"
 subscribers: ["geotribu_en"]
 author: "Geotribu"
-tags: ["announcements", "gischat", "gistribe", "qchat", "qgis", "qtribu"]
+tags: ["article", "gischat", "gistribe", "qchat", "qgis", "qtribu"]
 ---
 
 In 2024, it's time to leave Teams and IRC behind to enter a new era where you can chat directly from QGIS with other GIS fellows. #GISChat #GISTribe
