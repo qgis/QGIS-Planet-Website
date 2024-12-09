@@ -45,19 +45,22 @@ class FeedProcessor:
     def process_entry(self, entry):
         try:
             title = entry.title
-            image_url = entry.links[-1].href
+            print(entry.links)
+            image_url = next((link.href for link in entry.links if 'image' in link.type), entry.links[-1].href)
             if image_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')):
                 file_name = self.get_image_name(image_url)
                 self.download_image(image_url, file_name)
+            
+            post_url = next((link.href for link in entry.links if link.type == 'text/html'), entry.links[-1].href)
 
-            file_name = os.path.basename(os.path.normpath(image_url))
+            file_name = os.path.basename(os.path.normpath(post_url))
             entry_date = self.get_entry_date(entry)
             content = self.get_content(entry)
             if not content:
                 content = self.get_summary(entry)
             tags = self.get_tags(entry)
 
-            content = self.generate_markdown_content(title, entry_date, image_url, content, tags)
+            content = self.generate_markdown_content(title, entry_date, post_url, content, tags)
             
             # Copy the markdown file to the all-posts folder
             os.makedirs(ALL_POSTS_FOLDER, exist_ok=True)
@@ -224,4 +227,4 @@ if __name__ == "__main__":
             processor = FeedProcessor(subscriber['name'], subscriber['shortname'], subscriber['feed'])
             processor.fetch_and_create_post()
     
-    FunderProcessor.fetch_funders()
+    # FunderProcessor.fetch_funders()
