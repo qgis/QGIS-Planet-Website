@@ -178,5 +178,11 @@
     "name": "Mergin Maps",
     "shortname": "mergin_maps",
     "is_active": true
+  },
+  {
+    "feed": "https://blog.geotribu.net/feed_rss_created.xml",
+    "name": "Geotribu",
+    "shortname": "geotribu_en",
+    "is_active": true
   }
 ]
