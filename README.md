@@ -48,6 +48,11 @@ hugo server
 ./vscode
 ```
 
+To build the website:
+```sh
+nix build .#packages.x86_64-linux # Add | cachix push qgis-website to push it to cachix
+```
+
 ### Install Hugo Locally
 First install hugo for your local machine:
 

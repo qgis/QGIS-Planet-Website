@@ -1,18 +1,18 @@
 {
-  description = "Development environment for Hugo app with Python requirements";
+  description = "Development environment and build process for a Hugo app with Python requirements";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
   };
 
-  outputs = { self, nixpkgs }:
+  outputs = { self, nixpkgs }: 
     let
-      # Import nixpkgs for all systems
       systems = [ "x86_64-linux" "x86_64-darwin" ];
+      
       mkDevShell = system: let
-        pkgs = import nixpkgs { 
-          inherit system; 
-          config = { allowUnfree = true; };
+        pkgs = import nixpkgs {
+          inherit system;
+          config.allowUnfree = true;
         };
       in pkgs.mkShell {
         packages = with pkgs; [
@@ -22,6 +22,7 @@
           python312Packages.requests
           python312Packages.pillow
           python312Packages.python-dateutil
+          gnumake
         ];
         shellHook = ''
           export DIRENV_LOG_FORMAT=
@@ -35,19 +36,50 @@
           echo ""
           echo "./vscode.sh"
           echo "-----------------------"
-          echo "On running, it will install hugo related extensions."
+          echo "On running, it will install Hugo-related extensions."
           echo ""
           echo "🪛 Hugo:"
           echo "--------------------------------"
-          echo "Start hugo like this:"
+          echo "Start Hugo like this:"
           echo ""
           echo "hugo server"
         '';
       };
+
+      mkQGISPlanetWebsite = system: let
+        pkgs = import nixpkgs {
+          inherit system;
+        };
+      in pkgs.stdenv.mkDerivation {
+        name = "qgis-planet-website";
+        src = ./.;
+        buildInputs = [ pkgs.hugo pkgs.gnumake ];
+
+        buildPhase = ''
+          make deploy
+        '';
+
+        installPhase = ''
+          mkdir -p $out
+          cp -r public/* $out/
+        '';
+
+        meta = with pkgs.lib; {
+          description = "A built QGIS Planet website";
+          license = licenses.mit;
+        };
+      };
     in {
+      # Development environment for all supported systems
       devShells = builtins.listToAttrs (map (system: {
         name = system;
-        value = { default = mkDevShell system; };
+        value = mkDevShell system;
+      }) systems);
+
+      # Hugo website build derivations
+      packages = builtins.listToAttrs (map (system: {
+        name = system;
+        value = mkQGISPlanetWebsite system;
       }) systems);
     };
 }
