@@ -58,7 +58,7 @@
 
       packages = {
         x86_64-linux = {
-          qgis-planet-website = pkgs.callPackage ./packages/qgis-planet-website {};
+          qgis-planet-website = pkgs.callPackage ./packages/qgis-planet-website.nix {};
         };
       };
     };
