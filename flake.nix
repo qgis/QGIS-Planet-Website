@@ -12,23 +12,21 @@
       # Importing packages from nixpkgs
       pkgs = import nixpkgs {
         inherit system;
+        config.allowUnfree = true; # Allow unfree packages like VSCode if needed
       };
       
-      mkDevShell = let
-        pkgs = import nixpkgs {
-          inherit system;
-          config.allowUnfree = true;
-        };
-      in pkgs.mkShell {
+      
+      mkDevShell = pkgs.mkShell {
         packages = with pkgs; [
-          hugo
-          vscode
-          python312Packages.feedparser
-          python312Packages.requests
-          python312Packages.pillow
-          python312Packages.python-dateutil
-          gnumake
+          hugo                          # Hugo for building the website
+          vscode                        # VSCode for development
+          python312Packages.feedparser  # Python package: feedparser
+          python312Packages.requests    # Python package: requests
+          python312Packages.pillow      # Python package: Pillow
+          python312Packages.python-dateutil # Python package: dateutil
+          gnumake                       # GNU Make for build automation
         ];
+
         shellHook = ''
           export DIRENV_LOG_FORMAT=
           echo "-----------------------"
@@ -40,21 +38,19 @@
           echo "Start vscode like this:"
           echo ""
           echo "./vscode.sh"
-          echo "-----------------------"
-          echo "On running, it will install Hugo-related extensions."
           echo ""
           echo "🪛 Hugo:"
           echo "--------------------------------"
           echo "Start Hugo like this:"
           echo ""
           echo "hugo server"
+          echo "-----------------------"
         '';
       };
+      
     in
     {
-      devShells = {
-        value = mkDevShell;
-      };
+      devShells.x86_64-linux.default =  mkDevShell;
 
       packages = {
         x86_64-linux = {
