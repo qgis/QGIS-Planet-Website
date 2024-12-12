@@ -7,9 +7,14 @@
 
   outputs = { self, nixpkgs }: 
     let
-      systems = [ "x86_64-linux" "x86_64-darwin" ];
+      system = "x86_64-linux";
+
+      # Importing packages from nixpkgs
+      pkgs = import nixpkgs {
+        inherit system;
+      };
       
-      mkDevShell = system: let
+      mkDevShell = let
         pkgs = import nixpkgs {
           inherit system;
           config.allowUnfree = true;
@@ -45,41 +50,16 @@
           echo "hugo server"
         '';
       };
+    in
+    {
+      devShells = {
+        value = mkDevShell;
+      };
 
-      mkQGISPlanetWebsite = system: let
-        pkgs = import nixpkgs {
-          inherit system;
-        };
-      in pkgs.stdenv.mkDerivation {
-        name = "qgis-planet-website";
-        src = ./.;
-        buildInputs = [ pkgs.hugo pkgs.gnumake ];
-
-        buildPhase = ''
-          make deploy
-        '';
-
-        installPhase = ''
-          mkdir -p $out
-          cp -r public/* $out/
-        '';
-
-        meta = with pkgs.lib; {
-          description = "A built QGIS Planet website";
-          license = licenses.mit;
+      packages = {
+        x86_64-linux = {
+          qgis-planet-website = pkgs.callPackage ./qgis-planet-website.nix {};
         };
       };
-    in {
-      # Development environment for all supported systems
-      devShells = builtins.listToAttrs (map (system: {
-        name = system;
-        value = mkDevShell system;
-      }) systems);
-
-      # Hugo website build derivations
-      packages = builtins.listToAttrs (map (system: {
-        name = system;
-        value = mkQGISPlanetWebsite system;
-      }) systems);
     };
 }
