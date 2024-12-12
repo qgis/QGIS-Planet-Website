@@ -2,7 +2,17 @@
 
 stdenv.mkDerivation {
     name = "qgis-planet-website";
-    src = ./../../.;
+    src = lib.cleanSourceWith {
+        src = ./.;
+        filter = (
+        path: type: (builtins.all (x: x != baseNameOf path) [
+            ".git"
+            ".github"
+            "flake.nix"
+            "package.nix"
+        ])
+        );
+    };
     buildInputs = [ hugo gnumake ];
 
     buildPhase = ''
@@ -19,3 +29,4 @@ stdenv.mkDerivation {
         license = licenses.mit;
     };
 }
+
