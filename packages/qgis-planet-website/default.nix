@@ -2,7 +2,7 @@
 
 stdenv.mkDerivation {
     name = "qgis-planet-website";
-    src = ./../.;
+    src = ./../../.;
     buildInputs = [ hugo gnumake ];
 
     buildPhase = ''
