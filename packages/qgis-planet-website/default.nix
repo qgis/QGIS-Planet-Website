@@ -18,4 +18,4 @@ stdenv.mkDerivation {
         description = "A built QGIS Planet website";
         license = licenses.mit;
     };
-};
+}
