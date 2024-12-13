@@ -10,7 +10,7 @@ author: "QGIS Oslandia"
 tags: ["news", "contribution", "investment", "lsci", "opensource", "pureplayer", "qdeeplandia", "qgis", "qwc2", "totalopenstation"]
 ---
 
-<div class="wpb_row vc_row-fluid vc_row standard_section   " id="fws_675ad2738b3b4" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg    "></div></div> </div><div class="col span_12 dark left">
+<div class="wpb_row vc_row-fluid vc_row standard_section   " id="fws_675b7e9c11ac5" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg    "></div></div> </div><div class="col span_12 dark left">
 	<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
 		<div class="vc_column-inner">
 			<div class="wpb_wrapper">
@@ -43,7 +43,7 @@ tags: ["news", "contribution", "investment", "lsci", "opensource", "pureplayer",
 		</div>
 	</div> 
 </div></div>
-		<div class="wpb_row vc_row-fluid vc_row standard_section   " id="fws_675ad2738c3c3" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg    "></div></div> </div><div class="col span_12 dark left">
+		<div class="wpb_row vc_row-fluid vc_row standard_section   " id="fws_675b7e9c125de" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg    "></div></div> </div><div class="col span_12 dark left">
 	<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
 		<div class="vc_column-inner">
 			<div class="wpb_wrapper">
@@ -56,7 +56,7 @@ tags: ["news", "contribution", "investment", "lsci", "opensource", "pureplayer",
 		</div>
 	</div> 
 </div></div>
-		<div class="wpb_row vc_row-fluid vc_row standard_section   " id="fws_675ad2738c533" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg    "></div></div> </div><div class="col span_12 dark left">
+		<div class="wpb_row vc_row-fluid vc_row standard_section   " id="fws_675b7e9c1275c" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg    "></div></div> </div><div class="col span_12 dark left">
 	<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
 		<div class="vc_column-inner">
 			<div class="wpb_wrapper">
