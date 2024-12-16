@@ -21,6 +21,9 @@ jobs:
       with:
         ref: main
         path: ./qgis-planet-website
+          # This will allow us to trigger other workflows (cachix-build, etc.)
+          # when we commit changes using the git-auto-commit-action
+        token: ${{ secrets.PAT }}
 
     - name: '🐍 Setup Python'
       uses: actions/setup-python@v5

@@ -19,6 +19,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
+          # This will allow us to trigger other workflows (cachix-build, etc.)
+          # when we commit changes using the git-auto-commit-action
+          token: ${{ secrets.PAT }}
 
       - name: Install Nix
         uses: cachix/install-nix-action@v25
