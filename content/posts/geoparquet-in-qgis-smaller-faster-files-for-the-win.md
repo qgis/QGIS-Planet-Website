@@ -135,5 +135,5 @@ tags: ["big data", "gis", "movement data in gis", "qgis", "geopandas", "geoparqu
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><div class="embed-youtube"></div></div>
+<div class="embed-youtube"></div>
 </div></figure>
