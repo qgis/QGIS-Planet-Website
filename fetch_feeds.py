@@ -44,19 +44,22 @@ class FeedProcessor:
     def process_entry(self, entry):
         try:
             title = entry.title
-            image_url = entry.links[-1].href
+            image_url = next((link.href for link in entry.links if 'image' in link.type), entry.links[-1].href)
             if image_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')):
                 file_name = self.get_image_name(image_url)
                 self.download_image(image_url, file_name)
 
-            file_name = os.path.basename(os.path.normpath(image_url))
+            post_url = entry.link
+
+            base_url = post_url.split('?')[0]
+            file_name = os.path.basename(os.path.normpath(base_url))
             entry_date = self.get_entry_date(entry)
             content = self.get_content(entry)
             if not content:
                 content = self.get_summary(entry)
             tags = self.get_tags(entry)
 
-            content = self.generate_markdown_content(title, entry_date, image_url, content, tags)
+            content = self.generate_markdown_content(title, entry_date, post_url, content, tags)
             
             # Copy the markdown file to the all-posts folder
             os.makedirs(ALL_POSTS_FOLDER, exist_ok=True)
@@ -67,10 +70,8 @@ class FeedProcessor:
             print(f"Failed to process entry for {self.subscriber_name}: {e}")
 
     def get_image_name(self, image_url):
-        path = urlparse(image_url).path
-        image_ext = os.path.splitext(path)[1]
         name = os.path.basename(os.path.normpath(image_url))
-        image_name = f"{name}.{image_ext}".replace("..", ".")
+        image_name = name.replace("..", ".")
         return image_name
 
     def get_entry_date(self, entry):
@@ -223,4 +224,4 @@ if __name__ == "__main__":
             processor = FeedProcessor(subscriber['name'], subscriber['shortname'], subscriber['feed'])
             processor.fetch_and_create_post()
     
-    FunderProcessor.fetch_funders()
+    # FunderProcessor.fetch_funders()

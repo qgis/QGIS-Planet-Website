@@ -2,7 +2,7 @@
 source: "blog"
 title: "Some news about QChat, the chat within QGIS"
 date: "2024-12-03T09:09:00+0000"
-link: "https://blog.geotribu.net/assets/images/social/2024/12/03/some-news-about-qchat-the-chat-within-qgis.png"
+link: "https://blog.geotribu.net/2024/12/03/some-news-about-qchat-the-chat-within-qgis/?utm_source=rss-feed&utm_medium=RSS&utm_campaign=feed-syndication"
 draft: "false"
 showcase: "planet"
 subscribers: ["geotribu_en"]
