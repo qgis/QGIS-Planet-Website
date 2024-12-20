@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Earlier this year, in collaboration with <a href="https://north-road.com/2023/06/01/cesium-ecosystem-grant-win-for-qgis-3d-tiles/">North Road</a> we were awarded a <a href="https://cesium.com/cesium-ecosystem-grants/grant-directory/">grant from Cesium</a> to introduce 3D tiles support in QGIS. The feature was developed successfully and shipped with QGIS 3.34.</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["faunalia"]
 author: "Faunalia"
 tags: ["postgis", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 In QGIS there are many tools that can be used to import vectors inside a PostGIS database, each one has pros and cons: SPIT core plugin: available since long ago but now seems to be a unmaintained tool and therefore will be probably removed in a future QGIS release. It  has the advantage to allow [&#8230;]

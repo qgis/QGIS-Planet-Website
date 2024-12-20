@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["maptiler"]
 author: "maptiler.com"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 New version of MapTiler QGIS Plugin 3.0 with detailed global terrain, contour lines, hillshading, and maps using these terrain data for outdoor activities.

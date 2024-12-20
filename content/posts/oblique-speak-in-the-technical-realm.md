@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 It amazes me how people fail to communicate when speaking about technical matters. I&rsquo;m sure you have heard this refrain: &ldquo;My computer doesn&rsquo;t work&rdquo; or perhaps &ldquo;Program XYZ blows up&rdquo;. Ok, in the general sense there is some information being conveyed here. Often times the speaker is not merely providing a fact but asking for help in a very oblique manner.

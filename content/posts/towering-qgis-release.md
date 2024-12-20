@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The new <a href="http://www2.qgis.org/en/site/" target="_blank">QGIS</a> 2.8 release (codename: Wien) is out tomorrow!</p>

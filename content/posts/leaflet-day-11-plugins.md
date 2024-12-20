@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 At its core, Leaflet is designed to be lightweight. That being said, there are hundreds of third-party plugins available to extend and enhance the functionality of your web maps.

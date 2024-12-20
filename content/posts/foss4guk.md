@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>During FOSS4GUK 2019 in Edinburgh we ran a workshop for collecting data using <a href="https://merginmaps.com">Input</a>. This is the content of the workshop with all the datasets.</p>

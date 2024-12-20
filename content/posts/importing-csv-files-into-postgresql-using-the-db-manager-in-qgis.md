@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["ireland_qgis_user_group_blog"]
 author: "Ireland QGIS User Group Blog"
 tags: ["uncategorized"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>There is very useful tool in QGIS that can import very large CSV files into PostgreSQL rapidly and reliably. The DB Manager&#8217;s &#8220;Import Vector Layer&#8221; tool. Contrary to its highly misleading title it can import CSV files as well. Open the DB Manager (menu <em>Database &#8211; DB Manager</em>). Then select the database where you want to store your table and click the &#8220;Import layer/file&#8221; icon.</p>

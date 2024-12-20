@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Yesterday, we had our first meeting with Marco Bernasocchi, who just started his Google Summer of Code project. The project goals are:

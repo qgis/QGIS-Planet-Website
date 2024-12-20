@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In QGIS 2.8, there is a new option for users to add their own python function in the Field calculator. This is an extremely useful feature enabling users to populate data within the attribute table using customised python function.</p>

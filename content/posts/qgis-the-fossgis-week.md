@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Tuesday, 2012-03-20 11:00: FOSSGIS in Dessau, Germany starts with a workshop for programming QGIS plugins A great conference begins, with about 400 people attending presentations and workshops over three days.

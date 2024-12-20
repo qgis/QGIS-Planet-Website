@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Today we&rsquo;ll add towns along the trail route that are mentioned in the novels. I hesitate to call them towns, because in 1902, many of them consisted of a view indigenous people and sometimes a roadhouse.

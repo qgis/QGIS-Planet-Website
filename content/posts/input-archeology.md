@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><a href="https://merginmaps.com">Input App</a> helps to identify burial grounds in a citizen science project in the Netherlands.</p>

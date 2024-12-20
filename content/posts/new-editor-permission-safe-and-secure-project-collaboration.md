@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We are introducing a new type of workspace role and project permission called "<strong><u>Editor</u></strong>". Editors in your workspace will be able to <u>work on your projects without the risk of breaking your GeoPackage layers and QGIS project files.</u></p><p><strong>How does it work?</strong></p><p>✅ Editors can:</p><ul>

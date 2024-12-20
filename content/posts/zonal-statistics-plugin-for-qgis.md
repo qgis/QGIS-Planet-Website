@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 To install: unpack zonal_statistics.tgz under /src/plugins, insert zonal_statistics as new subdirectory in /src/plugins/CMakeLists.txt and recompile

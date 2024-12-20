@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["nyalldawson_net"]
 author: "nyalldawson.net"
 tags: ["qgis", "2.12", "composer", "geospatial", "osgeo", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>It&#8217;s been quite some time since I last had a chance to blog and a lot has happened since then. Not least of which is that QGIS 2.12 has now been released with a ton of new features that I&#8217;ve neglected to write about! To try and get things moving along here again I&#8217;m planning on writing a short series exploring how variables work in QGIS 2.12 and the exciting possibilities they unlock. First, let&#8217;s look into how variables can be used with QGIS map composer&#8230;</p>

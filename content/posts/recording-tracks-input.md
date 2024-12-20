@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In this post, we will use <a href="https://merginmaps.com/">Input app</a> to record tracks. The first step is to set up a project in QGIS.</p>

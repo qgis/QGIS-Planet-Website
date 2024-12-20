@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Sourcepole bietet Grundlagen- und Aufbau-Kurse für den Betrieb von Geodaten-Infrastrukturen auf der Basis von PostgreSQL/PostGIS und Quantum GIS an. Detaillierte Informationen zu den Kursen, die im Herbst 2012 stattfinden, entnehmen Sie bitte dem Kursprogramm. Die Anmeldung ist ab sofort online möglich. Wir freuen uns darauf Sie in Zürich begüssen zu können.

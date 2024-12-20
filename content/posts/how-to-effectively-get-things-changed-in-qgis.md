@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["nyalldawson_net"]
 author: "nyalldawson.net"
 tags: ["qgis", "opensource", "osgeo", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>I&#8217;ve been heavily involved in the open source <a href="http://www.qgis.org/en/site/">QGIS</a> mapping project for a number of years now. During this time I&#8217;ve kept a close watch on the various mailing lists, issue trackers, stackexchange, tweets and other various means users have to provide feedback to the project. Recently, I&#8217;ve started to come to the conclusion that there&#8217;s a lot of fundamental confusion about how the project works and how users can get changes made to the project. Read on for these insights, but keep in mind that these are just my thoughts and not reflective of the whole community&#8217;s views!..</p>

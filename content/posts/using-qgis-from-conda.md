@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["alexandre_netos_blog"]
 author: "Alexandre Neto's blog"
 tags: ["sem categoria", "conda", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>QGIS recipes have been available on Conda for a while, but now, that they work for the three main operating systems, getting QGIS from Conda is s starting to become a reliable alternative to other QGIS distributions. Anyway, let&#8217;s rewind a bit&#8230;</p>

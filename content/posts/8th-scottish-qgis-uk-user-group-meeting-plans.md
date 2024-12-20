@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_uk"]
 author: "QGIS UK"
 tags: ["user groups", "scotland", "stirling"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>It&#8217;s been a long time since we posted anything up here but hopefully the news of another user group happening in Stirling on 7th November will hopefully assuage your distress.</p>

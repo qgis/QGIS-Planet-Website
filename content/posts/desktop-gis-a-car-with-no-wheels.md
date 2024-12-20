@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Is desktop GIS software a rusty old car with no wheels? Bouncing around the blogosphere sometimes leaves you with that impression. All the excitement these days seems to center around mashups, hacks, and mapping in your web browser. It&rsquo;s definitely cool stuff. A number of folks think this is the future of GIS, even when it comes to doing analysis.

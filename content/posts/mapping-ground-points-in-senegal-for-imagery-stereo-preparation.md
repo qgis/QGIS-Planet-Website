@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Valentin was overseeing a large-scale stereo-preparation project in Senegal in order to adjust aerial imagery and LiDAR with recognizable ground control points

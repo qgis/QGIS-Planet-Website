@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["markus_neteler"]
 author: "Markus Neteler"
 tags: ["blog", "community sprint", "gis", "grass", "grass development", "osgeo"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The GRASS GIS Annual Report for 2023 highlights a year of significant achievements and developments in the GRASS GIS project, which celebrated its 40th anniversary. Here&#8217;s a summary of the report: Community Meeting: The GRASS GIS Community Meeting was held in June at the Czech Technical University in Prague, bringing together a diverse group of [&#8230;]</p>

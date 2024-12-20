@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 I was interested to read that ArcGIS Image Server is now available. Now I admit that I haven&rsquo;t had any advanced information about the product (has anybody?) but was disappointed to find that its only supported on Windows servers.

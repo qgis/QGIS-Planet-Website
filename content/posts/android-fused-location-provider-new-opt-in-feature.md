@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We've integrated the Android Fused Location Provider into our app for enhanced location accuracy and efficiency. This update leverages all available location sources to provide faster and more precise location data while optimizing battery usage, ensuring your device stays powered longer. It is currently an opt-in feature, so you will need to enable it in the app settings under Manage GPS Providers. Enable this feature to enjoy improved location-based services and a longer-lasting battery with our latest enhancement!</p>

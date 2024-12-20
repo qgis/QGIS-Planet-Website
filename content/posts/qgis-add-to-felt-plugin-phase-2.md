@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["north_road"]
 author: "North Road"
 tags: ["integrations", "qgis", "web mapping", "cartography", "felt", "geospatial", "plugins", "qgis", "share"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We have been continuing our work with the <a href="https://www.qgis.org/en/site/about/sustaining_members.html">Flagship sponsor of QGIS</a> &#8211; <a href="https://felt.com/product">Felt</a> to develop their QGIS Plugin &#8211; <a href="https://plugins.qgis.org/planet/tag/felt/">Add to Felt  </a>that makes it even easier to share your maps and data on the web.</p>

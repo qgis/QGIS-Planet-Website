@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 QGIS has a lot of plugins, including over 180 that have been contributed by users. If you aren&rsquo;t using plugins, you are missing out on a lot that QGIS has to offer. I&rsquo;m starting what I hope to be a regular feature: Plugin of the Week. This week we&rsquo;ll take a look at Time Manager.

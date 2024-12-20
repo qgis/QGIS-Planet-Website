@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["ireland_qgis_user_group_blog"]
 author: "Ireland QGIS User Group Blog"
 tags: ["plugin", "qgis", "tutorial", "projection"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The task of projecting, or unfolding the spherical Earth onto a flat map, is an <span style="color: #f7f9ff; text-decoration: underline;"><a href="http://kartoweb.itc.nl/geometrics/map%20projections/mappro.html" target="_blank">age old problem in cartography</a></span>. Projection almost always introduces distortion, most projections cannot preserve angles, areas and distances at the same time, they may be <span style="color: #f7f9ff; text-decoration: underline;"><a href="https://en.wikipedia.org/wiki/Map_projection#Conformal" target="_blank">conformal</a></span> (angle-preserving), <span style="color: #f7f9ff; text-decoration: underline;"><a href="https://en.wikipedia.org/wiki/Map_projection#Equal-area" target="_blank">equal-area</a></span> (area-preserving) or <span style="color: #f7f9ff; text-decoration: underline;"><a href="https://en.wikipedia.org/wiki/Map_projection#Equidistant" target="_blank">equidistant</a></span> (distance preserving) but not all at once. The only exception is a <span style="color: #f7f9ff; text-decoration: underline;"><a href="http://www.geodus.com/globe-map/tresgrand/am_GL025F.jpg" target="_blank">Globe</a></span>, which preserves angles, areas and distances perfectly. Thus a projection is a compromise.</p>

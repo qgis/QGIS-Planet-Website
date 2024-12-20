@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 The raster calculator allows you to perform mathematical operations on each cell in a raster. This can be useful for converting and manipulating your rasters. Operators include:

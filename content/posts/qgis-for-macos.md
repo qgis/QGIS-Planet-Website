@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>If you are a macOS user, there are already several methods to install <a href="https://www.qgis.org">QGIS</a>. But, unfortunately the packages are not signed and often using old libraries. We have started a prototype to automatically generate <a href="https://github.com/qgis/qgis-mac-packager">QGIS packages for macOS</a>.</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["itopen"]
 author: "ItOpen"
 tags: ["gis", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Last week I&#8217;ve been in Madeira at the hackfest, like all the past events this has been an amazing happening,

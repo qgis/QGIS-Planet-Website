@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>This blog post is a QGIS plugin tutorial for beginners.  It was written to support a workshop we ran for the Scottish QGIS user group here in the UK and aims to be a simple step-by-step guide.</p>

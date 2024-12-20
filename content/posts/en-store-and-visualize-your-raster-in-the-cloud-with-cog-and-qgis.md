@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
 tags: ["gis", "non classé", "qgis", "sig", "", "cloud", "gdal"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We have recently been working for the French Space Agency ( <a href="https://www.cnes.fr/">CNES</a> ) who needed to store and visualize satellite rasters in a cloud platform. They want to access the image raw data, with no transformation, in order to fullfill deep analysis like instrument calibration. Using classic cartographic server standard like WMS or TMS is not an option because those services transform datasets in already rendered tiles.</p>

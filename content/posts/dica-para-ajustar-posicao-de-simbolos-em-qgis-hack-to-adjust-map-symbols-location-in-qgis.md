@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["alexandre_netos_blog"]
 author: "Alexandre Neto's blog"
 tags: ["uncategorized", "cartography", "hint", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p style="text-align: left;">EN | <span style="color: #808080;"><a href="https://sigsemgrilhetas.wordpress.com/2015/02/23/dica-para-ajustar-posicao-de-simbolos-em-qgis-hack-to-adjust-map-symbols-location-in-qgis/" target="_blank">PT</a></span></p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>This is a part of series of blog posts to update QGIS community with the outcome of the <a href="https://www.lutraconsulting.co.uk/crowdfunding/elevation-pointcloud-enhancements-qgis/">funding we had raised during late 2021</a> to improve elevation and point clouds in collaboration with <a href="https://north-road.com/">North Road</a> and <a href="https://hobu.co/">Hobu</a>. For other updates see <a href="https://www.lutraconsulting.co.uk/blog/2022/03/15/pointcloud-in-qgis-update-1/">part 1</a> and <a href="https://www.lutraconsulting.co.uk/blog/2022/04/05/pointcloud-in-qgis-update-2/">part 2</a>.</p>

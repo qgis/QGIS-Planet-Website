@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 This weekend I finished reviewing Pragmatic Version Control Using Git by Travis Swicegood. If you are a git user or interested in learning about the latest in version control for your source code, check it out. The book is available in beta now.

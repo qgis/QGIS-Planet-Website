@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_polska_blog"]
 author: "QGIS Polska blog"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Pomysł na zorganizowanie tego spotkania kiełkował od lat, ale zawsze brakowało czasu na jego realizację. Główny problem polegał na określeniu docelowej grupy uczestników oraz formuły. Wiemy oczywiście, jak szerokie jest grono użytkowników programu QGIS, ale ta wiedza wcale nie ułatwiała zadania. Ostatecznie po przeprowadzeniu kilku ankiet na polskim forum QGIS postanowiliśmy zaserwować wszystkiego po trochu. Potrzebni byli tylko prelegenci, miejsce i termin. Zdecydowaliśmy się na 19 czerwca 2018…

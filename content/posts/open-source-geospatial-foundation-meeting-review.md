@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 This is an unofficial recap of the OSGF meeting, based on my recollections having spent 10 hours on IRC and the phone. I&rsquo;m sure the foundation will release an official version of the day&rsquo;s events, so take my comments with a grain of salt.

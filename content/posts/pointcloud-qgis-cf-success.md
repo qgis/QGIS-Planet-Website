@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We are pleased to announce the success of our <a href="https://www.lutraconsulting.co.uk/crowdfunding/elevation-pointcloud-enhancements-qgis/">crowdfunding campaign</a> to improve point cloud and elevation tools in QGIS. Thanks to the generous pledges from QGIS community, we have exceeded the target (including the stretch goal).</p>

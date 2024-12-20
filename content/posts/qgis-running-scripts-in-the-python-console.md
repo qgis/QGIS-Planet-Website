@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 The QGIS Python console is great for doing one-off tasks or experimenting with the API. Sometimes you might want to automate a task using a script, and do it without writing a full blown plugin. Currently QGIS does not have a way to load an arbitrary Python script and run it.[1] Until it does, this post illustrates a way you can create a script and run it from the console.

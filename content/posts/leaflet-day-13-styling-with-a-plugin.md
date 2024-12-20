@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Today we&rsquo;ll take a look at another plugin&mdash;one that allows us to interactively change they style of features on our map: Leaflet.StyleEditor. This illustrates how we can customize our map by changing styles on the fly and also serves as a starting point for even more customization.

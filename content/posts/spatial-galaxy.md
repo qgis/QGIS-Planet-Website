@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 This site aims to bring out some of the latest and sometimes not-so-greatest happenings in the GIS world. We&rsquo;ll focus to large extent on Open Source software but hopefully mix it up to keep things interesting. We&rsquo;ll explore things from the new and exciting to the dull and mundane.

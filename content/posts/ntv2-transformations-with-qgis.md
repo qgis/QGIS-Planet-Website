@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Datum transformations with grid shift files are used in several countries to convert coordinates between different datums. In Switzerland, datum transformation using the NTv2 method is important because of the upcoming conversion between the LV03 system and the new LV95 system. Up to now, doing coordinate transformations with grid shift files was possible in QGIS, but unconvenient.

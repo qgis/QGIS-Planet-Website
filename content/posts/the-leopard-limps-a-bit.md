@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 I use my MacBook as my &ldquo;command center&rdquo;, connecting to the other machines I need to work on using ssh and Nx. After a bit of tuning, I had this working nicely under Tiger.

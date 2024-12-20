@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Matthew Perry poses the question: Why is the command line a dying art?. Funny how these things go&ndash;I was thinking about posting on this same topic just the other day, although I may be repeating myself.

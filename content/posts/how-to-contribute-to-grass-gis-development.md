@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["markus_neteler"]
 author: "Markus Neteler"
 tags: ["blog", "grass", "grass development", "osgeo", "python"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>How to contribute to GRASS GIS development: Guidance for new developers in the GRASS GIS Project.</p>

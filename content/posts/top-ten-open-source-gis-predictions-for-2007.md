@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 I remember growing up and reading predictions for the new year developed by some prognosticator, supposedly in the know. Of course most of the time it was all wrong, but often made for interesting reading. With that in mind, here are my top 10 predictions for Open Source GIS (OS GIS) for 2007.

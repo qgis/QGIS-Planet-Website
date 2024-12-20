@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["anita_graser"]
 author: "Anita Graser"
 tags: ["ai", "llm", "geoai"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>It&#8217;s been a while since my post on <a href="https://anitagraser.com/2019/05/01/movement-data-in-gis-and-the-ai-hype/">geo and the AI hype in 2019</a>. Back then, I didn&#8217;t use the term &#8220;GeoAI&#8221;, even though it has certainly been around for a while (including, e.g., with <a href="https://dl.acm.org/doi/10.1145/3377000.3377002">dedicated SIGSPATIAL workshops since 2017</a>).</p>

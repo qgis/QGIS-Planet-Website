@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["north_road"]
 author: "North Road"
 tags: ["qgis", "slyr", "aprx", "arcgis", "esri", "mxd", "qgis", "slyr"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <div>Welcome back, SLYR enthusiasts! We&#8217;re thrilled to share the latest updates and enhancements for our <a href="https://north-road.com/slyr/">SLYR ESRI to QGIS Compatibility Suite</a> that will dramatically streamline the use of ESRI documents within QGIS (and vice versa!). Our team has been hard at work, expanding the capabilities of SLYR to ensure seamless compatibility between the latest QGIS and ArcGIS releases. We&#8217;ve also got some exciting news for users of the Community Edition of SLYR! Let&#8217;s dive right in and explore the exciting new features that have been added to SLYR since our <a href="https://north-road.com/2022/11/04/slyr-update-november-2022/">previous update</a>&#8230;</div>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["markus_neteler"]
 author: "Markus Neteler"
 tags: ["actinia", "blog", "grass", "leafmap", "osgeo"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>This blog post gives an overview of how to easily perform a geodata analysis of an online available dataset (here: a GeoTIFF file) with actinia and display the result in Leafmap browser-based.</p>

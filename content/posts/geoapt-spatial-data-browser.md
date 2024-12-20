@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 This is a project I have had lingering around for a while. It is a geospatial data browser written in Python using the PyQt and QGIS bindings. It allows you to navigate a tree structure and preview raster and vector datasets. Metadata extracted from the data can be viewed as well. It supports drag and drop for any target that accepts filenames (e.g. QGIS). For screenshots and more, see http://geoapt.com/geoapt-data-browser.

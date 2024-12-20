@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["anita_graser"]
 author: "Anita Graser"
 tags: ["big data", "movement data in gis", "movingpandas", "spatio-temporal data", "movement data"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Today, I want to point out a blog post over at</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["maptiler"]
 author: "maptiler.com"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Open-source plugin for QGIS that loads fast vector maps. Change colors and fonts of the map to get unique look.

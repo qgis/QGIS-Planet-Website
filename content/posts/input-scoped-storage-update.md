@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Android has forced app to use <a href="https://developer.android.com/training/data-storage#scoped-storage">Scoped Storage</a> for all app related data. If you are using Input app on Android please read carefully for the upcoming update (1.1) of the app in the Google Play Store.</p>

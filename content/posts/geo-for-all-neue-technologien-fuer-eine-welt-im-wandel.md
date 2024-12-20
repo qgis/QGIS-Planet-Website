@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 GEOSummit 2014, Bern „Geo for all“ ist nicht nur das Motto der weltumspannenden ICA-OSGeo Lab Initiative zur Förderung der GIS-Ausbildung an Hochschulen, sondern steht allgemein für den immer breiteren Zugang zu professionellen GIS-Werkzeugen. Im Kartenbereich haben Produkte wie TileMill oder D3.js, sowie Dienste wie CartoDB, GeoCommons, usw. den Anwenderkreis weit über das klassische GIS-Fachbebiet hinaus erweitert. Im Vortrag werden einige herausragende Beispiele vorgestellt und deren Relevanz für die Fachwelt erläutert.

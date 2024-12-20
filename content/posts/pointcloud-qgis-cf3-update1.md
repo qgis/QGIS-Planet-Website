@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>QGIS 3.30 was released late last week and we are pleased to announce the new features introduced as a part of our <a href="https://www.lutraconsulting.co.uk/crowdfunding/pointcloud-processing-qgis/">latest crowdfunding campaign to improve 3D, point cloud and elevation data.</a></p>

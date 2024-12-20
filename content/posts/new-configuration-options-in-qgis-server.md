@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 In QGIS server, it is now possible to selectively exclude layers from WMS publication. These layers will be available only on the desktop and hidden from WMS clients. Similarly, print layouts can be excluded from WMS publication. Of course, these settings are conveniently accessible from the project properties dialog of QGIS (but you need to have a nightly build or a recent compile):

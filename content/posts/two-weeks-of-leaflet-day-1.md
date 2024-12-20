@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Background We at Locate Press have been working on a new book: Leaflet Cookbook, by Numa Gremling. The book is chock-full of over 300 pages of recipes and information to get the most of your web maps. The book is content complete and available as a preview.

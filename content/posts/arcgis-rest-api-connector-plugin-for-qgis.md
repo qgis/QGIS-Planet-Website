@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["ireland_qgis_user_group_blog"]
 author: "Ireland QGIS User Group Blog"
 tags: ["news", "plugin", "qgis", "rest"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><a href="https://ieqgis.files.wordpress.com/2015/05/rest1.png"><img alt="ArcGIS REST Connector Plugin" class="alignnone size-large wp-image-797" height="307" src="https://ieqgis.files.wordpress.com/2015/05/rest1.png?w=545&#038;h=307" width="545" /></a></p>

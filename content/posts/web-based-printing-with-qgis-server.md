@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 QGIS server is already known as a full featured, WMS 1.3 compliant map server (see e.g. ETHZ, Linfiniti or 3LIZ).

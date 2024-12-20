@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>People often ask whether <a href="http://merginmaps.com/">the Mergin service</a> and the <a href="https://merginmaps.com">Input app</a> can deal with multiple team members doing edits at the same time.</p>

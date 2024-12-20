@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["ireland_qgis_user_group_blog"]
 author: "Ireland QGIS User Group Blog"
 tags: ["2.18", "qgis", "tutorial", "uncategorized", "hillshade", "topography"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>You may have seen my <a href="https://ieqgis.wordpress.com/2015/04/04/create-great-looking-topographic-maps-in-qgis-2/" rel="noopener">earlier tutorial</a> where I described how to make nice looking hillshaded maps in QGIS using <a href="https://lta.cr.usgs.gov/SRTM" rel="noopener" target="_blank">SRTM elevation data</a>. Well, we don&#8217;t have to stop with just one hillshade layer on a map, it is possible to overlay multiple hillshades; a procedure that can increase the visual quality and detail. The following image is the hillshade we made before. Once you re-create a hillshade, following the <a href="https://ieqgis.wordpress.com/2015/04/04/create-great-looking-topographic-maps-in-qgis-2/">previous tutorial</a>, you can head to the next step (note that brightness and contrast settings may be different due to changes in how QGIS generates and displays hillshades).</p>

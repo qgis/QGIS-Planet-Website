@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["opengisch"]
 author: "OPENGIS.ch blog"
 tags: ["news", "qgis", "qgis.org"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>At OPENGIS.CH, we&#8217;ve been working lately on improving the <strong>DXF Export</strong> QGIS functionality for the upcoming release 3.38. In the meantime, we&#8217;ve also added nice UX enhancements for making it easier and much more powerful to use!</p>

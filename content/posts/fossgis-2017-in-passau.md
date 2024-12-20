@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In zwei Wochen beginnt die alljährliche deutschsprachige <a href="https://www.fossgis-konferenz.de/2017/">FOSSGIS  Konferenz</a> zum Theme Open Source GIS und OpenStreetMap in Passau.</p>

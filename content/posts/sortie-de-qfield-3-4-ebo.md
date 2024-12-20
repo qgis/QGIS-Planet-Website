@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
 tags: ["gis", "news", "newsfr", "open source", "qfield", "sig", "android", "annonce", "apple", "mobile", "opengis.ch", "qfield", "qgis", "survey", "terrain"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Oslandia is the main partner of <a href="https://opengis.ch">OPENGIS.ch</a> around <a href="https://qfield.org">QField</a>. We are proud today to forward the announcement of the new QField release 3.4 &#8220;Ebo&#8221;.</p>

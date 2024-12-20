@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Nowadays, most computers have several processor cores. However, most computer programs are still designed to only use one processing unit. As a convenient and portable way of writing software using all the available processing power, Qt provides the excellent QtConcurrent framework.

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["markus_neteler"]
 author: "Markus Neteler"
 tags: ["blog", "discourse", "gis", "grass development", "osgeo"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The post <a href="https://neteler.org/blog/mailing-list-migration-to-osgeo-discourse/">Migration of grass-dev mailing list to OSGeo Discourse</a> appeared first on <a href="https://neteler.org">Markus Neteler Consulting</a>.</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>My first brush with GIS was back in 2004. I was just getting into building river models and spent a considerable amount of time digitising model inputs. These would often include tens and sometimes hundreds of kilometres of river banks. Many of the input features (e.g. flood embankments) would be traced to snap exactly to existing polygon features.</p>

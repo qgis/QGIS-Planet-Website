@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["anita_graser"]
 author: "Anita Graser"
 tags: ["gis", "llm", "chatgpt"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Earlier this year, I shared my experience using ChatGPT’s Data Analyst web interface for analyzing spatiotemporal data in the post <a href="https://anitagraser.com/2024/05/30/chatgpt-data-analyst-vs-movement-data/">&#8220;ChatGPT Data Analyst vs. Movement Data&#8221;</a>. The Data Analyst web interface, while user-friendly, is not equipped to handle all types of spatial data tasks, particularly those involving more complex or large-scale datasets. Additionally, because the code is executed on a remote server, we&#8217;re limited to the libraries and tools available in that environment. I&#8217;ve often encountered situations where the Data Analyst simply doesn’t have access to the necessary libraries in its Python environment, which can be frustrating if you need specific GIS functionality.</p>

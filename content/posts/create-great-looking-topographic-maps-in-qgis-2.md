@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["ireland_qgis_user_group_blog"]
 author: "Ireland QGIS User Group Blog"
 tags: ["qgis", "totorials", "hillshade", "topography", "tutorial"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><a href="https://ieqgis.files.wordpress.com/2015/04/wicklow-topo-original1.png"><img alt="Wicklow-Topo-original" class="alignnone size-large wp-image-749" height="292" src="https://ieqgis.files.wordpress.com/2015/04/wicklow-topo-original1.png?w=545&#038;h=292" width="545" /></a></p>
