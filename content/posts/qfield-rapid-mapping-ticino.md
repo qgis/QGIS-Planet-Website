@@ -2,7 +2,7 @@
 source: "blog"
 title: "Rapid Mapping the Ticino Floods and Landslides with QField Rapid Mapper"
 date: "2024-07-07T04:11:55+0000"
-link: "https://videos.files.wordpress.com/jsrjp0NU/rapidmapping.mp4"
+link: "https://www.opengis.ch/2024/07/07/qfield-rapid-mapping-ticino/"
 draft: "false"
 showcase: "planet"
 subscribers: ["opengisch"]

@@ -2,7 +2,7 @@
 source: "blog"
 title: "QGIS Add to Felt Plugin – Phase 2"
 date: "2023-10-11T01:34:45+0000"
-link: "https://north-road.com/wp-content/uploads/2023/10/Add-to-Felt-Install-and-Update.mp4"
+link: "https://north-road.com/2023/10/11/qgis-add-to-felt-plugin-phase-2/"
 draft: "false"
 showcase: "planet"
 subscribers: ["north_road"]
