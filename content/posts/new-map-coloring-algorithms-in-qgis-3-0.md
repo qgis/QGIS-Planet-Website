@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["nyalldawson_net"]
 author: "nyalldawson.net"
 tags: ["qgis", "3.0", "cartography", "colour", "osgeo", "processing", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>It&#8217;s been a long time since I last blogged here. Let&#8217;s just blame that on the amount of changes going into QGIS 3.0 and move on&#8230;</p>

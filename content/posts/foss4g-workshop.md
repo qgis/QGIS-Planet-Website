@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We presented a workshop on Mesh layer in QGIS during FOSS4G in Bucharest. Below is step-by-step guide for those who’d like to know more about mesh layers in QGIS.</p>

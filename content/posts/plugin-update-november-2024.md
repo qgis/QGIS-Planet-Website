@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_project_blog"]
 author: "QGIS Project blog"
 tags: ["plugin update"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>November was a really productive month, with a remarkable total of 43 new plugins published in <a href="https://plugins.qgis.org/plugins/"><strong>QGIS plugin repository</strong>.</a> In addition there are 3 more plugins from October listed here, which somehow were missed, and for that we apologize to their authors.</p>

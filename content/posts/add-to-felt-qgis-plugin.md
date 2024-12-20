@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["north_road"]
 author: "North Road"
 tags: ["partners", "qgis", "collaboration", "community", "felt", "geospatial", "integration", "plugins", "qgis", "sponsors"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><img alt="" class="alignnone size-large wp-image-212558" height="538" src="https://north-road.com/wp-content/uploads/2023/06/Q_F-1024x538.jpeg" width="1024" /></p>

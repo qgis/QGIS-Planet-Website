@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["maptiler"]
 author: "maptiler.com"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Details of MapTiler QGIS Plugin 3.0 with a global terrain basemap and customizable OpenStreetMap vector tiles.

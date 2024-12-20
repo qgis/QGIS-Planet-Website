@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 In one week, the 2014 FOSS4G Conference will start in Portland/Oregon. Sourcepole supports this major event as a bronze sponsor.

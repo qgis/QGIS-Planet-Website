@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We are delighted to announce that the crowdfunding to <a href="https://www.lutraconsulting.co.uk/crowdfunding/vectortile-qgis/">support Vector Tiles in QGIS</a> has been successful!</p>

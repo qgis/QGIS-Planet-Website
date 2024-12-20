@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>After the addition of support for visualising point clouds in the recent versions of QGIS, the next step was to add the processing tools so users can manage and analyse their data.</p>

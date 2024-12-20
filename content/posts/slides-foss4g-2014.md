@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Slides from our presentations at FOSS4G 2014 in Portland/Oregon:

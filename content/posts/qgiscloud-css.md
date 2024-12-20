@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 In an earlier post, I showed how it is possible to permanently position a legend in the QGIS Cloud map as part of a QGIS Cloud Pro subscription. To achieve this, the appearance of the map view was changed using CSS. In this post, I will describe exactly what this is and how it works.

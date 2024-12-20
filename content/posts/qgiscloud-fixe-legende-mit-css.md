@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 With QGIS Cloud Pro it is possible to change the appearance and behaviour of the QGIS Cloud Web Client via CSS. You can easily manipulate the colour of frames and fonts, etc. An example that is not obvious is displaying the legend in a fixed location on the map. In this way, the legend can be made a fixed part of the map in QGIS Cloud QWC2.

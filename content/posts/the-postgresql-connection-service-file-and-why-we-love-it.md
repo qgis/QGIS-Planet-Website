@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["opengisch"]
 author: "OPENGIS.ch blog"
 tags: ["interlis", "postgresql", "qgis", "qgis plugins", "qgis.org"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><strong><em>The PostgreSQL Connection Service File <code>pg_service.conf</code> is nothing new. It has existed for quite some time and maybe you have already used it sometimes too. But not only the new QGIS plugin <a href="https://github.com/opengisch/qgis-pg-service-parser-plugin">PG service parser</a> is a reason to write about our love for this file, as well we generally think it’s time to show you how it can be used for really cool things.</em></strong></p>

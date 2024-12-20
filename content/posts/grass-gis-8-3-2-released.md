@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["markus_neteler"]
 author: "Markus Neteler"
 tags: ["blog", "gis", "grass", "opensource", "osgeo"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The GRASS GIS 8.3.2 maintenance release contains more than 30 changes compared to 8.3.1. This new patch release includes important fixes and improvements to the GRASS GIS modules and the graphical user interface (GUI), making it even more stable for daily work.</p>

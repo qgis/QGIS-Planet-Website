@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["nyalldawson_net"]
 author: "nyalldawson.net"
 tags: ["qgis", "foss4g", "geospatial", "osgeo", "pyqgis", "python", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Last week the first official &#8220;<a href="https://foss4g-oceania.org/">FOSS4G/SOTM Oceania</a>&#8221; conference was held at Melbourne University. This was a fantastic event, and there&#8217;s simply no way I can extend sufficient thanks to all the organisers and volunteers who put this event together. They did a brilliant job, and their efforts are even more impressive considering it was the inaugural event!</p>

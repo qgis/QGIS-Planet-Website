@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["faunalia"]
 author: "Faunalia"
 tags: ["uncategorized"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Avere tutto QGIS, incluso il programma, i manuali e il sito web, tradotti in italiano è una bella comodità; questo richiede uno sforzo notevole, per cui il tuo aiuto è essenziale. Fai una donazione tramite: http://qgis.it/#translation

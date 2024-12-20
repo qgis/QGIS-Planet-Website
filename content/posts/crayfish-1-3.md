@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Crayfish is becoming the must-have QGIS plugin for those working with the <a href="http://www.xmswiki.com/wiki/SMS:Binary_Dataset_Files_*.dat" rel="nofollow" target="_blank">binary</a> and <a href="http://www.xmswiki.com/wiki/SMS:ASCII_Dataset_Files_*.dat" rel="nofollow" target="_blank">ascii</a> DAT/.2dm formats. Recently we had some requests from <a href="http://www.basement.ethz.ch/about" rel="nofollow" target="_blank">BASEMENT</a> users to fully support the file format of their modelling package.</p>

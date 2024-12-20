@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Following our crowdfunding campaign, we are pleased to announce the completion of QGIS packages for macOS.</p>

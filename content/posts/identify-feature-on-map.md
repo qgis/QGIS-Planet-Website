@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_tips"]
 author: "QGIS Tips"
 tags: ["map tools", "plugins"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>A very awaited feature is now available in the master version of QGIS: identifying features in the map!</p>

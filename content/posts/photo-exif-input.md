@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In this post, we will explore the new feature in the <a href="https://merginmaps.com/">Input app</a> which allows you to record and display photo’s geotag information (e.g. direction, longitude and latitude).</p>

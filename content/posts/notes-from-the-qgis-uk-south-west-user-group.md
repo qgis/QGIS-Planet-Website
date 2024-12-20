@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_uk"]
 author: "QGIS UK"
 tags: ["uncategorized"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Yesterday Dartmoor National Park was host to the third QGIS user group for the South West region. We a great range of talks from the worlds of academia, offshore exploration and local government to name but a few. The slides from these are below.</p>

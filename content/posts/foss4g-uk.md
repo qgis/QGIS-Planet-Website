@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_uk"]
 author: "QGIS UK"
 tags: ["user groups", "foss4g uk", "osgeo"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><img alt="foss4guk_2016_logo" class="alignleft size-full wp-image-1439" src="https://ukqgis.files.wordpress.com/2016/04/foss4guk_2016_logo.png?w=700" /></p>

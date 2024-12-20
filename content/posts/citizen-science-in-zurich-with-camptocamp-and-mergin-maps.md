@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Discover how Camptocamp, in collaboration with Zurich, used Mergin Maps and QGIS to map bird nesting sites, empowering volunteers to collect accurate survey data.

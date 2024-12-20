@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Everybody who gets an Eee PC has to write about it&ndash;it&rsquo;s required. I don&rsquo;t really have much to add to the raft of reviews, except for one small point.

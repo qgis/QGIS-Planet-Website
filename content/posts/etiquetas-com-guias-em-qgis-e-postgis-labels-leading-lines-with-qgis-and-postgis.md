@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["alexandre_netos_blog"]
 author: "Alexandre Neto's blog"
 tags: ["uncategorized", "cartography", "hint", "postgis", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p style="text-align: left;">EN | <span style="color: #808080;"><a href="https://sigsemgrilhetas.wordpress.com/2015/01/12/etiquetas-com-guias-em-qgis-e-postgis-labels-leading-lines-with-qgis-and-postgis/">PT</a></span></p>

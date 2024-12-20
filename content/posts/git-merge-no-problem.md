@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Using Git with Subversion makes adding new features easy. Here are the metrics for my latest QGIS hack:

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["markus_neteler"]
 author: "Markus Neteler"
 tags: ["blog", "community sprint", "gis", "grass", "grass development", "opensource", "osgeo"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The GRASS GIS 8.4.0RC1 release provides more than 515 improvements and fixes with respect to the release 8.3.2. Please support us in testing this release candidate.</p>

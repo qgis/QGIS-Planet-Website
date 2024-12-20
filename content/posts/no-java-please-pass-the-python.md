@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 After a rather long lapse, I had the occasion to write some Java code recently (mainly because it didn&rsquo;t look like Howard&rsquo;s PySDE was functional).

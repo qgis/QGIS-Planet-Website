@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 I guess Ubuntu must be popular. I&rsquo;m just trying to upgrade my Feisty install so I can do the upgrade to Gutsy. Looks like it&rsquo;s going to take a while&hellip;

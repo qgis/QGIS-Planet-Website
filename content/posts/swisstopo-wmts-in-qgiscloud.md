@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 The Swisstopo services can be used free of charge for commercial purposes since March 1st. In this blog article I want to show how these high quality data can be published on qgiscloud.com.

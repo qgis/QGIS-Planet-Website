@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Nominations for the QGIS PSC closed at 00:00 UTC on August 25, 2013 [1].

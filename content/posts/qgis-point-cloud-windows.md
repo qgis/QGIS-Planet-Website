@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In the past months, we have been busy adding support for point cloud data in QGIS (3.18). Read more on how to install and test this feature under MS Windows.</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["north_road"]
 author: "North Road"
 tags: ["3d tiles", "core feature development", "integrations", "partners", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <div class="ql-block">Success! <a class="ql-link" href="https://www.lutraconsulting.co.uk/" rel="noopener noreferrer" target="_blank">Lutra </a>and North Road have been rewarded a Cesium Ecosystem Grant to provide access to 3D tiles within QGIS. We will be creating the ability for users to visualise 3D Tiles in QGIS alongside other standard geospatial sources in both 3D and 2D map views.</div>

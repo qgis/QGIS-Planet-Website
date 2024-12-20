@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 The Plugin Builder allows you to quickly create a skeleton Python plugin by generating all that boring boilerplate that every plugin requires.

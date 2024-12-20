@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_project_blog"]
 author: "QGIS Project blog"
 tags: ["plugin update"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Between April and May there were 33 new plugins published in the <a href="https://plugins.qgis.org/plugins/"><strong>QGIS plugin repository</strong>.</a></p>

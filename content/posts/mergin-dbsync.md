@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>One of the challenges of data collection projects is consolidating all the data a central database, such as Postgres/PostGIS. Using PostGIS as a live survey layer is not usually recommended:</p>

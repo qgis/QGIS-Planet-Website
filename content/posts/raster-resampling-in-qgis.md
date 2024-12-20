@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 QGIS already offers a lot of possibilities to visualize raster data (contrast enhancement, color map, handling of transparent pixels, &hellip;) Last year, Radim Blazek refactored the raster provider interface and added on-the-fly reprojection support for rasters to QGIS. Very cool!

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["anita_graser"]
 author: "Anita Graser"
 tags: ["big data", "gis", "movement data in gis", "qgis", "geopandas", "geoparquet"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>tldr; Tired of working with large CSV files? Give GeoParquet a try!</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Am 21. April 2010 findet das erste deutschsprachige QGIS User-Meeting in Bern statt. Das Programm und die detaillierten Angaben können auf der QGIS-Homepage nachgelesen werden.

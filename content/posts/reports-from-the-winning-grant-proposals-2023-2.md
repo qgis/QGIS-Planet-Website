@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_project_blog"]
 author: "QGIS Project blog"
 tags: ["qgis grant programme", "grants"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>With the <a href="https://blog.qgis.org/2023/06/26/qgis-grant-programme-2023-results/">QGIS Grant Programme 2023</a>, we were able to support six proposals (four in the first round and two in the second round) that are aimed to improve the QGIS project, including software, infrastructure, and documentation. The following reports summarize the work performed in the first four proposals:  </p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["north_road"]
 author: "North Road"
 tags: ["integrations", "partners", "qgis", "atlas", "cartography", "plugins", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><img alt="Soar banner" class="alignnone size-large wp-image-212592" height="296" src="https://north-road.com/wp-content/uploads/2023/08/soar_banner-1024x296.png" width="1024" /></p>

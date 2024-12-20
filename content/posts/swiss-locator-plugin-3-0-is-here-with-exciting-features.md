@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["opengisch"]
 author: "OPENGIS.ch blog"
 tags: ["3d", "qgis", "elevation profile", "qgis.org", "swissalti3d", "vector tiles"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <h2 class="wp-block-heading">Swiss elevation profiles</h2>

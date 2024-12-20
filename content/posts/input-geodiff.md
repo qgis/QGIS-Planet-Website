@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The latest beta release of Input (v.0.4.90) comes with smart diff support for vectors. This will allow you to use the app (current beta version) in a collaborative environment, where several users can make changes to a single survey layer (geopackage).</p>

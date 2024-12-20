@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["nyalldawson_net"]
 author: "nyalldawson.net"
 tags: ["qgis", "2.12", "geospatial", "layers", "osgeo", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In part 3 of my exploration of variables in QGIS 2.12, I&#8217;m going to dig into how variables are scoped in QGIS and what layer level variables are available (you can read parts <a href="http://nyalldawson.net/2015/12/exploring-variables-in-qgis-2-12-part-1/">1</a> and <a href="http://nyalldawson.net/2015/12/exploring-variables-in-qgis-pt-2-project-management/">2</a> for a general introduction to variables).</p>

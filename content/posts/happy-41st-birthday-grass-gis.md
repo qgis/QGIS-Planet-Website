@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["markus_neteler"]
 author: "Markus Neteler"
 tags: ["blog", "gis", "grass", "grass development", "osgeo"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Today, we celebrate a true geospatial legend: GRASS GIS!</p>

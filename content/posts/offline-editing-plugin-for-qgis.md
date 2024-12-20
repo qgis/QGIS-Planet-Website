@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 For data collection, it is a common situation to work with a laptop or a phone offline in the field. Upon returning to the network, the changes need to be synchronized with the master data source, e.g. a PostGIS database. If several persons are working simultaneously on the same datasets, it is difficult to merge the edits by hand, even if people don&rsquo;t change the same features.

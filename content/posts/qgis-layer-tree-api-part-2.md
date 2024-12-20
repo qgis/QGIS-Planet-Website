@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In <a href="https://www.lutraconsulting.co.uk/blog/2014/07/06/qgis-layer-tree-api-part-1/">part 1</a> we covered how to access the project’s layer tree

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In this year Google Summer of Code (GSoC), there is a project involving QGIS 3D. <a href="https://ismailsunni.id">Ismail Sunni</a> as the student with Martin Dobias and Peter Petrik as the mentors

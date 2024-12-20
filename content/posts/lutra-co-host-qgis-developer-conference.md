@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Lutra Consulting and the <a href="http://www.sussex.ac.uk" rel="nofollow" target="_blank">University of Sussex</a> are proud to host the 10<sup>th</sup> developer conference (or Hackfest) on the 12<sup>th</sup> to 16<sup>th</sup> of September. QGIS is a powerful and user-friendly Free and Open Source GIS capable of viewing, analysing and mapping Geographic Information.</p>

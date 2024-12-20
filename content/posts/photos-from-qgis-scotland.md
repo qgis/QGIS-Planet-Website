@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_uk"]
 author: "QGIS UK"
 tags: ["user groups"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>&nbsp;</p>

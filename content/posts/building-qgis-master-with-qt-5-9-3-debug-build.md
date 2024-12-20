@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["itopen"]
 author: "ItOpen"
 tags: ["gis", "qgis", "[lang_it]programmazione[/lang_it][lang_en]programming[/lang_en]"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Building QGIS from sources is not hard at all on a recent linux box, but what about if you wanted to be able to step-debug into Qt core or if you wanted to build QGIS agains the latest Qt release?

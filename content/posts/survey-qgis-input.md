@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In this post, we will walk you through basic steps to set up a survey project in QGIS desktop and using it in <a href="https://merginmaps.com/">Input app</a> to collect data in field using your Android or iPhone/iPad device.</p>

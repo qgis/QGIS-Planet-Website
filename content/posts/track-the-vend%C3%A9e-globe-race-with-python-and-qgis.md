@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["geotribu_en"]
 author: "Geotribu"
 tags: ["article", "geopandas", "pandas", "python", "qgis", "vendée globe", "sailing"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Create and visualize GIS data on the progress of the Vendée Globe 2024 race from official spreadsheets.

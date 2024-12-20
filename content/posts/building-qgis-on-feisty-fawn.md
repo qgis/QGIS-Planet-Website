@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Here is the process I used to quickly build (OK, but it was faster than usual) QGIS HEAD on Feisty Fawn. What&rsquo;s QGIS HEAD? It&rsquo;s the current development version that includes the tasty Python bindings that allow you to write both QGIS plugins and stand-alone mapping applications.

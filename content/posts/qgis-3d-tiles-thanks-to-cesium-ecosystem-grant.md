@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["north_road"]
 author: "North Road"
 tags: ["3d tiles", "integrations", "qgis", "3d", "cesium", "osgeo", "qgis", "tiles"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We&#8217;ve recently had the opportunity to implement a very exciting feature in QGIS 3.34 &#8212; the ability to load and view 3D content in the &#8220;Cesium 3D Tiles&#8221; format! This was a joint project with our (very talented!) partners at <a class="ql-link" href="https://www.lutraconsulting.co.uk/" rel="noopener noreferrer" target="_blank">Lutra Consulting</a>, and was made possible thanks to a generous ecosystem grant from the <a href="https://cesium.com/">Cesium</a> project.</p>

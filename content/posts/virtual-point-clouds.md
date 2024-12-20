@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>As a part of our <a href="https://www.lutraconsulting.co.uk/crowdfunding/pointcloud-processing-qgis/">crowdfunding</a> campaign we have introduced a new method to handle a large number of point cloud files. In this article, we delve into the technical details of the new format, rationale behind our choice and how you can create, view and process virtual point cloud files.</p>

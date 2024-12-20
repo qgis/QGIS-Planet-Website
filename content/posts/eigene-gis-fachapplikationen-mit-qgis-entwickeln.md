@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Als Ergebnis der Zusammenarbeit zwischen der Sourcepole AG und der Hochschule Rapperswil (HSR) ist ein Video entstanden, dass die Entwicklung eigener Fachschalen mit QGIS beschreibt.

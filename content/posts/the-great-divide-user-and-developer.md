@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 a great divide separates the typical open source developer and user. each has differing expectations, assumptions, and priorities. the interaction between developer and user can be helpful, cordial, confrontational, or antagonistic.

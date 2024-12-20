@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Well, the QGIS workshop at FOSS4G2007 is history. We had a capacity crowd and covered a lot of ground in a short 3 hours.

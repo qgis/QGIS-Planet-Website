@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["itopen"]
 author: "ItOpen"
 tags: ["gis", "qgis", "qgis server"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Another great QGIS hackfest is gone, and it&#8217;s time for a quick report.

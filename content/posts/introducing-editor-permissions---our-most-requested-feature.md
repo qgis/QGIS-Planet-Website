@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Feeling unheard in GIS work? Mergin Maps streamlines data collection, collaboration, and sharing QGIS projects with a new Editor role for field surveyors.

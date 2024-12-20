@@ -26,12 +26,14 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [permalinks]
 	categories = "/categories/:slug/"
 	tags = "/tags/:slug/"
+  languages = "/languages/:slug/"
 	subscribers = "/subscribers/:slug/"
 
 # Taxonomies
 [taxonomies]
 	category = "categories"
 	tag = "tags"
+  language = "languages"
 	subscriber = "subscribers"
   
 [params]

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We brought back the option for centring to GPS position when entering the recording mode. Additionally, we added a new entry into the application settings to disable this behavior if desired.</p>

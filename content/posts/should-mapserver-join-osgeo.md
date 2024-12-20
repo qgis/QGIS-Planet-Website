@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 The MapServer Technical Steering Committee today approved an RFC that calls for MapServer to join the newly formed Open Source Geospatial Foundation. A poll has been put up on the MapServer site (login required) to collect the responses from the community.

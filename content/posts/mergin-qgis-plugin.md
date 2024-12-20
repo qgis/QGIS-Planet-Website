@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>One of the key features of <a href="https://merginmaps.com/">Input</a> mobile app, is the ability to upload/download your data from field through <a href="https://merginmaps.com/">Mergin</a> directly from the app.</p>

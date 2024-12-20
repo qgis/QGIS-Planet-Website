@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["itopen"]
 author: "ItOpen"
 tags: ["qgis", "qgis server"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 QGIS Developer Sprint in Lyon

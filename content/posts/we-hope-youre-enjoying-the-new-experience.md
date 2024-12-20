@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 We're excited to announce significant updates to our ecosystem. Over the past few months, we've dedicated ourselves to redesigning both the mobile app and dashboard, aiming to enhance your overall experience.

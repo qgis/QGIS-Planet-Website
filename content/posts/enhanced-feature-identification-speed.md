@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In our latest update, we've turbocharged the speed of feature identification on the map! Enjoy a faster and more responsive experience as you navigate and identify features with efficiency.</p><p></p>

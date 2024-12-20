@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Crayfish 2.7 is out with grid calculator, new formats and several enhancements. This will likely to be the last version of Crayfish for QGIS 2.x. We have started a crowd-funding campaign to port Crayfish to QGIS 3.</p>

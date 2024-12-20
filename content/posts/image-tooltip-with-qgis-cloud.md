@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 A lot of people are using QGIS Cloud as a service with ready to use QGIS webclient. It’s very easy to publish data and share maps in this way. Publishing of georeferenced images can be done with QGIS Cloud in a few steps as well. But the main problems are:

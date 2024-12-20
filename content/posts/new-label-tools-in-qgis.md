@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 In cartography, it is a frequent operation to set labels to fixed positions, together with the position of the fix point (left/middle/right, Top, Half, Bottom) that is kept constant in case of font change, rotation or zoom. Therefore, three new editing tools to manipulate text labels are now in the QGIS developer version:

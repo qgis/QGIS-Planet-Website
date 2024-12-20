@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_project_blog"]
 author: "QGIS Project blog"
 tags: ["public service announcement"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><strong>We have a new website!</strong></p>

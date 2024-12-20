@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In QGIS 3, we have introduced support for 3D canvas. Most of the functionalities are intuitive and easy to use. But there are some configuration options which are hidden and require a bit of more in-depth explanation for users and developers.</p>

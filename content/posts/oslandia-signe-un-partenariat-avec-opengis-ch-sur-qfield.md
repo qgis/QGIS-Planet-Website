@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
 tags: ["gis", "newsfr", "qgis", "mobile", "opengis", "partenariat", "qfield", "qfieldcloud", "sig"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <h2>Who are we?</h2>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 In this day of GUI GIS, sometimes you can&rsquo;t beat the good old command line for getting a job done, regardless of whether you use Linux/Unix, Mac OS X, or Windows. This may sound strange coming from someone heavily invested in a GUI project but its true.

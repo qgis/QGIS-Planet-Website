@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>QGIS 3.36 is round the corner and as usual, there will be several new exciting features with the new release. Below is the list of features our team has added to the new release. This was made possible by generous funding from clients.</p>

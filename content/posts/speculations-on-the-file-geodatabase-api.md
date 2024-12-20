@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 At the ESRI Developer Summit there was news of the File Geodatabase (FGDB) API. Based on the tweets from the summit it appears:

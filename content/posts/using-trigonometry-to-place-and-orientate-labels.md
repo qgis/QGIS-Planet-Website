@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["ireland_qgis_user_group_blog"]
 author: "Ireland QGIS User Group Blog"
 tags: ["2.18", "qgis", "tutorial", "labels", "map"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Geologists display the <a href="https://qph.ec.quoracdn.net/main-qimg-4c16f5811d1b58fffb01407df6850745" rel="noopener" target="_blank">dip and strike</a> of rock layers on <a href="https://ngmdb.usgs.gov/ngmdb/ngmdb_home.html" rel="noopener" target="_blank">geological maps</a> using a <a href="http://geologyclass.org/struct6.gif" rel="noopener" target="_blank">dip and strike symbol,</a> where dip in degrees indicates the maximum angle a rock layer descends relative to the horizontal. However, it is not directly possible in <a href="https://www.qgis.org/en/site/index.html" rel="noopener" target="_blank">QGIS 2.18</a>, using basic label settings, to place and orient a dip label next to a dip and strike symbol.</p>

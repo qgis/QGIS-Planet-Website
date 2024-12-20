@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["alexandre_netos_blog"]
 author: "Alexandre Neto's blog"
 tags: ["uncategorized", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>EN | <a href="https://sigsemgrilhetas.wordpress.com/2016/01/02/top-novas-funcionalidades-do-qgis-em-2015/">PT</a></p>

@@ -14,8 +14,16 @@ from dateutil.parser import parse as date_parse
 SUBSCRIBERS_JSON_PATH = os.path.join(os.path.dirname(__file__), 'data', 'subscribers.json')
 ALL_POSTS_FOLDER = os.path.join("content", "posts")
 
+
 class FeedProcessor:
-    def __init__(self, subscriber_name, shortname, feed_url):
+    def __init__(
+            self,
+            subscriber_name: str,
+            shortname: str,
+            feed_url: str,
+            available_lang: list,
+            main_lang: str):
+
         """
         Initializes a new instance of the class.
 
@@ -23,6 +31,8 @@ class FeedProcessor:
             subscriber_name (str): The name of the subscriber.
             shortname (str): A short name or identifier for the subscriber.
             feed_url (str): The URL of the feed to be fetched.
+            available_lang (list): A list of languages available for the feed.
+            main_lang (str): The default language for the feed.
 
         Description:
             This class is responsible for initializing the subscriber's details 
@@ -32,6 +42,8 @@ class FeedProcessor:
         self.subscriber_name = subscriber_name
         self.shortname = shortname
         self.feed_url = feed_url
+        self.available_lang = available_lang
+        self.main_lang = main_lang
 
     def fetch_and_create_post(self):
         try:
@@ -43,11 +55,12 @@ class FeedProcessor:
 
     def process_entry(self, entry):
         try:
+            dest_folder = self.get_dest_folder()
             title = entry.title
             image_url = next((link.href for link in entry.links if 'image' in link.type), entry.links[-1].href)
             if image_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')):
                 file_name = self.get_image_name(image_url)
-                self.download_image(image_url, file_name)
+                self.download_image(image_url, file_name, dest_folder)
 
             post_url = entry.link
 
@@ -61,13 +74,20 @@ class FeedProcessor:
 
             content = self.generate_markdown_content(title, entry_date, post_url, content, tags)
             
-            # Copy the markdown file to the all-posts folder
-            os.makedirs(ALL_POSTS_FOLDER, exist_ok=True)
-            markdown_filename = os.path.join(ALL_POSTS_FOLDER, f"{file_name}.md")
+            # Copy the markdown file to the posts/lang folder
+            markdown_filename = os.path.join(dest_folder, f"{file_name}.md")
             self.write_to_file(markdown_filename, content)
 
         except Exception as e:
             print(f"Failed to process entry for {self.subscriber_name}: {e}")
+    
+    def get_dest_folder(self):
+        """
+        Get the destination folder
+        """
+        dest_folder = ALL_POSTS_FOLDER
+        os.makedirs(dest_folder, exist_ok=True)
+        return dest_folder
 
     def get_image_name(self, image_url):
         name = os.path.basename(os.path.normpath(image_url))
@@ -116,6 +136,7 @@ class FeedProcessor:
 
     def generate_markdown_content(self, title, entry_date, image_url, summary, tags):
         tags_str = ", ".join([f'"{tag}"' for tag in tags])
+        available_lang_str = ", ".join(f'"{str(lang).lower()}"' for lang in self.available_lang)
         return f"""---
 source: "blog"
 title: "{title}"
@@ -126,6 +147,8 @@ showcase: "planet"
 subscribers: ["{self.shortname}"]
 author: "{self.subscriber_name}"
 tags: [{tags_str}]
+languages: ["{self.main_lang.lower()}"]
+available_languages: [{available_lang_str}]
 ---
 
 {summary}
@@ -135,13 +158,13 @@ tags: [{tags_str}]
         with open(filename, "w", encoding="utf=8") as f:
             f.write(content)
 
-    def download_image(self, image_url, image_name):
+    def download_image(self, image_url, image_name, dest_folder):
         response = requests.get(image_url, stream=True)
-        os.makedirs(ALL_POSTS_FOLDER, exist_ok=True)
-        image_filename = os.path.join(ALL_POSTS_FOLDER, image_name)
+        image_filename = os.path.join(dest_folder, image_name)
         with open(image_filename, 'wb') as out_file:
             shutil.copyfileobj(response.raw, out_file)
             print(f"Writing: {image_filename}")
+
 
 class FunderProcessor:
     """
@@ -182,7 +205,7 @@ class FunderProcessor:
         image_ext = os.path.splitext(path)[1]
         name = os.path.basename(os.path.normpath(link))
         image_name = "%s.%s" % (name, image_ext)
-        image_name = image_name.replace("..",".")
+        image_name = image_name.replace("..", ".")
 
         content = f"""---
 level: "{level}"
@@ -195,7 +218,7 @@ country: "{country}"
 ---
 """
         markdown_filename = f"content/funders/{name}.md"
-        with open(markdown_filename , "w", encoding="utf=8") as f:
+        with open(markdown_filename, "w", encoding="utf=8") as f:
             f.write(content)
             print(f"Writing: {markdown_filename}")
 
@@ -213,6 +236,7 @@ country: "{country}"
         except Exception as e:
             print(f"Error resizing image: {e}")
 
+
 if __name__ == "__main__":
     # Load the subscribers from the JSON file
     with open(SUBSCRIBERS_JSON_PATH, 'r') as f:
@@ -220,8 +244,20 @@ if __name__ == "__main__":
 
     # Iterate over the subscribers and fetch posts for active ones
     for subscriber in subscribers:
-        if subscriber['is_active']:
-            processor = FeedProcessor(subscriber['name'], subscriber['shortname'], subscriber['feed'])
-            processor.fetch_and_create_post()
+        if not subscriber.get('is_active'):
+            continue
+        
+        languages = subscriber.get('languages', {})
+        available_lang = languages.get('available', ["en_GB"])
+        main_lang = languages.get('main', "en_GB")
+        
+        processor = FeedProcessor(
+            subscriber['name'],
+            subscriber['shortname'],
+            subscriber['feed'],
+            available_lang,
+            main_lang
+        )
+        processor.fetch_and_create_post()
     
     # FunderProcessor.fetch_funders()

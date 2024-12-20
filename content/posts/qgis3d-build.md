@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>QGIS support for 3D canvas is ready for testing. A possible hurdle in getting QGIS compiled with 3D support may be the fact that

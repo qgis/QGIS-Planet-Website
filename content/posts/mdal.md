@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In the world of GIS, vector and raster are the most common data types to represent real world features. But not always, vectors and rasters can describe the complexity and nature of the data.</p>

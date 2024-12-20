@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Sourcepole hat an der FOSSGIS 2024 in Hamburg verschiedene Themen mit Vorträgen abgedeckt:</p>

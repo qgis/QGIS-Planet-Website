@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
 tags: ["gis", "newsfr", "qgis", "sig", "opengis.ch", "qfield", "release"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We are very happy and enthusiasts at Oslandia to forward the <a href="https://www.opengis.ch/fr/2023/10/24/qfield-3-0-amazonia-is-here/">QField 3.0 release announcement</a>, the new major update of this mobile GIS application based on QGIS.</p>

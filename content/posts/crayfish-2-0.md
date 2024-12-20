@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>After listening to user feedback we decided to do some major work on Crayfish. The changes include code refactoring, changes to the user interface, support for an additional file format, adding a vector and contour overlay, and a shiny new logo! </p>

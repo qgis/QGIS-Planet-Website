@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Reporting back from FOSS4G 2017 in Boston, which started with the usual QGIS plugin programming workshop, this time at the Harvard University campus.</p>

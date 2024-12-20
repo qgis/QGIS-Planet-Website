@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Das QGIS Projekt hat zum Ziel, ein plattformunabhängiges, einfach zu bedienendes und offenes Desktop GIS zu entwickeln. Im vergangenen Jahr hat die Aktivität in der QGIS-Community erneut zugenommen. Seit der letzten FOSSGIS Konferenz in Osnabrück hat sich QGIS wieder enorm weiterentwickelt. Sucht man sich (aus der Liste der svn commits) alle Neuerungen des letzten Jahres heraus, so kommt man auf eine Liste, die den Rahmen dieses Artikels bei weitem sprengen würde.

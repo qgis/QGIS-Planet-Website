@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Performance is usually a top priority for a WMS service. A recent talk at the FOSSGIS (held by Sourcepole) shows what a WMS administrator can do to optimise QGIS server performance. Finally, the performance of QGIS server is compared with UMN mapserver in two production scenarios.

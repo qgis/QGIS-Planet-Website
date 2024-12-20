@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Kurz nach dem Release von QGIS 1.5, das mit vielen neuen Funktionen aufwartet, ist auch der QGIS Mapserver in der Version 1.0 verfügbar.

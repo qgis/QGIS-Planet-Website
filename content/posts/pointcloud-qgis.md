@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We are delighted to announce that in collaboration with <a href="https://north-road.com/">North Road</a> and <a href="https://hobu.co/">Hobu</a>, we are running <a href="https://www.lutraconsulting.co.uk/crowdfunding/pointcloud-qgis/">a crowdfunding campaign</a> to implement native support for point cloud data in QGIS.</p>

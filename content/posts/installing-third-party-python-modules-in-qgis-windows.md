@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We’ve recently been developing a client plugin for forest management which relies on the Python <em>SQLAlchemy</em> module. When I installed the latest version of my colleague’s work I got a Python traceback error about a missing Python module (SQLAlchemy).</p>

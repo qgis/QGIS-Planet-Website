@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 With the recent changes to the Mergin Maps plugin for QGIS, you can visualise the local changes before synchronising your data. Read more in our blog post!

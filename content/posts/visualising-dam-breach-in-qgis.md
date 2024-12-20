@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Recently, I have <a href="http://foreignpolicy.com/2016/02/03/will-italy-be-able-to-fix-the-worlds-most-dangerous-dam/">come across</a> the <a href="http://www.theguardian.com/world/2016/mar/02/mosul-dam-engineers-warn-it-could-fail-at-any-time-killing-1m-people">news</a> about extent of damage and human loss, in case of <a href="http://www.scienpress.com/Upload/GEO/Vol%205_3_8.pdf">the Mosul dam breach in Iraq</a>.</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 QGIS Cloud (www.qgiscloud.com) is a platform which provides a convenient geodata infrastructure including database, web services and web maps in the cloud. Recently, Sourcepole implemented the possibility to enable web-based editing in published maps. This blog post shows how to enable editing in QGIS cloud pro maps.

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_uk"]
 author: "QGIS UK"
 tags: ["user groups", "scotland"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The next event on the QGIS UK user group roadshow is the 7th Scottish meeting at the Informatics Forum in Edinburgh on 16th November.</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The case study presents the C++ development of QGIS Desktop to support rendering of 3D results produced by TUFLOW’s 3D capable solver: TUFLOW FV (10 minute read)</p>

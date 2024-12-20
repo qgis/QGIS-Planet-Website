@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Mesh layer is now supported for the 1D, 2D and 3D data frames. It also comes with integration to the temporal controller in QGIS 3.14.</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In this blog post we’ll learn how to use Ordnance Survey AddressBase data with the QGIS Discovery plugin for searching addresses.</p>

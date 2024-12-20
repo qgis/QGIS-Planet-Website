@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 The QGIS project has a number of support channels. Like many open source projects, these are loosely coupled. Recently the forum was made read-only and this has prompted a number of questions and concerns about how to receive support. This post outlines the ways in which you can get your questions answered.

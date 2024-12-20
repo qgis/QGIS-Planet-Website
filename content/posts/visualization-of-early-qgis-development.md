@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Years ago (2011), Nathan Woodrow did a visualization of code commits between QGIS 1.6 and 1.7 using Gource. I wanted to contrast the slow beginning of QGIS in 2002 with the flurry of activity in recent years.

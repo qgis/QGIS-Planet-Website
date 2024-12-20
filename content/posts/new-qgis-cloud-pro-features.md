@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 We are pleased to announce that today we have published a new release of QGIS Cloud. Besides a whole bunch of bug fixes, we have also introduced new features for QGIS Cloud Pro customers. Starting with this release, we will be releasing more features for our QGIS Cloud Pro customers in the coming weeks.

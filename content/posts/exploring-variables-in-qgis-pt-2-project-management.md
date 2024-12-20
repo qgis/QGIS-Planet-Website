@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["nyalldawson_net"]
 author: "nyalldawson.net"
 tags: ["qgis", "2.12", "geospatial", "osgeo", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Following on from <a href="http://nyalldawson.net/2015/12/exploring-variables-in-qgis-2-12-part-1/">part 1</a> in which I introduced how variables can be used in map composers, I&#8217;d like to now explore how using variables can make it easier to manage your QGIS projects. As a quick refresher, variables are a new feature in QGIS 2.12 which allow you to create preset values for use anywhere you can use an expression in QGIS.</p>

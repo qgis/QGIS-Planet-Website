@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 I use Linux and OS X as my primary operating systems. Lately I have been using the Powerbook exclusively with ssh or FreeNx to work on the Linux machines on the network.

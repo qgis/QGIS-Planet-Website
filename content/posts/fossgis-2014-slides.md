@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Neues in QGIS 2.2 Nach dem lange erwarteten Release von QGIS 2.0 im September 2013, sind ab diesem Jahr neue Versionen im Viermonatszyklus geplant. Es werden die neuen Funktionen in QGIS 2.2, wie z.B. DB-Relationen mit verschachtelten Formularen, die erweiterten Methoden zur Transformierung geographischer Koordinatensysteme, zahlreiche Verbesserungen im Print Composer und ein komplett überarbeiteter DXF Export vorgestellt. Zusätzlich wird eine Vorschau auf das multithreaded Rendering gegeben und die neuen Mitglieder im Project Steering Committee vorgestellt

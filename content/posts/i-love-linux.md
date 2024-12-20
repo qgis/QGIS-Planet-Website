@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 $ uptime 20:20:56 up 434 days, 15:31, 2 users, load average: 2.32, 0.89, 0.53

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_uk"]
 author: "QGIS UK"
 tags: ["user groups", "edina", "edinburgh", "ordnance survey", "qgis", "scotland", "thinkwhere", "user group"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The 6th <a href="http://qgis.uk/">QGIS UK</a> user group meeting in Scotland is happening on the 3rd November 2016.  It is being hosted by the EDINA <a href="http://edina.ac.uk/">University of Edinburgh</a> at the Informatics Forum and is sponsored by <a href="http://www.thinkwhere.com">thinkWhere</a>, <a href="http://os.uk/">Ordnance Survey</a>, <a href="http://www.angus.gov.uk">Angus Council</a> and <a href="http://www.cawdorforestry.com">Cawdor Forestry</a>.  Tickets are available <a href="https://www.eventbrite.co.uk/e/uk-qgis-user-group-scotland-tickets-27955482601">through Eventbrite</a>.</p>

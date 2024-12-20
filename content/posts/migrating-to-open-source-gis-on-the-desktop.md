@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 I keep seeing more evidence that many people and organizations are migrating to open source GIS on the desktop. In many cases a mix of proprietary and open source GIS is in use.

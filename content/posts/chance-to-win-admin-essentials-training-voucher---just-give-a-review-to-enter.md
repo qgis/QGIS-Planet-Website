@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Don’t miss out on this opportunity to win a free seat at an upcoming Mergin Maps Admin Essentials training.

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 QGIS Cloud Support is repeatedly asked: ‘Why is my QGIS Cloud map so slow and what can I do to make it faster?’ Basically, the bottlenecks can be traced back to poor data management and/or a slow internet connection. In this short blog article, I would like to give you a few tips on what you can do to speed up a slow loading map.

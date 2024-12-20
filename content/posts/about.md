@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Gary Sherman has a wide and varied background, including that of geologist, mining engineer, software engineer, publisher, and author. He has authored both technical books and articles, as well as fiction.

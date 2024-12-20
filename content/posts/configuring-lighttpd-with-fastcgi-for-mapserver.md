@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 In an effort to obtain a faster and lightweight solution, I decided to use Lighttpd (AKA Lighty) with FastCGI to power MapServer. Snooping around the MapServer site yielded no clues on how to configure Lighty. It turns out to be fairly simple.

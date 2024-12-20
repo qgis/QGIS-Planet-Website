@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In an <a href="https://www.lutraconsulting.co.uk/blog/2018/03/01/working-with-qgis-3d-part-1/">earlier blog post</a>, we looked into how to visualise rasters and terrains in QGIS 3D.</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Sourcepole hat auch an der Online FOSSGIS 2022 diverse Themen mit Vorträgen abgedeckt:</p>

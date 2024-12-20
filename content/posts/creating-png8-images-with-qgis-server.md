@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 For providing maps via WMS over the internet, it is important to generate image files with a small size. Because normally, most of the perceived WMS delay comes from transfering large images files over the internet (and not from map rendering itself). Therefore, QGIS server supports the conversion of png24 and png32 images into png8, therefore generating a file with only 1/3 resp. 1/4 of the original size (but with lower quality).

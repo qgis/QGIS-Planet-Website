@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Getting started with Python and QGIS can be a bit overwhelming. In this post we give you a quick start to get you up and running and maybe make your PyQGIS life a little easier.

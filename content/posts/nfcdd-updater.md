@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>NFCDD Updater is a QGIS extension developed by Lutra Consulting for Halcrow Group to automate the process of updating geometry and attribute data in the Environment Agency's National Flood and Coastal Defence Database (NFCDD).</p>

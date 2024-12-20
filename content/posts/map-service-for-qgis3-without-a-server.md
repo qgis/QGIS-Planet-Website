@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["maptiler"]
 author: "maptiler.com"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Very simple way of how to display map service in QGI3 without a map server.

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["nyalldawson_net"]
 author: "nyalldawson.net"
 tags: ["qgis", "australia", "geospatial", "hackfest", "osgeo", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Last week we kicked off the first (of hopefully many) Australian QGIS hackfests Developers Meetings. It was attended by 3 of the core QGIS development team: Nathan Woodrow, Martin Dobias and myself (Nyall Dawson), along with various family members. While there&#8217;s been QGIS hackfests in Europe for over 10 years, and others scattered throughout various countries (I think there was a Japanese one recently&#8230; but Twitter&#8217;s translate tool leaves me with little confidence about this!), there&#8217;s been no events like this in the Southern hemisphere yet. I&#8217;ve been to a couple in Europe and found them to be a great way to build involvement in the project, for both developers and non-developers alike.</p>

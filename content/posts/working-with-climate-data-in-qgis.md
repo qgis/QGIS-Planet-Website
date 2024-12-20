@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In this tutorial, we are going to explore methods of visualising climate data within QGIS using Crayfish plugin. We are going to use September 2017 datasets from NASA which will include Hurricane Irma.</p>

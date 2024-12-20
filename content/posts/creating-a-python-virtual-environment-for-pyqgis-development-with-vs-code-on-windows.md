@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["geotribu_en"]
 author: "Geotribu"
 tags: ["plugin qgis", "pyqgis", "python", "tutorial", "vs code", "windows"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 For Intellisense happiness

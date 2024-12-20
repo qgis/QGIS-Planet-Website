@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We are excited to announce that the <a href="https://github.com/lutraconsulting/geodiff">geodiff library</a> has finally reached version 1.0. We have started to develop geodiff back in 2019 as a part of our efforts to allow synchronisation of changes between the <a href="https://merginmaps.com/">Input mobile app</a> and <a href="https://merginmaps.com/">Mergin platform</a>.</p>

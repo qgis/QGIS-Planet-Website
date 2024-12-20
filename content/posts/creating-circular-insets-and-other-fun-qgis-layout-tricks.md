@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["north_road"]
 author: "North Road"
 tags: ["cartography", "qgis", "cartography", "composer", "html", "layouts", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><em><strong>Thanks to the recent popularity of the &#8220;<a href="https://twitter.com/hashtag/30DayMapChallenge">30 Day Map Challenge</a>&#8220;, the month of November has become synonymous with beautiful maps and cartography. During this November we&#8217;ll be sharing a bunch of tips and tricks which utilise some advanced QGIS functionality to help create beautiful maps.</strong></em></p>

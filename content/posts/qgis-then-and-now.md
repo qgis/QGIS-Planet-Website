@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><a href="http://qgis.org">QGIS</a> turns twenty this year. I wrote the first lines of code in mid-February of 2002.</p>

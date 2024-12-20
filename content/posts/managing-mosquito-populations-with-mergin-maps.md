@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Discover how the MOSPREMA project, launched in 2022 in Czechia, uses open-source tools like Mergin Maps and PostgreSQL to monitor and manage mosquito populations. Learn how real-time data, sensors, and mapping technology improve efficiency for local municipalities.

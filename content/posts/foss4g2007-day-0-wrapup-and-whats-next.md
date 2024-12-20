@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Day 0 - Things are hopping in Victoria. Yesterday I helped a big group of volunteers set up 160+ PCs for the Workshops and the Labs. People filtered in all day and the process of putting faces to names was interesting.

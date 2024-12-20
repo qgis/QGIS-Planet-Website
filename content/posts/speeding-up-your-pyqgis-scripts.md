@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["nyalldawson_net"]
 author: "nyalldawson.net"
 tags: ["qgis", "geospatial", "osgeo", "pyqgis", "python", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>I&#8217;ve recently spent some time optimising the performance of various QGIS plugins and algorithms, and I&#8217;ve noticed that there&#8217;s a few common performance traps which developers fall into when fetching features from a vector layer. In this post I&#8217;m going to explore these traps, what makes them slow, and how to avoid them.</p>

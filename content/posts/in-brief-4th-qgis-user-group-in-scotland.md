@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_uk"]
 author: "QGIS UK"
 tags: ["user groups", "edinburgh", "qgis", "scotland"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Another sold-out event with a programme packed with useful, interesting and delightful talks. Fifty seven (57!) folk blew in from all over Scotland through a freezing rain but hot coffee and pastries were waiting in the Informatics Forum at the University of Edinburgh.</p>

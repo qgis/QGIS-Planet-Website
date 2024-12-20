@@ -1,0 +1,12 @@
+[
+    {
+        "name": "English",
+        "code": "en_gb",
+        "flag": "🇬🇧"
+    },
+    {
+        "name": "Français",
+        "code": "fr_fr",
+        "flag": "🇫🇷"
+    }
+]

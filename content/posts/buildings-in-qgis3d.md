@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>With support for QGIS3D canvas, you can represent your vectors in a number of ways. In this post, we will walk you through how to render vectors as 3D objects.</p>

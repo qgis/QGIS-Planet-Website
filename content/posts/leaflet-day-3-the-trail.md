@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Background In 1902 the only way from the port of Valdez to the Fortymile gold fields was a nearly 400 mile trail through the Alaska wilderness. The Valdez-Eagle trail plays a key role in novels two and three.

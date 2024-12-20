@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["opengisch"]
 author: "OPENGIS.ch blog"
 tags: ["qfield", "social responsibility", "qgis.org"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><strong>QField Rapid Mapper</strong>&nbsp;is a project for the <a href="https://qfield.app" rel="noreferrer noopener" target="_blank">QField mobile app</a>, which allows emergency responders, civil protection, military, and citizens to <strong>assess and report damages from natural catastrophes by quickly sharing geolocated images, videos and audio</strong>. QField Rapid Mapper offers real-time data collection, mapping and sharing to <strong>help enhance disaster response and coordination</strong>.<br />QField&nbsp;and&nbsp;QFieldCloud&nbsp;are&nbsp;<strong>open-source</strong>, and OPENGIS.ch is donating the needed QFieldCloud infrastructure and expertise to help map the floods in Ticino in 2024</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["opengisch"]
 author: "OPENGIS.ch blog"
 tags: ["qfield", "press release", "qgis.org"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p id="ember44"><strong>We are thrilled to announce that the </strong><a href="https://www.linkedin.com/company/best-of-swiss-apps/">Best of Swiss Apps</a><strong> Enterprise winner 2022, QField, has been officially recognized as a Digital Public Good by the UN-endorsed </strong><a href="https://digitalpublicgoods.net/" rel="noreferrer noopener" target="_blank">Digital Public Goods Alliance</a><strong>. This prestigious recognition highlights QField’s significant contributions to six key Sustainable Development Goals (SDGs): SDG 6 (Clean Water and Sanitation), SDG 9 (Industry, Innovation, and Infrastructure), SDG 11 (Sustainable Cities and Communities), SDG 13 (Climate Action), SDG 15 (Life on Land), and SDG 16 (Peace, Justice, and Strong Institutions). The “Swiss Made Software” QField is the leading fieldwork application with almost 1 Million downloads worldwide.</strong></p>

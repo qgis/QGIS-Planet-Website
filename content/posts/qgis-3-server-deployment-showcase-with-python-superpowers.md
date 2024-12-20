@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["itopen"]
 author: "ItOpen"
 tags: ["qgis", "qgis server"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Recently I was invited by the colleagues from <a href="http://www.opengis.ch/">OpenGIS.ch</a> to lend a hand in a training session about QGIS server.</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>FOSS4G is a gathering of like-minded people from around the world to share their experience with the Open Source GIS software. This year, we had a number of talks, a workshop and a lot of fun!</p>

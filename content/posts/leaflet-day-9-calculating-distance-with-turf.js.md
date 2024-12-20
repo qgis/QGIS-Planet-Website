@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Today we&rsquo;re going to use Turf.js to calculate the distance between any two points along the trail. Turf.js is billed as providing &ldquo;Advanced geospatial analysis for browsers and Node.js.&rdquo;

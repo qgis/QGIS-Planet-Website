@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 GIS data is like an illicit drug. You can&rsquo;t control it. It travels in secret and hides in the dark alleys of your organization. Its effect spreads and enslaves those that use it. In the end it can lead to ruin.

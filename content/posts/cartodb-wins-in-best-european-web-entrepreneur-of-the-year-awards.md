@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["ireland_qgis_user_group_blog"]
 author: "Ireland QGIS User Group Blog"
 tags: ["uncategorized"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><span style="color: #f7f9ff; text-decoration: underline;"><a href="http://cartodb.com/" target="_blank" title="CartoDB">CartoDB</a></span>, the <span style="color: #f7f9ff; text-decoration: underline;"><a href="https://en.wikipedia.org/wiki/CartoDB#Technology" target="_blank">FOSS</a></span> powered web mapping solution, was honoured at the 2014 European Web Entrepreneur of the Year Awards along with three other companies at <span style="color: #f7f9ff; text-decoration: underline;"><a href="http://websummit.net/" target="_blank">Dublin&#8217;s Web Summit </a></span>on November 7<sup>th</sup>. The awards, presented by a European Commission backed body, were announced after a six month competition that involved public voting across <span style="color: #f7f9ff; text-decoration: underline;"><a href="http://www.europioneers.eu/" target="_blank">four categories</a></span>. CartoDB won the award for best &#8220;high-growth web entrepreneur&#8221;. CartoDB now has a growth rate of over 15% per month and customers in over 30 countries.</p>

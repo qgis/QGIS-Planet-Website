@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 In Beyond the RDBMS Sean references Martin&rsquo;s post which in turn points us to a paper (gotta love the web in action) promoting &ldquo;The End of an Architectural Era&rdquo;. This paper advocates the complete rewrite (well trashing actually) of current RDBMS code in favor of specialized &ldquo;engines&rdquo;.

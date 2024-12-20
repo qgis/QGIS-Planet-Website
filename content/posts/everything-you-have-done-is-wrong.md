@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 It&rsquo;s true&mdash;everything you have ever done is wrong. If you are a developer, look at the code you wrote five years ago&mdash;it&rsquo;s wrong. If you collect and store data&mdash;it&rsquo;s wrong.

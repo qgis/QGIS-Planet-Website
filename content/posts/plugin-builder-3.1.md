@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 We&rsquo;ve released version 3.1 of the Plugin Builder for QGIS 3.x. This version contains a number of bug fixes and performance enhancements.

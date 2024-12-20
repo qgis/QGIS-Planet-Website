@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["itopen"]
 author: "ItOpen"
 tags: ["qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <h2>What is OpenCL?</h2>

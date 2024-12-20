@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Discover how BRRC revolutionized their field survey workflows with Mergin Maps, enhancing productivity and data accuracy. Learn how their partnership with Lutra Consulting enabled tailored solutions for seamless integration, transforming road research and construction projects.

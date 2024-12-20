@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["anita_graser"]
 author: "Anita Graser"
 tags: ["gis", "llm", "qgis", "chatgpt", "llama", "pyqgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>After the initial ChatGPT hype in 2023 (when we saw the first LLM-backed QGIS plugins, e.g. <a href="https://plugins.qgis.org/plugins/QChatGPT/">QChatGPT</a> and <a href="https://plugins.qgis.org/plugins/qgpt_agent_release/">QGPT Agent</a>), there has been a notable slump in new development. As far as I can tell, none of the early plugins are actively maintained anymore. They were nice tech demos but with limited utility. </p>

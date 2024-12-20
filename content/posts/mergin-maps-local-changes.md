@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>With the recent changes to the <a href="https://merginmaps.com">Mergin Maps</a> plugin for QGIS, you can visualise the local changes before synchronising your data.</p>

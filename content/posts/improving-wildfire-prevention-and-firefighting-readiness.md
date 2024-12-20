@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 David Galloway works as a volunteer with the Wallcliffe Volunteer Fire Brigade in Western Australia. Volunteer brigades are the front line of firefighting and prevention across the State.

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><a href="https://merginmaps.com">Input app</a> has reached a new milestone. Earlier in September, we have released version 1.0 of the app with many new features and enhancements.</p>

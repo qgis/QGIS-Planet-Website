@@ -75,6 +75,66 @@
                 </ul>
                 
             </li>
+
+            <li {{ if findRE (replaceRE "/$" "" "languages") $pageUrl }} class="is-active"{{ end }}>
+                <div class="has-child">
+                    <a onclick="toggleSubMenu('languages')" class="icon-text">
+                        <span class="icon">
+                            <i class="fas fa-flag"></i>
+                        </span>
+                        <span>Languages</span>
+                    </a>
+                    <span onclick="toggleSubMenu('languages')" class="drop-arrow"><img src="{{ "img/arrow.svg" | absURL }}"/></span>
+                </div>
+                <ul id="languages" class="collapsed">
+                    {{ .Scratch.Delete "languages" }}
+                    {{ range $.Site.RegularPages }}
+                        {{ with .Param "languages" }}
+                            {{ $.Scratch.Delete "language" }}
+                            {{ range $index, $language := . }}
+                                {{ $language := (printf `/%s` ($language | urlize)) }}
+                                {{ $.Scratch.Add "language" $language }}
+                                {{ $.Scratch.Add "languages" (slice ($.Scratch.Get "language")) }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    {{ $languages := uniq (.Scratch.Get "languages") | sort }}
+        
+                    {{ range $index, $value := $languages }}
+                        {{ $languageTerms := (split (strings.TrimPrefix "/" .) "/") }}
+                        {{ $depth := (len $languageTerms) }}
+                        {{ $lastTerm := (delimit (last 1 $languageTerms) " ") }}
+                        {{ $url := urls.Parse $lastTerm }}
+                        {{ $path := $url.Path }}
+                        {{ with $.Site.GetPage (printf `/languages/%s` $path) }}
+                        <li {{ if findRE (replaceRE "/$" "" $path) $pageUrl }} class="is-active"{{ end }}>
+                            <a href="{{ .RelPermalink }}" class="icon-text truncate">
+                                <span class="icon">
+                                    
+                                    {{ $languageFlag := "" }}
+                                    {{ range $languageData := $.Site.Data.languages }}
+                                        {{ if eq $languageData.code $path }}
+                                            {{ $languageFlag = $languageData.flag }}
+                                        {{ end }}
+                                    {{ end }}
+                                    {{ $languageFlag | default "" }}
+                                </span>
+                                <span>
+                                    {{ $languageName := "" }}
+                                    {{ range $languageData := $.Site.Data.languages }}
+                                        {{ if eq $languageData.code $path }}
+                                            {{ $languageName = $languageData.name }}
+                                        {{ end }}
+                                    {{ end }}
+                                    {{ $languageName | default .LinkTitle | default .Data.Term | default $path }}
+                                </span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+                
+            </li>
             <li>
                 <a 
                     class="tagcloudModalButton icon-text" 

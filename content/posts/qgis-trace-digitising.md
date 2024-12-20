@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Following the popularity of the AutoTrace plugin, we received a number of requests for additional features and to incorporate the tool into the main <em>Advanced Digitising</em> tools in QGIS.</p>

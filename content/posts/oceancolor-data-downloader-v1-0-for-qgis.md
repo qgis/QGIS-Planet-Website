@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["ireland_qgis_user_group_blog"]
 author: "Ireland QGIS User Group Blog"
 tags: ["news", "plugin", "nasa", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <div class="wp-caption alignnone" id="attachment_702" style="width: 555px;"><a href="https://ieqgis.files.wordpress.com/2015/02/aqua-modis-sst-2015-01-13.png"><img alt="Aqua Modis SST 2015-01-13" class="wp-image-702 size-large" height="545" src="https://ieqgis.files.wordpress.com/2015/02/aqua-modis-sst-2015-01-13.png?w=545&#038;h=545" width="545" /></a><p class="wp-caption-text" id="caption-attachment-702">Sea Surface Temperature data downloaded by Oceancolor Data Downloader.</p></div>

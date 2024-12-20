@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In our most recent update, we're thrilled to announce the addition of support for QGIS's spacer, text, and HTML widgets in our forms! This enhancement brings greater flexibility and customization to your data entry process. Easily incorporate spacers, add informative text, and use HTML elements to create dynamic and engaging forms tailored to your specific needs. </p><p></p><p></p>

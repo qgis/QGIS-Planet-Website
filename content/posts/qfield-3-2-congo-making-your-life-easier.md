@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["opengisch"]
 author: "OPENGIS.ch blog"
 tags: ["gis", "qfield", "qfield highlights", "qgis", "qfield", "qfieldcloud", "qgis.org"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2</p>

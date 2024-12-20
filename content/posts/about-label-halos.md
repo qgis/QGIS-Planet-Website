@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["nyalldawson_net"]
 author: "nyalldawson.net"
 tags: ["qgis", "3.0", "cartography", "colour", "geospatial", "labelling", "osgeo", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>A lot of cartographers have a love/hate relationship with label halos. On one hand they can be an essential technique for improving label readability, especially against complex background layers. On the other hand they tend to dominate maps and draw unwanted attention to the map labels.</p>

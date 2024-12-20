@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 This year was another successful year for Mergin Maps, as we are growing to a feature-rich and scalable enterprise geodata collection solution.

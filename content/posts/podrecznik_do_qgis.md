@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_polska_blog"]
 author: "QGIS Polska blog"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 W repozytorium Politechniki Krakowskiej zostało udostępnione elektroniczne wydanie podręcznika „Systemy informacji przestrzennej z QGIS, część I i II”, który ukazał się w roku 2017. W tym wydaniu dodano m.in. tematy związane z przetwarzaniem zdjęć satelitarnych oraz pracę z bazami danych przestrzennych.
