@@ -2,7 +2,7 @@
 source: "blog"
 title: "blog:polska_grupa_uzytkownikow_qgis_na_facebooku"
 date: "2018-07-27T15:06:26+0100"
-link: "http://quantum-gis.pl/blog/polska_grupa_uzytkownikow_qgis_na_facebooku"
+link: "http://qgis-polska.org/blog/polska_grupa_uzytkownikow_qgis_na_facebooku"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_polska_blog"]
