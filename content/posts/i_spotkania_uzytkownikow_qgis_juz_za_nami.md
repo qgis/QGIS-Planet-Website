@@ -2,7 +2,7 @@
 source: "blog"
 title: "blog:i_spotkania_uzytkownikow_qgis_juz_za_nami"
 date: "2018-06-22T20:07:21+0100"
-link: "http://qgis-polska.org/blog/i_spotkania_uzytkownikow_qgis_juz_za_nami"
+link: "http://quantum-gis.pl/blog/i_spotkania_uzytkownikow_qgis_juz_za_nami"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_polska_blog"]
