@@ -2,7 +2,7 @@
 source: "blog"
 title: "blog:qgis_3.0_juz_w_piekarniku"
 date: "2018-02-24T19:06:22+0100"
-link: "http://quantum-gis.pl/blog/qgis_3.0_juz_w_piekarniku"
+link: "http://qgis-polska.org/blog/qgis_3.0_juz_w_piekarniku"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_polska_blog"]
