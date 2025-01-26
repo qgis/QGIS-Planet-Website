@@ -2,7 +2,7 @@
 source: "blog"
 title: "blog:podrecznik_do_qgis"
 date: "2017-12-06T19:21:10+0100"
-link: "http://qgis-polska.org/blog/podrecznik_do_qgis"
+link: "http://quantum-gis.pl/blog/podrecznik_do_qgis"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_polska_blog"]
