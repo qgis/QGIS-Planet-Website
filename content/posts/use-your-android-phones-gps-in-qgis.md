@@ -55,4 +55,4 @@ Click on <strong>Connect</strong> button on the top right corner (mouse over th
 
 Start digitizing!
 
-<a class="thumbnail cboxElement" href="https://www.itopen.it/wp-content/uploads/2018/03/gps-connection-fix.png"><img alt="" class="aligncenter size-large wp-image-1893" height="336" src="https://www.itopen.it/wp-content/uploads/2018/03/gps-connection-fix-800x336.png" width="800" /></a><p>The post <a href="https://www.itopen.it/use-your-android-phones-gps-in-qgis/">Use your android phone’s GPS in QGIS</a> first appeared on <a href="https://www.itopen.it">Open Web Solutions, GIS & Python Development</a>.</p>
+<a class="thumbnail cboxElement" href="https://www.itopen.it/wp-content/uploads/2018/03/gps-connection-fix.png"><img alt="" class="aligncenter size-large wp-image-1893" height="336" src="https://www.itopen.it/wp-content/uploads/2018/03/gps-connection-fix-800x336.png" width="800" /></a>

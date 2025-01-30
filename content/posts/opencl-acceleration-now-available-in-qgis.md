@@ -53,4 +53,4 @@ sudo apt-get install opencl-headers ocl-icd-opencl-dev
 <p>Matthias Kuhn reviewed the code.</p>
 <p>Even Rouault pointed me to some highly efficient GDAL algorithm optimizations that I&#8217;ve been able to integrate in QGIS.</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p><p>The post <a href="https://www.itopen.it/opencl-acceleration-now-available-in-qgis/">OpenCL acceleration now available in QGIS</a> first appeared on <a href="https://www.itopen.it">Open Web Solutions, GIS & Python Development</a>.</p>
+<p>&nbsp;</p>

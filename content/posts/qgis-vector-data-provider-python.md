@@ -56,4 +56,4 @@ QgsProviderRegistry.instance().registerProvider(metadata)
 </ul>
 <p>Be aware that the implementation of a data provider is not easy and you will need to write a lot of code, but at least you could get some inspiration from the existing example.</p>
 <p>&nbsp;</p>
-<p>Enjoy wirting data providers in Python and please let me know if you&#8217;ve fond this implementation useful!</p><p>The post <a href="https://www.itopen.it/qgis-vector-data-provider-python/">Create a QGIS vector data provider in Python is now possible</a> first appeared on <a href="https://www.itopen.it">Open Web Solutions, GIS & Python Development</a>.</p>
+<p>Enjoy wirting data providers in Python and please let me know if you&#8217;ve fond this implementation useful!</p>

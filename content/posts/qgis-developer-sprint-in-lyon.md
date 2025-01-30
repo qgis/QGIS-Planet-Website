@@ -42,4 +42,4 @@ A huge and warm thank to the french QGIS developers that organized this meeting!
 
 <a class="thumbnail cboxElement" href="https://www.itopen.it/wp-content/uploads/2016/12/lyon_2016.jpeg"><img alt="" class="aligncenter size-large wp-image-1802" height="450" src="https://www.itopen.it/wp-content/uploads/2016/12/lyon_2016-800x450.jpeg" width="800" /></a>
 
-&nbsp;<p>The post <a href="https://www.itopen.it/qgis-developer-sprint-in-lyon/">QGIS Developer Sprint in Lyon</a> first appeared on <a href="https://www.itopen.it">Open Web Solutions, GIS & Python Development</a>.</p>
+&nbsp;

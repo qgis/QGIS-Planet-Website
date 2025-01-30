@@ -64,4 +64,4 @@ Thanks to <a href="http://www.naturalgis.pt/">Giovanni Manghi</a> and to Madeira
 
 <em>After almost 10 years that I&#8217;m in the QGIS project I&#8217;m now not only a</em>
 <em> proud member of the QGIS community but also an advocate for the</em>
-<em> open source GIS software movement.</em><p>The post <a href="https://www.itopen.it/welcome-qgis-3-and-goodbye-madeira/">Welcome QGIS 3 and bye bye Madeira</a> first appeared on <a href="https://www.itopen.it">Open Web Solutions, GIS & Python Development</a>.</p>
+<em> open source GIS software movement.</em>
