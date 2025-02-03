@@ -108,4 +108,4 @@ signal.signal(signal.SIGINT, signal_handler)
 httpd.serve_forever()
 
 </pre>
-&nbsp;<p>The post <a href="https://www.itopen.it/a-little-qgis3-server-wsgi-experiment/">A little QGIS3 Server wsgi experiment</a> first appeared on <a href="https://www.itopen.it">Open Web Solutions, GIS & Python Development</a>.</p>
+&nbsp;

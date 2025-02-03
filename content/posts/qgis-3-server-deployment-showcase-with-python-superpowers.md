@@ -32,4 +32,4 @@ available_languages: ["en_gb"]
 	<li>Nginx + standalone WSGI Python wrapped server</li>
 </ul>
 <p>Have fun with QGIS server: it was completely refactored in QGIS 3 and it&#8217;s now better than ever!</p>
-<p>&nbsp;</p><p>The post <a href="https://www.itopen.it/qgis-3-server-deployment-showcase-with-python-superpowers/">QGIS 3 Server deployment showcase with Python superpowers</a> first appeared on <a href="https://www.itopen.it">Open Web Solutions, GIS & Python Development</a>.</p>
+<p>&nbsp;</p>

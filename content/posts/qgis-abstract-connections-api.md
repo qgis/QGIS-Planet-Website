@@ -30,14 +30,14 @@ available_languages: ["en_gb"]
 <p>&nbsp;</p>
 <p>The new API was also used to implement the automatic loading of layer dependencies (not part of the grant program).</p>
 <p>&nbsp;</p>
-<p>For developers interested in working with the new API, a set Python tests are available to show how to use the methods:  <a href="https://github.com/qgis/QGIS/blob/master/tests/src/python/test_qgsproviderconnection_ogr_gpkg.py">https://github.com/qgis/QGIS/blob/master/tests/src/python/test_qgsproviderconnection_ogr_gpkg.py</a> (see also the postgres and spatialite companion tests).</p>
+<p>For developers interested in working with the new API, a set Python tests are available to show how to use the methods:Â  <a href="https://github.com/qgis/QGIS/blob/master/tests/src/python/test_qgsproviderconnection_ogr_gpkg.py">https://github.com/qgis/QGIS/blob/master/tests/src/python/test_qgsproviderconnection_ogr_gpkg.py</a> (see also the postgres and spatialite companion tests).</p>
 <p>&nbsp;</p>
 <p>There is still a large amount of work to be done in order to complete all the desired refactoring and to remove all the Python and C++ code that will be ultimately be made redundant. In particular, future work should be undertaken to:</p>
 <ul>
 	<li>port all remaining data providers to the new API</li>
 	<li>refactor and eliminate the remaining DB-manager connectors to make use of the abstract API</li>
 	<li>eliminate duplicate and untested code inside the Processing framework for working with Postgres databases and port the code to the new, stable, well-tested API</li>
-	<li>refactor and eliminate the remaining QGIS browser data items to make use of the abstract API </li>
+	<li>refactor and eliminate the remaining QGIS browser data items to make use of the abstract APIÂ </li>
 </ul>
 <p>&nbsp;</p>
 <p>For further information, the following paragraphs (taken from the original grant proposal) will provide full details about the background of this work.</p>
@@ -55,9 +55,9 @@ available_languages: ["en_gb"]
 <ul>
 	<li>no duplicate functionality, so it&#8217;s easier for users to understand and use</li>
 	<li>more usage of well-tested and well-maintained core C++ API</li>
-	<li>testability and immediate feedback on API breaks (an advantage of C++ is that the application won’t even build if an API is changed or accidentally misused)</li>
+	<li>testability and immediate feedback on API breaks (an advantage of C++ is that the application wonâ€<img alt="™" class="wp-smiley" src="https://s.w.org/images/core/emoji/15.0.3/72x72/2122.png" style="height: 1em;" />t even build if an API is changed or accidentally misused)</li>
 	<li>better performance</li>
-	<li>the ability to expose database management functionality via stable PyQGIS API, allowing other plugins and scripts to utilise this functionality. In future, Processing algorithms may also be developed which would take advantage of these functions (e.g. “create schema”, “drop table”, “vacuum table” algorithms)</li>
+	<li>the ability to expose database management functionality via stable PyQGIS API, allowing other plugins and scripts to utilise this functionality. In future, Processing algorithms may also be developed which would take advantage of these functions (e.g. â€œcreate schemaâ€, â€œdrop tableâ€, â€œvacuum tableâ€ algorithms)</li>
 	<li>DB management functionality would be available within the main QGIS window (from the Browser panel), instead of as a separate dialog.</li>
 </ul>
 <p>&nbsp;</p>
@@ -76,4 +76,4 @@ available_languages: ["en_gb"]
 </ul>
 </li>
 </ul>
-<p>The API will be exposed through the browser and it will be used by the DB manager instead of the Python implementation that is currently used.</p><p>The post <a href="https://www.itopen.it/qgis-abstract-connections-api/">QGIS Abstract Connections API</a> first appeared on <a href="https://www.itopen.it">Open Web Solutions, GIS & Python Development</a>.</p>
+<p>The API will be exposed through the browser and it will be used by the DB manager instead of the Python implementation that is currently used.</p>

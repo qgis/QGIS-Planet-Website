@@ -89,4 +89,4 @@ Whe QGIS is built using this debug-enabled Qt, you will be able to step-debug in
 
 Happy debugging!
 
-&nbsp;<p>The post <a href="https://www.itopen.it/building-qgis-master-with-qt-5-9-3-debug-build/">Building QGIS master with Qt 5.9.3 debug build</a> first appeared on <a href="https://www.itopen.it">Open Web Solutions, GIS & Python Development</a>.</p>
+&nbsp;

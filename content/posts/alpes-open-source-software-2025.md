@@ -1,15 +1,13 @@
 ---
 source: "blog"
-title: "(Fr) Du nouveau pour [CityBuilder] CityForge"
-date: "2024-10-09T09:04:12"
-link: "https://oslandia.com/en/2024/10/25/du-nouveau-pour-citybuilder-cityforge/"
+title: "(Fr) Alpes Open Source Software 2025"
+date: "2025-01-06T08:34:17"
+link: "https://oslandia.com/en/2025/01/28/alpes-open-source-software-2025/"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["newsfr", "qgis", ""]
-languages: ["en_gb"]
-available_languages: ["en_gb"]
+tags: ["conférence", "newsfr", "open source", "open source", "qgis"]
 ---
 
 <p class="qtranxs-available-languages-message qtranxs-available-languages-message-en">Sorry, this entry is only available in <a class="qtranxs-available-language-link qtranxs-available-language-link-fr" href="http://oslandia.com/fr/tag/qgis-en/feed/atom/" title="Fr">French</a>.</p>

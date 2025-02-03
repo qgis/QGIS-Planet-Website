@@ -28,4 +28,4 @@ Thanks to all QGIS donors and funders that made yet another great hackfest possi
 
 &nbsp;
 
-&nbsp;<p>The post <a href="https://www.itopen.it/essen-2017-qgis-hackfest/">Essen 2017 QGIS Hackfest</a> first appeared on <a href="https://www.itopen.it">Open Web Solutions, GIS & Python Development</a>.</p>
+&nbsp;

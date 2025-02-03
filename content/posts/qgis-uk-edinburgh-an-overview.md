@@ -78,4 +78,4 @@ Tim Jenks (<a href="https://twitter.com/eeGeo">@eeGeo</a>) from eeGeo gave a sho
 <p><a href="http://www.slideshare.net/RossMcDonald1/qgis-uk-thank-you-for-coming">Slides</a></p>
 <p>Video: <a href="https://youtu.be/cVEPbogf0To">https://youtu.be/cVEPbogf0To</a></p>
 <p>The day ended in the Potting Shed with (strong) cask ales and ciders refreshing parched throats. Always a great way to wrap things up.</p>
-<p><img alt="qgisug_sponsors_white" class="alignnone size-full wp-image-1511" src="https://ukqgis.files.wordpress.com/2016/11/qgisug_sponsors_white.png?w=700" /></p>
+<p><img alt="qgisug_sponsors_white" class="alignnone size-full wp-image-1511" src="https://ukqgis.wordpress.com/wp-content/uploads/2016/11/qgisug_sponsors_white.png?w=700" /></p>

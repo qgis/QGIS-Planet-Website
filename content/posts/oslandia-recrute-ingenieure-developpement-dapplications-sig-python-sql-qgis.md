@@ -7,7 +7,7 @@ draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["newsfr", "3d", "job", "postgis", "postgresql", "python", "qgis", "recrutement", "sql"]
+tags: ["newsfr", "", "job", "postgis", "postgresql", "python", "qgis", "recrutement", "sql"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
