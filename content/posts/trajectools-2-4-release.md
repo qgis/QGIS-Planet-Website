@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["anita_graser"]
 author: "Anita Graser"
 tags: ["gis", "movement data in gis", "movingpandas", "trajectools", "gtfs", "movement data", "public transport", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <figure class="wp-block-image size-large"><img alt="" class="wp-image-9007" height="131" src="https://anitagraser.com/wp-content/uploads/2024/05/trajectools2.png?w=545" width="545" /></figure>

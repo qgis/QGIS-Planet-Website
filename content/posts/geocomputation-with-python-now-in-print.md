@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["anita_graser"]
 author: "Anita Graser"
 tags: ["gis", "geopandas", "python"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Today, I&#8217;m super excited to share with you <a href="https://geocompx.org/post/2025/geocompy-bp2/">the announcement</a> that our open source textbook <em>&#8220;Geocomputation with Python&#8221; </em>has finally arrived in print and is now available for purchase from <a href="https://www.routledge.com/9781032460659">Routledge.com</a>, <a href="https://www.amazon.com/Geocomputation-Python-Chapman-Hall-CRC/dp/1032460652/">Amazon.com</a>, <a href="https://www.amazon.co.uk/Geocomputation-Python-Chapman-Hall-CRC/dp/1032460652/">Amazon.co.uk</a>, and other booksellers.</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["markus_neteler"]
 author: "Markus Neteler"
 tags: ["grass", "r-stats"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The GRASS GIS community recognises the long-term contributions of Roger Bivand for the development of the rgrass package.</p>

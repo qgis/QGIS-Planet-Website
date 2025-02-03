@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Explore Mergin Maps' 2024 highlights: app redesigns, new features like Editor permissions, and a preview of what's coming in 2025!
