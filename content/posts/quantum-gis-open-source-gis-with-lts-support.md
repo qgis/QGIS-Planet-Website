@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Quantum QGIS, a user-friendly and full featured Open Source GIS suite, is used in a wide range of professional enterprise infrastructures. Sourcepole, located in Zurich, Switzerland, now fills the last gap, which has prevented many organizations from the use of QGIS in enterprise infrastructures so far - they offer professional support directly from QGIS core developers. With QGIS Enterprise long term support and maintenance, the customer gets a professionally supported and maintained GIS infrastructure based on QGIS.

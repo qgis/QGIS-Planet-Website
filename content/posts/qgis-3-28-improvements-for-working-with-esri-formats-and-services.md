@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["north_road"]
 author: "North Road"
 tags: ["qgis", "esri", "geospatial", "osgeo", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The QGIS 3.28 release is an extremely exciting release for all users who work in mixed software workplaces, or who need to work alongside users of ESRI software. In this post we&#8217;ll be giving an overview of all the new tools and features introduced in 3.28 which together result in a dramatic improvement in the workflows and capabilities in working with ESRI based formats and services. Read on for the full details&#8230;!</p>

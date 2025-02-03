@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We've developed a new graphical loading tool for OS MasterMap data focussing on usability and performance to make it easy to load national <a href="http://www.ordnancesurvey.co.uk/business-and-government/products/mastermap-products.html" rel="nofollow" target="_blank">Ordnance Survey MasterMap</a> datasets in a matter of hours.</p>

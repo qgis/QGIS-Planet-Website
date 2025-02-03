@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The mobile app 2.5.0 contains multiple synchronization fixes and enhancements. Enjoy faster and more reliable file transfers!</p>

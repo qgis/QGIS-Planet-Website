@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Mesh Data Abstraction Library <a href="https://www.mdal.xyz">MDAL</a> proudly joins the OSGeo Community program</p>

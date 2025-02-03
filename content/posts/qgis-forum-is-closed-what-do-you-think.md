@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 The forum (http://forum.qgis.org) has been closed for new registrations and marked read-only. Users have been encouraged to use http://gis.stackexchange.com instead.

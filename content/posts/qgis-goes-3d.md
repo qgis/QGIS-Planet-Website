@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Marco, Matthias and me spent three days at the QGIS hackfest in Wroclaw (pictures). There I got the time to work on the QGIS globe plugin and made a presentation of the current state.

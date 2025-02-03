@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["maptiler"]
 author: "maptiler.com"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 The new QGIS 3.14 version adds support for the native loading of vector tiles. The easiest way to load them is via the recently released plugin.

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_polska_blog"]
 author: "QGIS Polska blog"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 W dniach 21-25 lutego 2018 na Maderze odbywa się spotkanie programistów (hackfest) projektu QGIS. 

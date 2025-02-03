@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>One of the cool outcomes of our recent <a href="https://www.lutraconsulting.co.uk/crowdfunding/qgis-legend-refactoring/" target="_blank">QGIS Legend Refactoring</a> work was the ability to add "visibility presets". This feature allows users to save and load preset layer and group visibility settings.</p>

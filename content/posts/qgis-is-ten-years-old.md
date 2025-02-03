@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 It was ten years ago, on July 19, 2002, that QGIS was officially unveiled. That first release was primitive, supporting only PostGIS layers and having little in the way of navigation controls. Invoking the open source mantra of &ldquo;release early and release often,&rdquo; I announced it on Freshmeat and waited.

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 The Quantum GIS (QGIS) project is happy to announce that the Asia Air Survey Co., Ltd (AAS), a Japanese international consulting company, has become a Gold Sponsor. AAS has committed to providing 9,000 EUR (~$11,000 US) each of three years, beginning in November 2012.

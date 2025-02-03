@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["itopen"]
 author: "ItOpen"
 tags: ["qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Do you want to share your GPS data from your phone to QGIS?

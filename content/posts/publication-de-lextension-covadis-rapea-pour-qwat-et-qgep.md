@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
 tags: ["gis", "non classé", "qgis", "postgis", "water"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <div class="wpb_row vc_row-fluid vc_row standard_section   " id="fws_67a00c312e076" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg    "></div></div> </div><div class="col span_12 dark left">

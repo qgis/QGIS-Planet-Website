@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 I&rsquo;m starting off slow, so today we&rsquo;ll add a marker with some extra features. Since the map from yesterday is already centered on the big earthquake, lets add a marker there.

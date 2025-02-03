@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Why would you want to run the Windows version of QGIS on Linux? Because its there. Actually, it may be a useful way to test the Windows version without firing up the dusty old Win32 box.

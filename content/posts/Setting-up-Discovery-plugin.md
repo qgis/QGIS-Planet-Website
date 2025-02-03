@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>As a part of migrating to Open Source GIS, the Newcastle City Council has commissioned us to create a user friendly gazetteer plugin.</p>

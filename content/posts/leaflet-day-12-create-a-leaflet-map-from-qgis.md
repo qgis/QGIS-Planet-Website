@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Today we&rsquo;ll use the qgis2web plugin to export from QGIS to Leaflet. The QGIS project, a location map for the third (in progress) Life on the Alaska Frontier novel, looks like this:

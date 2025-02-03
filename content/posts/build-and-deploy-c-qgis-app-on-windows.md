@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_tips"]
 author: "QGIS Tips"
 tags: ["cpp", "c++", "compile", "deploy", "qgis", "windows"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>After a lot of troubles, I managed to compile and deploy a QGIS c++ app on windows. This small guide will describe the steps I followed. This has been tested on win xp and windows 7, both in 32 bits.</p>

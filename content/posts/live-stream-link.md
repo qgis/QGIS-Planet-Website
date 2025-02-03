@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_uk"]
 author: "QGIS UK"
 tags: ["user groups", "edinburgh", "scotland"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Here is the link to the live stream of the QGIS UK user group meeting in Edinburgh on Thursday.</p>

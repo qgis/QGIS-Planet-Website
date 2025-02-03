@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 One of the often overlooked support mechanisms for Open Source GIS applications is Internet Relay chat, better known as IRC. Many OS GIS projects maintain an IRC presence. Often times you will find the project developers hanging out on the channel and willing to answer questions (more about that in a bit). Speaking personally, the Quantum GIS project has used IRC for project coordination, communication, and user support for several years.

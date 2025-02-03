@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>To join the FOSS4G in Bucharest this week, we have released a new version of Input, a mobile app based on QGIS for field survey.</p>

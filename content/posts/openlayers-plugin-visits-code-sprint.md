@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 A short visit and 7 hours train ride to the OpenLayers code sprint mainly for a presentation at the Swiss MapFish user group meeting in Lausanne, resulted in a new release of the QGIS OpenLayers plugin. The OpenLayers plugin adds WebKit based layers to QGIS and ships with OpenStreetMap-, Google- and Yahoo-Layers.

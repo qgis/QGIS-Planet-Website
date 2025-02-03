@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><a href="https://merginmaps.com">Mergin Maps</a> and QGIS used for municipal waste composition survey in the Czech Republic.</p>

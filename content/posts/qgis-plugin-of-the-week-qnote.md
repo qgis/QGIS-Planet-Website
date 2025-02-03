@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 This week we look at a newly arrived plugin named qNote. This plugin allows you to create a note and store it in a QGIS project file. When the project is loaded, the note is restored and can be viewed in the qNote panel.

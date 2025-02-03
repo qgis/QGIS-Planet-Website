@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["marcus_soc_reports"]
 author: "Marcus SOC reports"
 tags: ["reports"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p align="justify">This is just an example of the advantage provided by the multithreading on the Toolbox. As each algorithm is running in a separate thread, this allows us to run more than one algorithm at the same time.</p>

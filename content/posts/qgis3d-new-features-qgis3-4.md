@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Thanks to the great response from the QGIS community to our <a href="https://www.lutraconsulting.co.uk/crowdfunding/more-qgis-3d/">crowdfunding call</a>, we have added several new features to the upcoming release (3.4).</p>

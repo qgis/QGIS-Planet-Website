@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 QgisToMapServer converts a saved QGIS project file to a map file, ready to be served with MapServer. A binary preview version for both Mac and Windows is available now. For Linux/Unix users, the source code is available from the Git repository.

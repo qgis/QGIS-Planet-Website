@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_tips"]
 author: "QGIS Tips"
 tags: ["plugins", "setting"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>There are two things I have coded, re-coded and re-re-coded through all my plugins: the management of the settings and the management of combo boxes associated to layers and their fields.</p>

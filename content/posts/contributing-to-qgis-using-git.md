@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 One of the challenges in any open source project is accepting contributions from people that don&rsquo;t have, need, or want access to your centralized source code repository. Managing repository accounts for occasional or one-time contributors can be come a bit of an administrative issue. To date, the QGIS project has accepted one-time or occasional contributions through patches submitted via a help ticket.

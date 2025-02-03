@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>QGIS 3.18 is finally here. This will be the first release of QGIS with native support for point cloud data. This work was made possible by generous contributions from the community.</p>

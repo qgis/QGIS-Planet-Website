@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 The QGIS Cloud Support Team is often asked if it is possible to integrate data from external databases into the QGIS Cloud Web Map, so that the map information in the QGIS Cloud Web Map is always up-to-date. In this blog article we would like to show how this is possible with PostgreSQL.

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["alexandre_netos_blog"]
 author: "Alexandre Neto's blog"
 tags: ["uncategorized", "hint", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p style="text-align: left;">EN | <span style="color: #808080;"><a href="https://sigsemgrilhetas.wordpress.com/2015/02/10/calcular-coordenadas-do-centroide-de-poligonos-calculate-polygon-centroids-coordinates/">PT</a></span></p>

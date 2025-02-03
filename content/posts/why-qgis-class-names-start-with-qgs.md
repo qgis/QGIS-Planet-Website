@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 If you&rsquo;re a developer, or have looked at the QGIS source code, you&rsquo;ve likely noticed that most C++ classes in the project start with Qgs.

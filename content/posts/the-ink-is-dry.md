@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Looks like the ink is dry on Desktop GIS and it should start shipping soon. You can get the full scoop from the Pragmatic Bookshelf.

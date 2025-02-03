@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["anita_graser"]
 author: "Anita Graser"
 tags: ["movingpandas", "large language models", "movement data", "python"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <figure class="wp-block-image size-large"><img alt="" class="wp-image-9114" height="131" src="https://anitagraser.com/wp-content/uploads/2024/07/movingpandas-1.png?w=545" width="545" /></figure>

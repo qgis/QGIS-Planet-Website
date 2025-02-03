@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["alexandre_netos_blog"]
 author: "Alexandre Neto's blog"
 tags: ["uncategorized", "postgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>EN | <a href="https://sigsemgrilhetas.wordpress.com/?p=625">PT</a></p>

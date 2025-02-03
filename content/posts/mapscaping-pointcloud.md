@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Listen to the latest developments in point clouds and QGIS from Martin Dobias: <a href="https://mapscaping.com/podcast/cloud-optimized-point-clouds/">MapScaping</a> podcast.</p>

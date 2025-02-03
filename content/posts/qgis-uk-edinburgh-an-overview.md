@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_uk"]
 author: "QGIS UK"
 tags: ["user groups", "writeups"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p style="text-align: center;">6th Scottish QGIS UK user group meeting<br />

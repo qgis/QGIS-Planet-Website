@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["north_road"]
 author: "North Road"
 tags: ["conferences", "foss4g"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Recently, we had the pleasure of helping organise the FOSS4G SotM Oceania 2023 conference in Auckland. It was a fantastic week and felt like a worthy return to pre-covid events full of great presentations, catching up with old friends, making new ones, and of course &#8211; delicious food! The venue, Auckland University of Technology, put on a really professional event with catering, venue spaces and their Audio Visual operations. Auckland gave us great weather, and great venues to enjoy each others company in.</p>

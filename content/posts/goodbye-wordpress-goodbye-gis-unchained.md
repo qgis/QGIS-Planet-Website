@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["alexandre_netos_blog"]
 author: "Alexandre Neto's blog"
 tags: ["sem categoria"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Hello all,</p>

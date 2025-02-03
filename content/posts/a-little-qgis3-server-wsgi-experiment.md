@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["itopen"]
 author: "ItOpen"
 tags: ["qgis server"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Here is a little first experiment for a wsgi wrapper to QGIS 3 Server, not much tested, but basically working:

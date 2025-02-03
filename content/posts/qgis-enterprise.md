@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Mit QGIS Enterprise bietet Sourcepole ein komplettes Wartungs- und Support-Paket für eine Geodaten-Infrastruktur (GDI) an, die vollständig auf Open Source Software aufbaut. Der Kern des Angebotes ist die Quantum GIS Suite basierend auf QGIS Desktop, QGIS Server, QGIS WebClient und QGIS Mobile.

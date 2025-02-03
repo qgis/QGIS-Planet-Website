@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 I&rsquo;ve come to the conclusion that storing rasters in a database is of dubious value, particularly from a data warehouse perspective.

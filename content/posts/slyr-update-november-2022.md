@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["north_road"]
 author: "North Road"
 tags: ["qgis", "slyr", "aprx", "arcgis", "arcmap", "esri", "lyrx", "osgeo", "qgis", "slyr"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><em><strong>Our <a href="https://north-road.com/slyr/">SLYR</a> tool is the complete solution for full compatibility between ArcMap, ArcGIS Pro and QGIS. It offers a powerful suite of conversion tools for opening ESRI projects, styles and other documents directly within QGIS, and for exporting QGIS documents for use in ESRI software.</strong></em></p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Our training courses are structured to give trainees step-by-step guide using the latest QGIS features. Here is an example of one our practicals for creating professional maps.</p>

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_polska_blog"]
 author: "QGIS Polska blog"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Na Facebooku uruchomiliśmy grupę o nazwie Polska Grupa Użytkowników QGIS, która jest odpowiedzią na rosnące zapotrzebowanie na takie miejsce w sieciach społecznościowych. Celem grupy jest promowanie QGIS jako wolnego i otwartego oprogramowania oraz wymiana wiedzy, umiejętności i doświadczeń. Zapraszamy do grupy wszystkich posiadających konto na FB i korzystających z QGIS. Zachęcamy też do aktywnego w niej uczestnictwa.

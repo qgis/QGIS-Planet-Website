@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 In my last post I created a poll to get an idea of the extent of migration to open source GIS on the desktop. The results indicated that nearly 50% of the people using open source GIS were still using their proprietary software as well. You can view the results of the poll using the Polls Archive link below the current poll.

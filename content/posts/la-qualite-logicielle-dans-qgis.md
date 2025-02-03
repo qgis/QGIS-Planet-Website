@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
 tags: ["gis", "newsfr", "open source", "", "qgis", "sig", "c++", "open source", "opensource"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><span class="HwtZe" lang="en"><span class="jCAhz ChMk0b"><span class="ryNqvb">According to the definition of software quality given by french Wikipedia</span></span> </span></p>

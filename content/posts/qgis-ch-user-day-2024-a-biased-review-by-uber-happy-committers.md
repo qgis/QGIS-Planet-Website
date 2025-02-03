@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["opengisch"]
 author: "OPENGIS.ch blog"
 tags: ["events", "interlis", "processing", "qgis", "qgis.org"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>During the pandemic, people noticed how well they could work remotely, how productive meetings via video call could be, and how well webinars worked. At OPENGIS.ch, this wasn&#8217;t news because we have always been 100% remote. However, we missed the unplanned, in-person interactions that occur during meetups with a <img alt="🍺" class="wp-smiley" src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f37a.png" style="height: 1em;" />or <img alt="☕" class="wp-smiley" src="https://s.w.org/images/core/emoji/15.0.3/72x72/2615.png" style="height: 1em;" />. That&#8217;s why we&#8217;re very pleased that last week we could join the Swiss QGIS user day for the second time after the pandemic.</p>

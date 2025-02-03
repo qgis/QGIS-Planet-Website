@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>New features keep being added to Crayfish. Now it is possible to export time variable grid as animation, add AnuGA results and visualise vectors on user-defined grids.</p>

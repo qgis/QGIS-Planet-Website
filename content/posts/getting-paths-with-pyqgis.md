@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 When writing plugins or scripts it is often necessary to get information about the paths QGIS is using. For example, if we are writing a plugin that uses Python templates to create output based on user actions, we need to know the path to our installed plugin so we can find the templates. Fortunately the API provides an easy way to get at the information; here are a few examples:

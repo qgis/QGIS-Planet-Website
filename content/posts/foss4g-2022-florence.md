@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>FOSS4G is the annual global event of free and open source geographic technologies and open geospatial data hosted by OSGeo. In 2022 it took place in Firenze with over 1300 participants, 402 talks and 44 workshops.</p>

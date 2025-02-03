@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 After a beautiful map has been created with QGIS and published on https://qgiscloud.com, the desire quickly arises to integrate this map into one&rsquo;s own website. This way, visitors to the website could access the map directly and without having to go via https://qgiscloud.com. With a little HTML, this is easy to do. But let&rsquo;s start from the beginning.

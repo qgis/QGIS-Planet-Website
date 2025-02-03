@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Noch nie war es so einfach individuelle Web Map Services mit ansprechenden Karten, Geodatenbank und Web Client zu erstellen, wie mit QGIS Cloud. Der am 5. Juli an der AGIT 2013 in Salzburg präsentierte Vortrag kann hier herunter geladen werden.

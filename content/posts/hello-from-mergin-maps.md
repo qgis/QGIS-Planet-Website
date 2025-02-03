@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Mergin Maps is a QGIS-powered field survey tool designed to collect data from the field. It is developed by Lutra Consulting, a longstanding contributor, developer, supporter and trainer within the QGIS community.

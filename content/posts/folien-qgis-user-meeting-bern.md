@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Das erste deutschsprachige QGIS User Meeting in Bern war mit rund 80 Teilnehmern ein grosser Erfolg.

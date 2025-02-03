@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We introduced a new packaging and build environment for QGIS and its dependencies for macOS. This will bring a completely new experience for QGIS macOS developers and subsequently, the users.</p>

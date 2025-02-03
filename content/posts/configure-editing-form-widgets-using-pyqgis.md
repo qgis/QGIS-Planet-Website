@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["alexandre_netos_blog"]
 author: "Alexandre Neto's blog"
 tags: ["sem categoria", "pyqgis", "python", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><a href="https://sigsemgrilhetas.wordpress.com/2019/09/30/norma-cartografica-no-qgis-alterar-formularios-de-edicao-com-pyqgis/">PT</a> | EN</p>

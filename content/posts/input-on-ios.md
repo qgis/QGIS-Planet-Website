@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>After a long wait and weeks of development, we finally managed to release <a href="https://merginmaps.com">Input</a> on iOS platform.</p>

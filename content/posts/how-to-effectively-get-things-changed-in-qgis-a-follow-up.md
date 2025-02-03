@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["nyalldawson_net"]
 author: "nyalldawson.net"
 tags: ["qgis", "geospatial", "osgeo", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Last week I posted <a href="http://nyalldawson.net/2016/08/how-to-effectively-get-things-changed-in-qgis/">regarding some thoughts</a> I&#8217;ve had recently concerning what I perceive as a general confusion about how QGIS is developed and how users can successfully get things to change in the project. The post certainly started a lot of conversation! However, based on feedback received I realise some parts of the posts were being misinterpreted and some clarification is needed. So here we go&#8230;</p>

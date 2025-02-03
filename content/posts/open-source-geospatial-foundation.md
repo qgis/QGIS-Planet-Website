@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Well, I have been participating in the &ldquo;GeoFoundation&rdquo; Meeting since 5:30 am local time this morning. We&rsquo;re two hours into the meeting and so far a name for the foundation has been agreed upon: Open Source Geospatial Foundation.

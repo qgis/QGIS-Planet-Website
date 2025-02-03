@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Lets face it, GIS systems are complicated. Typically there are multiple servers and applications that make up a &ldquo;system&rdquo;. Each of these represent a potential point of failure, thus creating a brittle system. Brittle systems break. The definition of the word brittle is:

@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
 tags: ["news", "newsfr", "open source", "qgis", "topographie"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Since 2018 and the arrival of Loïc Bartoletti, Oslandia has accelerated its focus on topography and topology within and around QGIS.</p>

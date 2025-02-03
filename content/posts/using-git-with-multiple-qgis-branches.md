@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 This post is for those of you that build QGIS on a regular basis and want to keep up with everything going on in the current release branches (1.7.2 and 1.8) as well as the master branch that will eventually become version 2.0.

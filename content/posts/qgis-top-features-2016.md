@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["alexandre_netos_blog"]
 author: "Alexandre Neto's blog"
 tags: ["uncategorized", "qgis"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>A year ago I have asked QGIS&#8217;s community what were their favourite QGIS new features from 2015 and published <a href="https://gisunchained.wordpress.com/2016/01/01/qgis-top-features-2015/">this blog post</a>. This year I decided to ask it again. In 2016, we add the release of the second long-term release (2.14 LTR), and two other stable versions (2.16 and 2.18).</p>

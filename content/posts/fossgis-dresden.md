@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>Sourcepole war an der FOSSGIS 2019 in Dresden als Austeller, mit Vorträgen und einem Vektor Tile Workshop präsent.</p>

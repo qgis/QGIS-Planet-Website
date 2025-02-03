@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>In der Schweiz werden amtliche Geodatenmodelle vorwiegend mit Interlis erstellt und häufig wird das Interlis-Transferformat für den offiziellen Datenaustausch vorgegeben. Das Interlis-Plugin für QGIS ermöglicht die einfache Verarbeitung von Interlis-Daten und bindet externe Java-Applikationen in die Processing-Toolbox ein.</p>

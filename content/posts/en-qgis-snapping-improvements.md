@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
 tags: ["database", "gis", "qgis", "open source", "postgis", "snapping"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>A few months ago, we proposed to the <a href="https://blog.qgis.org/2019/06/30/qgis-grant-programme-2019-results/">QGIS grant program</a> to make improvements to the snap cache in QGIS. The community vote selected our project which was funded by QGIS.org. Developments are now mostly finished.</p>

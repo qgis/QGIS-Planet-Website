@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["mergin_maps"]
 author: "Mergin Maps"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 Agrimotion, an agricultural consultancy in South Africa, specializes in perennial crops. Their IMPI platform, developed with Lutra Consulting and Mergin Maps, simplifies farm management by enhancing data collection and analysis, boosting productivity, and reducing costs.

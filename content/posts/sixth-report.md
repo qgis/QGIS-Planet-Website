@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["marcus_soc_reports"]
 author: "Marcus SOC reports"
 tags: ["reports"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p><strong>What do I have completed this week?</strong></p>

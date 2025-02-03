@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["spatialgalaxy_net"]
 author: "Spatial Galaxy"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 One of the hurdles in developing a QGIS plugin with Python is just getting the basics down. Getting the plugin setup so it is recognized by QGIS and properly adds it&rsquo;s menu and toolbar items can be a bit of a chore, especially the first time.

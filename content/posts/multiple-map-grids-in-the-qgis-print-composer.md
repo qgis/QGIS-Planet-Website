@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["sourcepole"]
 author: "Sourcepole"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 In printed maps, having several coordinate grids over one map is a very usefull feature. For instance using a meter system as output CRS, it is nice to display a latitude / longitude grid as well. Until now, the QGIS print composer allowed only one coordinate grid per composer map and it was restricted to the map output CRS.

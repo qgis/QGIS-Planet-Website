@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We talked about Mergin Maps in the <a href="https://mapscaping.com/podcast/qgis-offline-and-in-the-field/">MapScaping</a> podcast: QGIS Offline And In The Field</p>

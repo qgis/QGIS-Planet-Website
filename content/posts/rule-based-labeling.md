@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>The new <a href="http://www2.qgis.org/en/site/" target="_blank">QGIS</a> 2.12 (Lyon) will be out soon!</p>

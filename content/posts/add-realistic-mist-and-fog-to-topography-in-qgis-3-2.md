@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["ireland_qgis_user_group_blog"]
 author: "Ireland QGIS User Group Blog"
 tags: ["qgis", "tutorial", "uncategorized"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <div class="c497l3-6 eCeBkc s1hmcfrd-0 fcsMgH">

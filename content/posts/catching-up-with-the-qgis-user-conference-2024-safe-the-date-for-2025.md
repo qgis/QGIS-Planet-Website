@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["qgis_project_blog"]
 author: "QGIS Project blog"
 tags: ["uncategorized"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>This year&#8217;s user conference took place in Bratislava, organized by the Slovak QGIS User Group and hosted at the Slovak University of Technology Faculty of Civil Engineering. The event was sold out early and the venue was full of energy and excitement.</p>

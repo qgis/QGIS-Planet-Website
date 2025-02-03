@@ -8,6 +8,8 @@ showcase: "planet"
 subscribers: ["lutragis"]
 author: "Lutra Consulting"
 tags: []
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
 <p>We are pleased to announce the first public release of <a href="https://merginmaps.com/">Input</a>. Input is a <a href="https://github.com/lutraconsulting/input">Free and Open Source</a> mobile application built on top of QGIS.</p>
