@@ -15,7 +15,7 @@ help:
 #    P R O D U C T I O N     C O M M A N D S
 # ----------------------------------------------------------------------------
 
-build: ## Build the site for nocache.qgis.org, www.qgis.org and qgis.org
+build: ## Build the site for planet.qgis.org
 	@echo
 	@echo "------------------------------------------------------------------"
 	@echo "Building site in production"
@@ -24,14 +24,14 @@ build: ## Build the site for nocache.qgis.org, www.qgis.org and qgis.org
 	hugo --config config.toml,config/config.prod.toml
 
 
-deploy: ## Deploy the site for nocache.qgis.org, www.qgis.org and qgis.org
+deploy: ## Deploy the site for planet.qgis.org
 	@echo
 	@echo "------------------------------------------------------------------"
 	@echo "Deploy site in production"
 	@echo "------------------------------------------------------------------"
 	git pull && rm -rf archive; mkdir archive; mv public archive; make build
 
-revert-deploy: ## Revert the site for nocache.qgis.org, www.qgis.org and qgis.org
+revert-deploy: ## Revert the site for planet.qgis.org
 	@echo
 	@echo "------------------------------------------------------------------"
 	@echo "Revert to the previous state in production"
