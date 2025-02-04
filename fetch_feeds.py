@@ -99,7 +99,8 @@ class FeedProcessor:
             "%a, %d %b %Y %H:%M:%S %z",  # Example: Wed, 14 Dec 2022 00:00:00 +0000
             "%a, %d %b %Y %H:%M:%S %Z",  # Example: Wed, 14 Dec 2022 00:00:00 GMT
             "%Y-%m-%dT%H:%M:%SZ",        # Example: 2024-09-04T04:52:11Z
-            "%Y-%m-%dT%H:%M:%S%z"        # Example: 2017-09-01T12:09:27+02:00
+            "%Y-%m-%dT%H:%M:%S%z",       # Example: 2017-09-01T12:09:27+02:00
+            "%Y-%m-%d"                   # Example: 2025-01-17
         ]
         
         date_to_parse = entry.get('updated', entry.get('published', None))
@@ -111,9 +112,10 @@ class FeedProcessor:
                 except (AttributeError, ValueError):
                     continue
         
-        print("Date format error: Unable to parse date")
-        with open("unprocessed_dates.txt", "a") as f:
-            f.write(f"Failed to parse date for entry: {entry.get('updated', entry.get('published', None))} \n\n")
+        print(f"Date format error: Unable to parse date {date_to_parse}")
+        # with open("unprocessed_dates.txt", "a") as f
+        # :
+        #     f.write(f"Failed to parse date for entry: {entry.get('updated', entry.get('published', None))} \n\n")
         return ""
 
     def get_summary(self, entry):
