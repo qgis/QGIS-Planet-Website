@@ -184,5 +184,11 @@
     "name": "Geotribu",
     "shortname": "geotribu_en",
     "is_active": true
+  },
+  {
+    "feed": "https://kartoza.com/rss.xml",
+    "name": "Kartoza",
+    "shortname": "kartoza",
+    "is_active": true
   }
 ]
