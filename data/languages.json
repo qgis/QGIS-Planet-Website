@@ -8,5 +8,50 @@
         "name": "Français",
         "code": "fr_fr",
         "flag": "🇫🇷"
+    },
+    {
+        "name": "Español",
+        "code": "es_es",
+        "flag": "🇪🇸"
+    },
+    {
+        "name": "Deutsch",
+        "code": "de_de",
+        "flag": "🇩🇪"
+    },
+    {
+        "name": "Italiano",
+        "code": "it_it",
+        "flag": "🇮🇹"
+    },
+    {
+        "name": "Português",
+        "code": "pt_pt",
+        "flag": "🇵🇹"
+    },
+    {
+        "name": "中文",
+        "code": "zh_cn",
+        "flag": "🇨🇳"
+    },
+    {
+        "name": "日本語",
+        "code": "ja_jp",
+        "flag": "🇯🇵"
+    },
+    {
+        "name": "한국어",
+        "code": "ko_kr",
+        "flag": "🇰🇷"
+    },
+    {
+        "name": "Русский",
+        "code": "ru_ru",
+        "flag": "🇷🇺"
+    },
+    {
+        "name": "العربية",
+        "code": "ar_sa",
+        "flag": "🇸🇦"
     }
 ]
