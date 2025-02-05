@@ -8,7 +8,7 @@ heroSize: "is-medium"
 heroLogo: "img/logosign.svg"
 HeroImage: "img/hegobg1.webp"
 HasBanner: true
-ButtonText: "See all posts" 
+ButtonText: "Start Reading" 
 ButtonLink: "posts/"
 LabelText: "Free and Open Source"
 ---
