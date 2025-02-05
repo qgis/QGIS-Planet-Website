@@ -12,11 +12,3 @@ ButtonText: "Start Reading"
 ButtonLink: "posts/"
 LabelText: "Free and Open Source"
 ---
-
-{{< content-start >}}
-
-# Subscribers
-
-{{< subscribers >}}
-
-{{< content-end >}}

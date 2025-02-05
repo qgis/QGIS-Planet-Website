@@ -1,194 +1,226 @@
 [
   {
-    "feed": "http://linfiniti.com/feed",
+    "feed": "https://linfiniti.com/feed",
     "name": "Linfiniti",
     "shortname": "linfiniti",
-    "is_active": false
+    "is_active": false,
+    "logo": ""
   },
   {
-    "feed": "http://spatialgalaxy.net/feed/",
+    "feed": "https://spatialgalaxy.net/feed/",
     "name": "Spatial Galaxy",
     "shortname": "spatialgalaxy_net",
-    "is_active": true
+    "is_active": true,
+    "logo": "spatial_galaxy.png"
   },
   {
-    "feed": "http://underdark.wordpress.com/feed/",
+    "feed": "https://underdark.wordpress.com/feed/",
     "name": "Anita Graser",
     "shortname": "anita_graser",
-    "is_active": true
+    "is_active": true,
+    "logo": "anita_graser.png"
   },
   {
-    "feed": "http://blog.sourcepole.ch/categories/qgis/atom.xml",
+    "feed": "https://blog.sourcepole.ch/categories/qgis/atom.xml",
     "name": "Sourcepole",
     "shortname": "sourcepole",
-    "is_active": true
+    "is_active": true,
+    "logo": "sourcepole.png"
   },
   {
-    "feed": "http://nathanw.net/feed.xml",
+    "feed": "https://nathanw.net/feed.xml",
     "name": "Nathans QGIS and GIS blog",
     "shortname": "nathans_qgis_and_gis_blog",
-    "is_active": true
+    "is_active": false,
+    "logo": ""
   },
   {
-    "feed": "http://www.qgis.nl/feed/?lang=en",
+    "feed": "https://www.qgis.nl/feed/?lang=en",
     "name": "QGIS Dutch Community",
     "shortname": "qgis_nl",
-    "is_active": true
+    "is_active": true,
+    "logo": "qgis_nl.png"
   },
   {
-    "feed": "http://www.rcarrillo.org/taxonomy/term/6/feed",
+    "feed": "https://www.rcarrillo.org/taxonomy/term/6/feed",
     "name": "rcarrillo.org",
     "shortname": "rcarrillo_org",
-    "is_active": true
+    "is_active": false,
+    "logo": ""
   },
   {
-    "feed": "http://faunaliagis.wordpress.com/feed/",
+    "feed": "https://faunaliagis.wordpress.com/feed/",
     "name": "Faunalia",
     "shortname": "faunalia",
-    "is_active": true
+    "is_active": true,
+    "logo": "faunalia.png"
   },
   {
-    "feed": "http://3nids.wordpress.com/feed/",
+    "feed": "https://3nids.wordpress.com/feed/",
     "name": "QGIS Tips",
     "shortname": "qgis_tips",
-    "is_active": true
+    "is_active": true,
+    "logo": "qgis_tips.png"
   },
   {
-    "feed": "http://nyalldawson.net/category/qgis/feed/",
+    "feed": "https://nyalldawson.net/category/qgis/feed/",
     "name": "nyalldawson.net",
     "shortname": "nyalldawson_net",
-    "is_active": true
+    "is_active": true,
+    "logo": "nyalldawson_net.png"
   },
   {
-    "feed": "http://infogeoblog.wordpress.com/category/gis/qgis/feed/",
+    "feed": "https://infogeoblog.wordpress.com/category/gis/qgis/feed/",
     "name": "Info Geo Blog",
     "shortname": "infogeoblog",
-    "is_active": true
+    "is_active": false,
+    "logo": ""
   },
   {
     "feed": "https://neteler.org/feed",
     "name": "Markus Neteler",
     "shortname": "markus_neteler",
-    "is_active": true
+    "is_active": true,
+    "logo": "markus_neteler.webp"
   },
   {
-    "feed": "http://ukqgis.wordpress.com/feed/",
+    "feed": "https://ukqgis.wordpress.com/feed/",
     "name": "QGIS UK",
     "shortname": "qgis_uk",
-    "is_active": true
+    "is_active": true,
+    "logo": "qgis_uk.png"
   },
   {
     "feed": "https://kartoza.com/en/blog/category/qgis/feeds/atom/",
     "name": "Kartoza",
     "shortname": "kartoza",
-    "is_active": false
+    "is_active": false,
+    "logo": "kartoza.png"
   },
   {
     "feed": "https://www.lutraconsulting.co.uk/blog/categories/qgis/atom.xml",
     "name": "Lutra Consulting",
     "shortname": "lutragis",
-    "is_active": true
+    "is_active": true,
+    "logo": "lutragis.svg"
   },
   {
     "feed": "https://gisunchained.wordpress.com/feed/",
     "name": "Alexandre Neto's blog",
     "shortname": "alexandre_netos_blog",
-    "is_active": true
+    "is_active": true,
+    "logo": "alexandre_netos.png"
   },
   {
-    "feed": "http://www.naturalgis.pt/blog/atom.xml",
+    "feed": "https://www.naturalgis.pt/blog/atom.xml",
     "name": "Natural GIS",
     "shortname": "natural_gis",
-    "is_active": true
+    "is_active": false,
+    "logo": ""
   },
   {
     "feed": "https://ieqgis.wordpress.com/feed/",
     "name": "Ireland QGIS User Group Blog",
     "shortname": "ireland_qgis_user_group_blog",
-    "is_active": true
+    "is_active": true,
+    "logo": "ireland_user_group.png"
   },
   {
-    "feed": "http://www.itopen.it/category/gis/qgis/feed/lang-pref/en/",
+    "feed": "https://www.itopen.it/category/gis/qgis/feed/lang-pref/en/",
     "name": "ItOpen",
     "shortname": "itopen",
-    "is_active": true
+    "is_active": true,
+    "logo": "itopen.png"
   },
   {
-    "feed": "http://qgis.dk/category/english/feed/",
+    "feed": "https://qgis.dk/category/english/feed/",
     "name": "QGIS.dk articles",
     "shortname": "qgis_dk",
-    "is_active": true
+    "is_active": true,
+    "logo": "qgis-dk.png"
   },
   {
     "feed": "https://qgisgsoc2015.wordpress.com/category/reports/feed/",
     "name": "Marcus SOC reports",
     "shortname": "marcus_soc_reports",
-    "is_active": true
+    "is_active": true,
+    "logo": "main_logo.webp"
   },
   {
     "feed": "https://blog.qgis.org/feed/",
     "name": "QGIS Project blog",
     "shortname": "qgis_project_blog",
-    "is_active": true
+    "is_active": true,
+    "logo": "main_logo.webp"
   },
   {
-    "feed": "http://north-road.com/feed/?cat=QGIS",
+    "feed": "https://north-road.com/feed/?cat=QGIS",
     "name": "North Road",
     "shortname": "north_road",
-    "is_active": true
+    "is_active": true,
+    "logo": "north_road.png"
   },
   {
-    "feed": "http://imhere-asia.com/blog/rss-qgis.xml",
+    "feed": "https://imhere-asia.com/blog/rss-qgis.xml",
     "name": "Nirvns QGIS blogs",
     "shortname": "nirvns_qgis_blogs",
-    "is_active": true
+    "is_active": false,
+    "logo": ""
   },
   {
-    "feed": "http://oslandia.com/en/tag/qgis-en/feed/atom/",
+    "feed": "https://oslandia.com/en/tag/qgis-en/feed/atom/",
     "name": "QGIS Oslandia",
     "shortname": "qgis_oslandia",
-    "is_active": true
+    "is_active": true,
+    "logo": "qgis_oslandia.png"
   },
   {
-    "feed": "http://qgis-polska.org/feed.php?ns=blog",
+    "feed": "https://qgis-polska.org/feed.php?ns=blog",
     "name": "QGIS Polska blog",
     "shortname": "qgis_polska_blog",
-    "is_active": true
+    "is_active": false,
+    "logo": "main_logo.webp"
   },
   {
     "feed": "https://www.opengis.ch/tag/qgis-org/feed/",
     "name": "OPENGIS.ch blog",
     "shortname": "opengisch",
-    "is_active": true
+    "is_active": true,
+    "logo": "opengisch.webp"
   },
   {
     "feed": "https://www.maptiler.com/news/feed/qgis.xml",
     "name": "maptiler.com",
     "shortname": "maptiler",
-    "is_active": true
+    "is_active": true,
+    "logo": "maptiler.png"
   },
   {
     "feed": "https://github.com/opengisch/qfield/releases.atom",
     "name": "QField releases",
     "shortname": "qfield",
-    "is_active": true
+    "is_active": true,
+    "logo": "qfield.svg"
   },
   {
     "feed": "https://merginmaps.com/rss/qgis",
     "name": "Mergin Maps",
     "shortname": "mergin_maps",
-    "is_active": true
+    "is_active": true,
+    "logo": "mergin_maps.svg"
   },
   {
     "feed": "https://blog.geotribu.net/feed_rss_created.xml",
     "name": "Geotribu",
     "shortname": "geotribu_en",
-    "is_active": true
+    "is_active": true,
+    "logo": "geotribu_en.png"
   },
   {
     "feed": "https://kartoza.com/rss.xml",
     "name": "Kartoza",
     "shortname": "kartoza",
-    "is_active": true
+    "is_active": true,
+    "logo": "kartoza.png"
   }
 ]
