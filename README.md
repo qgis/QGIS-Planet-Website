@@ -43,12 +43,14 @@ The file `data/subscribers.json` is the main entry to fetch all feeds for the QG
       "PyQGIS",
       "Mergin",
     ],
-    // Availables and main language of the feed
+    // Availables and main language of the feed.
+    // The list of supported language is in the file
+    // data/languages.json. Please add yours there if not listed.
     "languages": {
       "available": [
-        "fr_FR"
+        "fr_fr"
       ],
-      "main": "fr_FR"
+      "main": "fr_fr"
     }
   },
 ```
