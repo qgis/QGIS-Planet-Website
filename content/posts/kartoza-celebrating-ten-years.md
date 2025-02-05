@@ -2,12 +2,12 @@
 source: "blog"
 title: "Kartoza's 10th Anniversary: Looking Back, Moving Forward"
 date: "2024-07-01T00:00:00"
-link: "https://kartoza.com/kartoza-celebrating-ten-years"
+link: "https://kartoza.com/blog/news/kartoza-celebrating-ten-years"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["news"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

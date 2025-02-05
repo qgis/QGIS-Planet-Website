@@ -2,12 +2,12 @@
 source: "blog"
 title: "Geospatial Hosting - Taking the pain out of hosting your GIS applications"
 date: "2024-09-27T00:00:00"
-link: "https://kartoza.com/geospatial-hosting-taking-the-pain-out-of-hosting-your-gis-applications"
+link: "https://kartoza.com/blog/hosting/geospatial-hosting-taking-the-pain-out-of-hosting-your-gis-applications"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["hosting"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

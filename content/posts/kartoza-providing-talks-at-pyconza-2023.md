@@ -2,12 +2,12 @@
 source: "blog"
 title: "PyConZA 2023 reportback"
 date: "2024-06-17T00:00:00"
-link: "https://kartoza.com/kartoza-providing-talks-at-pyconza-2023"
+link: "https://kartoza.com/blog/python/kartoza-providing-talks-at-pyconza-2023"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["python"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

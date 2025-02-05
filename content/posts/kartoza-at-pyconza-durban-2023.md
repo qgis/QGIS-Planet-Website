@@ -2,12 +2,12 @@
 source: "blog"
 title: "Kartoza at PyConZA Durban 2023"
 date: "2023-10-12T00:00:00"
-link: "https://kartoza.com/kartoza-at-pyconza-durban-2023"
+link: "https://kartoza.com/blog/python/kartoza-at-pyconza-durban-2023"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["python"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

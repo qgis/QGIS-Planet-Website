@@ -2,12 +2,12 @@
 source: "blog"
 title: "Managing Legacy Code - PyConID 2023"
 date: "2023-12-01T00:00:00"
-link: "https://kartoza.com/pyconid-2023-in-bandung-indonesia"
+link: "https://kartoza.com/blog/python/pyconid-2023-in-bandung-indonesia"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["python"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

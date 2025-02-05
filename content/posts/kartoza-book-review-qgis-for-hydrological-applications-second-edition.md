@@ -2,12 +2,12 @@
 source: "blog"
 title: "Kartoza Book Review: QGIS for Hydrological Applications second Edition"
 date: "2022-12-09T00:00:00"
-link: "https://kartoza.com/kartoza-book-review-qgis-for-hydrological-applications-second-edition"
+link: "https://kartoza.com/blog/qgis/kartoza-book-review-qgis-for-hydrological-applications-second-edition"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["qgis"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

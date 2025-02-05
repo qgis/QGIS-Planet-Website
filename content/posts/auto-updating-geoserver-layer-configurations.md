@@ -2,12 +2,12 @@
 source: "blog"
 title: "Tutorial: Auto-updating GeoServer layer configurations"
 date: "2023-10-16T00:00:00"
-link: "https://kartoza.com/auto-updating-geoserver-layer-configurations"
+link: "https://kartoza.com/blog/geoserver/auto-updating-geoserver-layer-configurations"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["geoserver"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

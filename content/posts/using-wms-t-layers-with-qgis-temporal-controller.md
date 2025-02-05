@@ -2,12 +2,12 @@
 source: "blog"
 title: "Using WMS-T layers with QGIS Temporal Controller"
 date: "2024-05-29T00:00:00"
-link: "https://kartoza.com/using-wms-t-layers-with-qgis-temporal-controller"
+link: "https://kartoza.com/blog/conference/using-wms-t-layers-with-qgis-temporal-controller"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["conference"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

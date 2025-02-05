@@ -2,12 +2,12 @@
 source: "blog"
 title: "Kartoza Internship: Programming Sessions"
 date: "2024-03-13T00:00:00"
-link: "https://kartoza.com/kartoza-internship-programming-sessions"
+link: "https://kartoza.com/blog/python/kartoza-internship-programming-sessions"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["python"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

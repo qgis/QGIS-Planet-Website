@@ -2,12 +2,12 @@
 source: "blog"
 title: "Rendering Points as a Heatmap in GeoServer"
 date: "2025-01-17T00:00:00"
-link: "https://kartoza.com/rendering-points-as-a-heatmap-in-geoserver"
+link: "https://kartoza.com/blog/geoserver/rendering-points-as-a-heatmap-in-geoserver"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["geoserver"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

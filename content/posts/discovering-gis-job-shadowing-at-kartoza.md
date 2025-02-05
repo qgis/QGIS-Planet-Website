@@ -2,12 +2,12 @@
 source: "blog"
 title: "Discovering GIS: Job Shadowing at Kartoza"
 date: "2024-08-29T00:00:00"
-link: "https://kartoza.com/discovering-gis-job-shadowing-at-kartoza"
+link: "https://kartoza.com/blog/uncategorised/discovering-gis-job-shadowing-at-kartoza"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["news"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

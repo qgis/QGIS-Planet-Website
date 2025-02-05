@@ -2,12 +2,12 @@
 source: "blog"
 title: "Zonal Operations using PostGIS"
 date: "2024-06-24T00:00:00"
-link: "https://kartoza.com/zonal-operations-using-postgis"
+link: "https://kartoza.com/blog/database/zonal-operations-using-postgis"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["database"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

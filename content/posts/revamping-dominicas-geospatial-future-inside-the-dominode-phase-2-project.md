@@ -2,12 +2,12 @@
 source: "blog"
 title: "Revamping Dominica's Geospatial Future: Inside the DomiNode Phase 2 Project"
 date: "2024-09-20T00:00:00"
-link: "https://kartoza.com/revamping-dominicas-geospatial-future-inside-the-dominode-phase-2-project"
+link: "https://kartoza.com/blog/geonode/revamping-dominicas-geospatial-future-inside-the-dominode-phase-2-project"
 draft: "false"
 showcase: "planet"
 subscribers: ["kartoza"]
 author: "Kartoza"
-tags: []
+tags: ["geonode"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
