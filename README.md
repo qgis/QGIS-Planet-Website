@@ -19,22 +19,55 @@ By Tim Sutton and QGIS Contributors.
 Project stars:
 ![Stars](https://starchart.cc/qgis/QGIS-Planet-Website.svg)
 
-## 🏃Before you start
+## Subscriber Model
+
+The file `data/subscribers.json` is the main entry to fetch all feeds for the QGIS Planet Website. **You can add or update a feed by editing this file and submitting a Pull Request to this repository.** Below is the recommended data structure:
+
+```json
+  {
+    // The RSS Feed URL
+    "feed": "https://geotribu.fr/feed_rss_created.xml",
+    // Name of the subscriber
+    "name": "Geotribu",
+    // Shortname of the subscriber
+    "shortname": "geotribu_fr",
+    // Show on the Website
+    "is_active": true,
+    // Optional: Filter the category of the posts to be fetch. 
+    // It corresponds to the <category> tag on the RSS XML.
+    // If not set, the default value will be ["QGIS"].
+    "filter_categories": [
+      "QGIS",
+      "QField",
+      "QGIS Server",
+      "PyQGIS",
+      "Mergin",
+    ],
+    // Availables and main language of the feed
+    "languages": {
+      "available": [
+        "fr_FR"
+      ],
+      "main": "fr_FR"
+    }
+  },
+```
+
+## 🧑💻 Development
+
+### 🏃Before you start
 
 This web site is a static site built using [Hugo](https://gohugo.io/).
 
 ![Hugo Logo](./img/hugo-logo.png) and using the [hugo bulma blocks theme](https://github.com/kartoza/hugo-bulma-blocks-theme).
 
-## 🛒 Getting the Code
+### 🛒 Getting the Code
 
 development
 ```
 git clone https://github.com/qgis/QGIS-Planet-Website.git
 cd QGIS-Planet-Website
 ```
-
-
-## 🧑💻 Development
 
 ### Using Nix
 The development environment is using Nix flakes. Please visit https://nixos.wiki/wiki/Flakes for more details.

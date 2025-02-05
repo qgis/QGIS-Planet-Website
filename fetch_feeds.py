@@ -14,6 +14,9 @@ from dateutil.parser import parse as date_parse
 SUBSCRIBERS_JSON_PATH = os.path.join(os.path.dirname(__file__), 'data', 'subscribers.json')
 ALL_POSTS_FOLDER = os.path.join("content", "posts")
 
+DEFAULT_AVAILABLE_LANG = ["en_GB"]
+DEFAULT_MAIN_LANG = "en_GB"
+DEFAULT_CATEGORIES = ["QGIS"]
 
 class FeedProcessor:
     def __init__(
@@ -22,7 +25,8 @@ class FeedProcessor:
             shortname: str,
             feed_url: str,
             available_lang: list,
-            main_lang: str):
+            main_lang: str,
+            filter_categories: list):
 
         """
         Initializes a new instance of the class.
@@ -33,6 +37,7 @@ class FeedProcessor:
             feed_url (str): The URL of the feed to be fetched.
             available_lang (list): A list of languages available for the feed.
             main_lang (str): The default language for the feed.
+            filter_categories (list): A list of categories to filter the feed by.
 
         Description:
             This class is responsible for initializing the subscriber's details 
@@ -44,6 +49,7 @@ class FeedProcessor:
         self.feed_url = feed_url
         self.available_lang = available_lang
         self.main_lang = main_lang
+        self.filter_categories = filter_categories
 
     def fetch_and_create_post(self):
         try:
@@ -57,10 +63,11 @@ class FeedProcessor:
         try:
             dest_folder = self.get_dest_folder()
             title = entry.title
-            image_url = next((link.href for link in entry.links if 'image' in link.type), entry.links[-1].href)
-            if image_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')):
-                file_name = self.get_image_name(image_url)
-                self.download_image(image_url, file_name, dest_folder)
+            # I don't think we need to download images because the images are already in the feed
+            # image_url = next((link.href for link in entry.links if 'image' in link.type), entry.links[-1].href)
+            # if image_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')):
+            #     file_name = self.get_image_name(image_url)
+            #     self.download_image(image_url, file_name, dest_folder)
 
             post_url = entry.link
 
@@ -72,11 +79,13 @@ class FeedProcessor:
                 content = self.get_summary(entry)
             tags = self.get_tags(entry)
 
-            content = self.generate_markdown_content(title, entry_date, post_url, content, tags)
-            
-            # Copy the markdown file to the posts/lang folder
-            markdown_filename = os.path.join(dest_folder, f"{file_name}.md")
-            self.write_to_file(markdown_filename, content)
+            are_tags_present = any(str(category).lower() in tags for category in self.filter_categories)
+            if are_tags_present:
+                content = self.generate_markdown_content(title, entry_date, post_url, content, tags)
+                
+                # Copy the markdown file to the posts folder
+                markdown_filename = os.path.join(dest_folder, f"{file_name}.md")
+                self.write_to_file(markdown_filename, content)
 
         except Exception as e:
             print(f"Failed to process entry for {self.subscriber_name}: {e}")
@@ -244,21 +253,34 @@ if __name__ == "__main__":
     with open(SUBSCRIBERS_JSON_PATH, 'r') as f:
         subscribers = json.load(f)
 
+    # Remove all files inside the content/posts folder
+    for filename in os.listdir(ALL_POSTS_FOLDER):
+        file_path = os.path.join(ALL_POSTS_FOLDER, filename)
+        try:
+            if os.path.isfile(file_path) or os.path.islink(file_path):
+                os.unlink(file_path)
+            elif os.path.isdir(file_path):
+                shutil.rmtree(file_path)
+        except Exception as e:
+            print(f"Failed to delete {file_path}. Reason: {e}")
+
     # Iterate over the subscribers and fetch posts for active ones
     for subscriber in subscribers:
         if not subscriber.get('is_active'):
             continue
         
         languages = subscriber.get('languages', {})
-        available_lang = languages.get('available', ["en_GB"])
-        main_lang = languages.get('main', "en_GB")
+        available_lang = languages.get('available', DEFAULT_AVAILABLE_LANG)
+        main_lang = languages.get('main', DEFAULT_MAIN_LANG)
+        filter_categories = subscriber.get('filter_categories', DEFAULT_CATEGORIES)
         
         processor = FeedProcessor(
             subscriber['name'],
             subscriber['shortname'],
             subscriber['feed'],
             available_lang,
-            main_lang
+            main_lang,
+            filter_categories
         )
         processor.fetch_and_create_post()
     
