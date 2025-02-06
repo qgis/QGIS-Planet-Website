@@ -7,8 +7,9 @@ from urllib.parse import urlparse
 import requests
 import shutil
 from datetime import datetime
-from scripts.resize_image import resize_image
+from scripts.resize_image import resize_image, convert_to_webp
 from dateutil.parser import parse as date_parse
+from bs4 import BeautifulSoup
 
 # Path to the subscribers.json file
 SUBSCRIBERS_JSON_PATH = os.path.join(os.path.dirname(__file__), 'data', 'subscribers.json')
@@ -58,16 +59,35 @@ class FeedProcessor:
                 self.process_entry(entry)
         except Exception as e:
             print(f"Failed to process feed for {self.subscriber_name}: {e}")
+    
+    def fetch_all_images(self, content, subscriber_shortname, post_name):
+        img_folder = os.path.join("img", "subscribers", subscriber_shortname, post_name)
+        soup = BeautifulSoup(content, 'html.parser')
+        
+        for img in soup.find_all('img'):
+            img_url = img['src']
+            if img_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')) or 'raw=true' in img_url.lower():
+                try:
+                    img_url = img_url.split('?')[0]  # Remove query parameters
+                    file_name = self.get_image_name(img_url)
+                    downloaded_img = self.download_image(img_url, file_name, os.path.join("static", img_folder))
+                    resize_image(downloaded_img, max_height=600)
+                    webp_img_path = convert_to_webp(downloaded_img, replace=True)
+                    webp_img_name = os.path.basename(webp_img_path)
+                    img['src'] = os.path.join("/", img_folder, webp_img_name)
+                except Exception as e:
+                    img['src'] = ""
+                    print(f"Failed to process image: {e}")
+            else:
+                img['src'] = ""
+        
+        return str(soup.prettify())
+
 
     def process_entry(self, entry):
         try:
             dest_folder = self.get_dest_folder()
             title = entry.title
-            # I don't think we need to download images because the images are already in the feed
-            # image_url = next((link.href for link in entry.links if 'image' in link.type), entry.links[-1].href)
-            # if image_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')):
-            #     file_name = self.get_image_name(image_url)
-            #     self.download_image(image_url, file_name, dest_folder)
 
             post_url = entry.link
 
@@ -81,6 +101,7 @@ class FeedProcessor:
 
             are_tags_present = any(str(category).lower() in tags for category in self.filter_categories)
             if are_tags_present:
+                content = self.fetch_all_images(content, self.shortname, file_name)
                 content = self.generate_markdown_content(title, entry_date, post_url, content, tags)
                 
                 # Copy the markdown file to the posts folder
@@ -170,11 +191,13 @@ available_languages: [{available_lang_str}]
             f.write(content)
 
     def download_image(self, image_url, image_name, dest_folder):
-        response = requests.get(image_url, stream=True)
+        os.makedirs(dest_folder, exist_ok=True)
         image_filename = os.path.join(dest_folder, image_name)
+        response = requests.get(image_url, stream=True)
         with open(image_filename, 'wb') as out_file:
             shutil.copyfileobj(response.raw, out_file)
             print(f"Writing: {image_filename}")
+        return image_filename
 
 
 class FunderProcessor:

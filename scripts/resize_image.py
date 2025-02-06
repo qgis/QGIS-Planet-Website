@@ -43,3 +43,37 @@ def resize_image(image_filename, max_height=120):
                     print(f'No resizing needed for: {image_filename}')
         else:
             print(f'File not found: {image_filename}')
+
+# Transform an image into webp format
+def convert_to_webp(image_filename, replace=False):
+    """
+    Convert an image to webp format.
+    The image is converted in place.
+    param image_filename: The image file to convert
+    """
+    supported_formats = ['.png', '.jpg', '.jpeg', '.tiff']
+    image_ext = os.path.splitext(image_filename)[1].lower()
+    if image_ext not in supported_formats:
+        print(f'Unsupported format: {image_filename}')
+        return image_filename
+    if os.path.exists(image_filename):
+        print(f'Processing: {image_filename}')
+        with Image.open(image_filename) as img:
+            # Determine the file format
+            file_format = image_filename.split('.')[-1].upper()
+
+            # Save the image in webp format with optimization
+            webp_filename = image_filename.replace(file_format.lower(), 'webp')
+            img.save(
+                webp_filename,
+                format='WEBP',
+                optimize=True,
+                quality=85
+            )
+            if replace:
+                os.remove(image_filename)
+            print(f'Converted to webp: {image_filename}')
+        return webp_filename
+    else:
+        print(f'File not found: {image_filename}')
+        raise FileNotFoundError
