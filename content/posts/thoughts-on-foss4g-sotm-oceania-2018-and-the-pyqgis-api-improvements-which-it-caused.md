@@ -2,7 +2,7 @@
 source: "blog"
 title: "Thoughts on “FOSS4G/SOTM Oceania 2018”, and the PyQGIS API improvements which it caused"
 date: "2018-11-25T00:05:07+0000"
-link: "http://nyalldawson.net/2018/11/thoughts-on-foss4g-sotm-oceania-2018-and-the-pyqgis-api-improvements-which-it-caused/"
+link: "https://nyalldawson.net/2018/11/thoughts-on-foss4g-sotm-oceania-2018-and-the-pyqgis-api-improvements-which-it-caused/"
 draft: "false"
 showcase: "planet"
 subscribers: ["nyalldawson_net"]

@@ -2,7 +2,7 @@
 source: "blog"
 title: "New map coloring algorithms in QGIS 3.0"
 date: "2017-02-22T06:17:02+0000"
-link: "http://nyalldawson.net/2017/02/new-map-coloring-algorithms-in-qgis-3-0/"
+link: "https://nyalldawson.net/2017/02/new-map-coloring-algorithms-in-qgis-3-0/"
 draft: "false"
 showcase: "planet"
 subscribers: ["nyalldawson_net"]

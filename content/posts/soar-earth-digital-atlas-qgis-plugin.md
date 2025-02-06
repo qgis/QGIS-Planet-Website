@@ -35,7 +35,7 @@ available_languages: ["en_gb"]
 <p><img alt="" class="alignnone wp-image-212584 size-large" height="901" src="https://north-road.com/wp-content/uploads/2023/08/data_manager-e1692857602162-1024x901.png" width="1024" /></p>
 <p>When you&#8217;ve found an interesting map, hit the &#8220;Add to Map&#8221; button and the map will be added as a new layer into your current project. After the layer is loaded you can freely modify the layer&#8217;s style (such as the opacity, colorization, contrast etc) just like any other raster dataset using the standard QGIS Layer Style controls.</p>
 <h2>Sharing your maps</h2>
-<p>Before you can share your maps on Soar, you&#8217;ll need to first <a href="https://soar.earth/register?">sign up</a> for a free Soar account.</p>
+<p>Before you can share your maps on Soar, you&#8217;ll need to first <a href="https://soar.earth/register">sign up</a> for a free Soar account.</p>
 <p>We&#8217;ve designed the Soar plugin with two specific use cases in mind for sharing maps. The first use case is when you want to share an entire map (i.e. QGIS project) to Soar. This will publish all the visible content from your map onto Soar, including all the custom styling, labeling, decorations and other content you&#8217;ve carefully designed. To do this, just select the Project menu, Import/Export -&gt; Export map to Soar option.</p>
 <p><img alt="Upload via Project to Soar" class="alignnone size-full wp-image-212586" height="499" src="https://north-road.com/wp-content/uploads/2023/08/export_from_canvas.png" width="451" /></p>
 <p>You&#8217;ll have a chance to enter all the metadata and descriptive text explaining your map, and then the map will be rendered and uploaded directly to Soar.</p>

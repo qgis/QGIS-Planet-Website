@@ -2,7 +2,7 @@
 source: "blog"
 title: "The Inaugural QGIS Australia Hackfest – Noosa 2017"
 date: "2017-05-16T00:51:56+0000"
-link: "http://nyalldawson.net/2017/05/the-inaugural-qgis-australia-hackfest-noosa-2017/"
+link: "https://nyalldawson.net/2017/05/the-inaugural-qgis-australia-hackfest-noosa-2017/"
 draft: "false"
 showcase: "planet"
 subscribers: ["nyalldawson_net"]

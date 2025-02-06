@@ -2,7 +2,7 @@
 source: "blog"
 title: "About label halos"
 date: "2017-04-28T10:46:33+0000"
-link: "http://nyalldawson.net/2017/04/about-label-halos/"
+link: "https://nyalldawson.net/2017/04/about-label-halos/"
 draft: "false"
 showcase: "planet"
 subscribers: ["nyalldawson_net"]

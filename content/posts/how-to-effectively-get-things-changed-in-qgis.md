@@ -2,7 +2,7 @@
 source: "blog"
 title: "How to effectively get things changed in QGIS"
 date: "2016-08-09T00:07:40+0000"
-link: "http://nyalldawson.net/2016/08/how-to-effectively-get-things-changed-in-qgis/"
+link: "https://nyalldawson.net/2016/08/how-to-effectively-get-things-changed-in-qgis/"
 draft: "false"
 showcase: "planet"
 subscribers: ["nyalldawson_net"]

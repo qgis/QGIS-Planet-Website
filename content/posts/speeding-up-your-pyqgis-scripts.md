@@ -2,7 +2,7 @@
 source: "blog"
 title: "Speeding up your PyQGIS scripts"
 date: "2016-10-17T04:07:25+0000"
-link: "http://nyalldawson.net/2016/10/speeding-up-your-pyqgis-scripts/"
+link: "https://nyalldawson.net/2016/10/speeding-up-your-pyqgis-scripts/"
 draft: "false"
 showcase: "planet"
 subscribers: ["nyalldawson_net"]

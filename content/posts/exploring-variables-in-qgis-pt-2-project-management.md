@@ -2,7 +2,7 @@
 source: "blog"
 title: "Exploring variables in QGIS pt 2: project management"
 date: "2015-12-03T07:37:06+0000"
-link: "http://nyalldawson.net/2015/12/exploring-variables-in-qgis-pt-2-project-management/"
+link: "https://nyalldawson.net/2015/12/exploring-variables-in-qgis-pt-2-project-management/"
 draft: "false"
 showcase: "planet"
 subscribers: ["nyalldawson_net"]

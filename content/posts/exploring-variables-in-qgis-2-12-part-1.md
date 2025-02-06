@@ -2,7 +2,7 @@
 source: "blog"
 title: "Exploring variables in QGIS 2.12, part 1"
 date: "2015-12-02T10:40:17+0000"
-link: "http://nyalldawson.net/2015/12/exploring-variables-in-qgis-2-12-part-1/"
+link: "https://nyalldawson.net/2015/12/exploring-variables-in-qgis-2-12-part-1/"
 draft: "false"
 showcase: "planet"
 subscribers: ["nyalldawson_net"]

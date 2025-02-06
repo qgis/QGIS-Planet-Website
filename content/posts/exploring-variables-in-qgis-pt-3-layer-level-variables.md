@@ -2,7 +2,7 @@
 source: "blog"
 title: "Exploring variables in QGIS pt 3: layer level variables"
 date: "2015-12-12T00:40:53+0000"
-link: "http://nyalldawson.net/2015/12/exploring-variables-in-qgis-pt-3-layer-level-variables/"
+link: "https://nyalldawson.net/2015/12/exploring-variables-in-qgis-pt-3-layer-level-variables/"
 draft: "false"
 showcase: "planet"
 subscribers: ["nyalldawson_net"]

@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-<p class="qtranxs-available-languages-message qtranxs-available-languages-message-en">Sorry, this entry is only available in <a class="qtranxs-available-language-link qtranxs-available-language-link-fr" href="http://oslandia.com/fr/tag/qgis-en/feed/atom/" title="Fr">French</a>.</p>
+<p class="qtranxs-available-languages-message qtranxs-available-languages-message-en">Sorry, this entry is only available in <a class="qtranxs-available-language-link qtranxs-available-language-link-fr" href="https://oslandia.com/fr/tag/qgis-en/feed/atom/" title="Fr">French</a>.</p>
