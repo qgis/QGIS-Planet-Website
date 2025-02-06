@@ -29,14 +29,14 @@ deploy: ## Deploy the site for planet.qgis.org
 	@echo "------------------------------------------------------------------"
 	@echo "Deploy site in production"
 	@echo "------------------------------------------------------------------"
-	git pull && rm -rf archive; mkdir archive; mv public archive; make build
+	git pull && rm -rf archive; mkdir archive; mv public_prod archive; make build
 
 revert-deploy: ## Revert the site for planet.qgis.org
 	@echo
 	@echo "------------------------------------------------------------------"
 	@echo "Revert to the previous state in production"
 	@echo "------------------------------------------------------------------"
-	rm -rf public; cp -r archive/public ./
+	rm -rf public_prod; cp -r archive/public_prod ./
 
 # ----------------------------------------------------------------------------
 #    D E V E L O P M E N T     C O M M A N D S
