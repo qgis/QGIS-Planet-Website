@@ -14,7 +14,7 @@ export class HomePage {
     public readonly textList: string[] = [
         "Free and Open Source",
         "QGIS Planet",
-        "Your go-to source for the latest posts and updates related to QGIS.",
+        "Your go-to source for the latest posts and updates related to QGIS",
     ];
 
     constructor(public readonly page: Page) {

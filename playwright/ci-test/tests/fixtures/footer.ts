@@ -24,7 +24,7 @@ export class Footer {
             .locator("div")
             .filter({ hasText: "Download" })
             .nth(2);
-        this.logoImage = this.page.getByRole("img", { name: "Logo" });
+        this.logoImage = this.page.getByRole("img", { name: "Logo" }).last();
         this.facebookLink = this.page.getByRole("link", { name: "" });
         this.youtubeLink = this.page.getByRole("link", { name: "" });
         this.mastodonLink = this.page
