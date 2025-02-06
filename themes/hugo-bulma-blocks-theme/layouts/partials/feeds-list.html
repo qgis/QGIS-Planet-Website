@@ -1,0 +1,55 @@
+<section class="section">
+    <div class="container">
+        <h2>
+            Feeds
+        </h2>
+
+        {{ with .Page }}
+            {{ .Scratch.Delete "subscribers" }}
+            {{ range $.Site.RegularPages }}
+                {{ with .Param "subscribers" }}
+                    {{ $.Scratch.Delete "subscriber" }}
+                    {{ range $index, $subscriber := . }}
+                        {{ $subscriber := (printf `/%s` ($subscriber | urlize)) }}
+                        {{ $.Scratch.Add "subscriber" $subscriber }}
+                        {{ $.Scratch.Add "subscribers" (slice ($.Scratch.Get "subscriber")) }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+            {{ $subscribers := uniq (.Scratch.Get "subscribers") | sort }}
+            <div class="grid">
+                {{ range $index, $value := $subscribers }}
+                {{ $subscriberTerms := (split (strings.TrimPrefix "/" .) "/") }}
+                {{ $depth := (len $subscriberTerms) }}
+                {{ $lastTerm := (delimit (last 1 $subscriberTerms) " ") }}
+                {{ $url := urls.Parse $lastTerm }}
+                {{ $path := $url.Path }}
+                {{ with $.Site.GetPage (printf `/subscribers/%s` $path) }}
+                    <a
+                    class="rich-list has-image mr-2 mb-2"
+                    href="{{ .RelPermalink }}"
+                    rel="noopener noreferrer"
+                    >
+                        {{ $subscriberName := "" }}
+                        {{ $subscriberLogo := "" }}
+                        {{ range $subscriberData := $.Site.Data.subscribers }}
+                            {{ if eq $subscriberData.shortname $path }}
+                                {{ $subscriberName = $subscriberData.name }}
+                                {{ $subscriberLogo = $subscriberData.logo }}
+                            {{ end }}
+                        {{ end }}
+                        
+                        <div class="image">
+                            <img src="/img/logos/{{ $subscriberLogo }}" alt="{{ $subscriberName }} logo" style="max-height: 200px;"/>
+                        </div>
+                        <div class="listcont" title-content="{{ $subscriberName }}">{{ $subscriberName }}</div>
+                        <div class="subtext is-size-7">{{ $.Site.BaseURL }}{{ (printf `subscribers/%s` $path) }}</div>
+                    </a>
+
+                {{ end }}
+            {{ end }}
+            </div>
+            
+        {{ end }}
+    </div>
+</section>

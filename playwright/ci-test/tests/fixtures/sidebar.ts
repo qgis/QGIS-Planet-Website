@@ -16,7 +16,7 @@ export class Sidebar {
             name: " All Posts",
         });
         this.subscribersLink = this.sidebar.locator('a')
-        .filter({ hasText: 'Subscribers' });
+        .filter({ hasText: 'Feeds' });
 
         this.tagsLink = this.sidebar.getByRole("button", {
             name: " Tags",
