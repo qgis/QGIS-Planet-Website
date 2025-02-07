@@ -1,5 +1,6 @@
 from PIL import Image
 import os
+import xml.etree.ElementTree as ET
 
 
 def resize_image(image_filename, max_height=120):
@@ -33,9 +34,6 @@ def resize_image(image_filename, max_height=120):
                     optimize=True,
                     quality=85
                 )
-                print(f'Resized and optimized: {image_filename}')
-            else:
-                print(f'No resizing needed for: {image_filename}')
     else:
         print(f'File not found: {image_filename}')
 
@@ -49,10 +47,8 @@ def convert_to_webp(image_filename, replace=False):
     supported_formats = ['.png', '.jpg', '.jpeg', '.tiff']
     image_ext = os.path.splitext(image_filename)[1].lower()
     if image_ext not in supported_formats:
-        print(f'Unsupported format: {image_filename}')
         return image_filename
     if os.path.exists(image_filename):
-        print(f'Processing: {image_filename}')
         with Image.open(image_filename) as img:
             # Determine the file format
             file_format = image_filename.split('.')[-1].upper()
@@ -67,7 +63,6 @@ def convert_to_webp(image_filename, replace=False):
             )
             if replace:
                 os.remove(image_filename)
-            print(f'Converted to webp: {image_filename}')
         return webp_filename
     else:
         print(f'File not found: {image_filename}')
@@ -86,3 +81,15 @@ def is_valid_image(image_filename):
         return True
     except Exception as e:
         print(f'Invalid image: {image_filename}')
+
+def is_valid_svg(svg_filename):
+    """
+    Check if the svg file is valid.
+    param svg_filename: The svg file to check
+    return: True if the svg is valid, False otherwise
+    """
+    try:
+        ET.parse(svg_filename)  # Try to parse the XML
+        return True  # No error means it's valid
+    except ET.ParseError:
+        return False  # If parsing fails, it's invalid
