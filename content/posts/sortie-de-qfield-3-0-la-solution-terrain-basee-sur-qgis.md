@@ -15,9 +15,9 @@ available_languages: ["en_gb"]
 <p>We are very happy and enthusiasts at Oslandia to forward the <a href="https://www.opengis.ch/fr/2023/10/24/qfield-3-0-amazonia-is-here/">QField 3.0 release announcement</a>, the new major update of this mobile GIS application based on QGIS.</p>
 <p>Oslandia is a <a href="https://oslandia.com/2023/09/14/oslandia-signe-un-partenariat-avec-opengis-ch-sur-qfield/">strategic partner of OPENGIS.ch</a>, the company at the heart of QField development, as well as the QFieldCloud associated SaaS offering. We join <a href="https://www.opengis.ch">OPENGIS.ch</a> to announce all the new features of QField 3.0.</p>
 <p style="text-align: center;"><a href="https://qfield.app/">Get QField 3.0 now !</a></p>
-<p style="text-align: center;"><a href="https://qfield.app/"><img alt="QField 3.0 screenshots" class="aligncenter " height="230" src="https://lh5.googleusercontent.com/tN3P-TFu7O2_hcEwShJYmQeneSN9oddAMQ64xkdoSr5Yn9MVZ-v9iBCkRo-3Sb7Ya1AGZSKID-_mG1PbR3sFma6ST66Zi0bqmm9-xqMnIZx_C5vNWz-3wp7TwoQADLWhtpT0KF5ghZz33hP23xKcap4" width="367" /></a></p>
-<hr />
-<p>&nbsp;</p>
+<p style="text-align: center;"><a href="https://qfield.app/"><img alt="QField 3.0 screenshots" class="aligncenter" height="230" src="/img/subscribers/qgis_oslandia/sortie-de-qfield-3-0-la-solution-terrain-basee-sur-qgis/unknown/image_O0otBB05.webp" width="367"/></a></p>
+<hr/>
+<p> </p>
 <p>Shipped with <strong>many new features</strong> and built with the <strong>latest generation of Qt’s cross-platform framework</strong>, this new chapter marks an important milestone for the most powerful open-source field GIS solution.</p>
 <h2>Main highlights</h2>
 <p>Upon launching this new version of QField, users will be greeted by a<strong> revamped recent projects</strong> list featuring shiny map canvas thumbnails. While this is one of the most obvious UI improvements, countless <strong>interface tweaks and harmonization</strong> have occurred. From the refreshed dark theme to the further polishing of countless widgets, QField has never looked and felt better.</p>
@@ -41,7 +41,7 @@ available_languages: ["en_gb"]
 <p>On top of the new possibilities, QField benefited from years of fixes and improvements, including<strong> better integration with Android and iOS platforms</strong>. In addition, the positioning framework in Qt 6 has been improved with awareness of the <strong>newer GNSS constellations</strong> that have emerged over the last decade.</p>
 <h2>Forest-themed release names</h2>
 <p>Forests are critical in climate regulation, biodiversity preservation, and economic sustainability. Beginning with <strong>QField 3.0 “Amazonia”</strong> and throughout the 3.X’s life cycle, we will choose forest names to underscore the importance of and advocate for global forest conservation.</p>
-<p><img class="aligncenter " height="304" src="https://i0.wp.com/www.opengis.ch/wp-content/uploads/2023/10/qfield3.jpg?resize=1024%2C682&amp;ssl=1" width="456" /></p>
+<p><img class="aligncenter" height="304" src="/img/subscribers/qgis_oslandia/sortie-de-qfield-3-0-la-solution-terrain-basee-sur-qgis/qfield3.webp" width="456"/></p>
 <h2>Software with service</h2>
 <p><strong>OPENGIS.ch and Oslandia provides the full range of services around QField and QGIS</strong> : training, consulting, adaptation, specific development and core development, maintenance and assistance. Do not hesitate to contact us and detail your needs, we will be happy to collaborate : <a href="mailto:infos+qfield@oslandia.com">infos+qfield@oslandia.com</a></p>
 <p><strong>As always, we hope you enjoy this new release. Happy field mapping!</strong></p>

@@ -18,4 +18,4 @@ available_languages: ["en_gb"]
 xmin(centroid($geometry))
 ymin(centroid($geometry))
 </pre>
-<p>The expression seems quite simple, but it toke me some time before I realize that, not having a x(geometry) and y(geometry) functions, I could use the xmin() and ymin() to get the coordinates of the polygons centroids. Since this wasn&#8217;t the first time I had to use this expressions, this post will work as a reminder for the future.</p>
+<p>The expression seems quite simple, but it toke me some time before I realize that, not having a x(geometry) and y(geometry) functions, I could use the xmin() and ymin() to get the coordinates of the polygons centroids. Since this wasn’t the first time I had to use this expressions, this post will work as a reminder for the future.</p>

@@ -12,14 +12,13 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-<div class="wpb_row vc_row-fluid vc_row standard_section   " id="fws_67a946c7b77be" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg    "></div></div> </div><div class="col span_12 dark left">
-	<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
-		<div class="vc_column-inner">
-			<div class="wpb_wrapper">
-				
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>You may be wondering where <strong>Os</strong>landia&#8217;s name is coming from ? Or maybe you already know ? In this article we focus on the &#8220;OS&#8221; part of Oslandia : <strong>OpenSource</strong> !</p>
+<div class="wpb_row vc_row-fluid vc_row standard_section" id="fws_67a9ec7c254e3" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg"></div></div> </div><div class="col span_12 dark left">
+<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>You may be wondering where <strong>Os</strong>landia’s name is coming from ? Or maybe you already know ? In this article we focus on the “OS” part of Oslandia : <strong>OpenSource</strong> !</p>
 <p>Oslandia positions itself as IT expert in the field of OpenSource geographical information systems. <a href="http://qgis.org">QGIS</a> is namely one of the proheminent opensource softwares for the geospatial industry. This position is a key element of our business model.</p>
 <p>But do you know how we work behind the scene ? This article will give you an opportunity to discover some of our contributions to the OpenSource ecosystem.</p>
 <h2>Principles</h2>
@@ -33,44 +32,41 @@ available_languages: ["en_gb"]
 <li>For Oslandia : image and potential new business opportunities</li>
 <li>For the team : work on projects that matter to them</li>
 </ul>
-<p>These OpenSource grants consist in a large range of possible tasks, as we often say : <em>&#8220;Opensource projects are not only code&#8221;</em>. Instead of <em>developers</em>, we prefer the term <em>contributors</em>. Development, code review, maintenance, documentation, community management, communication, each collaborator can choose the type of task to focus on.</p>
-<p>We differentiate software maintenance grants and opensource project grants. We call the latter &#8220;<strong>OpenSource mini-projects</strong>&#8221;</p>
-<p>Software maintenance consists in refactoring, bugfixing, packaging, release management… All these tasks need dedicated time which is difficult to fund directly on client&#8217;s project.</p>
+<p>These OpenSource grants consist in a large range of possible tasks, as we often say : <em>“Opensource projects are not only code”</em>. Instead of <em>developers</em>, we prefer the term <em>contributors</em>. Development, code review, maintenance, documentation, community management, communication, each collaborator can choose the type of task to focus on.</p>
+<p>We differentiate software maintenance grants and opensource project grants. We call the latter “<strong>OpenSource mini-projects</strong>”</p>
+<p>Software maintenance consists in refactoring, bugfixing, packaging, release management… All these tasks need dedicated time which is difficult to fund directly on client’s project.</p>
 <p>Opensource mini-projects grants are specific opensource proposal which can be submitted by any collaborator on any subject. We then vote on the best proposal and the team can start working on the subject within the allocated budget.</p>
-
-		</div>
-	</div>
-
-			</div> 
-		</div>
-	</div> 
+</div>
+</div>
+</div>
+</div>
+</div>
 </div></div>
-		<div class="wpb_row vc_row-fluid vc_row standard_section   " id="fws_67a946c7b7fe5" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg    "></div></div> </div><div class="col span_12 dark left">
-	<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
-		<div class="vc_column-inner">
-			<div class="wpb_wrapper">
-				<div class="iwithtext"><div class="iwt-icon"> <i class="icon-default-style icon-bullhorn accent-color"></i> </div><div class="iwt-text"> 
+<div class="wpb_row vc_row-fluid vc_row standard_section" id="fws_67a9ec7c25f35" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg"></div></div> </div><div class="col span_12 dark left">
+<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="iwithtext"><div class="iwt-icon"> <i class="icon-default-style icon-bullhorn accent-color"></i> </div><div class="iwt-text">
 <h2>Some numbers</h2>
 <p>We allocate around 5% of the global production time to software maintenance grants. Our Opensource maintenance grant for 2022 is therefore approximately<strong> 190 days of work</strong>. It mainly focus on QGIS, PostGIS, QWC2, Giro3D and a few other components we actively maintain.</p>
 <p>We also allocate 5% of the global production time to opensource mini-projects grants. It represents an additional <strong>190 days of work</strong> for 2022.</p>
-<p><span style="color: #3a75ac;"><strong>Oslandia therefore invests almost 400 days of work into the OpenSource ecosystem</strong></span>, outside of direct contributions for client&#8217;s projects. </div><div class="clear"></div></div>
-			</div> 
-		</div>
-	</div> 
+<p><span style="color: #3a75ac;"><strong>Oslandia therefore invests almost 400 days of work into the OpenSource ecosystem</strong></span>, outside of direct contributions for client’s projects. </p></div><div class="clear"></div></div>
+</div>
+</div>
+</div>
 </div></div>
-		<div class="wpb_row vc_row-fluid vc_row standard_section   " id="fws_67a946c7b8154" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg    "></div></div> </div><div class="col span_12 dark left">
-	<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
-		<div class="vc_column-inner">
-			<div class="wpb_wrapper">
-				
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h2>Opensource Mini-projects</h2>
-<p>OpenSource mini-projects grants are submitted by Oslandia&#8217;s collaborators and focus on various task and thematics : innovation, development, design, prototyping, communication or any other kind of Opensource contribution.</p>
+<div class="wpb_row vc_row-fluid vc_row standard_section" id="fws_67a9ec7c2614c" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg"></div></div> </div><div class="col span_12 dark left">
+<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<h2>Opensource Mini-projects</h2>
+<p>OpenSource mini-projects grants are submitted by Oslandia’s collaborators and focus on various task and thematics : innovation, development, design, prototyping, communication or any other kind of Opensource contribution.</p>
 <p>Proposals have to define goals, deliverables, planning, team and needed budget. Then we evaluate the proposals given the following criteria :</p>
 <ul>
 <li>proposal coherency ( e.g. deliverables vs budget )</li>
-<li>alignment with Oslandia&#8217;s strategy</li>
+<li>alignment with Oslandia’s strategy</li>
 <li>innovation level</li>
 <li>business opportunities</li>
 <li>fun and motivation</li>
@@ -103,15 +99,13 @@ available_languages: ["en_gb"]
 <li>Set up CI for QGIS plugins</li>
 <li>Rework the OSGeo-fr local chapter website (<a href="https://osgeo-fr.gitlab.io/infra/osgeofr-site-next-hugo-universal/"> see the proposal here )</a></li>
 </ul>
-<p>In 2023 we will continue to work on these projects, and others ! for example <a href="https://github.com/CrunchyData/pg_featureserv">pg_featureserv</a>, <a href="https://gitlab.com/Oslandia/py3dtiles">py3dtiles</a>, <a href="https://www.infoclimat.fr/">infoclimat</a> website, <a href="https://mapproxy.org/">MapProxy</a>,  <a href="https://pgrouting.org/">pgRouting</a>&#8230;</p>
+<p>In 2023 we will continue to work on these projects, and others ! for example <a href="https://github.com/CrunchyData/pg_featureserv">pg_featureserv</a>, <a href="https://gitlab.com/Oslandia/py3dtiles">py3dtiles</a>, <a href="https://www.infoclimat.fr/">infoclimat</a> website, <a href="https://mapproxy.org/">MapProxy</a>,  <a href="https://pgrouting.org/">pgRouting</a>…</p>
 <h2>Conclusion</h2>
-<p>This investment mechanism allows Oslandia to be an<strong> opensource &#8220;pure player&#8221;</strong> and contribute actively to these OpenSource projects and to the OpenSource ecosystem as a whole.</p>
+<p>This investment mechanism allows Oslandia to be an<strong> opensource “pure player”</strong> and contribute actively to these OpenSource projects and to the OpenSource ecosystem as a whole.</p>
 <p>Should you be interested in our contribution model, or if you have any question regarding our internal OpenSource grant program, do not hesitate to contact us : <a href="mailto:info@oslandia.com">info@oslandia.com</a> !</p>
-
-		</div>
-	</div>
-
-			</div> 
-		</div>
-	</div> 
+</div>
+</div>
+</div>
+</div>
+</div>
 </div></div>

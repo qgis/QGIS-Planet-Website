@@ -14,14 +14,14 @@ available_languages: ["en_gb"]
 
 <p>After a lot of troubles, I managed to compile and deploy a QGIS c++ app on windows. This small guide will describe the steps I followed. This has been tested on win xp and windows 7, both in 32 bits.</p>
 <h1>Development environment</h1>
-<p>Your app must be built using MSVC 9.0 (2008) since QGIS in OSGeo&#8217;s package was built with it. Hence, MinGW cannot be used.</p>
+<p>Your app must be built using MSVC 9.0 (2008) since QGIS in OSGeo’s package was built with it. Hence, MinGW cannot be used.</p>
 <ol>
 <li>Install Microsoft Visual Studio Express 2008.</li>
 <li>Install QGIS and Qt libs using <a href="https://trac.osgeo.org/osgeo4w/" target="_blank" title="OSGeo4W">OSGeo4W</a> installer</li>
 <li>Install <a href="http://qt-project.org/downloads#qt-creator" target="_blank" title="Qt Creator">Qt Creator</a></li>
 <li>If you want a debugger,you should install CDB. This can be achieved by installing Windows SDK environment. In the installation process, only select <em>Debugging toos for windows</em>.</li>
 </ol>
-<p>I wasn&#8217;t able to use the compiler yet, so I am not 100% sure about 4.</p>
+<p>I wasn’t able to use the compiler yet, so I am not 100% sure about 4.</p>
 <p>Now, if you want to build using Qt Creator, it must be started in a proper environment. Adapt this batch to launch Qt Creator:</p>
 <pre class="brush: bash; title: ; notranslate">
 ECHO Setting up QGIS DEV ENV
@@ -29,7 +29,7 @@ ECHO Setting up QGIS DEV ENV
 set PYTHONPATH=
 
 set OSGEO4W_ROOT=C:\OSGeo4W
-call &quot;%OSGEO4W_ROOT%\bin\o4w_env.bat&quot;
+call "%OSGEO4W_ROOT%\bin\o4w_env.bat"
 
 @set QMAKESPEC=win32-msvc2008
 @set PATH=%OSGEO4W_ROOT%\bin;%OSGEO4W_ROOT%\apps\qgis-dev\bin;%PATH%
@@ -40,9 +40,9 @@ call &quot;%OSGEO4W_ROOT%\bin\o4w_env.bat&quot;
 path %OSGEO4W_ROOT%\bin;%SYSTEMROOT%\System32;%SYSTEMROOT%;%SYSTEMROOT%\System32\wbem;C:\Progra~1\Git\bin;C:\Qt\qtcreator-3.0.1\bin;%PATH%
 
 set VS90COMNTOOLS=C:\Program Files\Microsoft Visual Studio 9.0\Common7\Tools\
-call &quot;C:\Program Files\Microsoft Visual Studio 9.0\VC\vcvarsall.bat&quot; x86
+call "C:\Program Files\Microsoft Visual Studio 9.0\VC\vcvarsall.bat" x86
 
-start &quot;Qt Creator&quot; /B C:\Qt\qtcreator-3.0.1\bin\qtcreator.exe %*
+start "Qt Creator" /B C:\Qt\qtcreator-3.0.1\bin\qtcreator.exe %*
 </pre>
 <p>Then, you need to configure a proper kit in Qt Creator.</p>
 <ol>
@@ -64,21 +64,21 @@ FORMS += YOUR FORMS
 RESOURCES += images/images.qrc
 
 win32:CONFIG(Release, Debug|Release) {
- LIBS += -L&quot;C:/OSGeo4W/lib/&quot; -lQtCore4
- LIBS += -L&quot;C:/OSGeo4W/lib/&quot; -lQtGui4
- LIBS += -L&quot;C:/OSGeo4W/lib/&quot; -lQtXml4
- LIBS += -L&quot;C:/OSGeo4W/apps/qgis-dev/lib/&quot; -lqgis_core
- LIBS += -L&quot;C:/OSGeo4W/apps/qgis-dev/lib/&quot; -lqgis_gui
+ LIBS += -L"C:/OSGeo4W/lib/" -lQtCore4
+ LIBS += -L"C:/OSGeo4W/lib/" -lQtGui4
+ LIBS += -L"C:/OSGeo4W/lib/" -lQtXml4
+ LIBS += -L"C:/OSGeo4W/apps/qgis-dev/lib/" -lqgis_core
+ LIBS += -L"C:/OSGeo4W/apps/qgis-dev/lib/" -lqgis_gui
 }
 else:win32:CONFIG(Debug, Debug|Release) {
  PRE_TARGETDEPS += C:/OSGeo4W/lib/QtCored4.lib
  PRE_TARGETDEPS += C:/OSGeo4W/lib/QtGuid4.lib
  PRE_TARGETDEPS += C:/OSGeo4W/lib/QtXmld4.lib
- LIBS += -L&quot;C:/OSGeo4W/lib/&quot; -lQtCored4
- LIBS += -L&quot;C:/OSGeo4W/lib/&quot; -lQtGuid4
- LIBS += -L&quot;C:/OSGeo4W/lib/&quot; -lQtXmld4
- LIBS += -L&quot;C:/OSGeo4W/apps/qgis-dev/lib/&quot; -lqgis_core
- LIBS += -L&quot;C:/OSGeo4W/apps/qgis-dev/lib/&quot; -lqgis_gui
+ LIBS += -L"C:/OSGeo4W/lib/" -lQtCored4
+ LIBS += -L"C:/OSGeo4W/lib/" -lQtGuid4
+ LIBS += -L"C:/OSGeo4W/lib/" -lQtXmld4
+ LIBS += -L"C:/OSGeo4W/apps/qgis-dev/lib/" -lqgis_core
+ LIBS += -L"C:/OSGeo4W/apps/qgis-dev/lib/" -lqgis_gui
 }
 win32:{
  INCLUDEPATH += C:/OSGeo4W/include
@@ -96,7 +96,7 @@ unix {
 </pre>
 <p>Remarks</p>
 <ul>
-<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">GUI_EXPORT </span>and<span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;"> CORE_EXPORT</span> must be set to <span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">__declspec</span><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">(dllimport)</span>. I don&#8217;t know exactly what it means, but I found out reading this <a href="http://permalink.gmane.org/gmane.comp.gis.qgis.devel/7276" target="_blank" title="thread">thread</a>, with some hazardous tries. If you don&#8217;t set these, you won&#8217;t be able to call any variable defined as extern in QGIS (e.g. cursors).</li>
+<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">GUI_EXPORT </span>and<span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;"> CORE_EXPORT</span> must be set to <span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">__declspec</span><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">(dllimport)</span>. I don’t know exactly what it means, but I found out reading this <a href="http://permalink.gmane.org/gmane.comp.gis.qgis.devel/7276" target="_blank" title="thread">thread</a>, with some hazardous tries. If you don’t set these, you won’t be able to call any variable defined as extern in QGIS (e.g. cursors).</li>
 <li>Qt release libraries shall not be mixed up with debug config in your project. In other words, use release libs for release mode and debug libs for debug mode.</li>
 </ul>
 <p>With this, you should be able to compile your QGIS application in Qt Creator!</p>
@@ -104,11 +104,11 @@ unix {
 <p>Now, to get the whole potential of QGIS libs, you must initialize the <a href="http://qgis.org/api/classQgsApplication.html" target="_blank">QgsApplication</a> in your main window class:</p>
 <pre class="brush: cpp; title: ; notranslate">
 #if defined(Q_WS_WIN)
-  QString pluginPath = &quot;c:\\OSGeo4W\\apps\\qgis-dev\\plugins&quot;;
-  QString prefixPath = &quot;c:\\OSGeo4W\\apps\\qgis-dev\\&quot;;
+  QString pluginPath = "c:\\OSGeo4W\\apps\\qgis-dev\\plugins";
+  QString prefixPath = "c:\\OSGeo4W\\apps\\qgis-dev\\";
 #else
-  QString pluginPath = &quot;/usr/local/lib/qgis/plugins/&quot;;
-  QString prefixPath = &quot;/usr/local&quot;;
+  QString pluginPath = "/usr/local/lib/qgis/plugins/";
+  QString prefixPath = "/usr/local";
 #endif
 
   QgsApplication::setPluginPath( pluginPath );
@@ -116,12 +116,12 @@ unix {
   QgsApplication::initQgis();
 </pre>
 <h1>Deploying on windows</h1>
-<p>Since QGIS is not to be installed on the target computer, the built app will not be able to find the path declared in previous code.<br />
-There is probably a better approach, but here is a way to solve this:<br />
+<p>Since QGIS is not to be installed on the target computer, the built app will not be able to find the path declared in previous code.<br/>
+There is probably a better approach, but here is a way to solve this:<br/>
 Change the path to</p>
 <pre class="brush: cpp; title: ; notranslate">
-  QString pluginPath = &quot;c:\\myapp\\qgis\plugins&quot;;
-  QString prefixPath = &quot;c:\\myapp\\qgis&quot;;
+  QString pluginPath = "c:\\myapp\\qgis\plugins";
+  QString prefixPath = "c:\\myapp\\qgis";
 </pre>
 <p>This means you must deploy the app to this exact location: c:\myapp. In this directory, you need to create a qgis folder in which you will copy c:\OSGeo4W\apps\qgis-dev\resources and c:\OSGeo4W\apps\qgis-dev\plugins.</p>
 <p>Besides, this you will need to copy some DLLs to be able to run the applications. You might want to use the <a href="http://www.dependencywalker.com/">dependency walker</a> to find which are needed.</p>
