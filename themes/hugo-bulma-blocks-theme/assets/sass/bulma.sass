@@ -32,6 +32,7 @@
 {{ $truenoSBd := resources.Get "webfonts/TruenoSBd.otf" }}
 {{ $truenoBd := resources.Get "webfonts/TruenoBd.otf" }}
 {{ $truenoUltBlk := resources.Get "webfonts/TruenoUltBlk.otf" }}
+{{ $countryFlagsEmoji := resources.Get "webfonts/TwemojiCountryFlags.woff2" }}
  
 @font-face
     font-family: 'Montserrat'
@@ -62,6 +63,9 @@
   src: url("{{ $truenoUltBlk.RelPermalink }}") format("opentype")
   font-weight: 700
   
+@font-face 
+  font-family: "Twemoji Country Flags"
+  src: url("{{ $countryFlagsEmoji.RelPermalink }}") format("opentype")
 
 {{ $worksans := resources.Get "webfonts/worksans.woff2" }}
 

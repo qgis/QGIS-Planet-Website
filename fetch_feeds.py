@@ -4,11 +4,14 @@ import feedparser
 import os
 import json
 from urllib.parse import urlparse
+import string
+import random
 import requests
 import shutil
 from datetime import datetime
-from scripts.resize_image import resize_image
+from scripts.resize_image import resize_image, convert_to_webp, is_valid_image, is_valid_svg
 from dateutil.parser import parse as date_parse
+from bs4 import BeautifulSoup
 
 # Path to the subscribers.json file
 SUBSCRIBERS_JSON_PATH = os.path.join(os.path.dirname(__file__), 'data', 'subscribers.json')
@@ -59,15 +62,75 @@ class FeedProcessor:
         except Exception as e:
             print(f"Failed to process feed for {self.subscriber_name}: {e}")
 
+    def fetch_all_images(self, content, subscriber_shortname, post_name):
+        img_folder = os.path.join("img", "subscribers", subscriber_shortname, post_name)
+        soup = BeautifulSoup(content, 'html.parser')
+        unknown_img_folder = os.path.join("static", img_folder, "unknown")
+
+        if os.path.exists(unknown_img_folder):
+            shutil.rmtree(unknown_img_folder)
+        os.makedirs(unknown_img_folder, exist_ok=True)
+
+        for img in soup.find_all('img'):
+            img_url = img['src']
+            file_name = self.get_image_name(img_url.split('?')[0])
+            try:
+                downloaded_img = self.download_and_process_image(img_url, file_name, img_folder, unknown_img_folder)
+                img['src'] = downloaded_img
+            except Exception as e:
+                img['src'] = ""
+                print(f"Failed to process image: {e}")
+
+        for video in soup.find_all('video'):
+            video_url = video.find('source')['src']
+            video.replace_with(soup.new_tag('a', href=video_url, target="_blank", string="Watch Video"))
+
+        return str(soup)
+
+    def download_and_process_image(self, img_url, file_name, img_folder, unknown_img_folder):
+        no_param_url = img_url.split('?')[0]  # Remove query parameters
+        if no_param_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')):
+            downloaded_img = self.download_image(no_param_url, file_name, os.path.join("static", img_folder))
+            if not is_valid_image(downloaded_img):
+                os.remove(downloaded_img)
+                raise Exception(f"Invalid image: {downloaded_img}")
+            resize_image(downloaded_img, max_height=600)
+            webp_img_path = convert_to_webp(downloaded_img, replace=True)
+            return os.path.join("/", img_folder, os.path.basename(webp_img_path))
+        elif no_param_url.lower().endswith('.svg'):
+            downloaded_img = self.download_image(no_param_url, file_name, os.path.join("static", img_folder))
+            if not is_valid_svg(downloaded_img):
+                os.remove(downloaded_img)
+                raise Exception(f"Invalid image: {downloaded_img}")
+            return os.path.join("/", img_folder, file_name)
+        else:
+            downloaded_img = self.handle_unknown_image_format(img_url, unknown_img_folder)
+            return os.path.join("/", img_folder, "unknown", os.path.basename(downloaded_img))
+
+    def handle_unknown_image_format(self, img_url, dest_folder):
+        """
+        Handle unknown image formats by downloading the image and converting it to webp format.
+        """
+        prefix = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
+        file_name = f"image_{prefix}.png"
+
+        downloaded_img = self.download_image(
+            img_url,
+            file_name,
+            dest_folder,
+            is_unknown=True
+        )
+        if not is_valid_image(downloaded_img):
+            os.remove(downloaded_img)
+            raise Exception(f"Invalid image: {downloaded_img}")
+        resize_image(downloaded_img, max_height=600)
+        return convert_to_webp(downloaded_img, replace=True)
+
+
     def process_entry(self, entry):
         try:
             dest_folder = self.get_dest_folder()
             title = entry.title
-            # I don't think we need to download images because the images are already in the feed
-            # image_url = next((link.href for link in entry.links if 'image' in link.type), entry.links[-1].href)
-            # if image_url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp')):
-            #     file_name = self.get_image_name(image_url)
-            #     self.download_image(image_url, file_name, dest_folder)
 
             post_url = entry.link
 
@@ -81,6 +144,7 @@ class FeedProcessor:
 
             are_tags_present = any(str(category).lower() in tags for category in self.filter_categories)
             if are_tags_present:
+                content = self.fetch_all_images(content, self.shortname, file_name)
                 content = self.generate_markdown_content(title, entry_date, post_url, content, tags)
                 
                 # Copy the markdown file to the posts folder
@@ -169,12 +233,20 @@ available_languages: [{available_lang_str}]
         with open(filename, "w", encoding="utf=8") as f:
             f.write(content)
 
-    def download_image(self, image_url, image_name, dest_folder):
-        response = requests.get(image_url, stream=True)
+    def download_image(self, image_url, image_name, dest_folder, is_unknown=False):
+        os.makedirs(dest_folder, exist_ok=True)
         image_filename = os.path.join(dest_folder, image_name)
-        with open(image_filename, 'wb') as out_file:
-            shutil.copyfileobj(response.raw, out_file)
-            print(f"Writing: {image_filename}")
+        if is_unknown:
+            response = requests.get(image_url, stream=True)
+            with open(image_filename, "wb") as file:
+                for chunk in response.iter_content(1024):
+                    file.write(chunk)
+        else:
+            response = requests.get(image_url, stream=True)
+            content = response.raw
+            with open(image_filename, 'wb') as out_file:
+                shutil.copyfileobj(content, out_file)
+        return image_filename
 
 
 class FunderProcessor:
@@ -265,10 +337,11 @@ if __name__ == "__main__":
             print(f"Failed to delete {file_path}. Reason: {e}")
 
     # Iterate over the subscribers and fetch posts for active ones
+    i = 1
     for subscriber in subscribers:
         if not subscriber.get('is_active'):
             continue
-        
+        print(f"{i}/{len(subscribers)}: Processing feed for {subscriber['name']}")
         languages = subscriber.get('languages', {})
         available_lang = languages.get('available', DEFAULT_AVAILABLE_LANG)
         main_lang = languages.get('main', DEFAULT_MAIN_LANG)
@@ -283,5 +356,6 @@ if __name__ == "__main__":
             filter_categories
         )
         processor.fetch_and_create_post()
+        i += 1
     
     # FunderProcessor.fetch_funders()
