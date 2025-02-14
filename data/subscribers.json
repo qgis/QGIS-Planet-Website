@@ -211,10 +211,17 @@
   },
   {
     "feed": "https://blog.geotribu.net/feed_rss_created.xml",
-    "name": "Geotribu",
+    "name": "Geotribu (EN)",
     "shortname": "geotribu_en",
     "is_active": true,
     "logo": "geotribu_en.png"
+  },
+  {
+    "feed": "https://geotribu.fr/feed_rss_created.xml",
+    "name": "Geotribu (FR)",
+    "shortname": "geotribu_fr",
+    "is_active": true,
+    "logo": "geotribu_fr.png"
   },
   {
     "feed": "https://kartoza.com/rss.xml",
