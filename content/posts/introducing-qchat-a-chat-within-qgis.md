@@ -6,7 +6,7 @@ link: "https://blog.geotribu.net/2024/10/18/introducing-qchat-a-chat-within-qgis
 draft: "false"
 showcase: "planet"
 subscribers: ["geotribu_en"]
-author: "Geotribu"
+author: "Geotribu (EN)"
 tags: ["article", "gischat", "gistribe", "qchat", "qgis", "qtribu"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]

@@ -6,7 +6,7 @@ link: "https://blog.geotribu.net/2024/12/03/some-news-about-qchat-the-chat-withi
 draft: "false"
 showcase: "planet"
 subscribers: ["geotribu_en"]
-author: "Geotribu"
+author: "Geotribu (EN)"
 tags: ["article", "gischat", "gistribe", "qchat", "qgis", "qtribu"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]

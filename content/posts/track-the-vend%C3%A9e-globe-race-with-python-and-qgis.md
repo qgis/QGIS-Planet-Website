@@ -6,7 +6,7 @@ link: "https://blog.geotribu.net/2024/12/02/track-the-vend%C3%A9e-globe-race-wit
 draft: "false"
 showcase: "planet"
 subscribers: ["geotribu_en"]
-author: "Geotribu"
+author: "Geotribu (EN)"
 tags: ["article", "geopandas", "pandas", "python", "qgis", "vendée globe", "sailing"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]

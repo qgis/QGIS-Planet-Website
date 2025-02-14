@@ -6,7 +6,7 @@ link: "https://blog.geotribu.net/2025/02/11/installing-qgis-on-ubuntu-with-apt/?
 draft: "false"
 showcase: "planet"
 subscribers: ["geotribu_en"]
-author: "Geotribu"
+author: "Geotribu (EN)"
 tags: ["linux", "qgis", "tutorial", "ubuntu"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
