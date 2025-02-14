@@ -214,14 +214,49 @@
     "name": "Geotribu (EN)",
     "shortname": "geotribu_en",
     "is_active": true,
-    "logo": "geotribu_en.png"
+    "logo": "geotribu_en.png",
+    "filter_categories": [
+      "Mergin",
+      "PyQGIS",
+      "QDT",
+      "QField",
+      "QGIS",
+      "QGIS Deployment Toolbelt",
+      "QGIS Server",
+      "QTribu",
+      "QWC"
+    ],
+    "languages": {
+      "available": [
+        "en_gb"
+      ],
+      "main": "en_gb"
+    }
+
   },
   {
     "feed": "https://geotribu.fr/feed_rss_created.xml",
     "name": "Geotribu (FR)",
     "shortname": "geotribu_fr",
     "is_active": true,
-    "logo": "geotribu_fr.png"
+    "logo": "geotribu_fr.png",
+    "filter_categories": [
+      "Mergin",
+      "PyQGIS",
+      "QDT",
+      "QField",
+      "QGIS",
+      "QGIS Deployment Toolbelt",
+      "QGIS Server",
+      "QTribu",
+      "QWC"
+    ],
+    "languages": {
+      "available": [
+        "fr_fr"
+      ],
+      "main": "fr_fr"
+    }
   },
   {
     "feed": "https://kartoza.com/rss.xml",
