@@ -38,10 +38,8 @@ The file `data/subscribers.json` is the main entry to fetch all feeds for the QG
     // If not set, the default value will be ["QGIS"].
     "filter_categories": [
       "QGIS",
-      "QField",
       "QGIS Server",
       "PyQGIS",
-      "Mergin",
     ],
     // Availables and main language of the feed.
     // The list of supported language is in the file
