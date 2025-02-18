@@ -215,17 +215,6 @@
     "shortname": "geotribu_en",
     "is_active": true,
     "logo": "geotribu_en.png",
-    "filter_categories": [
-      "Mergin",
-      "PyQGIS",
-      "QDT",
-      "QField",
-      "QGIS",
-      "QGIS Deployment Toolbelt",
-      "QGIS Server",
-      "QTribu",
-      "QWC"
-    ],
     "languages": {
       "available": [
         "en_gb"
@@ -240,17 +229,6 @@
     "shortname": "geotribu_fr",
     "is_active": true,
     "logo": "geotribu_fr.png",
-    "filter_categories": [
-      "Mergin",
-      "PyQGIS",
-      "QDT",
-      "QField",
-      "QGIS",
-      "QGIS Deployment Toolbelt",
-      "QGIS Server",
-      "QTribu",
-      "QWC"
-    ],
     "languages": {
       "available": [
         "fr_fr"
