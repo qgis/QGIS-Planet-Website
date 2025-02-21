@@ -11,6 +11,7 @@ It has been mainly developed by Tim Sutton, Lova Andriarimalala and contributors
 [![Deploy Hugo site to Pages](https://github.com/qgis/QGIS-Planet-Website/actions/workflows/github-pages.yml/badge.svg)](https://github.com/qgis/QGIS-Planet-Website/actions/workflows/github-pages.yml)
 ![Website Status](https://img.shields.io/website-up-down-green-red/http/qgis.github.io/QGIS-Planet-Website.svg)
 ![License](https://img.shields.io/github/license/qgis/QGIS-Planet-Website.svg)
+![Issues](https://img.shields.io/github/issues/qgis/QGIS-Planet-Website.svg)
 
 Project stars:
 
