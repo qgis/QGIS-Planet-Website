@@ -19,7 +19,17 @@ By Tim Sutton and QGIS Contributors.
 Project stars:
 ![Stars](https://starchart.cc/qgis/QGIS-Planet-Website.svg)
 
-## Subscriber Model
+## How to be referenced
+
+To make your website appear on this Planet:
+
+- [ ] a website publishing a public and compliant RSS feed (we use [feedparser](https://feedparser.readthedocs.io/) under the hood) with content about the QGIS project
+- [ ] add your RSS feed in the subscribers list using a Pull Request (or an issue if you don't know how to do a fork + PR). See [below for the subscriber model](#subscriber-model).
+
+> [!NOTE]
+> Only feed items with, at least, the `QGIS` [category](https://www.rssboard.org/rss-specification#ltcategorygtSubelementOfLtitemgt) (= tag) will be listed. Even if a mechanism to customize tags per feed, it's disabled for now. [See this discussion](https://github.com/qgis/QGIS-Planet-Website/pull/49#discussion_r1958152569).
+
+### Subscriber model
 
 The file `data/subscribers.json` is the main entry to fetch all feeds for the QGIS Planet Website. **You can add or update a feed by editing this file and submitting a Pull Request to this repository.** Below is the recommended data structure:
 
@@ -36,6 +46,7 @@ The file `data/subscribers.json` is the main entry to fetch all feeds for the QG
     // Optional: Filter the category of the posts to be fetch. 
     // It corresponds to the <category> tag on the RSS XML.
     // If not set, the default value will be ["QGIS"].
+    // FOR NOW, CUSTOM CATEGORIES FILTERS ARE DISABLED
     "filter_categories": [
       "QGIS",
       "QField",
