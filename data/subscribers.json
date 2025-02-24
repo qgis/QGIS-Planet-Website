@@ -214,14 +214,27 @@
     "name": "Geotribu (EN)",
     "shortname": "geotribu_en",
     "is_active": true,
-    "logo": "geotribu_en.png"
+    "logo": "geotribu_en.png",
+    "languages": {
+      "available": [
+        "en_gb"
+      ],
+      "main": "en_gb"
+    }
+
   },
   {
     "feed": "https://geotribu.fr/feed_rss_created.xml",
     "name": "Geotribu (FR)",
     "shortname": "geotribu_fr",
     "is_active": true,
-    "logo": "geotribu_fr.png"
+    "logo": "geotribu_fr.png",
+    "languages": {
+      "available": [
+        "fr_fr"
+      ],
+      "main": "fr_fr"
+    }
   },
   {
     "feed": "https://kartoza.com/rss.xml",
