@@ -8,8 +8,8 @@ showcase: "planet"
 subscribers: ["geotribu_fr"]
 author: "Geotribu (FR)"
 tags: ["geos", "qgis", "wkb", "wkt", "analyse", "article", "géométrie"]
-languages: ["en_gb"]
-available_languages: ["en_gb"]
+languages: ["fr_fr"]
+available_languages: ["fr_fr"]
 ---
 
 Deuxième partie du tour d'horizon des SIG sur les dessous des calculs géométriques : GEOS et QGIS, au tableau !

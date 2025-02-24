@@ -8,8 +8,8 @@ showcase: "planet"
 subscribers: ["geotribu_fr"]
 author: "Geotribu (FR)"
 tags: ["geotribu", "qgis", "article", "news", "plugin"]
-languages: ["en_gb"]
-available_languages: ["en_gb"]
+languages: ["fr_fr"]
+available_languages: ["fr_fr"]
 ---
 
 Une nouvelle fenêtre des contenus Geotribu dans le plugin QGIS QTribu, qui permet d'accéder et de contribuer aux contenus du site

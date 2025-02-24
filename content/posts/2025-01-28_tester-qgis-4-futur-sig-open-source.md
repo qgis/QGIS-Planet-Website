@@ -8,8 +8,8 @@ showcase: "planet"
 subscribers: ["geotribu_fr"]
 author: "Geotribu (FR)"
 tags: ["osgeo4w", "pyqgis", "qgis", "qt", "article", "vcpkg"]
-languages: ["en_gb"]
-available_languages: ["en_gb"]
+languages: ["fr_fr"]
+available_languages: ["fr_fr"]
 ---
 
 Essayez QGIS 4 en avant-première ! Comme tout logiciel, open source ou propriétaire, QGIS repose sur d'autres logiciels ou bibliothèques. Des dépendances dont la principale est Qt.

@@ -8,8 +8,8 @@ showcase: "planet"
 subscribers: ["geotribu_fr"]
 author: "Geotribu (FR)"
 tags: ["geoitw", "geointerview", "osgeo-fr", "qgis", "article"]
-languages: ["en_gb"]
-available_languages: ["en_gb"]
+languages: ["fr_fr"]
+available_languages: ["fr_fr"]
 ---
 
 La Geotribu était bien présente aux journées QGIS FR 2024. Julien a assuré l'animation de la journée de conférences et avec Florian, ils ont renouvelé les mini-interviews.

@@ -8,8 +8,8 @@ showcase: "planet"
 subscribers: ["geotribu_fr"]
 author: "Geotribu (FR)"
 tags: ["qgis", "wkb", "wkt", "analyse", "article", "géométrie", "topologie"]
-languages: ["en_gb"]
-available_languages: ["en_gb"]
+languages: ["fr_fr"]
+available_languages: ["fr_fr"]
 ---
 
 Premier chapitre du tour d'horizon des SIG sur la précision des calculs géométriques : analyse des opérations de superposition et de leurs limites.

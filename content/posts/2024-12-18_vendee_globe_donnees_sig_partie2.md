@@ -8,8 +8,8 @@ showcase: "planet"
 subscribers: ["geotribu_fr"]
 author: "Geotribu (FR)"
 tags: ["ci/cd", "github actions", "github pages", "maplibre", "qgis", "vendée globe", "article", "voile", "webmapping"]
-languages: ["en_gb"]
-available_languages: ["en_gb"]
+languages: ["fr_fr"]
+available_languages: ["fr_fr"]
 ---
 
 Après avoir récupéré, nettoyé et visualisé les données SIG du Vendée Globe 2024 dans QGIS, voyons comment automatiser tout cela et développer une application application Web de suivi avec MapLibre.

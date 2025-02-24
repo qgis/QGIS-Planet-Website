@@ -8,8 +8,8 @@ showcase: "planet"
 subscribers: ["geotribu_fr"]
 author: "Geotribu (FR)"
 tags: ["geopandas", "pandas", "python", "qgis", "vendée globe", "article", "voile"]
-languages: ["en_gb"]
-available_languages: ["en_gb"]
+languages: ["fr_fr"]
+available_languages: ["fr_fr"]
 ---
 
 Créer et visualiser les données SIG de l'avancement de la course du Vendée Globe 2024 à partir des tableurs officiels.

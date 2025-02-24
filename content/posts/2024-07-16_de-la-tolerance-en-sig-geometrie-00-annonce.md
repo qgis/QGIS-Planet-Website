@@ -8,8 +8,8 @@ showcase: "planet"
 subscribers: ["geotribu_fr"]
 author: "Geotribu (FR)"
 tags: ["arcgis", "fme", "geos", "grass", "postgis", "qgis", "saga", "sfcgal", "analyse", "article", "géométrie", "topologie"]
-languages: ["en_gb"]
-available_languages: ["en_gb"]
+languages: ["fr_fr"]
+available_languages: ["fr_fr"]
 ---
 
 Un tour d'horizon des SIG sur la précision des calculs géométriques.
