@@ -7,7 +7,7 @@ draft: "false"
 showcase: "planet"
 subscribers: ["opengisch"]
 author: "OPENGIS.ch blog"
-tags: ["news", "qgis", "qgis.org"]
+tags: ["qgis", "qgis.org"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
