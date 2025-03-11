@@ -1,34 +1,90 @@
 {
-  description = "Development environment and build process for a Hugo app with Python requirements";
+  description = "QGIS Planet Website";
+
+  # nixConfig = {
+  #   extra-substituters = [ "https://example.cachix.org" ];
+  #   extra-trusted-public-keys = [ "example.cachix.org-1:xxxx=" ];
+  # };
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
-  outputs = { self, nixpkgs }: 
+  outputs = { self, nixpkgs }:
     let
+      # Flake system
       supportedSystems = [ "x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin" ];
       forAllSystems = nixpkgs.lib.genAttrs supportedSystems;
-
-      nixpkgsFor = forAllSystems (system: import nixpkgs { 
-        inherit system; 
+      nixpkgsFor = forAllSystems (system: import nixpkgs {
+        inherit system;
         config.allowUnfree = true;
       });
 
-      mkDevShell = system: 
+    in
+    {
+      #
+      ### PACKAGES
+      #
+
+      packages = forAllSystems (system:
         let
           pkgs = nixpkgsFor.${system};
+
         in
         {
+          website = pkgs.callPackage ./package.nix { };
+        });
+
+
+      #
+      ### APPS
+      #
+
+      apps = forAllSystems (system:
+        let
+          pkgs = nixpkgsFor.${system};
+          inherit (nixpkgs) lib;
+
+          wwwLauncher = pkgs.writeShellApplication {
+            name = "website";
+            runtimeInputs = [ pkgs.python3 ];
+            text = ''
+              exec ${lib.getExe pkgs.python3} \
+                -m http.server 8000 \
+                -d ${self.packages.${system}.website}/
+            '';
+          };
+
+        in
+        {
+          default = {
+            type = "app";
+            program = "${wwwLauncher}/bin/website";
+          };
+        });
+
+
+      #
+      ### SHELLS
+      #
+
+      devShells = forAllSystems (system:
+        let
+          pkgs = nixpkgsFor.${system};
+
+        in
+        {
+          # Development environment
           default = pkgs.mkShell {
+
             packages = with pkgs; [
-              hugo                          # Hugo for building the website
-              vscode                        # VSCode for development
-              python312Packages.feedparser  # Python package: feedparser
-              python312Packages.requests    # Python package: requests
-              python312Packages.pillow      # Python package: Pillow
+              hugo # Hugo for building the website
+              vscode # VSCode for development
+              python312Packages.feedparser # Python package: feedparser
+              python312Packages.requests # Python package: requests
+              python312Packages.pillow # Python package: Pillow
               python312Packages.python-dateutil # Python package: dateutil
-              gnumake                       # GNU Make for build automation
+              gnumake # GNU Make for build automation
             ];
 
             shellHook = ''
@@ -51,20 +107,6 @@
               echo "-----------------------"
             '';
           };
-        };
-
-    in
-    {
-      devShells = builtins.listToAttrs (map (system: {
-        name = system;
-        value = mkDevShell system;
-      }) supportedSystems);
-
-      packages = builtins.listToAttrs (map (system: {
-        name = system;
-        value = {
-          qgis-planet-website = nixpkgsFor.${system}.callPackage ./package.nix {};
-        };
-      }) supportedSystems);
+        });
     };
 }
