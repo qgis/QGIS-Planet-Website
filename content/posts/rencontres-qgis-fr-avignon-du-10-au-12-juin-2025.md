@@ -1,13 +1,13 @@
 ---
 source: "blog"
-title: "(Fr) Oslandia recrute :  Ingénieur(e) développement d&#8217;applications SIG ( Python / SQL / QGIS )"
-date: "2020-01-23T10:01:17"
-link: "https://oslandia.com/en/2020/01/23/oslandia-recrute-ingenieure-developpement-dapplications-sig-python-sql-qgis/"
+title: "(Fr) Rencontres QGIS-fr – Avignon du 10 au 12 juin 2025"
+date: "2025-03-13T12:48:58"
+link: "https://oslandia.com/en/2025/03/13/rencontres-qgis-fr-avignon-du-10-au-12-juin-2025/"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["newsfr", "", "job", "postgis", "postgresql", "python", "qgis", "recrutement", "sql"]
+tags: ["newsfr", "open source", "qgis"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
