@@ -358,4 +358,4 @@ if __name__ == "__main__":
         processor.fetch_and_create_post()
         i += 1
     
-    # FunderProcessor.fetch_funders()
+    FunderProcessor.fetch_funders()
