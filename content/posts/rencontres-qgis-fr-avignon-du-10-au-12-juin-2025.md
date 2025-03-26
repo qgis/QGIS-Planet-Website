@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "(Fr) Rencontres QGIS-fr – Avignon du 10 au 12 juin 2025"
-date: "2025-03-24T10:45:29"
+date: "2025-03-26T08:42:47"
 link: "https://oslandia.com/en/2025/03/24/rencontres-qgis-fr-avignon-du-10-au-12-juin-2025/"
 draft: "false"
 showcase: "planet"
