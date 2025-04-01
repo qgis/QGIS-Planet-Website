@@ -98,7 +98,7 @@
     "logo": "kartoza.png"
   },
   {
-    "feed": "https://www.lutraconsulting.co.uk/blog/categories/qgis/atom.xml",
+    "feed": "https://www.lutraconsulting.co.uk/blogs/rss.xml",
     "name": "Lutra Consulting",
     "shortname": "lutragis",
     "is_active": true,

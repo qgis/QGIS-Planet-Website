@@ -248,6 +248,30 @@ available_languages: [{available_lang_str}]
                 shutil.copyfileobj(content, out_file)
         return image_filename
 
+class NewsProcessor:
+    """
+    Class to fetch the first entry from the QGIS feed and save it to data/feed.json
+    """
+    @staticmethod
+    def fetch_first_feed_entry():
+        """
+        Fetch the first entry from the QGIS feed and save it to data/feed.json
+        """
+        feed_url = "https://feed.qgis.org/?lang=en&json=1"
+        feed_file_path = "data/feed.json"
+        response = requests.get(feed_url)
+        response.raise_for_status()
+        feed_data = response.json()
+
+        if feed_data and len(feed_data) > 0:
+            first_entry = feed_data[0]
+            first_entry['url'] = f"https://feed.qgis.org/{first_entry['pk']}"
+            os.makedirs(os.path.dirname(feed_file_path), exist_ok=True)
+            with open(feed_file_path, "w", encoding="utf-8") as f:
+                json.dump(first_entry, f, ensure_ascii=False, indent=4)
+            print(f"First feed entry saved to {feed_file_path}")
+        else:
+            print("No items found in the feed.")
 
 class FunderProcessor:
     """
@@ -321,7 +345,7 @@ country: "{country}"
 
 
 if __name__ == "__main__":
-    # Load the subscribers from the JSON file
+    # # Load the subscribers from the JSON file
     with open(SUBSCRIBERS_JSON_PATH, 'r') as f:
         subscribers = json.load(f)
 
@@ -357,5 +381,8 @@ if __name__ == "__main__":
         )
         processor.fetch_and_create_post()
         i += 1
-    
+
     FunderProcessor.fetch_funders()
+
+    # Fetch the first feed entry
+    NewsProcessor.fetch_first_feed_entry()
