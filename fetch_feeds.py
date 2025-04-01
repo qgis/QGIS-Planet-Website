@@ -248,7 +248,7 @@ available_languages: [{available_lang_str}]
                 shutil.copyfileobj(content, out_file)
         return image_filename
 
-class FeedFetcher:
+class NewsProcessor:
     """
     Class to fetch the first entry from the QGIS feed and save it to data/feed.json
     """
@@ -385,4 +385,4 @@ if __name__ == "__main__":
     FunderProcessor.fetch_funders()
 
     # Fetch the first feed entry
-    FeedFetcher.fetch_first_feed_entry()
+    NewsProcessor.fetch_first_feed_entry()
