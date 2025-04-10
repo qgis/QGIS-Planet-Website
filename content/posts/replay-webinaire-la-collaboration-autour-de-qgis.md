@@ -1,13 +1,13 @@
 ---
 source: "blog"
-title: "(Fr) Financement mutualisé du logiciel libre: le cas QGIS"
-date: "2020-06-11T14:39:11"
-link: "https://oslandia.com/en/2020/06/11/financement-mutualise-du-logiciel-libre-le-cas-qgis/"
+title: "(Fr) [Replay] Webinaire &#8211; La collaboration autour de QGIS"
+date: "2025-04-07T07:29:29"
+link: "https://oslandia.com/en/2025/04/10/replay-webinaire-la-collaboration-autour-de-qgis/"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["", "qgis", "sig", "foss4g", "open source", "postgis"]
+tags: ["open source", "qgis", "opensource"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
