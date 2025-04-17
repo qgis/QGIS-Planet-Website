@@ -98,9 +98,9 @@
     "logo": "kartoza.png"
   },
   {
-    "feed": "https://www.lutraconsulting.co.uk/blogs/rss.xml",
+    "feed": "https://feed.lutraconsulting.co.uk/qgis/rss.xml",
     "name": "Lutra Consulting",
-    "shortname": "lutragis",
+    "shortname": "lutra",
     "is_active": true,
     "logo": "lutragis.svg"
   },
