@@ -24,9 +24,7 @@ export class HomePage {
             .filter({ hasText: "Free and open source" })
             .first();
         this.startReadingLink = this.page
-            .locator("section")
-            .filter({ hasText: "Free and open source" })
-            .getByRole("link");
+            .getByRole('link', { name: 'Start Reading' });
         this.qgisSupportersHeading = this.page.getByRole("heading", {
             name: "QGIS sustaining members",
         });
