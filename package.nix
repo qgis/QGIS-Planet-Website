@@ -1,32 +1,39 @@
-{ lib, stdenv, hugo, gnumake }:
+{ lib
+, stdenv
+, hugo
+}:
 
 stdenv.mkDerivation {
-    name = "qgis-planet-website";
-    src = lib.cleanSourceWith {
-        src = ./.;
-        filter = (
-        path: type: (builtins.all (x: x != baseNameOf path) [
-            ".git"
-            ".github"
-            "flake.nix"
-            "package.nix"
-        ])
-        );
-    };
-    buildInputs = [ hugo gnumake ];
+  name = "qgis-planet-website";
 
-    buildPhase = ''
-        make deploy
-    '';
+  src = lib.cleanSourceWith {
+    src = ./.;
+    filter = (
+      path: type: (builtins.all (x: x != baseNameOf path) [
+        ".git"
+        ".github"
+        "flake.nix"
+        "flake.lock"
+        "package.nix"
+        "result"
+      ])
+    );
+  };
 
-    installPhase = ''
-        mkdir -p $out
-        cp -r public/* $out/
-    '';
+  buildInputs = [ hugo ];
 
-    meta = with lib; {
-        description = "A built QGIS Planet website";
-        license = licenses.mit;
-    };
+  buildPhase = ''
+    hugo --config config.toml,config/config.prod.toml
+  '';
+
+  installPhase = ''
+    mkdir -p $out
+    cp -r public_prod/* $out/
+  '';
+
+  meta = with lib; {
+    description = "A built QGIS Planet website";
+    license = licenses.mit;
+  };
 }
 
