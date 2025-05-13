@@ -91,28 +91,28 @@ host=localhost
 port=54322
 dbname=gis-productive</code></pre>
 <p>In QGIS you create two profiles “Test” and “Prod”:</p>
-<figure class="wp-block-image"><img alt="" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_vRFsA4bc.webp"/></figure>
+<figure class="wp-block-image"><img alt="" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_FMvpRpmf.webp"/></figure>
 <p>And you set the environment variable for each profile <code>PGSERVICEFILE</code> which should be used (in the menu <em>Settings &gt; Options…</em> and there under <em>System</em> scroll down to <em>Environment</em></p>
-<figure class="wp-block-image"><img alt="image" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_dUBHlLj6.webp"/></figure>
+<figure class="wp-block-image"><img alt="image" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_piK7f1DW.webp"/></figure>
 <p>or</p>
-<figure class="wp-block-image"><img alt="image" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_oY57VEF5.webp"/></figure>
+<figure class="wp-block-image"><img alt="image" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_XoIzEkCp.webp"/></figure>
 <p>If you now use the service <code>my-local-gis</code> in a QGIS layer, it connects the database <code>prod</code> in the “Prod” profile and the database <code>test</code> in the “Test” profile.</p>
 <h2 class="wp-block-heading"><strong>The authentication configuration</strong></h2>
 <p>Let’s have a look at the authentication. If you have the connection service file on a network drive and make it available to several users, you may not want everyone to access it with the same login. Or you generally don’t want any user information in this file. This can be elegantly combined with the authentication configuration in QGIS.</p>
 <p>If you want to make a QGIS project file available to multiple users, you create the layers with a service. This service contains all connection parameters except the login information.</p>
 <p>This login information is transferred using QGIS authentication.</p>
-<figure class="wp-block-image"><img alt="image" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_InWcikc4.webp"/></figure>
+<figure class="wp-block-image"><img alt="image" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_K0KRRODp.webp"/></figure>
 <p>You also configure this authentication per QGIS profile we mentioned above. This is done via Menu <em>Settings &gt; Options…</em> and there under <em>Authentication</em>:</p>
-<figure class="wp-block-image"><img alt="image" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_8am5j0GN.webp"/></figure>
+<figure class="wp-block-image"><img alt="image" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_Joo34iHp.webp"/></figure>
 <p>(or directly where you create the PostgreSQL connection)</p>
 <p>If you add such a layer, the service and the ID of the authentication configuration are saved in the QGIS project file. This is in this case <code>mylogin</code>. Of course this name must be communicated to the other users so that they can also set  the ID for their login to <code>mylogin</code>.</p>
 <p>Of course, you can use multiple authentication configurations per profile.</p>
 <h2 class="wp-block-heading"><strong>QGIS Plugin</strong></h2>
 <p>And yes, there is now a great plugin to configure these services directly in QGIS. This means you no longer have to deal with text-based INI files. It’s called <a href="https://github.com/opengisch/qgis-pg-service-parser-plugin">PG service parser</a>:</p>
-<figure class="wp-block-image"><img alt="image" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_JaVsaUzt.webp"/></figure>
+<figure class="wp-block-image"><img alt="image" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_Drenhgtl.webp"/></figure>
 <p>It finds the connection service file according to the mentioned environment variables <code>PGSERVICEFILE</code> or <code>PGSYSCONFDIR</code> or at its default location.</p>
 <p>As well it’s super easy to create new services by duplicating existing ones.</p>
-<figure class="wp-block-image"><img alt="" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_OBh1ENC7.webp"/></figure>
+<figure class="wp-block-image"><img alt="" src="/img/subscribers/opengisch/the-postgresql-connection-service-file-and-why-we-love-it/unknown/image_rjymZJog.webp"/></figure>
 <h3 class="wp-block-heading">And for the Devs</h3>
 <p>And what would a blog post be without some geek food? The back end of this plugin is published on <a href="https://pypi.org/project/pgserviceparser/">PYPI</a> and can be easily installed with <code>pip install pgserviceparser </code>and then be used in Python.</p>
 <p>For example to list all the service names. </p>
