@@ -35,7 +35,7 @@ available_languages: ["en_gb"]
 <p class="article-editor-content__paragraph"><em>The partnership with Oslandia represents a crucial step in our mission to provide leading mobile GIS tools with a genuine OpenSource credo. The complementarity of our skills will accelerate the development of QField and QFieldCloud and meet the growing needs of our users.</em></p>
 </blockquote>
 <h2>Commitment to open source</h2>
-<p><img alt="🙏" class="wp-smiley" src="" style="height: 1em;"/> Both companies are committed to continue supporting and improving QField and QFieldCloud as open-source projects, ensuring universal access to this high-quality mobile GIS solution without vendor dependencies.</p>
+<p><img alt="🙏" class="wp-smiley" src="/img/subscribers/qgis_oslandia/oslandia-signe-un-partenariat-avec-opengis-ch-sur-qfield/1f64f.webp" style="height: 1em;"/> Both companies are committed to continue supporting and improving QField and QFieldCloud as open-source projects, ensuring universal access to this high-quality mobile GIS solution without vendor dependencies.</p>
 <h2>Ready for field mapping ?</h2>
 <p><img alt="🌏" class="wp-smiley" src="/img/subscribers/qgis_oslandia/oslandia-signe-un-partenariat-avec-opengis-ch-sur-qfield/1f30f.webp" style="height: 1em;"/> And now, are you ready for the field?</p>
 <p>So, download QField (<a href="https://qfield.org/get" target="_new">https://qfield.org/get</a>), create projects in QGIS, and share them on QFieldCloud!</p>
