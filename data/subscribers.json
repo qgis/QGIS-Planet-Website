@@ -242,5 +242,12 @@
     "shortname": "kartoza",
     "is_active": true,
     "logo": "kartoza.png"
+  },
+  {
+    "feed": "https://qgis.tips/feed/",
+    "name": "QGIS.tips",
+    "shortname": "qgis_dot_tips",
+    "is_active": true,
+    "logo": "qgis_dot_tips.png"
   }
 ]
