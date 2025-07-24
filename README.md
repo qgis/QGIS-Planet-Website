@@ -1,32 +1,71 @@
-# QGIS Planet Website
-
-[![DPG Badge](https://img.shields.io/badge/Verified-DPG-3333AB?logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iMzEiIGhlaWdodD0iMzMiIHZpZXdCb3g9IjAgMCAzMSAzMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjIwMDggMjEuMzY3OEwxMC4xNzM2IDE4LjAxMjRMMTEuNTIxOSAxNi40MDAzTDEzLjk5MjggMTguNDU5TDE5LjYyNjkgMTIuMjExMUwyMS4xOTA5IDEzLjYxNkwxNC4yMDA4IDIxLjM2NzhaTTI0LjYyNDEgOS4zNTEyN0wyNC44MDcxIDMuMDcyOTdMMTguODgxIDUuMTg2NjJMMTUuMzMxNCAtMi4zMzA4MmUtMDVMMTEuNzgyMSA1LjE4NjYyTDUuODU2MDEgMy4wNzI5N0w2LjAzOTA2IDkuMzUxMjdMMCAxMS4xMTc3TDMuODQ1MjEgMTYuMDg5NUwwIDIxLjA2MTJMNi4wMzkwNiAyMi44Mjc3TDUuODU2MDEgMjkuMTA2TDExLjc4MjEgMjYuOTkyM0wxNS4zMzE0IDMyLjE3OUwxOC44ODEgMjYuOTkyM0wyNC44MDcxIDI5LjEwNkwyNC42MjQxIDIyLjgyNzdMMzAuNjYzMSAyMS4wNjEyTDI2LjgxNzYgMTYuMDg5NUwzMC42NjMxIDExLjExNzdMMjQuNjI0MSA5LjM1MTI3WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)](https://blog.qgis.org/2025/02/08/qgis-recognized-as-digital-public-good/)
+# 🌐 QGIS Planet Website [![DPG Badge](https://img.shields.io/badge/Verified-DPG-3333AB?logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iMzEiIGhlaWdodD0iMzMiIHZpZXdCb3g9IjAgMCAzMSAzMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjIwMDggMjEuMzY3OEwxMC4xNzM2IDE4LjAxMjRMMTEuNTIxOSAxNi40MDAzTDEzLjk5MjggMTguNDU5TDE5LjYyNjkgMTIuMjExMUwyMS4xOTA5IDEzLjYxNkwxNC4yMDA4IDIxLjM2NzhaTTI0LjYyNDEgOS4zNTEyN0wyNC44MDcxIDMuMDcyOTdMMTguODgxIDUuMTg2NjJMMTUuMzMxNCAtMi4zMzA4MmUtMDVMMTEuNzgyMSA1LjE4NjYyTDUuODU2MDEgMy4wNzI5N0w2LjAzOTA2IDkuMzUxMjdMMCAxMS4xMTc3TDMuODQ1MjEgMTYuMDg5NUwwIDIxLjA2MTJMNi4wMzkwNiAyMi44Mjc3TDUuODU2MDEgMjkuMTA2TDExLjc4MjEgMjYuOTkyM0wxNS4zMzE0IDMyLjE3OUwxOC44ODEgMjYuOTkyM0wyNC44MDcxIDI5LjEwNkwyNC42MjQxIDIyLjgyNzdMMzAuNjYzMSAyMS4wNjEyTDI2LjgxNzYgMTYuMDg5NUwzMC42NjMxIDExLjExNzdMMjQuNjI0MSA5LjM1MTI3WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)](https://blog.qgis.org/2025/02/08/qgis-recognized-as-digital-public-good/)
 
 ![Screenshot](./img/qgis-planet.webp)
 
-This project aggregates various RSS feeds related to the project, providing a centralized hub for updates and news.
 
-It has been mainly developed by Tim Sutton, Lova Andriarimalala and contributors.
+> ## 👋 Welcome to the QGIS Planet Website!
+>
+> **This repository hosts the source code for the official QGIS Planet Website:**  
+> 🌍 [https://planet.qgis.org](https://planet.qgis.org)
+>
+> Here you'll find everything you need to **build, develop, and contribute** to the QGIS Planet Website.
+>
+> ### ⚠️ Note on Subdomain Websites
+>
+> **This repository is _only_ for the main QGIS Planet Website ([planet.qgis.org](https://planet.qgis.org)).**
+>
+> If you are looking for the source code or want to contribute to QGIS subdomain websites, please visit their respective repositories below.  
+> Each subdomain has its own codebase and contribution process:
+>
+> - [plugins.qgis.org](https://plugins.qgis.org) ([GitHub: QGIS-Plugins-Website](https://github.com/qgis/QGIS-Plugins-Website)) – QGIS Plugins Repository
+> - [hub.qgis.org](https://hub.qgis.org) ([GitHub: QGIS-Hub-Website](https://github.com/qgis/QGIS-Hub-Website)) – QGIS Resources Hub
+> - [feed.qgis.org](https://feed.qgis.org) ([GitHub: qgis-feed](https://github.com/qgis/qgis-feed)) – QGIS Feed Manager
+> - [qgis.org](https://qgis.org) ([GitHub: QGIS-Website](https://github.com/qgis/QGIS-Website)) – QGIS Main Website
+> - [members.qgis.org](https://members.qgis.org) ([GitHub: QGIS-Members-Website](https://github.com/qgis/QGIS-Members-Website)) – QGIS Sustaining Members Portal
+> - [certification.qgis.org](https://certification.qgis.org) ([GitHub: QGIS-Certification-Website](https://github.com/qgis/QGIS-Certification-Website)) – QGIS Certification Programme Platform
+> - [changelog.qgis.org](https://changelog.qgis.org) ([GitHub: QGIS-Changelog-Website](https://github.com/qgis/QGIS-Changelog-Website)) – QGIS Changelog Manager
+> - [uc2025.qgis.org](https://uc.qgis.org) ([GitHub: QGIS-UC-Website](https://github.com/qgis/QGIS-UC-Website)) – QGIS User Conference Website
 
-## Project Status
+![-----------------------------------------------------](./img/green-gradient.png)
 
-[![Deploy Hugo site to Pages](https://github.com/qgis/QGIS-Planet-Website/actions/workflows/github-pages.yml/badge.svg)](https://github.com/qgis/QGIS-Planet-Website/actions/workflows/github-pages.yml)
-![Website Status](https://img.shields.io/website-up-down-green-red/http/qgis.github.io/QGIS-Planet-Website.svg)
-![License](https://img.shields.io/github/license/qgis/QGIS-Planet-Website.svg)
-![Issues](https://img.shields.io/github/issues/qgis/QGIS-Planet-Website.svg)
 
-Project stars:
+<!-- TABLE OF CONTENTS -->
+<h2 id="table-of-contents"> 📖 Table of Contents</h2>
 
-![Stars](https://starchart.cc/qgis/QGIS-Planet-Website.svg)
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#-project-overview"> 🚀 Project Overview </a></li>
+    <li><a href="#-qa-status"> 🚥 QA Status </a></li>
+    <li><a href="#-license"> 📜 License </a></li>
+    <li><a href="#-folder-structure"> 📂 Folder Structure </a></li>
+    <li><a href="#-using-ai-large-language-models"> 🤖 Using 'AI' (Large Language Models) </a></li>
+    <li><a href="#️-scripts-overview"> 🛠️ Scripts Overview </a></li>
+    <li><a href="#-using-the-nix-shell"> 🧊 Using the Nix Shell </a></li>
+    <li><a href="#-contributing"> ✨ Contributing </a></li>
+    <li><a href="#-have-questions"> 🙋 Have Questions? </a></li>
+    <li><a href="#-contributors"> 🧑‍💻👩‍💻 Contributors </a></li>
+  </ol>
+</details>
 
-## How to be referenced
+![-----------------------------------------------------](./img/green-gradient.png)
 
-To make your website appear on this Planet:
 
-- [ ] a website publishing a public and compliant RSS feed (we use [feedparser](https://feedparser.readthedocs.io/) under the hood) with content about the QGIS project
-- [ ] add your RSS feed in the subscribers list using a Pull Request (or an issue if you don't know how to do a fork + PR). See [below for the subscriber model](#subscriber-model).
+## 🚀 Project Overview
 
-> [!NOTE]
+![Overview](./img/planet-qgis-org.gif)
+
+![-----------------------------------------------------](./img/green-gradient.png)
+
+
+## 🌟 How to be Referenced
+
+To make your feed appear on this Planet:
+
+- A website publishing a public and compliant RSS feed (we use [feedparser](https://feedparser.readthedocs.io/) under the hood) with content about the QGIS project
+- Add your RSS feed in the subscribers list using a Pull Request (or an issue if you don't know how to do a fork + PR). See [below for the subscriber model](#subscriber-model).
+
+> **NOTE**:
 > Only feed items with, at least, the `QGIS` [category](https://www.rssboard.org/rss-specification#ltcategorygtSubelementOfLtitemgt) (= tag) will be listed. Although there was work done on a mechanism to customize tags per feed, we have disabled this for now. [See this discussion](https://github.com/qgis/QGIS-Planet-Website/pull/49#discussion_r1958152569).
 
 ### Subscriber model
@@ -43,15 +82,6 @@ The file `data/subscribers.json` is the main entry to fetch all feeds for the QG
     "shortname": "geotribu_fr",
     // Show on the Website
     "is_active": true,
-    // Optional: Filter the category of the posts to be fetch. 
-    // It corresponds to the <category> tag on the RSS XML.
-    // If not set, the default value will be ["QGIS"].
-    // FOR NOW, CUSTOM CATEGORIES FILTERS ARE DISABLED
-    "filter_categories": [
-      "QGIS",
-      "QGIS Server",
-      "PyQGIS",
-    ],
     // Availables and main language of the feed.
     // The list of supported language is in the file
     // data/languages.json. Please add yours there if not listed.
@@ -64,24 +94,93 @@ The file `data/subscribers.json` is the main entry to fetch all feeds for the QG
   },
 ```
 
-## 🧑💻 Development
+![-----------------------------------------------------](./img/green-gradient.png)
 
-### 🏃Before you start
+## 🚥 QA Status
 
-This web site is a static site built using [Hugo](https://gohugo.io/).
+### 🪪 Badges
+| Badge | Description |
+|-------|-------------|
+| [![E2E Tests](https://github.com/qgis/QGIS-Planet-Website/actions/workflows/playwright-e2e.yml/badge.svg)](https://github.com/qgis/QGIS-Planet-Website/actions/workflows/playwright-e2e.yml) | End-to-end tests status (Playwright) |
+| [![Deploy Hugo site to Pages](https://github.com/qgis/QGIS-Planet-Website/actions/workflows/github-pages.yml/badge.svg)](https://github.com/qgis/QGIS-Planet-Website/actions/workflows/github-pages.yml) | Deployment status to GitHub Pages |
+| ![Website Status](https://img.shields.io/website-up-down-green-red/https/planet.qgis.org.svg) | Website availability status |
+| ![License](https://img.shields.io/github/license/qgis/QGIS-Planet-Website.svg) | Repository license |
+| ![](https://img.shields.io/github/issues/qgis/QGIS-Planet-Website.svg) | Open issues count |
+| ![](https://img.shields.io/github/issues-closed/qgis/QGIS-Planet-Website.svg) | Closed issues count |
+| ![](https://img.shields.io/github/issues-pr/qgis/QGIS-Planet-Website.svg) | Open pull requests count |
+| ![](https://img.shields.io/github/issues-pr-closed/qgis/QGIS-Planet-Website.svg) | Closed pull requests count |
 
-![Hugo Logo](./img/hugo-logo.png) and using the [hugo bulma blocks theme](https://github.com/kartoza/hugo-bulma-blocks-theme).
+### ⭐️ Project Stars
 
-### 🛒 Getting the Code
+![Stars](https://starchart.cc/qgis/QGIS-Planet-Website.svg)
 
-development
+![-----------------------------------------------------](./img/green-gradient.png)
 
-```sh
-git clone https://github.com/qgis/QGIS-Planet-Website.git
-cd QGIS-Planet-Website
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+![-----------------------------------------------------](./img/green-gradient.png)
+
+## 📂 Folder Structure
+
+```plaintext
+QGIS-Planet-Website/
+  ├── 🖼️  assets/           # Mainly used to store the schedule.csv file
+  ├── ⚙️  config/           # Hugo configuration files
+  ├── 📄  content/          # Markdown content files (pages, posts)
+  ├── 🗄️  data/             # Data files (JSON) for site variables (feed, languages, subscribers)
+  ├── 🖼️  img/              # Images files used by this README
+  ├── 🧩  layouts/          # Hugo templates and partials
+  ├── 🧪  playwright/       # Playwright end-to-end test scripts
+  ├── 📦  public/           # Generated site output (after `hugo` build)
+  ├── 🗂️  resources/        # Hugo-generated resources (e.g., minified assets)
+  ├── 🛠️  scripts/          # Utility scripts for development/maintenance/harvesting
+  ├── 📄  static/           # Static files served as-is (e.g., favicon, robots.txt)
+  ├── 🎨  themes/           # Hugo themes
+  ├── ⚙️  config.toml       # Main Hugo configuration file
+  ├── 🤝  CONTRIBUTING.md   # Contribution guidelines
+  ├── 🐍  fetch_feeds.py*   # Script to get sustaining members and other feeds to update the planet website
+  ├── 📜  LICENSE           # Project license
+  ├── ⚙️  Makefile          # Build/Deployment automation commands
+  ├── 📖  README.md         # Project overview and instructions
+  ├── 📋  REQUIREMENTS.txt  # Python dependencies (pip)
+  ├── 🐚  flake.nix         # Nix flake environment definition
+  └── 💡  vscode.sh*        # VSCode helper script for Nix development environment
 ```
 
-### Using Nix
+
+![-----------------------------------------------------](./img/green-gradient.png)
+
+## 🤖 Using 'AI' (Large Language Models)
+
+We are fine with using LLM's and Generative Machine Learning to act as general assistants, but the following three guidelines should be followed:
+
+1. **Repeatability:** Although we understand that repeatability is not possible generally, whenever you are verbatim using LLM or Generative Machine Learning outputs in this project, you **must** also provide the prompt that you used to generate the resource.
+2. **Declaration:** Sharing the prompt above is implicit declaration that a machine learning assistant was used. If it is not obvious that a piece of work was generated, include the robot (🤖) icon next to a code snippet or text snippet.
+3. **Validation:** Outputs generated by a virtual assistant should always be validated by a human and you, as contributor, take ultimate responsibility for the correct functionality of any code and the correct expression in any text or media you submit to this project.
+
+![-----------------------------------------------------](./img/green-gradient.png)
+
+## 🛠️ Scripts Overview
+
+The `scripts/` folder contains utility scripts to assist with data loading, and project maintenance. Below is a summary of each script:
+
+
+| Script Name                       | Description                                                                                  |
+|-----------------------------------|----------------------------------------------------------------------------------------------|
+| `fetch_feeds.py`                  | Simple script to get sustaining members and other feeds and update the web site with them     |
+| `vscode.sh`                       | Launch VSCode with all settings and extensions needed to productively work on this project    |
+| `scripts/get_commit_hash.sh`  | Get the current commit hash of this repository and write it in config/commit.toml for the website version.                                       |
+| `scripts/resize_image.py`  | Contains utilities to optimize images (resize, transform to webp, check validity).                                    |
+
+> ✏️ **Note:** Run each script from the project root. Some scripts may require environment variables or configuration—see comments within each script for usage details.
+
+![-----------------------------------------------------](./img/green-gradient.png)
+
+
+## 🧊 Using the Nix Flake
 
 The development environment is using Nix flakes. Please visit <https://nixos.wiki/wiki/Flakes> for more details.
 
@@ -97,169 +196,30 @@ hugo server
 To build the website:
 
 ```sh
-nix build .#packages.x86_64-linux # Add | cachix push qgis-website to push it to cachix
+nix build .#packages.x86_64-linux # Add | cachix push qgis-planet-website to push it to cachix
 ```
 
-### Install Hugo Locally
+![-----------------------------------------------------](./img/green-gradient.png)
 
-First install hugo for your local machine:
 
-**📝 Note:** we need to install the 'extended' hugo version which includes a SASS compiler. If you don't install the extended version you will get errors like this when compiling:
+## ✨ Contributing
 
-```sh
-ERROR 2022/12/11 07:33:37 Rebuild failed: TOCSS: failed to transform 
-"css/style.scss" (text/x-scss). Check your Hugo installation; you need 
-the extended version to build SCSS/SASS.: this feature is not available 
-in your current Hugo version, see https://goo.gl/YMrWcn for more information
-```
+We welcome contributions! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to get started.
 
-You can find the extended version in the [releases page](https://github.com/gohugoio/hugo/releases).
+![-----------------------------------------------------](./img/green-gradient.png)
 
-![Download](./img/hugo-download.png)
+## 🙋 Have Questions?
 
-#### 🐧 Linux
+Have questions or feedback? Feel free to open an issue or submit a Pull Request!  
 
-Download the deb above and then do
+![-----------------------------------------------------](./img/green-gradient.png)
+## 🧑‍💻👩‍💻 Contributors
 
-```sh
-sudo dpkg -i hugo_extended_0.107.0_linux-amd64.deb
-```
+- [Tim Sutton](https://github.com/timlinux) – Original author and lead maintainer of the QGIS Planet Website project
+- [Kontur Team](https://www.kontur.io) – Responsible for the design and development of the current website theme
+- [Lova Andriarimalala](https://github.com/Xpirix) – Core developer and ongoing maintainer
+- [QGIS Contributors](https://github.com/qgis/QGIS-Planet-Website/graphs/contributors) – See the full list of amazing contributors who have helped make this website possible.
 
-#### 🪟 Windows
+![-----------------------------------------------------](./img/green-gradient.png)
 
-[Follow these notes](https://gohugo.io/installation/windows/)
-
-#### 🍏 macOS
-
-[Follow these notes](https://gohugo.io/installation/macos/)
-
-## ⚙️ Setting up VSCode
-
-If you are using VSCode, I recommend the following extensions:
-
-- Hugo Language and Syntax Support
-- Color Highlight
-
-Clone the repo:
-
-```sh
-git clone https://github.com/qgis/QGIS-Planet-Website.git
-```
-
-Run the site:
-
-Press ```Ctl-Shift-D``` then choose the following runner:
-
-'Run dev using locally installed Hugo'
-
-the click the green triangle next to  the runner to start it.
-
-Once the site is running, you can open it at:
-
-<http://localhost:1313>
-
-The site will automatically refresh any page you have open if you edit it and save your work. Magical eh?
-
-## Content Harvesting
-
-You can harvest data from various feeds using the `fetch_feeds.py` script.
-This script retrieves posts from each subscriber listed in `data/subscribers.json`
-and saves them to `content/posts`.
-Additionally, it fetches the sustaining members list and logos from the changelog
- website and saves them to `content/funders`.
-
-**Note:** Any manual changes made to the files in these folders will be overwritten by this script.
-
-```bash
-./fetch_feeds.py
-```
-
-This script is run nightly as a github action (see .github/workflows/update-feeds.yml).
-
-## Search Functionality
-
-The search functionality uses both [FuseJS](https://fusejs.io/) and [MarkJS](https://markjs.io/).
-
-The search functionality code is based on this [Blog Post](https://makewithhugo.com/add-search-to-a-hugo-site/) and [GitHub Gist](https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae) by [Eddie Webb](https://twitter.com/eddturtle).
-
-Content folders need to be excluded from search, by making them [headless bundles](https://gohugo.io/content-management/page-bundles/#headless-bundle) - which we have done for the sustaining member and flagship user folders in content/. To make other content folders which are not rendered and included in search results, add an ```index.md``` file with the following content: ```headless = true```.
-
-## Referencing URLs in templates
-
-The site needs to work in production, where the links of the site are all below the root URL, and in staging, where the site is deployed to GitHub pages in a subpath. To ensure both deployment strategies work, please use the following method of constructing URLs in templates.
-
-```html
-<a class="button is-primary" href="{{ "donate/" | absURL }}">
-```
-
-**Note:** We do not use a leading slash, only an ending slash.
-
-## Styles (SASS/CSS)
-
-SASS for most components is stored in themes/hugo-bulma-blocks-theme/assets/sass/bulma/components/
-
-Some common styles are places in themes/hugo-bulma-blocks-theme/assets/sass/style.sass - this file is compiled as hugo template, hence has access to config.toml variables and hugo macroses
-
-Also some bulma theme overrides are placed in themes/hugo-bulma-blocks-theme/assets/css/custom.css
-
-## 📁 File naming conventions
-
-- Separate words in file names with hyphens e.g. windows-download.md
-- Avoid abbreviations in the words of your files
-- Write file names in lower case only
-- No spaces in file names
-
-## 💮 Changing the templates
-
-| Page type       | Path                                     |
-| --------------- | ---------------------------------------- |
-| Landing Page    | themes/qgis/layouts/index.html           |
-| Top Level Pages | themes/qgis/layouts/_default/single.html |
-
-## 🏠 Editing the landing (home) page
-
-The layout of the landing page is themes/hugo-bulma-blocks-theme/layouts/index.html: the main page has many diverse blocks, that are not used anywhere else, hence its content is mostly in the partials.
-
-The `content/_index.md` contains the front matter of the page and the contents for the `feature` shortcodes. Just edit whatever you like there. The blocks shortcodes are described [here](https://github.com/qgis/QGIS-Planet-Website/blob/main/docs/shortcodes.md)
-
-## 📃 Adding a top level page
-
-### Create the content
-
-Content pages are stored in the `content` folder. The top level documents there will be rendered with the top level page theming.
-
-For example to add an about page, create `content/about.md`
-
-The page will be accessible then at /about/
-
-### 🖼️ Referencing Images and Media
-
-Place images and media in `static/img`. Everything in `static` is referenced from the top level of the site e.g.  `static/img/foo.png` would be referenced in
-markdown as `/img/foo.png`.
-
-## 📦 Blocks Shortcodes
-
-The site uses a number of shortcodes to create reusable blocks of content. These are defined in the `themes/hugo-bulma-blocks-theme/layouts/shortcodes/` folder.
-
-The shortcodes with screenshots are described [here](https://github.com/qgis/QGIS-Planet-Website/blob/main/docs/shortcodes.md)
-
-### Sidebar
-
-Sidebar is implemented in `themes/hugo-bulma-blocks-theme/layouts/partials/sidebar.html`.
-
-Items are retrieved from config.toml under `[menu]` section. `weight` parameter defines the order of the item.
-
-To enable sidebar on the content page, use the following template:
-
-```html
----
-type: "page"
-...
-sidebar: true
----
-{{< content-start  >}}
-
-... add content here ...
-
-{{< content-end  >}}
-```
+Made with ❤️ by Tim Sutton (@timlinux), Lova Andriarimalala (@Xpirix) and QGIS Contributors.
