@@ -1,4 +1,4 @@
-# ✨ Contributing to QGIS-Website
+# ✨ Contributing to QGIS-Planet-Website
 
 Thank you for considering contributing to QGIS Planet Website!
 We welcome contributions of all kinds, including bug fixes, feature requests,
@@ -42,7 +42,7 @@ hugo server
 To build the website:
 
 ```sh
-nix build .#packages.x86_64-linux # Add | cachix push qgis-website to push it to cachix
+nix build .#packages.x86_64-linux # Add | cachix push QGIS-Planet-Website to push it to cachix
 ```
 
 
