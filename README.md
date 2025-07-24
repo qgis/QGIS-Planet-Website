@@ -36,12 +36,13 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#-project-overview"> 🚀 Project Overview </a></li>
+    <li><a href="#-how-to-be-referenced"> 🌟 How to be Referenced </a></li>
     <li><a href="#-qa-status"> 🚥 QA Status </a></li>
     <li><a href="#-license"> 📜 License </a></li>
     <li><a href="#-folder-structure"> 📂 Folder Structure </a></li>
     <li><a href="#-using-ai-large-language-models"> 🤖 Using 'AI' (Large Language Models) </a></li>
     <li><a href="#️-scripts-overview"> 🛠️ Scripts Overview </a></li>
-    <li><a href="#-using-the-nix-shell"> 🧊 Using the Nix Shell </a></li>
+    <li><a href="#-using-the-nix-flake"> 🧊 Using the Nix Flake </a></li>
     <li><a href="#-contributing"> ✨ Contributing </a></li>
     <li><a href="#-have-questions"> 🙋 Have Questions? </a></li>
     <li><a href="#-contributors"> 🧑‍💻👩‍💻 Contributors </a></li>
