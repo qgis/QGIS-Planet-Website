@@ -98,9 +98,9 @@
     "logo": "kartoza.png"
   },
   {
-    "feed": "https://www.lutraconsulting.co.uk/blog/categories/qgis/atom.xml",
+    "feed": "https://feed.lutraconsulting.co.uk/qgis/rss.xml",
     "name": "Lutra Consulting",
-    "shortname": "lutragis",
+    "shortname": "lutra",
     "is_active": true,
     "logo": "lutragis.svg"
   },
@@ -242,5 +242,12 @@
     "shortname": "kartoza",
     "is_active": true,
     "logo": "kartoza.png"
+  },
+  {
+    "feed": "https://qgis.tips/feed/",
+    "name": "QGIS.tips",
+    "shortname": "qgis_dot_tips",
+    "is_active": true,
+    "logo": "qgis_dot_tips.png"
   }
 ]

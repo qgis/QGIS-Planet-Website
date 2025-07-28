@@ -11,6 +11,8 @@ HasBanner: true
 ButtonText: "Start Reading" 
 ButtonLink: "posts/"
 LabelText: "Free and Open Source"
+Badge: "img/badges/dpg-badge.png"
+BadgeLink: "https://blog.qgis.org/2025/02/08/qgis-recognized-as-digital-public-good/"
 ---
 
 <!-- {{< content-start >}}
