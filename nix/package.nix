@@ -7,7 +7,7 @@ stdenv.mkDerivation {
   name = "qgis-planet-website";
 
   src = lib.cleanSourceWith {
-    src = ./.;
+    src = ../.;
     filter = (
       path: type: (builtins.all (x: x != baseNameOf path) [
         ".git"

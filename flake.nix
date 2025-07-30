@@ -31,7 +31,7 @@
           pkgs = nixpkgsFor.${system};
         in
         rec {
-          website = pkgs.callPackage ./package.nix { };
+          website = pkgs.callPackage ./nix/package.nix { };
           default = website;
         });
 
