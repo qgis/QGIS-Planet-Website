@@ -29,10 +29,10 @@
       packages = forAllSystems (system:
         let
           pkgs = nixpkgsFor.${system};
-
         in
-        {
+        rec {
           website = pkgs.callPackage ./package.nix { };
+          default = website;
         });
 
 
@@ -54,13 +54,13 @@
                 -d ${self.packages.${system}.website}/
             '';
           };
-
         in
-        {
-          default = {
+        rec {
+          website = {
             type = "app";
             program = "${wwwLauncher}/bin/website";
           };
+          default = website;
         });
 
 
