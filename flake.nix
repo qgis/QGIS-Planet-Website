@@ -80,10 +80,10 @@
             packages = with pkgs; [
               hugo # Hugo for building the website
               vscode # VSCode for development
-              python312Packages.feedparser # Python package: feedparser
-              python312Packages.requests # Python package: requests
-              python312Packages.pillow # Python package: Pillow
-              python312Packages.python-dateutil # Python package: dateutil
+              python3Packages.feedparser # Python package: feedparser
+              python3Packages.requests # Python package: requests
+              python3Packages.pillow # Python package: Pillow
+              python3Packages.python-dateutil # Python package: dateutil
               gnumake # GNU Make for build automation
             ];
 
