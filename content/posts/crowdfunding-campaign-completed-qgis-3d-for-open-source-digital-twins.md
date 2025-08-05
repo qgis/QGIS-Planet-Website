@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "Crowdfunding Campaign Completed: QGIS 3D for Open Source Digital Twins"
-date: "2025-07-16T14:33:40"
+date: "2025-08-01T19:38:09"
 link: "https://www.lutraconsulting.co.uk/blogs/crowdfunding-campaign-completed-qgis-3d-for-open-source-digital-twins?utm_source=qgis"
 draft: "false"
 showcase: "planet"
