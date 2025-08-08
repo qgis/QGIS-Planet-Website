@@ -249,5 +249,18 @@
     "shortname": "qgis_dot_tips",
     "is_active": true,
     "logo": "qgis_dot_tips.png"
+  },
+  {
+  "feed": "https://qgis.mierune.co.jp/feed/rss",
+  "name": "QGIS LAB by MIEURNE",
+  "shortname": "qgis_lab",
+  "is_active": true,
+  "logo": "qgislab.svg",
+  "languages": {
+    "available": [
+      "ja_jp"
+    ],
+    "main": "ja_jp"
   }
+}
 ]
