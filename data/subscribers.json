@@ -252,8 +252,8 @@
   },
   {
   "feed": "https://qgis.mierune.co.jp/feed/rss",
-  "name": "QGIS LAB by MIEURNE",
-  "shortname": "qgis_lab",
+  "name": "QGIS LAB by MIERUNE",
+  "shortname": "qgis_lab_by_mierune",
   "is_active": true,
   "logo": "qgislab.svg",
   "languages": {
