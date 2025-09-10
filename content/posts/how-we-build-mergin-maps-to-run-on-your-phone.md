@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "How we build Mergin Maps to run on your phone"
-date: "2025-09-05T13:27:55"
+date: "2025-09-10T10:54:01"
 link: "https://www.lutraconsulting.co.uk/blogs/how-we-build-mergin-maps-to-run-on-your-phone?utm_source=qgis"
 draft: "false"
 showcase: "planet"
