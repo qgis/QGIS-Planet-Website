@@ -30,7 +30,7 @@ available_languages: ["en_gb"]
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 </div></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
-<h3 class="wp-block-heading"><strong><img alt="🛣" class="wp-smiley" src="" style="height: 1em;"/> SIGNALO: An Open-Source Solution for Mapping Road Signs in QGIS </strong></h3>
+<h3 class="wp-block-heading"><strong><img alt="🛣" class="wp-smiley" src="/img/subscribers/opengisch/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/1f6e3.webp" style="height: 1em;"/> SIGNALO: An Open-Source Solution for Mapping Road Signs in QGIS </strong></h3>
 <p>Presented by Denis, our <em>Industry Solution Team Lead</em>, SIGNALO is a <strong>QGIS-based solution for mapping road signs</strong>, powered by a PostGIS database. It addresses the challenge of representing vertical data on maps while ensuring compliance with Swiss norms, yet remains highly customizable for use at local, regional, or national levels. Moreover, the flexible design allows for easy adaptation to other countries.</p>
 <p>In this talk, Denis explored both the technical foundations of the project and the organizational strategies that enable its open-source development.<br/></p>
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
