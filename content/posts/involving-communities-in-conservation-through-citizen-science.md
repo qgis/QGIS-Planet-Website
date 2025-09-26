@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Discover how the Green Giants project by VERDE engages local communities in conserving Portugal’s native forests through citizen science. Using MerginMaps and QGIS, volunteers have mapped over 15,000 monumental trees, fostering collaboration, knowledge-sharing, and biodiversity protection.
+Discover how the Green Giants project by VERDE engages local communities in conserving Portugal’s native forests through citizen science. Using Mergin Maps and QGIS, volunteers have mapped over 15,000 monumental trees, fostering collaboration, knowledge-sharing, and biodiversity protection.
