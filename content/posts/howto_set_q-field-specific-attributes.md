@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "データ入力を効率化！QFieldで属性値をワンタップ入力にする設定ガイド - QGIS LAB by MIERUNE"
+title: "現場でのデータ入力を効率化！QFieldで属性値を簡単に入力する方法 - QGIS LAB by MIERUNE"
 date: "2025-09-17T01:39:52"
 link: "https://qgis.mierune.co.jp/posts/howto_set_q-field-specific-attributes"
 draft: "false"
