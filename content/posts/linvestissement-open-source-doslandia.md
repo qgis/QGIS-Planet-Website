@@ -1,18 +1,18 @@
 ---
 source: "blog"
 title: "How Oslandia invests in OpenSource"
-date: "2023-03-07T15:23:04"
+date: "2025-10-13T12:19:50"
 link: "https://oslandia.com/en/2023/03/27/linvestissement-open-source-doslandia/"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["news", "contribution", "investment", "lsci", "opensource", "pureplayer", "qdeeplandia", "qgis", "qwc2", "totalopenstation"]
+tags: ["news", "qwc", "contribution", "investment", "lsci", "opensource", "pureplayer", "qdeeplandia", "qgis", "totalopenstation"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-<div class="wpb_row vc_row-fluid vc_row standard_section" id="fws_68ecec52cda78" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg"></div></div> </div><div class="col span_12 dark left">
+<div class="wpb_row vc_row-fluid vc_row standard_section" id="fws_68ed9846d4607" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg"></div></div> </div><div class="col span_12 dark left">
 <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
@@ -42,7 +42,7 @@ available_languages: ["en_gb"]
 </div>
 </div>
 </div></div>
-<div class="wpb_row vc_row-fluid vc_row standard_section" id="fws_68ecec52ce28f" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg"></div></div> </div><div class="col span_12 dark left">
+<div class="wpb_row vc_row-fluid vc_row standard_section" id="fws_68ed9846d5124" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg"></div></div> </div><div class="col span_12 dark left">
 <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
@@ -55,7 +55,7 @@ available_languages: ["en_gb"]
 </div>
 </div>
 </div></div>
-<div class="wpb_row vc_row-fluid vc_row standard_section" id="fws_68ecec52ce401" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg"></div></div> </div><div class="col span_12 dark left">
+<div class="wpb_row vc_row-fluid vc_row standard_section" id="fws_68ed9846d52a1" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap"><div class="inner-wrap"> <div class="row-bg"></div></div> </div><div class="col span_12 dark left">
 <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">

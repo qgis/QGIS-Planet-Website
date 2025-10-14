@@ -1,13 +1,13 @@
 ---
 source: "blog"
 title: "(Fr) [Story] Oslandia x QWC : épisode 1 / 8"
-date: "2024-11-19T07:25:52"
+date: "2025-10-13T12:23:34"
 link: "https://oslandia.com/en/2024/09/04/story-oslandia-x-qwc-episode-1-8/"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["newsfr", "open source", "open source", "qgis"]
+tags: ["newsfr", "open source", "qwc", "open source", "qgis"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

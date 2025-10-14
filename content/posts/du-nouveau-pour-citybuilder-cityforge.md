@@ -7,7 +7,7 @@ draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["newsfr", "qgis", ""]
+tags: ["newsfr", "qgis", "3d"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
