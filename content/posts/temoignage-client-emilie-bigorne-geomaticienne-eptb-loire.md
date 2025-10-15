@@ -1,13 +1,13 @@
 ---
 source: "blog"
 title: "(Fr) [Témoignage client] Émilie Bigorne, géomaticienne EPTB Loire"
-date: "2024-03-19T12:22:19"
+date: "2025-10-14T18:47:45"
 link: "https://oslandia.com/en/2024/04/16/temoignage-client-emilie-bigorne-geomaticienne-eptb-loire/"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["newsfr", "témoignage client", "postgis", "postgresql", "qgis"]
+tags: ["newsfr", "qdt", "témoignage client", "postgis", "postgresql", "qgis"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---

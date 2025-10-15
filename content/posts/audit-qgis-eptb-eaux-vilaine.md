@@ -1,13 +1,13 @@
 ---
 source: "blog"
 title: "(Fr) Audit QGIS / EPTB Eaux &#038; Vilaine"
-date: "2025-01-10T07:10:22"
+date: "2025-10-14T18:49:32"
 link: "https://oslandia.com/en/2025/02/04/audit-qgis-eptb-eaux-vilaine/"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["newsfr", "open source", "qgis", "open source", "postgis", "qdt"]
+tags: ["newsfr", "open source", "qdt", "qgis", "témoignage client", "open source", "postgis"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
