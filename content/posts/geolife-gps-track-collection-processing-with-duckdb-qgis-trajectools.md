@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "GeoLife GPS track collection processing with DuckDB, QGIS & Trajectools"
+title: "Wrangling hundreds of GPS files with DuckDB, QGIS & Trajectools"
 date: "2025-10-12T19:21:53+0000"
 link: "https://anitagraser.com/2025/10/12/geolife-gps-track-collection-processing-with-duckdb-qgis-trajectools/"
 draft: "false"
