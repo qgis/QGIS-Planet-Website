@@ -262,5 +262,11 @@
     ],
     "main": "ja_jp"
   }
-}
+},
+  {
+    "feed": "https://auchindown.com/rss.xml",
+    "name": "Auchindown",
+    "shortname": "Auchindown",
+    "is_active": true
+  }
 ]
