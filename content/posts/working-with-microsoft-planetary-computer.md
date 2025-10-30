@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "Improved Access to Microsoft Planetary Computer in QGIS via STAC"
-date: "2025-10-27T08:17:16"
+date: "2025-10-29T12:44:04"
 link: "https://www.lutraconsulting.co.uk/blogs/working-with-microsoft-planetary-computer?utm_source=qgis"
 draft: "false"
 showcase: "planet"
