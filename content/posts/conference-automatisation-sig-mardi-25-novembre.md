@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "(Fr) Conférence &#8220;Automatisation &#038; SIG&#8221; mardi 25 novembre"
-date: "2025-10-10T06:03:38"
+date: "2025-11-04T13:50:56"
 link: "https://oslandia.com/en/2025/11/04/conference-automatisation-sig-mardi-25-novembre/"
 draft: "false"
 showcase: "planet"
