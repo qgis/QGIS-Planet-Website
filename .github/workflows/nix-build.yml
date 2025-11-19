@@ -20,7 +20,7 @@ jobs:
   
     - uses: cachix/cachix-action@v16
       with:
-        name: qgiswebsite
+        name: qgisplanet
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
 
     - name: Run flake checks
