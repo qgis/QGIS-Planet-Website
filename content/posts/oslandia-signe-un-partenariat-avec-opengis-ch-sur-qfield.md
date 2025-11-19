@@ -37,7 +37,7 @@ available_languages: ["en_gb"]
 <h2>Commitment to open source</h2>
 <p><img alt="🙏" class="wp-smiley" src="/img/subscribers/qgis_oslandia/oslandia-signe-un-partenariat-avec-opengis-ch-sur-qfield/1f64f.webp" style="height: 1em;"/> Both companies are committed to continue supporting and improving QField and QFieldCloud as open-source projects, ensuring universal access to this high-quality mobile GIS solution without vendor dependencies.</p>
 <h2>Ready for field mapping ?</h2>
-<p><img alt="🌏" class="wp-smiley" src="/img/subscribers/qgis_oslandia/oslandia-signe-un-partenariat-avec-opengis-ch-sur-qfield/1f30f.webp" style="height: 1em;"/> And now, are you ready for the field?</p>
+<p><img alt="🌏" class="wp-smiley" src="" style="height: 1em;"/> And now, are you ready for the field?</p>
 <p>So, download QField (<a href="https://qfield.org/get" target="_new">https://qfield.org/get</a>), create projects in QGIS, and share them on QFieldCloud!</p>
-<p><img alt="✉" class="wp-smiley" src="/img/subscribers/qgis_oslandia/oslandia-signe-un-partenariat-avec-opengis-ch-sur-qfield/2709.webp" style="height: 1em;"/> If you need training, support, maintenance, deployment, or specific feature development on these platforms, don’t hesitate to contact us. You will have access to the best experts available: <a href="mailto:infos+mobile@oslandia.com" target="_new">infos+mobile@oslandia.com</a>.</p>
+<p><img alt="✉" class="wp-smiley" src="" style="height: 1em;"/> If you need training, support, maintenance, deployment, or specific feature development on these platforms, don’t hesitate to contact us. You will have access to the best experts available: <a href="mailto:infos+mobile@oslandia.com" target="_new">infos+mobile@oslandia.com</a>.</p>
 <p> </p>
