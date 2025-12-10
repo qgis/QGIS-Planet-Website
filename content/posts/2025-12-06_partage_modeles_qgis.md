@@ -12,4 +12,4 @@ languages: ["fr_fr"]
 available_languages: ["fr_fr"]
 ---
 
-Découvrez 4 façons de partager vos modèles QGIS : de l'avion à l’intégration dans un plugin !
+Découvrez 5 façons de partager vos modèles QGIS : de l'avion à l’intégration dans un plugin !
