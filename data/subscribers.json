@@ -269,5 +269,18 @@
     "shortname": "Auchindown",
     "is_active": true,
     "logo": "auchindown-black.png"
+  },
+  {
+    "feed": "https://hfcqgis.opendatasicilia.it/feed_rss_created.xml",
+    "name": "HfcQGIS",
+    "shortname": "hfcqgis",
+    "is_active": true,
+    "logo": "hfcqgis.webp",
+    "languages": {
+      "available": [
+        "it_it"
+      ],
+      "main": "it_it"
+    }
   }
 ]
