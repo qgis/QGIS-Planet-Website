@@ -12,8 +12,8 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-<p>The journey continues: <a href="https://github.com/qgis/QGIS/pull/63749">QgsArrowIterator is now merged</a>! This makes it possible to iterate over <code>QgsFeature</code>s as Arrow batches. </p>
-<p>This is where we are now, quoting <a href="https://github.com/qgis/QGIS/pull/63749#issuecomment-3475806601">Dewey Dunnington</a>: </p>
+<p class="wp-block-paragraph">The journey continues: <a href="https://github.com/qgis/QGIS/pull/63749">QgsArrowIterator is now merged</a>! This makes it possible to iterate over <code>QgsFeature</code>s as Arrow batches. </p>
+<p class="wp-block-paragraph">This is where we are now, quoting <a href="https://github.com/qgis/QGIS/pull/63749#issuecomment-3475806601">Dewey Dunnington</a>: </p>
 <div class="wp-block-syntaxhighlighter-code"><pre class="brush: python; title: ; notranslate">
 import geopandas
 from nanoarrow.c_array import allocate_c_array
@@ -43,13 +43,13 @@ print(geopandas.read_file("tests/testdata/zonalstatistics/polys.shp"))
 #&gt; 1    poly_2  POLYGON ((100.37944 -0.96044, 100.37955 -0.960...
 #&gt; 2    poly_3  POLYGON ((100.37938 -0.96049, 100.37949 -0.960...
 </pre></div>
-<p><a href="https://github.com/qgis/QGIS/issues/64110">Further improvements are already being planned</a>. To quote from the ticket:</p>
-<p>“The final state after this improvement would be a compact way for Arrow Python consumers like GeoPandas to ergonomically consume a layer. Maybe:</p>
+<p class="wp-block-paragraph"><a href="https://github.com/qgis/QGIS/issues/64110">Further improvements are already being planned</a>. To quote from the ticket:</p>
+<p class="wp-block-paragraph">“The final state after this improvement would be a compact way for Arrow Python consumers like GeoPandas to ergonomically consume a layer. Maybe:</p>
 <div class="wp-block-syntaxhighlighter-code"><pre class="brush: python; title: ; notranslate">
 geopandas.GeoDataFrame.from_arrow(qgis_layer_object)
 </pre></div>
-<p>Or maybe:</p>
+<p class="wp-block-paragraph">Or maybe:</p>
 <div class="wp-block-syntaxhighlighter-code"><pre class="brush: python; title: ; notranslate">
 geopandas.GeoDataFrame.from_arrow(qgis_layer_object.getArrowStream())
 </pre></div>
-<p>Looking forward to seeing this develop further. </p>
+<p class="wp-block-paragraph">Looking forward to seeing this develop further. </p>
