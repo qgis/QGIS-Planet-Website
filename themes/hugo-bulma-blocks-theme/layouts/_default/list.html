@@ -14,7 +14,7 @@
                 <p class="is-size-5">{{ .Params.subtitle }}</p>
             {{ end }}
 
-                {{ range (where .Site.RegularPages "Section" "community-blogs") }}
+                {{ range (.Paginator 500 ).Pages }}
                 {{ $thumbnail_url := .Params.thumbnail }}
                 {{ $has_right := cond (eq $thumbnail_url nil) "" "has-right" }}
 
