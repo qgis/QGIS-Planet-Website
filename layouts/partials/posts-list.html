@@ -1,0 +1,102 @@
+
+{{ $baseURL := .Site.BaseURL }}
+<section class="section">
+    <div class="container content">
+        {{/* Get the title in the _index.md frontmatter in the parent folder */}}
+        <div class="columns is-multiline is-centered">
+            {{ partial "sidebar.html" . }}
+            <div class="content column is-9">
+                <h1 class="title">
+                    {{ $path := .Title | lower }}
+                    {{ $subscriberName := "" }}
+                    {{ range $subscriberData := $.Site.Data.subscribers }}
+                        {{ if eq $subscriberData.shortname $path }}
+                            {{ $subscriberName = $subscriberData.name }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if $subscriberName }}
+                        Posts by
+                    {{ else if .Data.Term }}
+                        Tag:
+                    {{ end }}
+                    {{ $subscriberName | default .Data.Term | default "QGIS Planet" }}
+                </h1>
+                {{ if .Params.subtitle }}
+                    <p class="is-size-5">{{ .Params.subtitle }}</p>
+                {{ end }}
+                {{ .Scratch.Delete "pages" }}
+
+                <!-- Section -->
+                {{ if (eq .Kind "section") }}
+                    <!-- Archives -->
+                    {{ if (eq .Section "archives") }}
+                        {{ $pages := (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+                        {{ .Scratch.Set "pages" $pages }}
+                    <!-- Regular Section -->
+                    {{ else }}
+                        {{ $sectionPage := .CurrentSection }}
+                        {{ range .Site.RegularPages }}
+                            {{ if (.IsDescendant $sectionPage) }}
+                                {{ $.Scratch.Add "pages" (slice .) }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+
+                <!-- Taxonomy Term -->
+                {{ if (eq .Kind "term") }}
+                    {{ $pages := .Pages }}
+                    {{ $.Scratch.Set "pages" $pages }}
+                {{ end }}
+
+                <!-- Start List -->
+                {{ $pages := .Scratch.Get "pages" }}
+
+
+                {{ $paginator := .Paginate $pages }}
+                {{ range $paginator.Pages }}
+                    <div class="column is-12">
+                        <div class="container rich">
+                            <div class="cont coloring-1">
+                                <h2 class="title is-4">
+                                    <a href="{{ .Params.link }}">
+                                        {{ .Params.title }}
+                                    </a>
+                                </h2>
+                                <article class="subtitle is-7">
+                                    <span class="has-text-weight-normal">
+                                        {{ .Date.Format "January 2, 2006 3:04 PM UTC" }}
+                                    </span> by 
+                                    <span class="has-text-weight-normal">
+                                        {{ $firstSubscriber := index .Params.subscribers 0 }}
+                                        <a href="{{ $baseURL }}/subscribers/{{ $firstSubscriber | urlize }}">
+                                            {{ .Params.author }} 
+                                        </a>
+                                    </span>
+                                    
+                                    {{ $tags := .Params.tags }}
+                                    {{ if gt (len $tags) 0 }}
+                                        under
+                                        {{ range $tags }}
+                                            <span class="tag is-success is-light mb-1">
+                                                <a href="{{ $baseURL }}/tags/{{ . | urlize }}" class="truncate-tag">{{ . }}</a>
+                                            </span>
+                                        {{ end }}
+                                    {{ end }}
+
+                                </article>
+                                <div class="content mt-3">
+                                    {{ .Page.RawContent | safeHTML }}
+                                </div>
+                                <a href="{{ .Params.link }}" class="button is-success is-outlined">Learn More</a>
+                            </div>
+                        </div>
+                        <!-- <div class="post-container p-5"></div> -->
+                    </div>
+                {{ end }}
+                
+                {{ partial "pagination.html" . }}
+            </div>
+        </div>  
+    </div>
+</section>

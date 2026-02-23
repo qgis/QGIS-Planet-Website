@@ -1,0 +1,113 @@
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-desktop">
+            <div class="column is-2-desktop">
+                <figure class="image is-128x128">
+                    <img alt="Logo" src="{{ absURL "img/footlogo.svg" }}" />
+                </figure>
+            </div>
+            <div class="column mb-6">
+                <div class="columns is-desktop">
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 ">
+                            <a href="{{ site.BaseURL }}" class="footertitle text-nowrap">
+                                QGIS Planet
+                            </a>
+                        </li>
+                        {{- range site.Menus.main }}
+                            {{ range sort .Children "Weight" }}
+                                {{- if eq .Parent "Project" -}}
+                                    <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="{{ .URL }}">
+                                            {{ .Name }}
+                                        </a>
+                                    </li>
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+            
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5">
+                            <a href="{{ absURL "posts" }}" class="footertitle text-nowrap">
+                                All Posts
+                            </a>
+                        </li>
+                        {{- range site.Menus.main }}
+                            {{ range sort .Children "Weight" }}
+                                {{- if eq .Parent "Community" -}}
+                                    <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="{{ .URL }}">
+                                            {{ .Name }}
+                                        </a>
+                                    </li>
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 footertitle">
+                            <a 
+                                class="tagcloudModalButton footertitle text-nowrap" 
+                                href="#tagcloudModal" 
+                                role="button" 
+                                data-target="planetTagsModal"
+                            >
+                                Tags
+                            </a>
+                        </li>
+                        {{- range site.Menus.main }}
+                            {{ range sort .Children "Weight" }}
+                                {{- if eq .Parent "Resources" -}}
+                                    <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="{{ .URL }}">
+                                            {{ .Name }}
+                                        </a>
+                                    </li>
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+
+                </div>
+            </div>
+            <div class="column is-2-desktop">
+                <a href="https://qgis.org/download">
+                    <button class="button is-primary1 is-size-5">Download</button>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop">
+            <div class="copyright column is-2-desktop has-text-white"></div>
+            <div class="column social-icons-links">
+                <a class="has-text-white" href="https://www.facebook.com/profile.php?id=100057434859831">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a class="has-text-white" href="https://www.youtube.com/@qgishome">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="has-text-white" href="https://fosstodon.org/@qgis">
+                    <i class="fa-brands fa-foss"></i>
+                </a>
+                <a class="has-text-white" href="https://github.com/qgis/">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a class="has-text-white" href=" https://qgis.org/community/organisation/mailinglists">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop issue-report-link is-justify-content-center">
+            <a href="{{ site.Params.githubRepo }}/issues" class="column is-narrow p-0 is-size-6" target="_blank">Problems with this website? Report an issue here 🐙</a> 
+        </div>
+    </div>
+    <div class="commit-link is-size-7">
+        {{ $commit := readFile (print site.Params.commitFile)}}
+        <p>
+            Commit revision: <a href="{{ site.Params.githubRepo }}/commit/{{ $commit }}" target="_blank">{{ $commit }}</a>
+        </p>
+    </div>
+</footer>
+

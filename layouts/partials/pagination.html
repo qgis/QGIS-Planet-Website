@@ -1,0 +1,37 @@
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+<nav class="pagination is-centered mb-0" role="navigation" aria-label="pagination">
+  {{ if .Paginator.HasPrev }}
+    <a class="pagination-previous" href="{{.Paginator.Prev.URL}}">Prev</a>
+  {{ else }}
+    <a class="pagination-previous" disabled>Prev</a>
+  {{ end }}
+
+  {{ if .Paginator.HasNext }}
+    <a class="pagination-next" href="{{.Paginator.Next.URL}}">Next</a>
+  {{ else }}
+    <a class="pagination-next" disabled>Next</a>
+  {{ end }}
+
+  <ul class="pagination-list m-0">
+    {{ if gt .Paginator.PageNumber 2 }}
+      <li class="m-0"><a class="pagination-link" href="{{.Paginator.First.URL}}">1</a></li>
+    {{ end }}
+    {{ if gt .Paginator.PageNumber 3 }}
+      <li class="m-0"><span class="pagination-ellipsis">&hellip;</span></li>
+    {{ end }}
+    {{ if .Paginator.HasPrev }}
+      <li class="m-0"><a class="pagination-link" href="{{.Paginator.Prev.URL}}">{{ sub .Paginator.PageNumber 1 }}</a></li>
+    {{ end }}
+    <li class="m-0"><a class="pagination-link is-current">Page {{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</a></li>
+    {{ if .Paginator.HasNext }}
+      <li class="m-0"><a class="pagination-link" href="{{.Paginator.Next.URL}}">{{ add .Paginator.PageNumber 1 }}</a></li>
+    {{ end }}
+    {{ if lt .Paginator.PageNumber (sub .Paginator.TotalPages 2) }}
+      <li class="m-0"><span class="pagination-ellipsis">&hellip;</span></li>
+    {{ end }}
+    {{ if lt .Paginator.PageNumber (sub .Paginator.TotalPages 1) }}
+      <li class="m-0"><a class="pagination-link" href="{{.Paginator.Last.URL}}">{{.Paginator.TotalPages}}</a></li>
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}

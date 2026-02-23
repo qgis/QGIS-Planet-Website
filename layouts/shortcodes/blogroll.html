@@ -1,0 +1,39 @@
+{{ $showcaseType := .Get "showcase" | default "" }}
+{{ $folder := .Get "folder" | default "posts" }}
+<div class="content">
+    <h1 class="title">{{ .Page.Title }}</h1>
+    <div class="container is-min-height">
+        <div class="columns is-multiline">
+            {{ $.Scratch.Set "counter" 0 }}
+            {{ $headlessbundle := .Site.GetPage $folder }}
+            {{ range ( $headlessbundle.Resources.ByType "page" ) }}
+            {{ if eq .Params.showcase $showcaseType }}
+                {{ $count := add ($.Scratch.Get "counter") 1 }}
+                {{ $.Scratch.Set "counter" $count }}
+                <div class="column is-12">
+                    <div class="container rich">
+                        <div class="cont coloring-1">
+                            <a href="{{ .Params.link }}">
+                                <h3 class="title is-5">{{ .Params.title }}</h3>
+                                <article class="subtitle is-7">
+                                    {{ .Date.Format "January 2, 2006 3:04 PM MST" }} by {{ .Params.author }}
+                                </article>
+                            </a>
+                            <div class="content mt-3">
+                                {{ .Page.RawContent | safeHTML }}
+                            </div>
+                            <a href="{{ .Params.link }}" class="button is-success is-outlined">Learn More</a>
+                        </div>
+                    </div>
+                    <!-- <div class="post-container p-5"></div> -->
+                </div>
+            {{ end }}
+            {{ end }}
+        </div>
+        {{ if eq ($.Scratch.Get "counter") 0 }}
+            <div class="notification is-warning">
+                No posts available.
+            </div>
+        {{ end }}
+    </div>
+</div>

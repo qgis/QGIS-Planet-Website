@@ -1,0 +1,188 @@
+{{ with .Page }}
+{{ $pageUrl:= replaceRE "/$" "" .RelPermalink }}
+
+<div id="hamburger-btn" onclick="toggleMenu()"><span id="ham-title"></span></div>
+<div class="column is-3">
+    <nav id="sidebar" class="sidebar">
+        <ul class="content-wrapper">
+
+            <li {{ if eq $pageUrl .Site.BaseURL }} class="is-active"{{ end }}>
+                <a href="{{ .Site.BaseURL }}" class="icon-text">
+                    <span class="icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li {{ if findRE (replaceRE "/$" "" "posts") $pageUrl }} class="is-active"{{ end }}>
+                <a href="{{ .Site.BaseURL }}/posts" class="icon-text">
+                    <span class="icon">
+                        <i class="fas fa-link"></i>
+                    </span>
+                    <span>All Posts</span>
+                </a>
+            </li>
+
+            <li {{ if findRE (replaceRE "/$" "" "subscribers") $pageUrl }} class="is-active"{{ end }}>
+                <div class="has-child">
+                    <a onclick="toggleSubMenu('subscribers')" class="icon-text">
+                        <span class="icon">
+                            <i class="fas fa-users"></i>
+                        </span>
+                        <span>Feeds</span>
+                    </a>
+                    <span onclick="toggleSubMenu('subscribers')" class="drop-arrow"><img src="{{ "img/arrow.svg" | absURL }}"/></span>
+                </div>
+                <ul id="subscribers" class="collapsed">
+                    {{ .Scratch.Delete "subscribers" }}
+                    {{ range $.Site.RegularPages }}
+                        {{ with .Param "subscribers" }}
+                            {{ $.Scratch.Delete "subscriber" }}
+                            {{ range $index, $subscriber := . }}
+                                {{ $subscriber := (printf `/%s` ($subscriber | urlize)) }}
+                                {{ $.Scratch.Add "subscriber" $subscriber }}
+                                {{ $.Scratch.Add "subscribers" (slice ($.Scratch.Get "subscriber")) }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    {{ $subscribers := uniq (.Scratch.Get "subscribers") | sort }}
+        
+                    {{ range $index, $value := $subscribers }}
+                        {{ $subscriberTerms := (split (strings.TrimPrefix "/" .) "/") }}
+                        {{ $depth := (len $subscriberTerms) }}
+                        {{ $lastTerm := (delimit (last 1 $subscriberTerms) " ") }}
+                        {{ $url := urls.Parse $lastTerm }}
+                        {{ $path := $url.Path }}
+                        {{ with $.Site.GetPage (printf `/subscribers/%s` $path) }}
+                        <li {{ if findRE (replaceRE "/$" "" $path) $pageUrl }} class="is-active"{{ end }}>
+                            <a href="{{ .RelPermalink }}" class="icon-text truncate">
+                                <span class="icon">
+                                    <i class="fas fa-blog"></i>
+                                </span>
+                                <span>
+                                    {{ $subscriberName := "" }}
+                                    {{ range $subscriberData := $.Site.Data.subscribers }}
+                                        {{ if eq $subscriberData.shortname $path }}
+                                            {{ $subscriberName = $subscriberData.name }}
+                                        {{ end }}
+                                    {{ end }}
+                                    {{ $subscriberName | default .LinkTitle | default .Data.Term | default $path }}
+                                </span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+                
+            </li>
+
+            <li {{ if findRE (replaceRE "/$" "" "languages") $pageUrl }} class="is-active"{{ end }}>
+                <div class="has-child">
+                    <a onclick="toggleSubMenu('languages')" class="icon-text">
+                        <span class="icon">
+                            <i class="fas fa-flag"></i>
+                        </span>
+                        <span>Languages</span>
+                    </a>
+                    <span onclick="toggleSubMenu('languages')" class="drop-arrow"><img src="{{ "img/arrow.svg" | absURL }}"/></span>
+                </div>
+                <ul id="languages" class="collapsed">
+                    {{ .Scratch.Delete "languages" }}
+                    {{ range $.Site.RegularPages }}
+                        {{ with .Param "languages" }}
+                            {{ $.Scratch.Delete "language" }}
+                            {{ range $index, $language := . }}
+                                {{ $language := (printf `/%s` ($language | urlize)) }}
+                                {{ $.Scratch.Add "language" $language }}
+                                {{ $.Scratch.Add "languages" (slice ($.Scratch.Get "language")) }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    {{ $languages := uniq (.Scratch.Get "languages") | sort }}
+        
+                    {{ range $index, $value := $languages }}
+                        {{ $languageTerms := (split (strings.TrimPrefix "/" .) "/") }}
+                        {{ $depth := (len $languageTerms) }}
+                        {{ $lastTerm := (delimit (last 1 $languageTerms) " ") }}
+                        {{ $url := urls.Parse $lastTerm }}
+                        {{ $path := $url.Path }}
+                        {{ with $.Site.GetPage (printf `/languages/%s` $path) }}
+                        <li {{ if findRE (replaceRE "/$" "" $path) $pageUrl }} class="is-active"{{ end }}>
+                            <a href="{{ .RelPermalink }}" class="icon-text truncate">
+                                <span class="icon">
+                                    
+                                    {{ $languageFlag := "" }}
+                                    {{ range $languageData := $.Site.Data.languages }}
+                                        {{ if eq $languageData.code $path }}
+                                            {{ $languageFlag = $languageData.flag }}
+                                        {{ end }}
+                                    {{ end }}
+                                    {{ $languageFlag | default "" }}
+                                </span>
+                                <span>
+                                    {{ $languageName := "" }}
+                                    {{ range $languageData := $.Site.Data.languages }}
+                                        {{ if eq $languageData.code $path }}
+                                            {{ $languageName = $languageData.name }}
+                                        {{ end }}
+                                    {{ end }}
+                                    {{ $languageName | default .LinkTitle | default .Data.Term | default $path }}
+                                </span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+                
+            </li>
+            <li>
+                <a 
+                    class="tagcloudModalButton icon-text" 
+                    href="#tagcloudModal" 
+                    role="button" 
+                    data-target="planetTagsModal"
+                    onclick="toggleMenu()"
+                >
+                    <span class="icon">
+                        <i class="fas fa-tags"></i>
+                    </span>
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+{{ end }}
+
+<script>
+function rotateArrow(e) {
+        e.previousElementSibling.querySelector('img').classList.toggle('rotated');
+}
+
+function toggleSubMenu(listId) {
+        let e = document.getElementById(listId);
+        e.classList.toggle('unfolded');
+        rotateArrow(e);
+}
+
+function toggleMenu() {
+        document.getElementById('sidebar').classList.toggle('visible');
+        document.getElementById('hamburger-btn').classList.toggle('open');
+}
+
+// compose title for menu button: contatenate parent section titles
+let activeListItem = document.getElementsByClassName('is-active')[0];
+let ham = document.getElementById('ham-title');
+let hamTitle = activeListItem.querySelector('a').textContent;
+if (activeListItem.parentElement.previousElementSibling != null) {
+        hamTitle = activeListItem.parentElement.previousElementSibling.querySelector('a').textContent + ' / ' + hamTitle;
+}
+ham.textContent = hamTitle;
+
+// expand active section
+document.querySelectorAll('li.is-active,li:has(.is-active)').forEach(li => {
+        if (e = li.querySelector('ul')) {
+                e.classList.toggle('unfolded');
+        }
+});
+</script>
