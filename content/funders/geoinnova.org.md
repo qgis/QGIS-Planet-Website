@@ -1,6 +1,6 @@
 ---
 level: "Small"
-title: "GEOINNOVA SL"
+title: "GEOINNOVA SLU"
 logo: "geoinnova.org.jpg"
 startDate: "2025-03-01"
 endDate: "2026-02-28"
