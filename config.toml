@@ -1,7 +1,7 @@
 baseURL = 'https://planet.qgis.org/'
 languageCode = 'en-us'
 title = 'QGIS Planet Website'
-theme = 'hugo-bulma-blocks-theme'
+theme = 'qgis-website-theme'
 
 # See https://mertbakir.gitlab.io/hugo/syntax-highlighting-in-hugo/
 pygmentsUseClasses = true
@@ -86,6 +86,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   success = "#589632"
   warning = "#EEE766"
   link-color = "#589632"
+  link = "#ee7913"
   # Brand fonts to override bulma font families
   heading-font = "'Twemoji Country Flags', 'Trueno', sans-serif"
   text-font = "'Twemoji Country Flags', 'Trueno', sans-serif"
@@ -93,11 +94,11 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
   menuFontClass = "is-size-6"
   ## Gh repo for site footer (include trailing slash)
-  githubUrl = "https://github.com/kartoza/hugo-bulma-blocks-theme/"
+  githubUrl = "https://github.com/qgis/QGIS-Hugo-Website-Theme/"
   ## GH Repo for filing a new issue
-  githubIssueUrl = "https://github.com/kartoza/hugo-bulma-blocks-theme/issues/new/choose"
+  githubIssueUrl = "https://github.com/qgis/QGIS-Hugo-Website-Theme/issues/new/choose"
   ### Edit content repo (set to automatically enter "edit" mode; this is good for "improve this page" links)
-  githubEditUrl = "https://github.com/kartoza/hugo-bulma-blocks-theme/edit/main"
+  githubEditUrl = "https://github.com/qgis/QGIS-Hugo-Website-Theme/edit/main"
   ### Radius for boxes
   corner-radius = "0px"
 
@@ -106,7 +107,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   uniNavHeaderLocationPrefix = "https://qgis.org"
 
   ## Url to news feed. After URL change you have to check 
-  ## themes/hugo-bulma-blocks-theme/layouts/partials/contextmenu.html 
+  ## themes/qgis-website-theme/layouts/partials/contextmenu.html 
   ## file to ensure that it adresses the correct keys 
   newsfeed ='https://feed.qgis.org/?lang=en&json=1'
 
