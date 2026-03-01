@@ -1,9 +1,9 @@
 ---
-level: "Small"
+level: "Medium"
 title: "Septima"
 logo: "www.septima.dk.png"
-startDate: "2025-03-01"
-endDate: "2026-02-28"
+startDate: "2026-03-01"
+endDate: "2027-02-28"
 link: "http://www.septima.dk/"
 country: "Denmark"
 ---
