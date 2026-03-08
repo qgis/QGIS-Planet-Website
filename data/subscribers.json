@@ -284,7 +284,7 @@
     }
   },
   {
-    "feed": "https://qfield.org/tags/qgis-org/feed.xml",
+    "feed": "https://qfield.org/tags/qgis.org/feed.xml",
     "name": "QField",
     "shortname": "qfield",
     "is_active": true,
