@@ -284,10 +284,10 @@
     }
   },
   {
-    "feed": "https://qfield.org/blog/feed.xml",
+    "feed": "https://qfield.org/tags/qgis-org/feed.xml",
     "name": "QField",
     "shortname": "qfield",
     "is_active": true,
-    "logo": "auchindown-black.png"
+    "logo": "qfield_for_qgis.png"
   }
 ]
