@@ -282,5 +282,12 @@
       ],
       "main": "it_it"
     }
+  },
+  {
+    "feed": "https://qfield.org/blog/feed.xml",
+    "name": "QField",
+    "shortname": "qfield",
+    "is_active": true,
+    "logo": "auchindown-black.png"
   }
 ]
