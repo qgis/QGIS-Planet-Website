@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "[Blog] A final surprise for the year - shared maps via URL"
+title: "[Blog] Share maps via URL: now in early access"
 date: "2025-12-15T00:00:00"
 link: "https://merginmaps.com/blog/a-final-surprise-for-the-year---shared-maps-via-url?utm_source=qgis"
 draft: "false"
