@@ -8,7 +8,7 @@
 
   inputs = {
     nixpkgs-version.url = "github:QGIS/qgis-nixpkgs-version";
-    nixpkgs.follows = "nixpkgs-version/nixpkgs-25-05";
+    nixpkgs.follows = "nixpkgs-version/nixpkgs-25-11";
     # Fetch the Hugo theme submodule directly as a flake input
     qgis-website-theme = {
       url = "github:qgis/QGIS-Hugo-Website-Theme";
