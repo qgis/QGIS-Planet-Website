@@ -29,7 +29,7 @@ deploy: ## Deploy the site for planet.qgis.org
 	@echo "------------------------------------------------------------------"
 	@echo "Deploy site in production"
 	@echo "------------------------------------------------------------------"
-	git pull && rm -rf archive; mkdir archive; mv public_prod archive; make build
+	git pull && git submodule update --init --recursive && rm -rf archive; mkdir archive; mv public_prod archive; make build
 
 revert-deploy: ## Revert the site for planet.qgis.org
 	@echo
