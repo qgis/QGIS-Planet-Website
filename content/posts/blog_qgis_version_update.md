@@ -1,7 +1,7 @@
 ---
 source: "blog"
-title: "QGISをバージョンアップさせよう！複数バージョンをインストールする方法と注意点 - QGIS LAB by MIERUNE"
-date: "2025-03-04T00:36:49"
+title: "QGISをバージョンアップさせよう！〜複数バージョンをインストールする方法と注意点〜 - QGIS LAB by MIERUNE"
+date: "2025-03-04T03:00:00"
 link: "https://qgis.mierune.co.jp/posts/blog_qgis_version_update"
 draft: "false"
 showcase: "planet"
