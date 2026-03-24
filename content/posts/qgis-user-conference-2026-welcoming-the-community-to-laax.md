@@ -17,9 +17,9 @@ available_languages: ["en_gb"]
 <figure class="wp-block-image size-full"><img alt="" class="wp-image-18115" height="317" src="/img/subscribers/opengisch/qgis-user-conference-2026-welcoming-the-community-to-laax/image-1.webp" width="750"/></figure>
 <p>Bringing the global QGIS community together in such a place feels just right. People and ideas come together around open source, with space to exchange, reflect, and collaborate, in an environment that mirrors values that are deeply rooted in our DNA and our close connection to nature.</p>
 <ul class="wp-block-list">
-<li>Yes, the venue is reached by cable car <img alt="🚡" class="wp-smiley" src="/img/subscribers/opengisch/qgis-user-conference-2026-welcoming-the-community-to-laax/1f6a1.webp" style="height: 1em;"/></li>
+<li>Yes, the venue is reached by cable car <img alt="🚡" class="wp-smiley" src="" style="height: 1em;"/></li>
 <li>Yes, it comes with breathtaking views <img alt="⛰" class="wp-smiley" src="/img/subscribers/opengisch/qgis-user-conference-2026-welcoming-the-community-to-laax/26f0.webp" style="height: 1em;"/></li>
-<li>And yes, there will be plenty of opportunities to hike, bike, fly, or simply enjoy great conversations <img alt="🚵‍♀️" class="wp-smiley" src="/img/subscribers/opengisch/qgis-user-conference-2026-welcoming-the-community-to-laax/1f6b5-200d-2640-fe0f.webp" style="height: 1em;"/><img alt="🪂" class="wp-smiley" src="/img/subscribers/opengisch/qgis-user-conference-2026-welcoming-the-community-to-laax/1fa82.webp" style="height: 1em;"/><img alt="🚶‍♂️" class="wp-smiley" src="/img/subscribers/opengisch/qgis-user-conference-2026-welcoming-the-community-to-laax/1f6b6-200d-2642-fe0f.webp" style="height: 1em;"/></li>
+<li>And yes, there will be plenty of opportunities to hike, bike, fly, or simply enjoy great conversations <img alt="🚵‍♀️" class="wp-smiley" src="" style="height: 1em;"/><img alt="🪂" class="wp-smiley" src="" style="height: 1em;"/><img alt="🚶‍♂️" class="wp-smiley" src="/img/subscribers/opengisch/qgis-user-conference-2026-welcoming-the-community-to-laax/1f6b6-200d-2642-fe0f.webp" style="height: 1em;"/></li>
 </ul>
 <p>The mountains will not just be a backdrop. They will be part of the conference experience.</p>
 <p>As Marco, our CEO and Chair of QGIS.org, puts it:</p>
