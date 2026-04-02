@@ -142,7 +142,7 @@ class FeedProcessor:
                 content = self.get_summary(entry)
             tags = self.get_tags(entry)
 
-            are_tags_present = any(str(category).lower() in tags for category in self.filter_categories)
+            are_tags_present = any(str(category).lower() in [t.lower() for t in tags] for category in self.filter_categories)
             if are_tags_present:
                 content = self.fetch_all_images(content, self.shortname, file_name)
                 content = self.generate_markdown_content(title, entry_date, post_url, content, tags)
