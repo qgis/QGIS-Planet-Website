@@ -19,7 +19,7 @@ ALL_POSTS_FOLDER = os.path.join("content", "posts")
 
 DEFAULT_AVAILABLE_LANG = ["en_GB"]
 DEFAULT_MAIN_LANG = "en_GB"
-DEFAULT_CATEGORIES = ["QGIS"]
+DEFAULT_CATEGORIES = ["QGIS", "qgis.org"]
 
 class FeedProcessor:
     def __init__(
