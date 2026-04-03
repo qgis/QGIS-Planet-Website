@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "QField 4.0 "Aare": Unlocking a great spatial experience for a larger audience"
+title: "QField 4.0 \"Aare\": Unlocking a great spatial experience for a larger audience"
 date: "2025-12-17T00:00:00+0000"
 link: "https://qfield.org/blog/2025/12/17/qfield-4.0-aare-unlocking-a-great-spatial-experience-for-a-larger-audience/"
 draft: "false"

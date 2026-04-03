@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "QField 4.1 "Barents Sea": Dive into the third dimension and coordinate geometry operations!"
+title: "QField 4.1 \"Barents Sea\": Dive into the third dimension and coordinate geometry operations!"
 date: "2026-03-23T00:05:00+0000"
 link: "https://qfield.org/blog/2026/03/23/qfield-4.1-barents-sea-dive-into-the-third-dimension-and-coordinate-geometry-operations/"
 draft: "false"
