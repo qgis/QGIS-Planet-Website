@@ -19,7 +19,7 @@ ALL_POSTS_FOLDER = os.path.join("content", "posts")
 
 DEFAULT_AVAILABLE_LANG = ["en_GB"]
 DEFAULT_MAIN_LANG = "en_GB"
-DEFAULT_CATEGORIES = ["QGIS"]
+DEFAULT_CATEGORIES = ["QGIS", "qgis.org"]
 
 class FeedProcessor:
     def __init__(
@@ -142,7 +142,7 @@ class FeedProcessor:
                 content = self.get_summary(entry)
             tags = self.get_tags(entry)
 
-            are_tags_present = any(str(category).lower() in tags for category in self.filter_categories)
+            are_tags_present = any(str(category).lower() in [t.lower() for t in tags] for category in self.filter_categories)
             if are_tags_present:
                 content = self.fetch_all_images(content, self.shortname, file_name)
                 content = self.generate_markdown_content(title, entry_date, post_url, content, tags)
