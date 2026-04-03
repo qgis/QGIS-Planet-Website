@@ -212,9 +212,10 @@ class FeedProcessor:
     def generate_markdown_content(self, title, entry_date, image_url, summary, tags):
         tags_str = ", ".join([f'"{tag}"' for tag in tags])
         available_lang_str = ", ".join(f'"{str(lang).lower()}"' for lang in self.available_lang)
+        escaped_title = title.replace('"', '\\"')
         return f"""---
 source: "blog"
-title: "{title}"
+title: "{escaped_title}"
 date: "{entry_date}"
 link: "{image_url}"
 draft: "false"
