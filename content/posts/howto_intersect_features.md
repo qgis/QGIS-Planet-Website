@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "QGISでレイヤ同士の重複箇所と属性情報を抽出！インターセクト処理の実践的活用法 - QGIS LAB by MIERUNE"
-date: "2026-03-27T04:26:03"
+date: "2026-03-27T04:30:00"
 link: "https://qgis.mierune.co.jp/posts/howto_intersect_features"
 draft: "false"
 showcase: "planet"
