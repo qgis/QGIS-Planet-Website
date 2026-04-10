@@ -1,13 +1,13 @@
 ---
 source: "blog"
-title: "(Fr) QSoccer : QGIS, football, what else ?"
-date: "2026-01-15T15:31:48"
-link: "https://oslandia.com/en/2021/06/25/qsoccer-qgis-football-what-else/"
+title: "(Fr) [Témoignage client] Julien Girard Claudon, DSI LPO AuRA"
+date: "2026-04-09T14:48:57"
+link: "https://oslandia.com/en/2026/04/09/temoignage-client-julien-girard-claudon-dsi-lpo-aura/"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["autres", "newsfr", "open source", "qgis", "open source"]
+tags: ["open source", "qdt", "qgis", "qgis deployment toolbelt"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
