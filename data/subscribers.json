@@ -266,7 +266,7 @@
   {
     "feed": "https://auchindown.com/rss.xml",
     "name": "Auchindown",
-    "shortname": "Auchindown",
+    "shortname": "auchindown",
     "is_active": true,
     "logo": "auchindown-black.png"
   },
