@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "ArcMap is Dead: Great Time to Switch to QGIS"
-date: "2026-04-08T11:41:21"
+date: "2026-04-08T12:29:35"
 link: "https://www.lutraconsulting.co.uk/blogs/arcmap-is-dead-great-time-to-switch-to-qgis?utm_source=qgis"
 draft: "false"
 showcase: "planet"
