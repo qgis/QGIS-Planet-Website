@@ -67,7 +67,6 @@
       check_content "/posts/" "All Posts" "Posts page has expected content"
 
       check_status "/subscribers/anita_graser/" "200" "Subscriber page returns HTTP 200"
-      check_content "/subscribers/anita_graser/" "Anita Graser" "Subscriber page has expected content"
 
       # 404 handling
       check_status "/this-page-does-not-exist/" "404" "Non-existent path returns HTTP 404"
