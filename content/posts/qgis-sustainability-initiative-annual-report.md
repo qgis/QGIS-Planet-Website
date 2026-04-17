@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "QGIS Sustainability Initiative – Annual Report"
-date: "2026-04-16T11:30:00+0000"
+date: "2026-04-16T13:48:40+0000"
 link: "https://www.opengis.ch/2026/04/16/qgis-sustainability-initiative-annual-report/"
 draft: "false"
 showcase: "planet"
