@@ -29,7 +29,7 @@ available_languages: ["en_gb"]
 <div class="gallery-wrapper">
 <figure class="figure text-center mb-4"><img alt="Optimised forms" class="figure-img img-fluid gallery-img" height="2467" src="/img/subscribers/qfield/qfield-1.4-released-happy-new-year/Screenshot_20200227-130403_QField_hu_df309c2f1796eab8.webp" width="1200"/>
 <figcaption class="figure-caption text-center">Optimised forms</figcaption></figure>
-<figure class="figure text-center mb-4"><img alt="Buttons align at the bottom" class="figure-img img-fluid gallery-img" height="2467" src="" width="1200"/>
+<figure class="figure text-center mb-4"><img alt="Buttons align at the bottom" class="figure-img img-fluid gallery-img" height="2467" src="/img/subscribers/qfield/qfield-1.4-released-happy-new-year/Screenshot_20200227-125335_QField_hu_d6d4f50fc4e0aa8.webp" width="1200"/>
 <figcaption class="figure-caption text-center">Buttons align at the bottom</figcaption></figure>
 <figure class="figure text-center mb-4"><img alt="Roomy legend" class="figure-img img-fluid gallery-img" height="2467" src="/img/subscribers/qfield/qfield-1.4-released-happy-new-year/Screenshot_20200227-131446_QField_hu_22cf362ec7561819.webp" width="1200"/>
 <figcaption class="figure-caption text-center">Roomy legend</figcaption></figure>
