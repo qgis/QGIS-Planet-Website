@@ -7,7 +7,7 @@ draft: "false"
 showcase: "planet"
 subscribers: ["geotribu_fr"]
 author: "Geotribu (FR)"
-tags: ["cornelis", "qgis", "article"]
+tags: ["cornelis", "qgis", "art", "article"]
 languages: ["fr_fr"]
 available_languages: ["fr_fr"]
 ---
