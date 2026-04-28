@@ -1,13 +1,13 @@
 ---
 source: "blog"
-title: "(Fr) Oslandia recrute : Ingénieur(e) développement d&#8217;applications SIG ( Python / SQL / QGIS ) &#8211; OSL2110A"
-date: "2021-10-26T12:40:28"
-link: "https://oslandia.com/en/2021/10/26/oslandia-recrute-ingenieure-developpement-dapplications-sig-python-sql-qgis-osl2110a/"
+title: "(Fr) [Témoignage client] Fabrice Thevenon et Karine Lesage, chefs de projet SIG à la DSIN du Conseil Départemental de la Haute Garonne"
+date: "2026-04-08T09:25:14"
+link: "https://oslandia.com/en/2026/04/28/temoignage-client-fabrice-thevenon-et-karine-lesage-chefs-de-projet-sig-a-la-dsin-du-conseil-departemental-de-la-haute-garonne/"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["newsfr", "annonce", "équipe", "job", "opensource", "postgis", "postgresql", "python", "qgis", "recrutement"]
+tags: ["qgis", "qwc", "témoignage client", "qgis server"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
