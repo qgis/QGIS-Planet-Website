@@ -14,7 +14,8 @@ available_languages: ["en_gb"]
 
 <h2 id="lets-get-straight-to-the-point">Let’s get straight to the point</h2>
 <blockquote>
-<p>It’s official, QField for QGIS 1.0 is out!</p></blockquote>
+<p>It’s official, QField for QGIS 1.0 is out!</p>
+</blockquote>
 <p>Get it while it’s hot on the Playstore ( <a href="https://qfield.org/get" rel="noopener" target="_blank">qfield.org/get</a>) or on <a href="https://github.com/opengisch/QField/releases" rel="noopener" target="_blank">GitHub</a></p>
 <p>We are incredibly pleased and proud of just having released such a jewel and are convinced that, thanks to all its features and conscious design choices, QField will make your field digitizing work much more efficient and pleasant.</p>
 <p>Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is the powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.</p>
@@ -38,7 +39,7 @@ available_languages: ["en_gb"]
 <p>Thanks to these enhancements, QField allows reducing the error rate significantly.</p>
 <h3 id="support-for-high-precision-gnss">Support for high precision GNSS</h3>
 <p>Simple internal GPS accuracy might be enough for basic projects but cadastral surveying and other high accuracy digitizations have much higher requirements. QFields natively listens to the Android location services so it can take advantage of the best location provided by external devices.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/qfield-1.0-is-here/gnss_hu_1123dcf6bfdb6d00.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/qfield-1.0-is-here/gnss_hu_87bee1125510b8df.webp" width="1200"/></figure>
 <h3 id="generate-pdf">Generate PDF</h3>
 <p>Thanks to QField’s native support for generating PDFs based on QGIS’s print layouts, your on the fly daily report map is just one click away.</p>
 <h3 id="intuitive-project-chooser">Intuitive project chooser</h3>

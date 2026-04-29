@@ -13,13 +13,14 @@ available_languages: ["en_gb"]
 ---
 
 <blockquote>
-<p><em>TLDR: Since November 2021, Google has enforced new storage access limitations for apps published on its Play store which prohibits direct storage access on Android 11 and above forcing QField to adapt and rely on importing projects and datasets to access those.</em></p></blockquote>
+<p><em>TLDR: Since November 2021, Google has enforced new storage access limitations for apps published on its Play store which prohibits direct storage access on Android 11 and above forcing QField to adapt and rely on importing projects and datasets to access those.</em></p>
+</blockquote>
 <p>If you are a QField beta user on Android 11 and above, you might have noticed a significant change in the way the app is handling storage in the latest set of betas released in early February of 2022. This blog post will go over the changes, explain why those <strong>had to be made</strong> (looking at you, Google), how to work in this new paradigm, and showcase some new benefits from the hard work done by OPENGIS.ch’s geoninjas.</p>
 <h2 id="its-all-gone-how-can-i-access-my-projects-and-datasets"><strong>It’s all gone! How can I access my projects and datasets?!</strong></h2>
 <p>Starting with Android 11, apps are denied full access to main and external storage content. For QField, this means direct access to projects and datasets transferred and/or downloaded into storage folders is not possible anymore.</p>
 <p>To work within this new confine, QField now has to import project folders or individual datasets into an app-dedicated storage location where Android allows for unrestricted read/write access.</p>
 <p>Practically, this means that instead of being shown and having access to the full storage tree when clicking on the “Open local files” button, users are now shown a set of new folders named ‘QField files directory’, ‘Imported datasets’, and ‘Imported projects’ as well as a drop-down menu accessible via a top-right three-dot button.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" src="/img/subscribers/qfield/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android/unknown/image_5EZaP9bB.webp"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" src="/img/subscribers/qfield/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android/unknown/image_Vk3iEOF2.webp"/></figure>
 <h3 id="import-project-from-folder"><em>Import project from folder</em></h3>
 <p>When importing a project from a folder, users will be asked to grant permission for QField to read the content of a given folder on the device’s storage via a system folder picker. When the folder is selected, QField copies the folder content (including its sub-folders) into the app’s ‘Imported projects’ location. Users can then open the project from there.</p>
 <p>Re-importing a given folder through the drop-down menu action will overwrite preexisting projects given an identical folder name. That allows users to be able to update projects.</p>
@@ -33,7 +34,7 @@ available_languages: ["en_gb"]
 <p>Imported projects and datasets can be accessed directly using a USB cable. The location on storage is displayed in the top navigation bar when opening a local file.</p>
 <p>On most devices plugged into a computer via USB cable connection, the path will be :/Android/data/ch.opengis.qfield/files/ where you will find both the Imported Datasets and Imported Projects folders within which your edited content will be located.</p>
 <p>However, we’ve also added a nice new ‘Send to…’ functionality that allows for users to share and send datasets straight from QField using Android APIs. This allows for the sending of edited datasets directly to third party apps (Gmail, Drive, Dropbox, Nextcloud, your favourite messenger app, etc.).</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" src="/img/subscribers/qfield/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android/unknown/image_PU5QmWkv.webp"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" src="/img/subscribers/qfield/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android/unknown/image_dxoSCyj9.webp"/></figure>
 <h3 id="is-direct-copying-via-usb-cable-gone-altogether"><strong>Is direct copying via USB cable gone altogether?</strong></h3>
 <p>Users can still avoid going through the import process by copying files via a USB cable connection directly into the QField app’s files directory. As mentioned above, the location on most devices will be :/Android/data/ch.opengis.qfield/files/.</p>
 <h2 id="what-are-the-benefits-from-these-changes"><strong>What are the benefits from these changes?</strong></h2>
