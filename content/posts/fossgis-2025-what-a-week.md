@@ -40,13 +40,13 @@ In this practical workshop, <em>Michael</em> guided participants through using <
 <hr/>
 <h3 id="-at-the-booth">🤝 At the Booth</h3>
 <p>Our QField booth was buzzing with activity all week – from <a href="https://github.com/topics/qfield-plugin" rel="noopener" target="_blank">plugin</a> demos and project showcases to deep dives into <a href="https://qfield.cloud" rel="noopener" target="_blank">QFieldCloud</a> and field mapping workflows. We had great conversations, received valuable feedback, and met many enthusiastic users.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/fossgis-2025-what-a-week/20250326_133746_hu_b2b2b8fe43097b6d.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/fossgis-2025-what-a-week/20250326_133746_hu_bd7c06f2bfcb1b90.webp" width="1200"/></figure>
 <hr/>
 <h3 id="-supporting-open-source">💚 Supporting Open Source</h3>
 <p>We were proud to be <strong>Platinum Sponsors</strong> of FOSSGIS 2025. Supporting open-source events like this is essential for fostering innovation, collaboration, and community-driven growth in the GIS world.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/fossgis-2025-what-a-week/20250326_100314_hu_8c47105b83478c2b.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/fossgis-2025-what-a-week/20250326_100314_hu_762e154638d23bb0.webp" width="1200"/></figure>
 <hr/>
 <h3 id="-looking-ahead">👋 Looking Ahead</h3>
 <p><strong>Thank you</strong> to the organisers, speakers, and everyone who joined us in Münster. We left the event full of ideas, motivation, and appreciation for this community – and we’re already looking forward to the next FOSSGIS!</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="2142" src="/img/subscribers/qfield/fossgis-2025-what-a-week/20250326_090749_hu_ed4a749feed5650f.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="2142" src="/img/subscribers/qfield/fossgis-2025-what-a-week/20250326_090749_hu_9c17788b70c454ab.webp" width="1200"/></figure>
 <p>#QField #QFieldCloud #FOSSGIS2025 #OpenSourceGIS #QGIS #SupportOpenSource</p>
