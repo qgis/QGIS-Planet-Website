@@ -24,7 +24,7 @@ available_languages: ["en_gb"]
 <h2 id="filters-in-the-value-relation-widget">Filters in the Value Relation Widget</h2>
 <p>The value relation widgets provide an easy selection of a related feature. Often it’s used for lookup tables but sometimes the related tables contain a lot of entries and the list of the possible values is long.</p>
 <p>Using filters in the value relation drop-down can increase the efficiency in selecting the correct value. It can be configured by expressions in QGIS, so it’s possible to have the content of the drop down depend on the values entered previously in other fields.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="669" src="/img/subscribers/qfield/qfield-1.7-rockies-hits-the-stage/filtervaluerelation_trans_hu_b57a147024c78f75.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="669" src="/img/subscribers/qfield/qfield-1.7-rockies-hits-the-stage/filtervaluerelation_trans_hu_2c754c0c036713d6.webp" width="1200"/></figure>
 <p>In the screenshot above there is a Map Value Widget with “forest” and “meadow” as values. On selecting “forest”, only the trees appear in the Field “Plant Species”. On selecting “meadow” there would be listed flowers instead.</p>
 <h2 id="go-to-coordinates-in-the-search">Go to coordinates in the Search</h2>
 <p>The search has not only been improved in its appearance, but it’s handling is much more comfortable with a button to clear the text and easy opening and closing.</p>

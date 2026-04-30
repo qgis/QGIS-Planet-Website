@@ -35,7 +35,7 @@ available_languages: ["en_gb"]
 <h2 id="qfieldcloud">QFieldCloud</h2>
 <p><a href="https://qfield.cloud" rel="noopener" target="_blank">QFieldCloud</a> has been in Free BETA for half a year now. Thanks to the precious help of the many early adopters (we already have over 30K users), we were able to identify and fix plenty of issues. In the last months, our <a href="https://status.qfield.org/" rel="noopener" target="_blank">service status page</a> has been consistently looking super-green ;)</p>
 <p>We are extremely happy with how the system is behaving and are even happier with the feedback we are receiving!</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="343" src="/img/subscribers/qfield/qfield-2.4-is-here-and-it-is-icious/image-3_hu_b0d570eab150ec49.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="343" src="/img/subscribers/qfield/qfield-2.4-is-here-and-it-is-icious/image-3_hu_92407d17d80b6fb6.webp" width="1200"/></figure>
 <p>As of today, we’ve implemented all the functionality that we want to have for the GA release. All we are missing is finishing testing the billing and payment system and rolling the drums ?</p>
 <p>So keep on enjoying our fantastic fieldwork ecosystem, and let us know the <a href="https://docs.qfield.org/success-stories/" rel="noopener" target="_blank">amazing things you do with it!</a></p>
 <h2 id="support-qfield">Support QField</h2>
