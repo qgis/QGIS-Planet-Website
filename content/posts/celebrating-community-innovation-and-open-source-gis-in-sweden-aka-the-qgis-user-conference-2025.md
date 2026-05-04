@@ -73,5 +73,5 @@ Definitely not our last one. 💚</p>
 <div class="gallery-wrapper">
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="2142" src="/img/subscribers/qfield/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_150639-1_hu_450835496ea15a27.webp" width="1200"/></figure>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_192535_hu_4506b13ce47f54bf.webp" width="1200"/></figure>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250606_101808_hu_e2c78ded543db788.webp" width="1200"/></figure>
 </div>
