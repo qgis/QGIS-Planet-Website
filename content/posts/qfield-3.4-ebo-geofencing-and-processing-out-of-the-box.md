@@ -14,7 +14,7 @@ available_languages: ["en_gb"]
 
 <p>QField 3.4 is out, and it won’t disappoint. It has tons of new features that continue to push the limits of what users can do in the field.</p>
 <h2 id="main-highlights">Main highlights</h2>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="734" src="/img/subscribers/qfield/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/34_hu_5bbdc94424d1e295.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="734" src="/img/subscribers/qfield/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/34_hu_f058e9cc02ee7222.webp" width="1200"/></figure>
 <p>A new <strong>geofencing framework</strong> has landed, enabling users to configure QField behaviors in relation to geofenced areas and user positioning. Geofenced areas are defined at the project-level and shaped by polygons from a chosen vector layer. The three available geofencing behaviours in this new release are:</p>
 <ul>
 <li>Alert user when <em>inside</em> an area polygon;</li>

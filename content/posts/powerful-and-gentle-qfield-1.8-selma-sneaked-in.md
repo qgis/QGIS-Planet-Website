@@ -17,7 +17,7 @@ available_languages: ["en_gb"]
 <p>Let’s have a look.</p>
 <h2 id="freehand-drawing">Freehand drawing</h2>
 <p>This might be a feature that brings a lot of fun and professionalism to your work. The freehand digitizing mode allows the user to “draw” lines and polygons with the stylus pen. The mode is available for adding line/polygon features as well as for the ring tool of the geometry editor.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="804" src="/img/subscribers/qfield/powerful-and-gentle-qfield-1.8-selma-sneaked-in/freehand_hu_92ddf210045b442e.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="804" src="/img/subscribers/qfield/powerful-and-gentle-qfield-1.8-selma-sneaked-in/freehand_hu_195dba09c09aca52.webp" width="1200"/></figure>
 <p>Together with the powerful options in the topological editing where you can snap to existing features and avoid overlaps, it’s very convenient to digitize complex shapes.</p>
 <h2 id="zoom-in-and-out">Zoom in and out</h2>
 <p>Speaking of fun. One day, a guy from the QGIS community asked us if we could implement the functionality to zoom in and zoom out like he is able to do with an app called Maps from a company named Google. I didn’t know what he meant, but he explained: Single finger double tap-and-hold zoom gesture (which allows you to zoom smoothly from anywhere on the screen). Wow! Didn’t know it before, but it’s super neat! So we made it available in QField as well.</p>
@@ -64,4 +64,4 @@ available_languages: ["en_gb"]
 <p>In the Play Store you should find this section under the “QField for QGIS” app listing. Enjoy the feature frenzy and report the problems at <a href="https://qfield.org/issues" rel="noopener" target="_blank">qfield.org/issues</a></p>
 <h2 id="and-if-you-wondered">And if you wondered…</h2>
 <p>… why this release is called “Selma”. It’s of course because of the Mount Selma in Australia… And because it’s the name of my beloved cat. That’s her - Selma Eulenkopf - staring at me while I’m coding QField.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="685" src="/img/subscribers/qfield/powerful-and-gentle-qfield-1.8-selma-sneaked-in/selm_office_hu_e86d212037008458.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="685" src="/img/subscribers/qfield/powerful-and-gentle-qfield-1.8-selma-sneaked-in/selm_office_hu_f5d109a8975783f8.webp" width="1200"/></figure>
