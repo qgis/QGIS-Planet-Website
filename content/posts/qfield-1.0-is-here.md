@@ -39,7 +39,7 @@ available_languages: ["en_gb"]
 <p>Thanks to these enhancements, QField allows reducing the error rate significantly.</p>
 <h3 id="support-for-high-precision-gnss">Support for high precision GNSS</h3>
 <p>Simple internal GPS accuracy might be enough for basic projects but cadastral surveying and other high accuracy digitizations have much higher requirements. QFields natively listens to the Android location services so it can take advantage of the best location provided by external devices.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/qfield-1.0-is-here/gnss_hu_8c562b26c7a5ed69.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/qfield-1.0-is-here/gnss_hu_87bee1125510b8df.webp" width="1200"/></figure>
 <h3 id="generate-pdf">Generate PDF</h3>
 <p>Thanks to QField’s native support for generating PDFs based on QGIS’s print layouts, your on the fly daily report map is just one click away.</p>
 <h3 id="intuitive-project-chooser">Intuitive project chooser</h3>

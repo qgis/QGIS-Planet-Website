@@ -51,9 +51,9 @@ Cheers</p>
 <p><a href="https://qfield.org/2011/08/21/qgis-android-works-2/">/2011/08/21/qgis-android-works-2/</a></p>
 </blockquote>
 <div class="gallery-wrapper">
-<figure class="figure text-center mb-4"><img alt="First data is shown on the print composer" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/P20110820193600_hu_408010b8569fbe2f.webp" width="1200"/>
+<figure class="figure text-center mb-4"><img alt="First data is shown on the print composer" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/P20110820193600_hu_69f8496b68b39a4f.webp" width="1200"/>
 <figcaption class="figure-caption text-center">First data is shown on the print composer</figcaption></figure>
-<figure class="figure text-center mb-4"><img alt="Map canvas still had some glitches" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/P20110820193325_hu_524d1ac3fb6214a6.webp" width="1200"/>
+<figure class="figure text-center mb-4"><img alt="Map canvas still had some glitches" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/P20110820193325_hu_5f02b2c894c6cb9b.webp" width="1200"/>
 <figcaption class="figure-caption text-center">Map canvas still had some glitches</figcaption></figure>
 <figure class="figure text-center mb-4"><img alt="Finally a map is rendered in the canvas" class="figure-img img-fluid gallery-img" height="312" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-P20110821115718.webp" width="499"/>
 <figcaption class="figure-caption text-center">Finally a map is rendered in the canvas</figcaption></figure>
@@ -77,7 +77,7 @@ cheers</p>
 <p><a href="https://qfield.org/2011/08/24/gsoc-2011-final-report/">/2011/08/24/gsoc-2011-final-report/</a></p>
 </blockquote>
 <p>Quantum GIS for Android was a reality and I was fully committed to keeping working on it. Turns out I wasn’t wrong :)</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="602" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-1_hu_818ec8f880a186ee.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="602" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-1_hu_7820ac2e42875a77.webp" width="1200"/></figure>
 <h2 id="classical---qgis-for-android-grows">Classical - QGIS for Android grows</h2>
 <p>The Next Era of QGIS for android is what could be seen as the time of great knowledge enhancement, philosophical musings and the rise of the first great features including:</p>
 <ul>
@@ -101,7 +101,7 @@ cheers</p>
 <figcaption class="figure-caption text-center">UX mockup for the first QML based app</figcaption></figure>
 <figure class="figure text-center mb-4"><img alt="UX mockup for the first QML based app" class="figure-img img-fluid gallery-img" height="800" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Map.webp" width="480"/>
 <figcaption class="figure-caption text-center">UX mockup for the first QML based app</figcaption></figure>
-<figure class="figure text-center mb-4"><img alt="Screenshots of the first QML based UI" class="figure-img img-fluid gallery-img" height="559" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_400b2cb91cceb6f9.webp" width="1200"/>
+<figure class="figure text-center mb-4"><img alt="Screenshots of the first QML based UI" class="figure-img img-fluid gallery-img" height="559" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_9a227f46bf32245b.webp" width="1200"/>
 <figcaption class="figure-caption text-center">Screenshots of the first QML based UI</figcaption></figure>
 </div>
 <h3 id="the-python-failure">The Python failure</h3>
@@ -112,12 +112,12 @@ cheers</p>
 <h3 id="the-qgis-20-release">The QGIS 2.0 release</h3>
 <p>The pivotal point of the Middle Ages was definitely 20.09.2013, when Tim Sutton presented to a full auditorium the shiny new QGIS 2.0. And along with it it introduced the general availability of QGIS 2.0 on android. The first real QGIS version for mobile devices was finally available for the broad public.</p>
 <div class="gallery-wrapper">
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-19-01-19-31_hu_89715d412c05ab1b.webp" width="1200"/></figure>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-17-23-31-39_hu_68d0cfcb3d54d19b.webp" width="1200"/></figure>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-20-14-30-15_hu_ca2874ce698b087b.webp" width="1200"/></figure>
-<figure class="figure text-center mb-4"><img alt="QField interface preview" class="figure-img img-fluid gallery-img" height="559" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_400b2cb91cceb6f9.webp" width="1200"/>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-19-01-19-31_hu_4e871bb49fc7c630.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-17-23-31-39_hu_cca61f5d385e6d87.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-20-14-30-15_hu_74231de03147a686.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="QField interface preview" class="figure-img img-fluid gallery-img" height="559" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_9a227f46bf32245b.webp" width="1200"/>
 <figcaption class="figure-caption text-center">QField interface preview</figcaption></figure>
-<figure class="figure text-center mb-4"><img alt="QField UI improvements" class="figure-img img-fluid gallery-img" height="1126" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-07-00-08-00_hu_471c9cca5799644d.webp" width="1200"/>
+<figure class="figure text-center mb-4"><img alt="QField UI improvements" class="figure-img img-fluid gallery-img" height="1126" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-07-00-08-00_hu_28e156e06097e1f1.webp" width="1200"/>
 <figcaption class="figure-caption text-center">QField UI improvements</figcaption></figure>
 </div>
 <p>After the launch followed a very active time of keeping QGIS for Android on pair with the desktop versions leading to a regular release of updates on the playstore between 2013 and late 2014. This is also when Matthias Kuhn started committing to the QGIS for Android <a href="https://github.com/qgis/QGIS-Android/graphs/contributors" rel="noopener" target="_blank">repository</a>.</p>
@@ -127,7 +127,7 @@ cheers</p>
 <p>Early 2015 was also when Matthias Kuhn and myself decided to join forces in OPENGIS.ch LLC.</p>
 <h3 id="the-rebranding">The rebranding</h3>
 <p>The project never had a clear name, at times it was called QGIS for Android at times QGIS mobile, we felt that to clearly convey what we were building we needed a clear, simple and poignant name.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="173" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-6_hu_2be9c8d74686e0d0.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="173" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-6_hu_f4cb6d334eabcd85.webp" width="1200"/></figure>
 <blockquote>
 <p>It is with great pleasure that we want to announce the new name for what was briefly known as QGIS mobile.</p>
 <p><strong>Please welcome QField for QGIS™!</strong></p>
@@ -135,14 +135,14 @@ cheers</p>
 <p><a href="https://qfield.org/2015/01/28/qgis-mobile-is-now-qfield/">/2015/01/28/qgis-mobile-is-now-qfield/</a></p>
 </blockquote>
 <p><a href="https://vimeo.com/116231850" rel="noopener" target="_blank">https://vimeo.com/116231850</a></p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="173" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-7_hu_8c71a76d875a29d3.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="173" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-7_hu_152d33b31e3ef5b3.webp" width="1200"/></figure>
 <blockquote>
 <p>QField Experimental is out, after a couple of months of requirements gathering, private early alpha testing and foremost tons of  emails requesting access to the testes group we decided today to put the current BETA version in the playstore.</p>
 <p><a href="https://qfield.org/2015/06/15/qfield-in-the-wild/">/2015/06/15/qfield-in-the-wild/</a></p>
 </blockquote>
 <h3 id="streamlined-installation">Streamlined installation</h3>
 <p>Since the beginning of QGIS for android, to distribute the needed Qt libraries, we used a project called “ministro”. This was interesting because it allowed to download the libraries only once but on the other hand, it was a very painful experience for the user that needed to install a second app before getting QField to start. Around the end of 2015 it was so far, we finally managed to get rid of that dependency and make the installation process as streamlined as possible.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="183" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-8_hu_6687e4f223588a9e.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="183" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-8_hu_1acaa697f63f3ebc.webp" width="1200"/></figure>
 <blockquote>
 <p>It’s done, finally we managed to get rid of Ministro so that we finally can say, QField runs on any android from 4.0.3 (ICS). This makes as of today (according to <a href="https://developer.android.com/about/dashboards/index.html" rel="noopener" target="_blank">google</a>) 96% of the android installations worldwide.</p>
 <p><a href="https://qfield.org/2015/12/01/qfield-for-android-5/">/2015/12/01/qfield-for-android-5/</a></p>
@@ -150,7 +150,7 @@ cheers</p>
 <h2 id="release-candidates">Release candidates</h2>
 <p>In these 3.5 years, a continuous, mainly volunteer-driven iterative process led by Matthias Kuhn made QField grow to the point where we felt confident it was time to launch QField 1.0.</p>
 <p>After a series of release candidates with lots of feedback from the community, we felt it was time to move into a New Era.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="202" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-9_hu_eafc2675c3cd2a99.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="202" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-9_hu_75fce9e13c137fe5.webp" width="1200"/></figure>
 <blockquote>
 <p>It was a long and winding road but we are very excited to announce the general availability of QField 1.0 Release Candidate 1.</p>
 <p>Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is a powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.</p>
@@ -158,7 +158,7 @@ cheers</p>
 </blockquote>
 <h2 id="modern-times---qfield-1x">Modern times - QField 1.X</h2>
 <p>Fast forward to March 28th 2019,</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="214" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-10_hu_e44b2a044b41b17b.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="214" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-10_hu_c0e2be7d4a0acd53.webp" width="1200"/></figure>
 <blockquote>
 <p>Let’s get straight to the point</p>
 <p><strong>It’s official, QField for QGIS 1.0 is out!</strong></p>
@@ -169,7 +169,7 @@ cheers</p>
 <h3 id="recent-releases">Recent releases</h3>
 <p>In the last 2 years the development pace increased tremendously, the sponsored featured grew as never before, QField rating skyrocketed to 4.7 ⭐ we currently have 100'000 active users and we’re getting around 500 new users every day.</p>
 <p>Our QField core team grew more and now thanks to David Signer’s lead and Mathieu Pellerin keen eye for UX we’re pushing QField even further.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="1126" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-07-00-08-00_hu_471c9cca5799644d.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="1126" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-07-00-08-00_hu_28e156e06097e1f1.webp" width="1200"/></figure>
 <p>Going into all releases would be so much information that this post would turn into a 3 volumes classic, and since starting from QField 1.0 we’ve documented each new release, we’re just going to link them: <a href="https://qfield.org/category/qfield/highlights/">/category/qfield/highlights/</a></p>
 <h2 id="the-future-is-cloudy---ehm-sunny-of-course-">The future is cloudy - ehm sunny of course ;)</h2>
 <p>Yesterday we published QField 1.9.6, which is going to be the last 1.X release and will put QField 2.0 into the beta channel so that every beta tester can start using <a href="https://qfield.cloud" rel="noopener" target="_blank">QFieldCloud</a> without having to use the <a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield_dev" rel="noopener" target="_blank">developer version</a>.</p>
