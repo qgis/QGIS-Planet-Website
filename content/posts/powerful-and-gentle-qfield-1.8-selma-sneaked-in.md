@@ -53,15 +53,20 @@ available_languages: ["en_gb"]
 <figcaption class="figure-caption text-center">fonts</figcaption></figure>
 <p>How beautiful is that!</p>
 <h2 id="support-of-new-raster-file-formats">Support of new raster file formats</h2>
-<p>By the way: Many new raster file formats are supported - most notably <a href="https://www.cogeo.org/" rel="noopener" target="_blank">COG</a>. While not yet supported as remote format streamed directly from the web, it is also a high performance format if used locally</p>
+<p>By the way: Many new raster file formats are supported - most notably <a href="https://www.cogeo.org/" rel="noopener" target="_blank">COG</a>
+. While not yet supported as remote format streamed directly from the web, it is also a high performance format if used locally</p>
 <h2 id="what-about-the-cloud">What about the cloud?</h2>
-<p>You might be one of these people eagerly waiting and always receiving the same message: Keep calm, it’s coming soon. Sorry for that. But when we do something, we do it right. And we prefer to have a stable solution than to publish half baked stuff. We are still highly busy coding, testing and promoting <a href="https://qfield.cloud/" rel="noopener" target="_blank">QFieldCloud</a>. It’s announced for this spring / early summer.</p>
-<p>Also, keep an eye on the <a href="https://twitter.com/qfieldforqgis" rel="noopener" target="_blank">@QFieldForQgis</a> and <a href="https://twitter.com/qfieldcloud" rel="noopener" target="_blank">@QFieldCloud</a> twitter accounts to stay updated.</p>
+<p>You might be one of these people eagerly waiting and always receiving the same message: Keep calm, it’s coming soon. Sorry for that. But when we do something, we do it right. And we prefer to have a stable solution than to publish half baked stuff. We are still highly busy coding, testing and promoting <a href="https://qfield.cloud/" rel="noopener" target="_blank">QFieldCloud</a>
+. It’s announced for this spring / early summer.</p>
+<p>Also, keep an eye on the <a href="https://twitter.com/qfieldforqgis" rel="noopener" target="_blank">@QFieldForQgis</a>
+ and <a href="https://twitter.com/qfieldcloud" rel="noopener" target="_blank">@QFieldCloud</a>
+ twitter accounts to stay updated.</p>
 <h2 id="we--our-beta-testers">We ♥ our Beta Testers</h2>
 <p>The Beta Testers are our secret heroes. They report bugs and inconveniences before the normal users are bothered with them. Thanks to the Beta Testers QField is so stable. And at this point we would like to say: Thank you, test heroes!</p>
 <p>And what do the beta testers get in return? Well, they can be the very first to try out the great new features. This is exciting and fun. So don’t hesitate. Join the beta.</p>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="511" src="/img/subscribers/qfield/powerful-and-gentle-qfield-1.8-selma-sneaked-in/WhatsApp-Image-2021-02-21-at-21.54.31.webp" width="1080"/></figure>
-<p>In the Play Store you should find this section under the “QField for QGIS” app listing. Enjoy the feature frenzy and report the problems at <a href="https://qfield.org/issues" rel="noopener" target="_blank">qfield.org/issues</a></p>
+<p>In the Play Store you should find this section under the “QField for QGIS” app listing. Enjoy the feature frenzy and report the problems at <a href="https://qfield.org/issues" rel="noopener" target="_blank">qfield.org/issues</a>
+</p>
 <h2 id="and-if-you-wondered">And if you wondered…</h2>
 <p>… why this release is called “Selma”. It’s of course because of the Mount Selma in Australia… And because it’s the name of my beloved cat. That’s her - Selma Eulenkopf - staring at me while I’m coding QField.</p>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="685" src="/img/subscribers/qfield/powerful-and-gentle-qfield-1.8-selma-sneaked-in/selm_office_hu_f5d109a8975783f8.webp" width="1200"/></figure>

@@ -33,22 +33,33 @@ available_languages: ["en_gb"]
 </blockquote>
 <p>Further information on QField in connection with Tonga:</p>
 <ul>
-<li><a href="https://livelihoods-and-landscapes.com/use-case.html" rel="noopener" target="_blank">https://livelihoods-and-landscapes.com/use-case.html</a></li>
-<li><a href="https://www.aciar.gov.au/project/asem-2016-101" rel="noopener" target="_blank">https://www.aciar.gov.au/project/asem-2016-101</a></li>
+<li><a href="https://livelihoods-and-landscapes.com/use-case.html" rel="noopener" target="_blank">https://livelihoods-and-landscapes.com/use-case.html</a>
+</li>
+<li><a href="https://www.aciar.gov.au/project/asem-2016-101" rel="noopener" target="_blank">https://www.aciar.gov.au/project/asem-2016-101</a>
+</li>
 </ul>
 <h2 id="media-articles">Media articles</h2>
 <ul>
-<li><a href="https://www.suedostschweiz.ch/aus-dem-leben/buendner-software-im-einsatz-fuer-tonga" rel="noopener" target="_blank">https://www.suedostschweiz.ch/aus-dem-leben/buendner-software-im-einsatz-fuer-tonga</a></li>
-<li><a href="https://www.inside-it.ch/buendner-open-source-app-nuetzt-der-katastrophenhilfe-in-tonga" rel="noopener" target="_blank">https://www.inside-it.ch/buendner-open-source-app-nuetzt-der-katastrophenhilfe-in-tonga</a></li>
-<li><a href="https://epaper.somedia.ch/issue.act?issueMutation=wzbw&amp;issueDate=20220302#Redaktionell" rel="noopener" target="_blank">https://epaper.somedia.ch/issue.act?issueMutation=wzbw&amp;issueDate=20220302#Redaktionell</a></li>
-<li><a href="https://www.chilitalk.ch/schweiz/technologie/katastrophenhilfe-aus-laax/" rel="noopener" target="_blank">https://www.chilitalk.ch/schweiz/technologie/katastrophenhilfe-aus-laax/</a></li>
-<li><a href="https://www.business-geomatics.com/2022/02/03/katastrophenhilfe-fuer-tonga-mit-open-source-loesungen-qfield-und-qfieldcloud/" rel="noopener" target="_blank">https://www.business-geomatics.com/2022/02/03/katastrophenhilfe-fuer-tonga-mit-open-source-loesungen-qfield-und-qfieldcloud/</a></li>
-<li><a href="https://www.presseportal-schweiz.ch/pressemeldungen/weltweit-fuehrendes-buendner-unternehmen-liefert-wichtige-feld-datenerfassungs-app" rel="noopener" target="_blank">https://www.presseportal-schweiz.ch/pressemeldungen/weltweit-fuehrendes-buendner-unternehmen-liefert-wichtige-feld-datenerfassungs-app</a></li>
+<li><a href="https://www.suedostschweiz.ch/aus-dem-leben/buendner-software-im-einsatz-fuer-tonga" rel="noopener" target="_blank">https://www.suedostschweiz.ch/aus-dem-leben/buendner-software-im-einsatz-fuer-tonga</a>
+</li>
+<li><a href="https://www.inside-it.ch/buendner-open-source-app-nuetzt-der-katastrophenhilfe-in-tonga" rel="noopener" target="_blank">https://www.inside-it.ch/buendner-open-source-app-nuetzt-der-katastrophenhilfe-in-tonga</a>
+</li>
+<li><a href="https://epaper.somedia.ch/issue.act?issueMutation=wzbw&amp;amp;issueDate=20220302#Redaktionell" rel="noopener" target="_blank">https://epaper.somedia.ch/issue.act?issueMutation=wzbw&amp;issueDate=20220302#Redaktionell</a>
+</li>
+<li><a href="https://www.chilitalk.ch/schweiz/technologie/katastrophenhilfe-aus-laax/" rel="noopener" target="_blank">https://www.chilitalk.ch/schweiz/technologie/katastrophenhilfe-aus-laax/</a>
+</li>
+<li><a href="https://www.business-geomatics.com/2022/02/03/katastrophenhilfe-fuer-tonga-mit-open-source-loesungen-qfield-und-qfieldcloud/" rel="noopener" target="_blank">https://www.business-geomatics.com/2022/02/03/katastrophenhilfe-fuer-tonga-mit-open-source-loesungen-qfield-und-qfieldcloud/</a>
+</li>
+<li><a href="https://www.presseportal-schweiz.ch/pressemeldungen/weltweit-fuehrendes-buendner-unternehmen-liefert-wichtige-feld-datenerfassungs-app" rel="noopener" target="_blank">https://www.presseportal-schweiz.ch/pressemeldungen/weltweit-fuehrendes-buendner-unternehmen-liefert-wichtige-feld-datenerfassungs-app</a>
+</li>
 </ul>
 <h2 id="about-opengisch"><strong>About OPENGIS.ch</strong></h2>
-<p>OPENGIS.ch GmbH is a Swiss software development company based in Laax. OPENGIS.ch employs 19 people and works mainly in the field of spatial software development, geodata infrastructure deployments and professional support. Personalised open source GIS solutions are often planned and developed as desktop or mobile applications. OPENGIS.ch finances itself through tailor-made customer solutions, professional support and adaptations. Link: <a href="https://opengis.ch/" rel="noopener" target="_blank">https://opengis.ch</a></p>
+<p>OPENGIS.ch GmbH is a Swiss software development company based in Laax. OPENGIS.ch employs 19 people and works mainly in the field of spatial software development, geodata infrastructure deployments and professional support. Personalised open source GIS solutions are often planned and developed as desktop or mobile applications. OPENGIS.ch finances itself through tailor-made customer solutions, professional support and adaptations. Link: <a href="https://opengis.ch/" rel="noopener" target="_blank">https://opengis.ch</a>
+</p>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="809" src="/img/subscribers/qfield/qfield-collected-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/bg_hu_2ab3f49934930d35.webp" width="1200"/></figure>
 <h2 id="about-the-opengisch-product"><strong>About the OPENGIS.ch product “QField” application</strong></h2>
-<p>“QField” is an open-source app developed for efficient fieldwork in real-time in urban areas, with 5G connection or with offline data. The mobile GIS app combines a minimal design with sophisticated technology to conveniently bring data from the field to the office. Seamless QGIS integration, GPS centred, offline functionality, synchronisation capabilities, desktop configurable: “QField” is designed for fieldwork - simple but uncompromising. Link: <a href="https://qfield.org/" rel="noopener" target="_blank">https://qfield.org</a></p>
+<p>“QField” is an open-source app developed for efficient fieldwork in real-time in urban areas, with 5G connection or with offline data. The mobile GIS app combines a minimal design with sophisticated technology to conveniently bring data from the field to the office. Seamless QGIS integration, GPS centred, offline functionality, synchronisation capabilities, desktop configurable: “QField” is designed for fieldwork - simple but uncompromising. Link: <a href="https://qfield.org/" rel="noopener" target="_blank">https://qfield.org</a>
+</p>
 <h2 id="about-the-opengisch-service-"><strong>About the OPENGIS.ch service “QFieldCloud</strong>”</h2>
-<p>“QFieldCloud” is a spatial cloud service integrated into “QField” that allows remote provisioning and synchronisation of geodata and projects. Although “QFieldCloud” is still in an advanced beta stage, it is already being used by many groups to significantly improve their workflows. Link: <a href="https://qfield.cloud/" rel="noopener" target="_blank">https://qfield.cloud</a></p>
+<p>“QFieldCloud” is a spatial cloud service integrated into “QField” that allows remote provisioning and synchronisation of geodata and projects. Although “QFieldCloud” is still in an advanced beta stage, it is already being used by many groups to significantly improve their workflows. Link: <a href="https://qfield.cloud/" rel="noopener" target="_blank">https://qfield.cloud</a>
+</p>

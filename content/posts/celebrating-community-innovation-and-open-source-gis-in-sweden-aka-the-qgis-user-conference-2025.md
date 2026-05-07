@@ -24,7 +24,8 @@ available_languages: ["en_gb"]
 <h3 id="-qgisorg-updates">🎊 QGIS.org updates</h3>
 <p>As Chair of the QGIS.org association, I had the opportunity to share recent updates from the QGIS community. I spoke about ongoing development efforts, community growth, funding initiatives, and collaborations that help keep the project moving forward.<br/>
 The focus was on the people who make QGIS possible — contributors, sponsors, local user groups, and everyday users — and how their involvement continues to shape the project’s direction and ensure its long-term sustainability.</p>
-<p><strong>👉 Slides <a href="https://slides.opengis.ch/talk-qgis.org/uc2025" rel="noopener" target="_blank">here</a></strong> (unfortunately keynotes and workshops were not recorded)</p>
+<p><strong>👉 Slides <a href="https://slides.opengis.ch/talk-qgis.org/uc2025" rel="noopener" target="_blank">here</a>
+</strong> (unfortunately keynotes and workshops were not recorded)</p>
 <hr/>
 <h3 id="-extending-qfieldcloud--ideas-and-practical-examples"><strong>💡 Extending QFieldCloud – Ideas and Practical Examples</strong></h3>
 <p>In this talk, Michael, <em>one of our Full stack GeoNinja and Web Cartography teacher</em>, explained how QFieldCloud can be <strong>extended</strong> by integrating <strong>additional Django apps</strong>. This allowed, for example, the generation of QField projects, reacting to events from fieldwork, adding new websites and APIs, and executing entire QGIS models as QFieldCloud jobs.</p>

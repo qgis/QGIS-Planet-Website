@@ -22,4 +22,5 @@ available_languages: ["en_gb"]
 <h2 id="growing-continuous-integration-ci-testing-framework-now-covers-positioning">Growing Continuous Integration (CI) testing framework now covers positioning</h2>
 <p>Starting with version 2.6, <strong>QField ships with increased quality assurances</strong> thanks to the addition of tests covering positioning functionalities in its growing CI framework.</p>
 <p>Practically speaking, this means that every single line of QField code changed is now being tested against positioning-related regression, significantly decreasing the risks of shipping a new version of QField with broken functionality in the area of antenna height, vertical grid shift, and ellipsoidal height adjustments.</p>
-<p>We would like to commend <a href="https://www.bahn.com/en" rel="noopener" target="_blank">Deutsche Bahn</a> for funding the required work here. This could not have come in soon enough as more and more people are opting for QField and relying on it for their crucial day-to-day fieldwork.</p>
+<p>We would like to commend <a href="https://www.bahn.com/en" rel="noopener" target="_blank">Deutsche Bahn</a>
+ for funding the required work here. This could not have come in soon enough as more and more people are opting for QField and relying on it for their crucial day-to-day fieldwork.</p>

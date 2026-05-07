@@ -15,7 +15,8 @@ available_languages: ["en_gb"]
 <p>Just in time for the end of 2025, <strong>QField 4.0</strong> is now available in a virtual store near you. This release brings significant improvements and marks an important usability milestone, worthy of a new major version. It’s truly never been easier to get started with QField - whether you’re a seasoned GIS professional or new to spatial data collection.</p>
 <h2 id="main-highlights">Main highlights</h2>
 <p><img alt="" src="/img/subscribers/qfield/qfield-4.0-aare-unlocking-a-great-spatial-experience-for-a-larger-audience/image.webp"/></p>
-<p>One of the most significant feature additions in this new version is right there on the welcome screen: <strong>a simple wizard for creating new projects</strong>. The wizard guides users through a set of questions covering the desired basemap style and actions such as note taking and position tracking. These projects can be published directly on <a href="https://qfield.cloud/" rel="noopener" target="_blank">QFieldCloud</a>, so users can upload images, notes, and tracks that are accessible through web browsers or QGIS using QFieldSync.</p>
+<p>One of the most significant feature additions in this new version is right there on the welcome screen: <strong>a simple wizard for creating new projects</strong>. The wizard guides users through a set of questions covering the desired basemap style and actions such as note taking and position tracking. These projects can be published directly on <a href="https://qfield.cloud/" rel="noopener" target="_blank">QFieldCloud</a>
+, so users can upload images, notes, and tracks that are accessible through web browsers or QGIS using QFieldSync.</p>
 <p>The project creation framework also unlocked another feature we’re proud of: <strong>on-the-fly conversion of imported projects to cloud projects</strong>. The ability to upgrade pre-existing projects to cloud projects means that users can push spatial data and attachments residing on their devices to QFieldCloud and instantly collaborate with coworkers.</p>
 <p>On the QFieldCloud front, we’ve done significant code refactoring to make synchronization and attachment uploads even more reliable. Users now see a progress bar showing attachment upload status.</p>
 <p>The cloud projects list also lets users push changes and sync projects without opening them first. Indicator badges show whether you have pending local changes or if updates are available from the cloud.</p>
@@ -29,11 +30,13 @@ available_languages: ["en_gb"]
 <h2 id="wait-theres-more">Wait, there’s more</h2>
 <p>Beyond these major improvements, QField 4.0 includes tons of new features:</p>
 <ul>
-<li><strong>Multilingual projects</strong> - <a href="https://www.opengis.ch/2018/09/11/qgis-speaks-a-lot-of-languages/" rel="noopener" target="_blank">a feature we added to QGIS several years ago</a> - are now supported in QField</li>
+<li><strong>Multilingual projects</strong> - <a href="https://www.opengis.ch/2018/09/11/qgis-speaks-a-lot-of-languages/" rel="noopener" target="_blank">a feature we added to QGIS several years ago</a>
+ - are now supported in QField</li>
 <li>When connected to the internet, QField now displays online legend graphics for WMS and Esri map services, providing crucial context for field users</li>
 <li>Additional feature form widgets are now supported, including the spacer widget and color editor widget, further improving interoperability with QGIS</li>
 </ul>
-<p>A <a href="https://github.com/opengisch/QField/releases/tag/v4.0.0" rel="noopener" target="_blank">complete list of changes is available in the QField release notes</a> on GitHub.</p>
+<p>A <a href="https://github.com/opengisch/QField/releases/tag/v4.0.0" rel="noopener" target="_blank">complete list of changes is available in the QField release notes</a>
+ on GitHub.</p>
 <h2 id="a-new-release-cycle-focused-on-water-bodies">A new release cycle focused on water bodies</h2>
 <p>With the <strong>QField 4.X</strong> series, we’re introducing a new naming theme focused on <strong>water bodies</strong>.</p>
 <p>Oceans, rivers, lakes, wetlands, and coastal waters are fundamental to life on Earth. They provide drinking water, support ecosystems and agriculture, regulate climate, and sustain communities worldwide. Yet these vital resources are increasingly under pressure from pollution, overuse, and climate change.</p>

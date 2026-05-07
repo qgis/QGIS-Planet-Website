@@ -17,10 +17,13 @@ It’s always the question, where to put the logical part of the solution. QGIS 
 <h1 id="situation">Situation</h1>
 <h2 id="its-all-about-trees">It’s all about trees</h2>
 <p>At least for that customer we got lately. The customer owns pieces of land all over Switzerland. On this pieces are forests and in the forests are - as expected - trees. Well, mostly - if you are not a bark beetle or a squirrel - you don’t care about a single tree. Except if there is something special with it. For example, a branch that could fell down on your brand new Citroën DS or if the tree has a disease that could kill the whole forest, that is actually needed to convert the carbon dioxide (from your DS) into oxygen.
-<a href="https://qfield.org/tags/qgis.org/wald.png"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/wald.webp"/></a> The issuetrees (yellow) lie on the forest (green) - and the forest lies on the land piece (brown).
-<a href="https://qfield.org/tags/qgis.org/erm2.png"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/erm2.webp"/></a> And the (Entity Relationship Model) ERM looks like this. A land can have zero, one or more forests - and a forest can have zero, one or more trees with issues.</p>
+<a href="https://qfield.org/wald.png"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/wald.webp"/></a>
+ The issuetrees (yellow) lie on the forest (green) - and the forest lies on the land piece (brown).
+<a href="https://qfield.org/erm2.png"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/erm2.webp"/></a>
+ And the (Entity Relationship Model) ERM looks like this. A land can have zero, one or more forests - and a forest can have zero, one or more trees with issues.</p>
 <h2 id="its-not-really-about-trees">It’s not really about trees</h2>
-<p>The situation is, that a lot of field workers (so called tree-inspectors) work with our mobile solution <a href="https://www.qfield.org/" rel="noopener" target="_blank">QField</a>, where they can collect the data while standing in the middle of a wild forest with one foot in a rabbit hole and the other one in the stinging nettle. It’s quite possible and usual that there can be some problems entering all the data correctly. Typing issues on the tablet while running away from wolves or just lack of concentration because of the beauty of the swiss forests.</p>
+<p>The situation is, that a lot of field workers (so called tree-inspectors) work with our mobile solution <a href="https://www.qfield.org/" rel="noopener" target="_blank">QField</a>
+, where they can collect the data while standing in the middle of a wild forest with one foot in a rabbit hole and the other one in the stinging nettle. It’s quite possible and usual that there can be some problems entering all the data correctly. Typing issues on the tablet while running away from wolves or just lack of concentration because of the beauty of the swiss forests.</p>
 <h2 id="and-its-about-lots-of-front-ends">And it’s about lots of front ends</h2>
 <p>But there are not only the tree-inspectors. There are the office-clerks working with QGIS and planning, when the problems on the tree has to be solved. And finally there are the woodsmen solving the issues and setting the status to done on QField again. So there have to be a lot of projects using the same data but with different configurations. If you make all the quality assurance on the front end you won’t have time to care about the trees anymore and beside of that it’s fault-prone.</p>
 <h1 id="quality-assurance-in-the-back-end">Quality assurance in the back end</h1>
@@ -70,7 +73,8 @@ END;
 <p>All data entered to the database (valid or not) need to be stored. The entries accepted from the so called live tables with all constraints, are stored normally. The entries failed because of the constraint, are stored in another table. In the so called quarantine table. So you have for every live table another quarantine table. This means, we need another table structure existing parallel to the live tables. We do it in two schemas: The live schema and the quarantine schema.
 So the tree-inspector synchronizes his QField without any problem to the database. The correct entries are written into the live tables. The incorrect into the quarantine. Actually all the data are coming into the quarantine and there is a Trigger passing them through to the live table. If they success, they will be stored in live and removed from quarantine. Otherwise they keeps staying in the quarantine. Same situation when the quarantine-clerk later corrects the data entries in the quarantine. On an update they are pushed into the live-table. If success, all good. Otherwise the entry keeps staying in the quarantine.</p>
 <h3 id="structure">Structure</h3>
-<h3><a href="https://qfield.org/tags/qgis.org/structure1.png"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure1.webp"/></a></h3>
+<h3><a href="https://qfield.org/structure1.png"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure1.webp"/></a>
+</h3>
 <h3 id="and-how-we-do-that">And how we do that?</h3>
 <p>It’s all solved by using triggers. SQL triggers are procedural code that are automatically executed on an action on a table or view. For this solution we actually need two trigger per quarantine table. <strong><em>After insert into</em></strong> or <em><strong>update</strong></em> quarantine table, a trigger should be fired for every entry, doing this:
 <em>Insert the same entry into the live table. If success, then delete the entry in the quarantine table. Else write the info to the current entry in the quarantine table.</em>
@@ -159,7 +163,8 @@ EXECUTE PROCEDURE quarantine.pushtolive();
 </code></pre><h3 id="and-it-looks-like-this">And it looks like this</h3>
 <p>The yellow points are the issue trees in the live. If we create another one and have a mistake in it (GPS Id wrong), then it’s stored in the quarantine (pink). When we correct the data it’s written over the quarantine trigger into live. If succeeded, the point changes the color to yellow.
 Actually the yellow point appears (live) and the pink point(quarantine) disappears, because the entry is inserted into live and deleted in quarantine.
-<a href="https://qfield.org/tags/qgis.org/DemoQuaranLive.gif"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/DemoQuaranLive.gif"/></a></p>
+<a href="https://qfield.org/DemoQuaranLive.gif"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/DemoQuaranLive.gif"/></a>
+</p>
 <h1 id="archiving-all-data">Archiving all data</h1>
 <p>There are different reasons why you need to archive data. Maybe somewhen you want to show your grandchildren, how much forest we still had today before the sky got dark. But this was not the reason for the mentioned customer, but legal reasons:
 When the woodsman cuts the last bamboo tree of the forest and this was the only food for the very last living panda bear of Switzerland, we need to know who created or changed this entry in the database and what tree should have been chopped down instead.</p>
@@ -173,7 +178,8 @@ So there will be the updated entry in the live-table (2), no entry in the quaran
 <p>The tree-inspector enters an entry of an issue tree that already existed in the live table to the quarantine (1). The after insert trigger is fired and it tries to write to the live table. And it fails. The entry in the quarantine will be updated with the error-message (2). The old status is copied to archive (1). The office clerk makes no the changes to this entries. The trigger is fired and this time it could write into the live-table with success (3). So the old entry is copied to the archive (4) and after deleting the entry in the quarantine, there will be the second old status of quarantine (5) in archive too.
 So there will be the updated entry in the live-table (3), no entry in the quarantine-table (1 and 2) and three entries (1, 4 and 5) in the archive table.</p>
 <h3 id="structure-1">Structure</h3>
-<p><a href="https://qfield.org/tags/qgis.org/structure2.png"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure2.webp"/></a></p>
+<p><a href="https://qfield.org/structure2.png"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure2.webp"/></a>
+</p>
 <h2 id="and-how-we-do-that-1">And how we do that?</h2>
 <p>It’s solved by using triggers too. We actually need only one trigger per table, but not only in quarantine, but also in live. It has to be fired before every update of every entry, doing this:
 <em>Insert a copy of the current entry into the archive table with the status it had until the update we are doing right now.</em></p>

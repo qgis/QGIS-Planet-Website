@@ -19,7 +19,8 @@ available_languages: ["en_gb"]
 <h3 id="the-simple-way">The simple way</h3>
 <p>If there is no limitation on the WMS or you need only a small region, here is the easiest process.</p>
 <ol>
-<li>Request the WMS and store a <a href="https://gdal.org/drivers/raster/wms.html#xml-description-file" rel="noopener" target="_blank">description file in XML</a>:</li>
+<li>Request the WMS and store a <a href="https://gdal.org/drivers/raster/wms.html#xml-description-file" rel="noopener" target="_blank">description file in XML</a>
+:</li>
 </ol>
 <pre tabindex="0"><code>gdal_translate "WMS:url" file.xml -of WMS
 </code></pre><ol>
