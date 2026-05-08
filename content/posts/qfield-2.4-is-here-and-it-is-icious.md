@@ -14,7 +14,7 @@ available_languages: ["en_gb"]
 
 <p>Yes, QField for QGIS, the leading fieldwork app, was released on the iOS App Store!</p>
 <blockquote>
-<p><a href="https://qfield.org/get" rel="noopener" target="_blank"><img alt="" src=""/></a>
+<p><a href="https://qfield.org/get" rel="noopener" target="_blank"><img alt="" src="/img/subscribers/qfield/qfield-2.4-is-here-and-it-is-icious/stores.webp"/></a>
 </p>
 <p>Get It now for <a href="https://qfield.org/get" rel="noopener" target="_blank">Android, iOS, MacOS, Windows and Linux</a>
 </p>
