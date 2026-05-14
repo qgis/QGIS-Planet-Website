@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "[Blog] Best Practices for User Management in Mergin Maps"
+title: "[Blog] Best practices for user management in Mergin Maps"
 date: "2025-10-10T00:00:00"
 link: "https://merginmaps.com/blog/best-practices-for-user-management-in-mergin-maps?utm_source=qgis"
 draft: "false"

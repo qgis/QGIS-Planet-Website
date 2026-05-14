@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "[Blog] How to Import Geotagged Photos into QGIS for Fieldwork Mapping"
+title: "[Blog] How to import geotagged photos into QGIS for fieldwork mapping"
 date: "2026-01-23T00:00:00"
 link: "https://merginmaps.com/blog/how-to-import-geotagged-photos-into-qgis-for-fieldwork-mapping?utm_source=qgis"
 draft: "false"
