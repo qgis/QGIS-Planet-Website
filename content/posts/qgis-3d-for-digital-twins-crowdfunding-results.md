@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "QGIS 3D for digital twins: crowdfunding results"
-date: "2026-05-07T08:37:50"
+date: "2026-05-27T10:55:41"
 link: "https://www.lutraconsulting.co.uk/blogs/qgis-3d-for-digital-twins-crowdfunding-results?utm_source=qgis"
 draft: "false"
 showcase: "planet"

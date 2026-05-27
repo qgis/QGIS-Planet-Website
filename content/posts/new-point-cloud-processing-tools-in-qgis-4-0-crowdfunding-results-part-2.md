@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "New Point Cloud Processing Tools in QGIS 4.0: crowdfunding results (part 2)"
-date: "2026-05-14T09:53:05"
+date: "2026-05-15T17:25:56"
 link: "https://www.lutraconsulting.co.uk/blogs/new-point-cloud-processing-tools-in-qgis-4-0-crowdfunding-results-part-2?utm_source=qgis"
 draft: "false"
 showcase: "planet"
