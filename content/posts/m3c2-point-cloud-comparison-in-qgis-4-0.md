@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "M3C2 Point Cloud Comparison in QGIS 4.0"
-date: "2026-05-27T11:32:01"
+date: "2026-06-16T10:41:26"
 link: "https://www.lutraconsulting.co.uk/blogs/m3c2-point-cloud-comparison-in-qgis-4-0?utm_source=qgis"
 draft: "false"
 showcase: "planet"
