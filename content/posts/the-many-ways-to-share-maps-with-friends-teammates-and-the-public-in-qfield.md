@@ -1,0 +1,48 @@
+---
+source: "blog"
+title: "The many ways to share maps with friends, teammates, and the public in QField"
+date: "2026-06-18T00:12:00+0000"
+link: "https://qfield.org/blog/2026/06/18/the-many-ways-to-share-maps-with-friends-teammates-and-the-public-in-qfield/"
+draft: "false"
+showcase: "planet"
+subscribers: ["qfield"]
+author: "QField"
+tags: ["highlights", "qfield", "qgis.org"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
+---
+
+<p>Over the years, QField has gained a number of ways through which authors can share their mapping projects. This post looks at the multiple ways this can be achieved and what scenarios fit each method best.</p>
+<p><img alt="" src="/img/subscribers/qfield/the-many-ways-to-share-maps-with-friends-teammates-and-the-public-in-qfield/share-cover.webp"/></p>
+<h2 id="leveraging-qfieldcloud">Leveraging QFieldCloud</h2>
+<h3 id="sharing-maps-to-the-public">Sharing maps to the public</h3>
+<p>QFieldCloud users all have the ability to configure their projects as ‘public’. When the option is turned on, all QFieldCloud users will be allowed to download and browse these maps at will.</p>
+<p>These users coming in to view the map are given a reader role, prohibiting changes to the underlying datasets included in the project. This can be a great option when wanting to share maps to a large number of readers while relying on QFieldCloud to host the content and keep users up-to-date through synchronization.</p>
+<p>Upload your mapping projects onto <a href="https://qfield.cloud/" rel="noopener" target="_blank">QFieldCloud</a>
+ and make them public through the web interface or QFieldSync. The public can then hop onto QField, log into QFieldCloud, and get to the maps by searching for the user and project names.</p>
+<p>QFieldCloud’s registry is free and you get 100MB of free storage, <a href="https://app.qfield.cloud/accounts/signup/" rel="noopener" target="_blank">give it a try</a>
+!</p>
+<p><img alt="" src="/img/subscribers/qfield/the-many-ways-to-share-maps-with-friends-teammates-and-the-public-in-qfield/sharing-steps-qfieldcloud.webp"/></p>
+<p><em>Note that since QField 4.2, improvements made to the experience around cloud projects filtering have made finding these public projects much simpler.</em></p>
+<h3 id="sharing-collaborative-maps-with-organization-teammates-and-co-workers">Sharing collaborative maps with organization teammates and co-workers</h3>
+<p>If the maps are meant to be private and/or editable in a collaborative way, sharing them as part of a <a href="https://qfield.cloud/pricing" rel="noopener" target="_blank">QFieldCloud organization plan</a>
+ is the way to go. Members of a registered organization are able to create projects in which the content of maps can be edited collaboratively and synchronized on-the-fly straight from the field.</p>
+<p>These projects will automatically appear in the cloud projects list of logged in users that are organization member and a project collaborator, making it effortless to reach and download.</p>
+<h2 id="importing-through-web-urls">Importing through web URLs</h2>
+<p>It is also possible to share maps without relying on QFieldCloud. While we strongly believe QFieldCloud offers the best user experience, QField is all about providing its users with the freedom to choose.</p>
+<p>Sharing maps can be done by compressing a QGIS project into a ZIP archive or simply sharing a georeferenced PDF and make that file available  through a web site URL. Users wanting to import these files into QField then open the local projects and datasets panel from the welcome screen, click on the bottom right plus sign ‘import’ button, and select the ‘Import from URL’ menu action.</p>
+<p><img alt="" src="/img/subscribers/qfield/the-many-ways-to-share-maps-with-friends-teammates-and-the-public-in-qfield/sharing-steps-import-web-url.webp"/></p>
+<p><em>Importing from a URL works across all platforms QField runs on: Android, iOS, Windows, and Linux.</em></p>
+<h2 id="sharing-through-qr-codes">Sharing through QR codes</h2>
+<p>All of what’s described above can be made even easier by leveraging QR codes.</p>
+<h3 id="qfieldcloud-qr-codes">QFieldCloud QR codes</h3>
+<p>For maps shared on QFieldCloud, users can generate QR codes using their favorite online tool or application by using the following URI format:</p>
+<p><code>qfield://cloud?project={username}/{project_name}</code></p>
+<p>Simply replace the <code>{username}</code> and <code>{project_name}</code> with the username or organization owning the project as well as the project name. The resulting QR code can be scanned from devices using the operating system camera and will automatically open QField to an informative cloud project details view.</p>
+<p><img alt="" src="/img/subscribers/qfield/the-many-ways-to-share-maps-with-friends-teammates-and-the-public-in-qfield/qrcode-share-qfieldcloud.webp"/></p>
+<h3 id="web-url-qr-codes">Web URL QR codes</h3>
+<p>For maps shared through a web site URL, similar QR codes can be generated by using the following URI format:</p>
+<p><code>qfield://local?import={url}</code></p>
+<p>Simply replace the <code>{url}</code> with a web URL that points to a compressed QGIS project ZIP or georeferenced PDF file (e.g. <a href="http://qfield.org/sample-projects/bees.zip%29" rel="noopener" target="_blank">http://qfield.org/sample-projects/bees.zip)</a>
+. When scanning these QR codes, QField will open a dialog asking users whether to proceed forward with the importing of a file name (e.g. map.pdf) from the URL’s domain name.</p>
+<p><img alt="" src="/img/subscribers/qfield/the-many-ways-to-share-maps-with-friends-teammates-and-the-public-in-qfield/qrcode-share-import-web-url.webp"/></p>
