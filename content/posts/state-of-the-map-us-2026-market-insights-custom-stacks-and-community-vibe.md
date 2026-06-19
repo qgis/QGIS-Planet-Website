@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "State of the Map US 2026: Market insights, custom stacks, and community vibe"
-date: "2026-06-18T17:46:16"
+date: "2026-06-19T10:47:56"
 link: "https://www.lutraconsulting.co.uk/blogs/state-of-the-map-us-2026-market-insights-custom-stacks-and-community-vibe?utm_source=qgis"
 draft: "false"
 showcase: "planet"
