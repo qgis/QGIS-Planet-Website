@@ -13,8 +13,7 @@ available_languages: ["en_gb"]
 ---
 
 <p>We have been continuing our work with the <a href="https://www.qgis.org/en/site/about/sustaining_members.html">Flagship sponsor of QGIS</a> – <a href="https://felt.com/product">Felt</a> to develop their QGIS Plugin – <a href="https://plugins.qgis.org/planet/tag/felt/">Add to Felt  </a>that makes it even easier to share your maps and data on the web.</p>
-<div class="wp-video" style="width: 1170px;"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
-<a href="https://north-road.com/wp-content/uploads/2023/10/Lassen-QGIS-Share.mp4?_=1" target="_blank">Watch Video</a></div>
+<div class="wp-video" style="width: 1170px;"><a href="https://north-road.com/wp-content/uploads/2023/10/Lassen-QGIS-Share.mp4?_=1" target="_blank">Watch Video</a></div>
 <p><strong>What is the ‘Add to Felt’ QGIS Plugin?</strong></p>
 <p>The ‘Add to Felt’ QGIS Plugin is a powerful tool that empowers users to export their QGIS projects and layers directly to a Felt web map. This update introduces two fantastic features:</p>
 <ol>
