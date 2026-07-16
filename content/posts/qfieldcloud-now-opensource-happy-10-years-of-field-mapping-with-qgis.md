@@ -133,7 +133,7 @@ cheers</p>
 <figcaption class="figure-caption text-center">UX mockup for the first QML based app</figcaption></figure>
 <figure class="figure text-center mb-4"><img alt="UX mockup for the first QML based app" class="figure-img img-fluid gallery-img" height="800" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Map.webp" width="480"/>
 <figcaption class="figure-caption text-center">UX mockup for the first QML based app</figcaption></figure>
-<figure class="figure text-center mb-4"><img alt="Screenshots of the first QML based UI" class="figure-img img-fluid gallery-img" height="559" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_400b2cb91cceb6f9.webp" width="1200"/>
+<figure class="figure text-center mb-4"><img alt="Screenshots of the first QML based UI" class="figure-img img-fluid gallery-img" height="559" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_a69db349ad2e0ae7.webp" width="1200"/>
 <figcaption class="figure-caption text-center">Screenshots of the first QML based UI</figcaption></figure>
 </div>
 <h3 id="the-python-failure">The Python failure</h3>
@@ -147,7 +147,7 @@ cheers</p>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-19-01-19-31_hu_89715d412c05ab1b.webp" width="1200"/></figure>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-17-23-31-39_hu_68d0cfcb3d54d19b.webp" width="1200"/></figure>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="750" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-20-14-30-15_hu_ca2874ce698b087b.webp" width="1200"/></figure>
-<figure class="figure text-center mb-4"><img alt="QField interface preview" class="figure-img img-fluid gallery-img" height="559" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_400b2cb91cceb6f9.webp" width="1200"/>
+<figure class="figure text-center mb-4"><img alt="QField interface preview" class="figure-img img-fluid gallery-img" height="559" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_a69db349ad2e0ae7.webp" width="1200"/>
 <figcaption class="figure-caption text-center">QField interface preview</figcaption></figure>
 <figure class="figure text-center mb-4"><img alt="QField UI improvements" class="figure-img img-fluid gallery-img" height="1126" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-07-00-08-00_hu_471c9cca5799644d.webp" width="1200"/>
 <figcaption class="figure-caption text-center">QField UI improvements</figcaption></figure>

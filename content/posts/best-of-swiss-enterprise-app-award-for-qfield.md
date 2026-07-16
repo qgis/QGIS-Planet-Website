@@ -33,10 +33,10 @@ available_languages: ["en_gb"]
 </p>
 <p>And here some moments of the award night. It was a blast!</p>
 <div class="gallery-wrapper">
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="1600" src="/img/subscribers/qfield/best-of-swiss-enterprise-app-award-for-qfield/Michael-Quade-Juryprasident-gratuliert-zur-Gold_c_bestofswissapps.ch__hu_f9f834611c625ae5.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="1600" src="/img/subscribers/qfield/best-of-swiss-enterprise-app-award-for-qfield/Michael-Quade-Juryprasident-gratuliert-zur-Gold_c_bestofswissapps.ch__hu_b3e04a8f1041458e.webp" width="1200"/></figure>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="900" src="/img/subscribers/qfield/best-of-swiss-enterprise-app-award-for-qfield/Best-of-swiss-App-Award-2022_c_bestofswissapps.ch__hu_72455f7259378307.webp" width="1200"/></figure>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="540" src="/img/subscribers/qfield/best-of-swiss-enterprise-app-award-for-qfield/QField-Werbevideo-bei-der-Awardvergabe_c_opengis.ch_-1_hu_d0605077ac9c719f.webp" width="1200"/></figure>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/best-of-swiss-enterprise-app-award-for-qfield/winner_selfie_c_opengis.ch__hu_ac2b430694decd95.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/best-of-swiss-enterprise-app-award-for-qfield/winner_selfie_c_opengis.ch__hu_48ac635a547ad35a.webp" width="1200"/></figure>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="1600" src="/img/subscribers/qfield/best-of-swiss-enterprise-app-award-for-qfield/Marco-Bernasocchi-und-Anna-Randegger-von-OPENGI.ch_c_bestswissapps.ch__hu_11bc9ae2466441d9.webp" width="1200"/></figure>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="676" src="/img/subscribers/qfield/best-of-swiss-enterprise-app-award-for-qfield/qfield_laudatio-c-opengis.ch__hu_4f4d39ad520cc692.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="676" src="/img/subscribers/qfield/best-of-swiss-enterprise-app-award-for-qfield/qfield_laudatio-c-opengis.ch__hu_1c2f52c00ef3e8f9.webp" width="1200"/></figure>
 </div>
