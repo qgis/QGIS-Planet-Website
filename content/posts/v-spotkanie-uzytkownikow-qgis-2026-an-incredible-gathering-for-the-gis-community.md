@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "Spotkanie Użytkowników Polska 2026: An Incredible Gathering for the GIS Community"
-date: "2026-07-15T14:31:56"
+date: "2026-07-15T14:32:16"
 link: "https://www.lutraconsulting.co.uk/blogs/v-spotkanie-uzytkownikow-qgis-2026-an-incredible-gathering-for-the-gis-community?utm_source=qgis"
 draft: "false"
 showcase: "planet"
