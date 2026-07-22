@@ -50,7 +50,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 </div>
 <h3 id="-qfield-and-qfieldcloud---seamless-fieldwork-for-qgis">📱 QField and QFieldCloud - seamless fieldwork for QGIS</h3>
 <div class="gallery-wrapper">
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_093725_hu_19700264354f61d3.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="" width="1200"/></figure>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_101949_hu_cc1c5f16b02f3c29.webp" width="1200"/></figure>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_163129_hu_9bbd7c2fa455dbd5.webp" width="1200"/></figure>
 </div>
