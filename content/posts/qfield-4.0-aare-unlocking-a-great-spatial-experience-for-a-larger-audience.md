@@ -14,7 +14,7 @@ available_languages: ["en_gb"]
 
 <p>Just in time for the end of 2025, <strong>QField 4.0</strong> is now available in a virtual store near you. This release brings significant improvements and marks an important usability milestone, worthy of a new major version. It’s truly never been easier to get started with QField - whether you’re a seasoned GIS professional or new to spatial data collection.</p>
 <h2 id="main-highlights">Main highlights</h2>
-<p><img alt="" src="/img/subscribers/qfield/qfield-4.0-aare-unlocking-a-great-spatial-experience-for-a-larger-audience/image.webp"/></p>
+<p><img alt="" src=""/></p>
 <p>One of the most significant feature additions in this new version is right there on the welcome screen: <strong>a simple wizard for creating new projects</strong>. The wizard guides users through a set of questions covering the desired basemap style and actions such as note taking and position tracking. These projects can be published directly on <a href="https://qfield.cloud/" rel="noopener" target="_blank">QFieldCloud</a>
 , so users can upload images, notes, and tracks that are accessible through web browsers or QGIS using QFieldSync.</p>
 <p>The project creation framework also unlocked another feature we’re proud of: <strong>on-the-fly conversion of imported projects to cloud projects</strong>. The ability to upgrade pre-existing projects to cloud projects means that users can push spatial data and attachments residing on their devices to QFieldCloud and instantly collaborate with coworkers.</p>
