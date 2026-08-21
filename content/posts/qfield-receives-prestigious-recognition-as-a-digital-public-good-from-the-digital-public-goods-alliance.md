@@ -34,7 +34,7 @@ available_languages: ["en_gb"]
 <li><strong>SDG 15: Life on Land</strong>: QField aids in biodiversity assessments and conservation efforts, promoting the sustainable use of terrestrial ecosystems.</li>
 <li><strong>SDG 16: Peace, Justice, and Strong Institutions</strong>: Through its reliable and transparent data management capabilities, QField supports the development of strong institutions and governance systems.</li>
 </ul>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="/img/subscribers/qfield/qfield-receives-prestigious-recognition-as-a-digital-public-good-from-the-digital-public-goods-alliance/image-2_hu_3cf2c9ca909205d8.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="675" src="" width="1200"/></figure>
 <h3 id="a-future-of-innovation-and-sustainability">A Future of Innovation and Sustainability</h3>
 <p>As we celebrate this recognition, we remain committed to pushing the boundaries of what is possible in fieldwork technology. QField will continue to evolve, driven by the needs of its global user base and the imperative to support sustainable development. We invite all stakeholders to join us on this journey towards a more sustainable and equitable future.</p>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="901" src="/img/subscribers/qfield/qfield-receives-prestigious-recognition-as-a-digital-public-good-from-the-digital-public-goods-alliance/image-3_hu_e56f3fff80a6734a.webp" width="1200"/></figure>
