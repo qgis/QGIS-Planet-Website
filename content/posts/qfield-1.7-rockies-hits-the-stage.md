@@ -43,7 +43,7 @@ Do you need help setting up complex forms? Don’t hesitate to <a href="https://
 <div class="gallery-wrapper">
 <figure class="figure text-center mb-4"><img alt="qml" class="figure-img img-fluid gallery-img" src="/img/subscribers/qfield/qfield-1.7-rockies-hits-the-stage/91524902-ad00bd00-e900-11ea-86e2-c44af84bb04a.webp"/>
 <figcaption class="figure-caption text-center">qml</figcaption></figure>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="1911" src="" width="1024"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="1911" src="/img/subscribers/qfield/qfield-1.7-rockies-hits-the-stage/html-1.webp" width="1024"/></figure>
 </div>
 <h2></h2>
 <p>Expandable legend icons</p>
