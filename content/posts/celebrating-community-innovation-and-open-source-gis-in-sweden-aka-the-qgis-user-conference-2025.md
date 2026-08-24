@@ -62,7 +62,7 @@ Definitely not our last one. 💚</p>
 <div class="gallery-wrapper">
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="900" src="/img/subscribers/qfield/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_094617_hu_105ab4e0e6d16634.webp" width="1200"/></figure>
 <figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="900" src="/img/subscribers/qfield/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_095441_hu_ca4c8c819dc83cdc.webp" width="1200"/></figure>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="900" src="/img/subscribers/qfield/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_114641_hu_8ac0c44c31e1dc09.webp" width="1200"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="900" src="" width="1200"/></figure>
 </div>
 <hr/>
 <h1 id="-supporting-open-source">🤝 Supporting Open Source</h1>
