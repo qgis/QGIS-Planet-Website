@@ -18,7 +18,7 @@ available_languages: ["en_gb"]
 <p>If you want to quickly try it out, head to <a href="https://qfield.cloud/" rel="noopener" target="_blank">https://qfield.cloud</a>
  where our hosted solution is running and secure yourself a spot in the beta program.</p>
 <p>QFieldCloud’s unique technology allows your team to focus on what’s important, making sure you efficiently get the best field data possible. Thanks to the tight integration with the leading GIS fieldwork app QField, your team will be able to start surveying and digitising data in no time.</p>
-<figure class="figure text-center mb-4"><img alt="QField git history" class="figure-img img-fluid gallery-img" height="280" src="/img/subscribers/qfield/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/qfield-git-history.webp" width="660"/>
+<figure class="figure text-center mb-4"><img alt="QField git history" class="figure-img img-fluid gallery-img" height="280" src="" width="660"/>
 <figcaption class="figure-caption text-center">QField git history</figcaption></figure>
 <p>What a journey it was and what plans do we already have… It has now been 10 years since I <a href="https://github.com/qgis/QGIS-Android/commit/664145015f31783a5687807a7b77049d4e6938c9" rel="noopener" target="_blank">pushed the first scripts</a>
  to build Quantum GIS for Android and it is incredible what we’ve been able to achieve thanks to a vibrant community, sponsors and especially our <a href="https://opengis.ch/#team" rel="noopener" target="_blank">fantastic team</a>
