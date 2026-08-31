@@ -289,5 +289,18 @@
     "shortname": "qfield",
     "is_active": true,
     "logo": "qfield_for_qgis.png"
+  },
+  {
+    "feed": "https://terra-lab.ai/feed.xml",
+    "name": "TerraLab",
+    "shortname": "terralab",
+    "is_active": true,
+    "logo": "terralab.png",
+    "languages": {
+      "available": [
+        "en_gb"
+      ],
+      "main": "en_gb"
+    }
   }
 ]
