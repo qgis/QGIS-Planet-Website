@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "How to Convert Raster to Vector in QGIS (Polygonize and 4 Other Methods)"
+title: "Convert Raster to Vector in QGIS: Polygonize and 4 Methods"
 date: "2026-08-23T00:00:00"
 link: "https://terra-lab.ai/blog/raster-to-vector-qgis"
 draft: "false"

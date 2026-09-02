@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "How to Redesign a Street from Aerial Imagery in QGIS (5 Methods)"
+title: "How to Redesign a Street from Aerial Imagery in QGIS"
 date: "2026-08-31T00:00:00"
 link: "https://terra-lab.ai/blog/street-redesign-qgis"
 draft: "false"

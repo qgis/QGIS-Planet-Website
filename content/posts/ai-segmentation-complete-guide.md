@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Draw a zone, name the object, and get every polygon as a clean vector layer. The full run in QGIS, the three-step review you can walk in any order, and Semi-Auto mode.
+Draw a zone, name the object, get every polygon as a clean vector layer. The full run in QGIS, the three-step review in any order, and Semi-Auto mode.

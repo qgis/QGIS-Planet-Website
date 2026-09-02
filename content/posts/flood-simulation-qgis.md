@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-From the official hazard map to a generated aerial view of the water. Which method gives a number, which gives a picture, and why an elevation model changes both.
+From the official hazard map to a generated aerial view of the water. Which method gives a number, which gives a picture, why an elevation model changes both.
