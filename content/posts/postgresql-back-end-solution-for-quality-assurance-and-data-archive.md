@@ -163,7 +163,7 @@ EXECUTE PROCEDURE quarantine.pushtolive();
 </code></pre><h3 id="and-it-looks-like-this">And it looks like this</h3>
 <p>The yellow points are the issue trees in the live. If we create another one and have a mistake in it (GPS Id wrong), then it’s stored in the quarantine (pink). When we correct the data it’s written over the quarantine trigger into live. If succeeded, the point changes the color to yellow.
 Actually the yellow point appears (live) and the pink point(quarantine) disappears, because the entry is inserted into live and deleted in quarantine.
-<a href="https://qfield.org/DemoQuaranLive.gif"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/DemoQuaranLive.gif"/></a>
+<a href="https://qfield.org/DemoQuaranLive.gif"><img alt="" src=""/></a>
 </p>
 <h1 id="archiving-all-data">Archiving all data</h1>
 <p>There are different reasons why you need to archive data. Maybe somewhen you want to show your grandchildren, how much forest we still had today before the sky got dark. But this was not the reason for the mentioned customer, but legal reasons:
