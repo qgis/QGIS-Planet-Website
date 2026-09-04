@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "How to turn a satellite image into a site plan (in QGIS, with or without AI)"
+title: "Turn a Satellite Image into a Site Plan in QGIS"
 date: "2026-09-02T00:00:00"
 link: "https://terra-lab.ai/blog/satellite-image-to-site-plan"
 draft: "false"

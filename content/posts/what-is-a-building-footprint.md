@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "What Is a Building Footprint? Meaning, Diagram, Floor Area"
+title: "What Is a Building Footprint? Meaning, Floor Area"
 date: "2026-08-23T00:00:00"
 link: "https://terra-lab.ai/blog/what-is-a-building-footprint"
 draft: "false"

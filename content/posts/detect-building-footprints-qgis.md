@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "Detect Building Footprints in QGIS: Open Data, Manual, AI"
+title: "Detect Building Footprints in QGIS: 3 Methods"
 date: "2026-07-21T00:00:00"
 link: "https://terra-lab.ai/blog/detect-building-footprints-qgis"
 draft: "false"

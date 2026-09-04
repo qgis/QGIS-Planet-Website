@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "How to Simulate a Flood in QGIS (5 Methods, Free and Paid)"
+title: "How to Simulate a Flood in QGIS: 5 Methods"
 date: "2026-08-31T00:00:00"
 link: "https://terra-lab.ai/blog/flood-simulation-qgis"
 draft: "false"

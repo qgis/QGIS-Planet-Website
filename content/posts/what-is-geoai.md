@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "What Is GeoAI? Definition, Examples, How to Run It in QGIS"
+title: "What Is GeoAI? Definition, Examples, Uses in QGIS"
 date: "2026-08-18T00:00:00"
 link: "https://terra-lab.ai/blog/what-is-geoai"
 draft: "false"
