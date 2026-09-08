@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-A DSM is the height of the top of everything: roofs, treetops, bare ground. A DTM is the bare ground alone. Subtract one from the other and you get the height of what stands on the ground.
+A DSM is the height of the top of everything: roofs, treetops, bare ground. A DTM is bare ground alone. Subtract one from the other to get what stands on it.

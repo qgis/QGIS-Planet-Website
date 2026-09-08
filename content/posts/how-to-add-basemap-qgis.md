@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-The fastest way: Browser panel, XYZ Tiles, double-click OpenStreetMap. Then Google, Esri and Bing by URL, national imagery by WMS, and which basemap a detection model can actually read.
+Browser panel, XYZ Tiles, double-click OpenStreetMap. Then Google, Esri and Bing by URL, national imagery by WMS, and which basemap a detection model can read.

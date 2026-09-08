@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Flat, watercolor, pencil and glossy, all rendered from one aerial image of Letchworth Garden City. Every prompt in full, and the two places the model invented water.
+Flat, watercolor, pencil and glossy, all rendered from one aerial image of Letchworth Garden City. Every prompt in full, and where the model invented water.
