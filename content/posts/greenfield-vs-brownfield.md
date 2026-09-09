@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-A greenfield site has never been built on. A brownfield site has, and may still carry what the last use left behind. How each looks from the air, and how to tell them apart in QGIS.
+A greenfield site has never been built on. A brownfield site has, and may still carry what the last use left behind. How to tell them apart in QGIS.
