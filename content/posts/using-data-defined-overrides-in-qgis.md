@@ -61,7 +61,7 @@ available_languages: ["en_gb"]
 <p class="wp-block-paragraph">After I did that, you will see that each arrow is rotated based on its value in the field “rotation” in my shapefile.</p>
 <figure class="wp-block-image size-full"><img alt="" class="wp-image-188" height="883" src="/img/subscribers/qgis_dot_tips/using-data-defined-overrides-in-qgis/rotatedarrowlayer.webp" width="967"/></figure>
 <p class="wp-block-paragraph">After that I also added the route as a separate blue layer and added the field “rotation” also as a label on top of the arrows. I also used Data Defined Override for the rotation setting of the label and that results in the map below.</p>
-<figure class="wp-block-image size-full"><img alt="" class="wp-image-140" height="883" src="/img/subscribers/qgis_dot_tips/using-data-defined-overrides-in-qgis/result_rotation.webp" width="930"/></figure>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-140" height="883" src="" width="930"/></figure>
 <h2 class="wp-block-heading">Another example</h2>
 <p class="wp-block-paragraph">As said before you can find Data Defined Overrides in lots of settings. In the example below I used the same “rotation” setting on the field “Size”. Ans I used “Meters at scale” as unit for Size.</p>
 <figure class="wp-block-image size-full"><img alt="" class="wp-image-192" height="883" src="/img/subscribers/qgis_dot_tips/using-data-defined-overrides-in-qgis/resizedarrowlayer.webp" width="967"/></figure>
