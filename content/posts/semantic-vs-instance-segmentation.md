@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Semantic segmentation labels every pixel with a class: building or not. Instance segmentation draws every building as its own object. On a terraced street the difference is one polygon against forty.
+Semantic segmentation labels every pixel with a class: building or not. Instance segmentation draws every building as its own object.

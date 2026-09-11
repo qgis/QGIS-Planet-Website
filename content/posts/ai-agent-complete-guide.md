@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Describe a task in plain language and it runs in your open QGIS project: load data, run algorithms, style layers, build a layout. Every run can be undone.
+Describe a task in plain language and it runs in your open QGIS project: load data, run algorithms, style layers, build a layout. Every change can be undone.

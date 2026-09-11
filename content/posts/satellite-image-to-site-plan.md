@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-From a Google Satellite view of Letchworth Garden City to a four-class site plan in under a minute. The manual route, the AI route, and where each one breaks.
+Load imagery in QGIS, draw a zone, and get a georeferenced four-class site plan back in under a minute. The manual route, the AI route, and where each breaks.
