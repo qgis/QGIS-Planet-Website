@@ -16,6 +16,7 @@ available_languages: ["en_gb"]
 <p class="wp-block-paragraph"><a href="https://wetlands.io">Qiusheng Wu</a> published the first version of the <a href="https://plugins.qgis.org/plugins/qgis_notebook/#plugin-versions">Notebook plugin</a> on 26 Dec 2025. Late Christmas present?! </p>
 <p class="wp-block-paragraph">For the setup, there’s a handy <a href="https://courses.gisopencourseware.org/mod/book/view.php?id=1455&amp;chapterid=3672#mod_book-chapter">tutorial by Hans van der Kwast</a> and, additionally, Qiusheng published an intro video: </p>
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="jetpack-video-wrapper"></div>
 </div></figure>
 <p class="wp-block-paragraph">Development is going fast (version 0.3.0 at the time of writing) so there will be new features when you install / update the plugin compared to both the tutorial and the video. </p>
 <p class="wp-block-paragraph">The user interface is pretty stripped down with just a few buttons to add new code or markdown cells and to run them. And there is a neat drop-down menu with all kinds of ready-made code snippets to get you started: </p>
