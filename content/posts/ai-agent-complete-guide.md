@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Describe a task in plain language and it runs in your open QGIS project: load data, run algorithms, style layers, build a layout. Every change can be undone.
+Step-by-step guide to AI Agent for QGIS: install it, send your first message, then follow eight real tutorials, from flood maps to NDVI and web search.
