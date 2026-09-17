@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "QGISプロジェクト・データを複数人で共有する方法〜ファイル共時に起こりやすい問題と対策〜 - QGIS LAB by MIERUNE"
+title: "QGISプロジェクト・データを複数人で共有する方法〜ファイル共有時に起こりやすい問題と対策〜 - QGIS LAB by MIERUNE"
 date: "2026-08-06T02:45:00"
 link: "https://qgis.mierune.co.jp/posts/howto_share_qgis-project"
 draft: "false"
