@@ -302,5 +302,18 @@
       ],
       "main": "en_gb"
     }
+  },
+  {
+    "feed": "https://echocad.pages.dev/feed.xml",
+    "name": "EchoCad",
+    "shortname": "echocad",
+    "is_active": true,
+    "logo": "echocad.svg",
+    "languages": {
+      "available": [
+        "en_gb"
+      ],
+      "main": "en_gb"
+    }
   }
 ]
