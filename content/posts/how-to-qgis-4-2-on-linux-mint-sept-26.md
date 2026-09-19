@@ -23,7 +23,7 @@ available_languages: ["en_gb"]
 <div class="cm-editor">
 <div class="cm-scroller">
 <pre>
-<code class="language-shell"><div class="cm-line"><span class="tok-variableName">sudo</span> usermod <span class="tok-propertyName">-aG</span> docker <span class="tok-variableName tok-definition">$USER</span></div><div class="cm-line">newgrp docker <span class="tok-comment"># or just log out and back in</span></div><div class="cm-line"></div></code></pre>
+<code class="language-shell"><div class="cm-line"><span class="tok-variableName">sudo</span> usermod <span class="tok-propertyName">-aG</span> docker <span class="tok-variableName tok-definition">$USER</span></div><div class="cm-line">newgrp docker <span class="tok-comment"># or just log out and back in</span></div><div class="cm-line"></div><div class="cm-line"></div></code></pre>
 </div>
 </div>
 </div>
@@ -32,7 +32,7 @@ available_languages: ["en_gb"]
 <div class="cm-editor">
 <div class="cm-scroller">
 <pre>
-<code class="language-shell"><div class="cm-line">docker pull qgis/qgis:4.2.2-questing</div><div class="cm-line"></div></code></pre>
+<code class="language-shell"><div class="cm-line">docker pull qgis/qgis:4.2.2-questing</div><div class="cm-line"></div><div class="cm-line"></div></code></pre>
 </div>
 </div>
 </div>
@@ -41,7 +41,7 @@ available_languages: ["en_gb"]
 <div class="cm-editor">
 <div class="cm-scroller">
 <pre>
-<code class="language-shell"><div class="cm-line">xhost <span class="tok-operator">+</span>local:docker</div><div class="cm-line">docker run <span class="tok-propertyName">--rm</span> <span class="tok-propertyName">-it</span> <span class="tok-propertyName">--name</span> qgis</div><div class="cm-line"><span class="tok-propertyName">-v</span> /tmp/.X11-unix:/tmp/.X11-unix</div><div class="cm-line"><span class="tok-propertyName">-e</span> <span class="tok-variableName tok-definition">DISPLAY</span><span class="tok-operator">=</span><span class="tok-variableName tok-definition">$DISPLAY</span></div><div class="cm-line">qgis/qgis:4.2.2-questing qgis</div><div class="cm-line"></div></code></pre>
+<code class="language-shell"><div class="cm-line">xhost <span class="tok-operator">+</span>local:docker</div><div class="cm-line">docker run <span class="tok-propertyName">--rm</span> <span class="tok-propertyName">-it</span> <span class="tok-propertyName">--name</span> qgis \ </div><div class="cm-line"><span class="tok-propertyName">-v</span> /tmp/.X11-unix:/tmp/.X11-unix \ </div><div class="cm-line"><span class="tok-propertyName">-e</span> <span class="tok-variableName tok-definition">DISPLAY</span><span class="tok-operator">=</span><span class="tok-variableName tok-definition">$DISPLAY</span> \ </div><div class="cm-line">qgis/qgis:4.2.2-questing qgis</div><div class="cm-line"></div><div class="cm-line"></div></code></pre>
 </div>
 </div>
 </div>
@@ -52,7 +52,7 @@ available_languages: ["en_gb"]
 <div class="cm-editor">
 <div class="cm-scroller">
 <pre>
-<code class="language-shell"><div class="cm-line">docker run <span class="tok-propertyName">--rm</span> <span class="tok-propertyName">-it</span> <span class="tok-propertyName">--name</span> qgis</div><div class="cm-line"><span class="tok-propertyName">-v</span> /tmp/.X11-unix:/tmp/.X11-unix</div><div class="cm-line"><span class="tok-propertyName">-e</span> <span class="tok-variableName tok-definition">DISPLAY</span><span class="tok-operator">=</span><span class="tok-variableName tok-definition">$DISPLAY</span></div><div class="cm-line"><span class="tok-propertyName">-v</span> ~/.qgis-docker-profile:/root/.local/share/QGIS</div><div class="cm-line">qgis/qgis:4.2.2-questing qgis</div><div class="cm-line"></div></code></pre>
+<code class="language-shell"><div class="cm-line">docker run <span class="tok-propertyName">--rm</span> <span class="tok-propertyName">-it</span> <span class="tok-propertyName">--name</span> qgis \ </div><div class="cm-line"><span class="tok-propertyName">-v</span> /tmp/.X11-unix:/tmp/.X11-unix \ </div><div class="cm-line"><span class="tok-propertyName">-e</span> <span class="tok-variableName tok-definition">DISPLAY</span><span class="tok-operator">=</span><span class="tok-variableName tok-definition">$DISPLAY</span> \ </div><div class="cm-line"><span class="tok-propertyName">-v</span> ~/.qgis-docker-profile:/root/.local/share/QGIS \ </div><div class="cm-line">qgis/qgis:4.2.2-questing qgis</div><div class="cm-line"></div><div class="cm-line"></div></code></pre>
 </div>
 </div>
 </div>
@@ -61,7 +61,7 @@ available_languages: ["en_gb"]
 <div class="cm-editor">
 <div class="cm-scroller">
 <pre>
-<code class="language-shell"><div class="cm-line">docker run <span class="tok-propertyName">--rm</span> <span class="tok-propertyName">-it</span> <span class="tok-propertyName">--name</span> qgis</div><div class="cm-line"><span class="tok-propertyName">-v</span> /tmp/.X11-unix:/tmp/.X11-unix</div><div class="cm-line"><span class="tok-propertyName">-e</span> <span class="tok-variableName tok-definition">DISPLAY</span><span class="tok-operator">=</span><span class="tok-variableName tok-definition">$DISPLAY</span></div><div class="cm-line"><span class="tok-propertyName">-v</span> ~/.qgis-docker-profile:/root/.local/share/QGIS</div><div class="cm-line"><span class="tok-propertyName">-v</span> /media/anita/SSD1/Geodata:/data</div><div class="cm-line">qgis/qgis:4.2.2-questing qgis</div><div class="cm-line"></div></code></pre>
+<code class="language-shell"><div class="cm-line">docker run <span class="tok-propertyName">--rm</span> <span class="tok-propertyName">-it</span> <span class="tok-propertyName">--name</span> qgis \ </div><div class="cm-line"><span class="tok-propertyName">-v</span> /tmp/.X11-unix:/tmp/.X11-unix \ </div><div class="cm-line"><span class="tok-propertyName">-e</span> <span class="tok-variableName tok-definition">DISPLAY</span><span class="tok-operator">=</span><span class="tok-variableName tok-definition">$DISPLAY</span> \ </div><div class="cm-line"><span class="tok-propertyName">-v</span> ~/.qgis-docker-profile:/root/.local/share/QGIS \ </div><div class="cm-line"><span class="tok-propertyName">-v</span> /media/anita/SSD1/Geodata:/data \ </div><div class="cm-line">qgis/qgis:4.2.2-questing qgis</div><div class="cm-line"></div><div class="cm-line"></div></code></pre>
 </div>
 </div>
 </div>
