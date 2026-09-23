@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Draw a zone, name the object, run it: you get a polygon layer in minutes. Open data, hand-digitizing and AI detection compared, with the filtering step.
+Draw a zone, name the object, run it: you get a polygon layer in minutes. Open data, AI detection and hand-digitizing compared, with the filtering step.

@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "Orthomosaic vs Orthophoto: What Each Word Means"
+title: "What Is an Orthomosaic? Orthomosaic vs Orthophoto Explained"
 date: "2026-09-10T00:00:00"
 link: "https://terra-lab.ai/blog/orthomosaic-vs-orthophoto"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-An orthophoto is one aerial photograph corrected to a map. An orthomosaic is many of them stitched into one image. Which one you have, and where the seams are.
+An orthomosaic is one map-corrected image stitched from many aerial photos. An orthophoto is one corrected photo. Which you have, and where seams go wrong.

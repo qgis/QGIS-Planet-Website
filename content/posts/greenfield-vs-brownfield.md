@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "Greenfield vs Brownfield: The Difference, on a Map"
+title: "Greenfield vs Brownfield Sites: Meaning and Differences"
 date: "2026-09-08T00:00:00"
 link: "https://terra-lab.ai/blog/greenfield-vs-brownfield"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-A greenfield site has never been built on. A brownfield site has, and may still carry what the last use left behind. How to tell them apart in QGIS.
+A greenfield site has never been built on. A brownfield site has, and may still hold slabs, sheds or contamination. What each costs and how to tell them apart.

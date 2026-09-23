@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Start with QuickOSM on leisure=swimming_pool. Where the map is thin, threshold the blue, run a water index, or use a segmentation model. Five methods compared.
+Start with QuickOSM on leisure=swimming_pool. Where the map is thin, use a segmentation model, threshold the blue, or run a water index. Five methods compared.

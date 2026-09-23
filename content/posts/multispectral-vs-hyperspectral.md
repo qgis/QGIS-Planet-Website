@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Multispectral imagery records a few wide bands of light. Hyperspectral records hundreds of narrow ones. What each can tell you about a field, a roof or a mine, and what it costs.
+Multispectral imagery records a few wide bands of light. Hyperspectral records hundreds of narrow ones. What each can tell you about a field, a roof or a mine.

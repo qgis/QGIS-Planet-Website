@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Photogrammetry rebuilds a surface from overlapping photographs. LiDAR measures it with a laser. One gives you colour and a cheap flight, the other gives you the ground under the trees.
+Photogrammetry rebuilds a surface from overlapping photos. LiDAR measures it with a laser. One gives colour and a cheap flight, the other sees under the trees.
