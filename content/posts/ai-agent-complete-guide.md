@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Step-by-step guide to AI Agent for QGIS: install it, send your first message, then follow eight real tutorials, from flood maps to NDVI and web search.
+How to use AI Agent in QGIS: install it, write your first request, stay in control, then 10 real runs, from georeferencing an old map to an HTML report.
