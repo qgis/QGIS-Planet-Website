@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "普段の業務でQGISを活用してみませんか？MIERUNEがQGIS導入をサポート！ - QGIS LAB by MIERUNE"
+title: "Using QGIS at Work: MIERUNE Adoption Support - QGIS LAB by MIERUNE"
 date: "2025-07-11T00:52:29"
-link: "https://qgis.mierune.co.jp/posts/blog_business_case-studies"
+link: "https://qgis.mierune.co.jp/en/posts/blog_business_case-studies"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-QGISとは？ 「GISを使ってみたいけれど、どのソフトを選べばいいのか分からない」「高価なGISソフトはハードルが高い」そんな方にこそおすすめしたいのが、**「QGIS」**です。 QGISは、オープンソースのデスクトップGIS（地理情報システム）ソフトウェアです。 誰でも自由に利用 することができ、 位置情報データの可視化、編集、分析といった機能が充実 しています。 建設、都市計画、防災、環境...
+What is QGIS? If you want to try GIS but do not know which software to choose, or expensive GIS software feels out of reach, QGIS is worth a look. QGIS is open-source desktop GIS (geographic informati...

@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "初めてのQField！QGISプロジェクトをスマホに持ち出す手順 - QGIS LAB by MIERUNE"
+title: "Get Started with QField: QGIS to Your Phone - QGIS LAB by MIERUNE"
 date: "2025-08-07T06:41:13"
-link: "https://qgis.mierune.co.jp/posts/howto_get-started_q-field"
+link: "https://qgis.mierune.co.jp/en/posts/howto_get-started_q-field"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに QFieldは、QGISで作成したプロジェクトをスマートフォンなどで活用できる オープンソースのモバイルGISソフトウェア です。この記事では、 QGISで作成したプロジェクトをQFieldに転送し、モバイルデバイスで利用できるようにするための基本的な手順を解説 します。 QFieldの概要と活用事例について詳しく知りたい方は、以下の記事をご覧ください。 QGISでプロジェクトの準備 Q...
+Introduction QField is open-source mobile GIS software that lets you use projects created in QGIS on smartphones and other devices. This article explains the basic steps for transferring a QGIS projec...

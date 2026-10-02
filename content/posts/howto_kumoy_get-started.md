@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "QGISで作った地図をWebに公開しよう〜Kumoyで地図を共有する方法〜 - QGIS LAB by MIERUNE"
+title: "Publish QGIS Maps on the Web with Kumoy - QGIS LAB by MIERUNE"
 date: "2026-03-09T08:30:00"
-link: "https://qgis.mierune.co.jp/posts/howto_kumoy_get-started"
+link: "https://qgis.mierune.co.jp/en/posts/howto_kumoy_get-started"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに QGISで作成した地図を、そのままWebで公開したいと考えたことはないでしょうか。 この記事では、「Kumoy」というサービスを利用して、QGISの地図をWeb地図として無料で公開する方法をご紹介します。 Kumoyとは Kumoy（くもい）は、 QGISとWebのシームレスな連携 を実現する、QGIS向けのクラウドサービスです。QGISプラグインを通じて地図やデータをクラウドにアップロ...
+Introduction Have you ever wanted to publish a map made in QGIS on the web, just as it is? This article shows how to publish a QGIS map as a web map for free with a service called “Kumoy.” What is Kum...

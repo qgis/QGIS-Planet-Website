@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "レイヤのスタイル設定を効率化しよう〜コピー・自動適用・スタイルの保存〜 - QGIS LAB by MIERUNE"
+title: "Faster Layer Styling: Copy, Auto-Apply, Save - QGIS LAB by MIERUNE"
 date: "2026-06-16T07:00:00"
-link: "https://qgis.mierune.co.jp/posts/howto_manage_styles"
+link: "https://qgis.mierune.co.jp/en/posts/howto_manage_styles"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに QGISでは、レイヤプロパティからシンボロジやラベル、不透明度などさまざまなスタイルを設定できます。ひととおりの設定はレイヤプロパティのダイアログから行えますが、毎回同じ作業を繰り返したり、設定のたびにダイアログを開閉したりするのを手間に感じることがあるでしょう。 この記事では、レイヤスタイルパネルやスタイルのコピー・貼り付け、そしてスタイルファイルの活用といった、知っておくと作業が快適...
+Introduction In QGIS, you can set many kinds of styles, such as symbology, labels, and opacity, from the layer properties. You can make most settings in the Layer Properties dialog, but repeating the ...

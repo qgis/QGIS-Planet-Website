@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "「プロセシングツールが動かない」を解決！無効なジオメトリの対処法 - QGIS LAB by MIERUNE"
+title: "How to Fix Invalid Geometry Errors in QGIS - QGIS LAB by MIERUNE"
 date: "2026-04-09T06:00:00"
-link: "https://qgis.mierune.co.jp/posts/howto_fix_geometries"
+link: "https://qgis.mierune.co.jp/en/posts/howto_fix_geometries"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに QGISでクリップや空間結合などのプロセシングツールを実行した際に、 「無効なジオメトリ」というエラーが表示されて処理が止まってしまう ことがあります。 このエラーは、データの形状に問題があることを示しています。放置したままでは、処理が失敗するだけでなく、ほかのGISソフトで正常に読み込めなかったり、意図しない見た目で描画されたりすることもあります。 この記事では、無効なジオメトリとは何...
+Introduction When you run a Processing tool such as clip or spatial join in QGIS, processing sometimes stops with an “invalid geometry” error . This error means there is a problem with the shape of th...

@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "FOSS4G Auckland 2025で最近の技術トレンドを知ったり、いろんな人に会ってきました - QGIS LAB by MIERUNE"
+title: "FOSS4G Auckland 2025: Tech Trends and People - QGIS LAB by MIERUNE"
 date: "2025-12-15T06:00:00"
-link: "https://qgis.mierune.co.jp/posts/blog_foss4g_auckland_2025"
+link: "https://qgis.mierune.co.jp/en/posts/blog_foss4g_auckland_2025"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに みなさん、こんにちは。 MIERUNEでEngineering Managerをしている山﨑です。 近年（2025年）、日本の各地域でFOSS4Gイベントが精力的に開催されていますね。 今年度だと 九州から北海道まで合計5つの国内FOSS4Gイベントが開催されている ことになります。 FOSS4Gイベントは、FOSS4G（地理空間情報のためのフリー・オープンソースソフトウェア）の技術の紹...
+Introduction Hello, everyone. I’m Yamazaki, an Engineering Manager at MIERUNE. Lately (in 2025), FOSS4G events have been very active in regions across Japan. This fiscal year, a total of five FOSS4G e...

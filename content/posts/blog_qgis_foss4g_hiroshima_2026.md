@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "世界のQGISユーザーが広島に集結！「FOSS4G Hiroshima 2026」QGISセッションレポート - QGIS LAB by MIERUNE"
+title: "QGIS Session Report: FOSS4G Hiroshima 2026 - QGIS LAB by MIERUNE"
 date: "2026-09-11T01:00:00"
-link: "https://qgis.mierune.co.jp/posts/blog_qgis_foss4g_hiroshima_2026"
+link: "https://qgis.mierune.co.jp/en/posts/blog_qgis_foss4g_hiroshima_2026"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに 「 FOSS4G Hiroshima 2026 」は、地理空間技術のオープンソースソフトウェア（FOSS4G）に関わる人々が世界中から集う国際カンファレンスです。2026年9月、広島県で開催されました。日本でのFOSS4Gグローバルカンファレンスの開催は初となります。 イベント全体の概要や会場の様子については、別の記事で紹介していますので、ぜひあわせてご覧ください。 この記事では、筆者の...
+Introduction FOSS4G Hiroshima 2026 is an international conference that brings together people from around the world who work with open source geospatial software (FOSS4G). It was held in Hiroshima Pre...

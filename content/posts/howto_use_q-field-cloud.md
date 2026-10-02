@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "QFieldのデータをクラウドで管理しよう〜QFieldCloudの使い方を解説〜 - QGIS LAB by MIERUNE"
+title: "How to Use QFieldCloud to Manage QField Data - QGIS LAB by MIERUNE"
 date: "2025-09-02T03:00:00"
-link: "https://qgis.mierune.co.jp/posts/howto_use_q-field-cloud"
+link: "https://qgis.mierune.co.jp/en/posts/howto_use_q-field-cloud"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに QFieldは、QGISで作成したプロジェクトをスマートフォンなどで利用できる オープンソースのモバイルGISソフトウェア です。 この記事では、 「QFieldCloud」を活用して、QGISプロジェクトをQFieldへスムーズに同期し、チームで効率的に運用するための基本的な手順を解説 します。 QFieldの概要と活用事例について詳しく知りたい方は、以下の記事をご覧ください。 QFi...
+Introduction QField is open-source mobile GIS software that lets you use projects created in QGIS on smartphones and other devices. This article explains the basic steps for using QFieldCloud to sync ...

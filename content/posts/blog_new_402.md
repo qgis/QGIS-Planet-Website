@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "QGIS 4.2新機能〜次期LTR版のベースとなるバージョン〜 - QGIS LAB by MIERUNE"
+title: "QGIS 4.2 New Features: Base of the Next LTR - QGIS LAB by MIERUNE"
 date: "2026-07-14T06:30:00"
-link: "https://qgis.mierune.co.jp/posts/blog_new_402"
+link: "https://qgis.mierune.co.jp/en/posts/blog_new_402"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに 2026年7月3日に、QGIS 4.2「Belém do Pará」がリリースされました。Belémはブラジル北部に位置する港湾都市で、QGISにとっては2024年に世界的なFOSS4Gカンファレンスが開催された場所としても知られています。 前回のバージョンであるQGIS 4.0は2026年3月にリリースされ、4.0シリーズの最初のバージョンとなりました。今回の4.2では、 安定性を高め...
+Introduction QGIS 4.2 “Belém do Pará” was released on July 3, 2026. Belém is a port city in northern Brazil, and it is also known in the QGIS community as the site of the global FOSS4G conference in 2...

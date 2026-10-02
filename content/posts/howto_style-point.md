@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "QGISでポイントのスタイルを変更する方法〜マーカーの色変更からSVG画像の活用まで〜 - QGIS LAB by MIERUNE"
+title: "How to Change Point Styles in QGIS - QGIS LAB by MIERUNE"
 date: "2025-07-28T06:05:39"
-link: "https://qgis.mierune.co.jp/posts/howto_style-point"
+link: "https://qgis.mierune.co.jp/en/posts/howto_style-point"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに QGISでポイントを含むレイヤを読み込むと、デフォルトでランダムな色の丸いマーカーが表示されます。しかし、避難所なら緑色や避難所のアイコン、病院なら赤色の十字など、 データの内容に応じて適切なマーカーに変更することで、地図がより見やすく、理解しやすくなります。 この記事では、QGISで点の見た目（マーカー）を変更する方法について解説します。 基本的な色の変更から、詳細な設定、さらには画像...
+Introduction When you load a layer that contains points into QGIS, it shows them as round markers in a random color by default. Changing the markers to suit the data makes a map easier to read and und...

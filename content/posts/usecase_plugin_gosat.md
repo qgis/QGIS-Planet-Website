@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "GOSATプラグインを使って、温室効果ガスのデータをQGISで可視化しよう【前編】 - QGIS LAB by MIERUNE"
+title: "GOSAT Plugin: Greenhouse Gas Data (Part 1) - QGIS LAB by MIERUNE"
 date: "2026-03-19T07:30:00"
-link: "https://qgis.mierune.co.jp/posts/usecase_plugin_gosat"
+link: "https://qgis.mierune.co.jp/en/posts/usecase_plugin_gosat"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに GOSATプラグイン は、 温室効果ガス観測衛星GOSAT（いぶき）シリーズのデータをQGIS上で可視化・簡易解析できるプラグイン です。Tellusで提供されているデータセットの検索からダウンロード、時系列でのアニメーション表示や任意地点の数値のグラフ化など、データを様々な形で可視化することができます。 TellusのGOSAT特設サイトのトップページ 本記事では、GOSATプラグイン...
+Introduction The GOSAT plugin is a plugin that visualizes data from the Greenhouse gases Observing SATellite (GOSAT, “Ibuki”) series in QGIS and supports simple analysis . You can search for and downl...

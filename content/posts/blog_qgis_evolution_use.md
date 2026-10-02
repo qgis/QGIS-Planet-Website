@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "世界は本当にQGISを愛している…のか - QGIS LAB by MIERUNE"
+title: "Does the World Really Love QGIS? - QGIS LAB by MIERUNE"
 date: "2025-12-25T06:00:00"
-link: "https://qgis.mierune.co.jp/posts/blog_qgis_evolution_use"
+link: "https://qgis.mierune.co.jp/en/posts/blog_qgis_evolution_use"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに あなたがこれを読んでいるこの瞬間も、世界の誰かがQGISとさまざまな地域を探検しているのだろう。 2007年にわたしがはじめてみたQGIS(Quantum GIS)0.8は、まだまだ発展途上で、日本語データが入ったShapefileを開くと、まるで牡蠣に当たったかのようにクラッシュする不安定さがあった。 そのころのわたしとえいえばまだ”オープンソース”や”FOSS4G”なんて2ピコバイト...
+Introduction Even as you read this, someone somewhere in the world is probably exploring one place or another with QGIS. When I first saw QGIS (Quantum GIS) 0.8 in 2007, it was still very much a work ...

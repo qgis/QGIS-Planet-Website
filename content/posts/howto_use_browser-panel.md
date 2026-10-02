@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "ブラウザパネルの活用〜データ管理と空間ブックマーク〜 - QGIS LAB by MIERUNE"
+title: "Browser Panel: Data Management and Bookmarks - QGIS LAB by MIERUNE"
 date: "2026-07-08T06:00:00"
-link: "https://qgis.mierune.co.jp/posts/howto_use_browser-panel"
+link: "https://qgis.mierune.co.jp/en/posts/howto_use_browser-panel"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに ブラウザパネルは、背景地図として利用されるXYZ Tiles接続のために利用される方が多いと思いますが、それ以外にも便利な使い方がたくさんあります。この記事では、QGISのブラウザパネルを効果的に活用し、普段のQGIS操作を手軽にする方法をご紹介します。 なお、XYZタイル接続の方法についてはこちらの記事での解説はしません。下記の記事で詳しく説明しているので、そちらをご覧ください。 ブラ...
+Introduction Many people use the Browser panel mainly for XYZ Tiles connections that provide basemaps, but it has plenty of other handy uses. This article shows how to get the most out of the QGIS Bro...

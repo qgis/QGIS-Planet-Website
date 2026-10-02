@@ -1,15 +1,15 @@
 ---
 source: "blog"
-title: "現地調査でQGISの地図を使おう！〜GeoPDFの作成方法と活用事例〜 - QGIS LAB by MIERUNE"
+title: "Use QGIS Maps in Field Surveys with GeoPDF - QGIS LAB by MIERUNE"
 date: "2025-08-13T02:32:48"
-link: "https://qgis.mierune.co.jp/posts/howto_export_geo-pdf"
+link: "https://qgis.mierune.co.jp/en/posts/howto_export_geo-pdf"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_lab_by_mierune"]
 author: "QGIS LAB by MIERUNE"
 tags: ["qgis"]
-languages: ["ja_jp"]
-available_languages: ["ja_jp"]
+languages: ["en_gb"]
+available_languages: ["en_gb"]
 ---
 
-はじめに QGISでは、 GeoPDF という通常のPDFファイルに地理空間情報（位置情報）を埋め込んだ特殊なファイル形式を作成することができます。GeoPDFは、レイヤの表示・非表示の切り替えやGPS連携による現在位置の確認など、現地調査や地図の共有において非常に有用な機能を備えています。 この記事では、 GeoPDFの作成方法の具体的な手順と活用例を詳しく解説します 。QGISの強力な機能を使...
+Introduction QGIS can create a GeoPDF , a special file format that embeds geospatial (location) information in an ordinary PDF. A GeoPDF has features that are very useful for field surveys and map sha...
