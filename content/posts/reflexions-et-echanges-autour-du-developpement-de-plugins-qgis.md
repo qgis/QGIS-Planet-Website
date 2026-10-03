@@ -1,13 +1,13 @@
 ---
 source: "blog"
 title: "Thoughts and Discussions on the Development of QGIS Plugins"
-date: "2026-10-02T10:42:18"
+date: "2026-10-02T12:50:23"
 link: "https://oslandia.com/en/2026/10/02/reflexions-et-echanges-autour-du-developpement-de-plugins-qgis/"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["conférence", "event", "qgis", "open source"]
+tags: ["conférence", "event", "qgis", "developpement", "open source", "plugin qgis"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
