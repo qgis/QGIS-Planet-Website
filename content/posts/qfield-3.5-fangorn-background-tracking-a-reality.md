@@ -37,5 +37,5 @@ available_languages: ["en_gb"]
  (instructions available on the repository). This integration also opens up many new possibilities, such as enabling plugins to send prompts to AI, just like <a href="https://github.com/mbernasocchi/qfield-ask-ai" rel="noopener" target="_blank">this plugin</a>
  does.</p>
 <p>Other noteworthy improvements include shipping <strong>Quick3D QML modules, which allow authors to develop 3D overlays</strong>, a new API to customize QField’s colour appearance and a new mechanism for plugins to add a configuration button within the plugin manager.</p>
-<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="392" src="/img/subscribers/qfield/qfield-3.5-fangorn-background-tracking-a-reality/configuration.webp" width="800"/></figure>
+<figure class="figure text-center mb-4"><img alt="" class="figure-img img-fluid gallery-img" height="392" src="" width="800"/></figure>
 <p>Users and plugin authors can expect an exciting year ahead as the QField plugin framework continues to grow with new functionalities and improvements. Watch this space!</p>
