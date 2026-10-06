@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-How to use AI Agent in QGIS: install it, write your first request, stay in control, then 10 real runs, from georeferencing an old map to an HTML report.
+How to use AI Agent in QGIS: install it, write your first request, stay in control, then 5 real runs, from open data to an HTML report.
