@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "Semantic vs Instance Segmentation on Aerial Imagery"
+title: "Semantic vs Instance vs Panoptic Segmentation: The Difference"
 date: "2026-09-09T00:00:00"
 link: "https://terra-lab.ai/blog/semantic-vs-instance-segmentation"
 draft: "false"

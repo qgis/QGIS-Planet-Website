@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "What Is PyQGIS? Automate QGIS With or Without Code"
+title: "What Is PyQGIS? A First Script and a Chatbot Code Test"
 date: "2026-09-26T00:00:00"
 link: "https://terra-lab.ai/blog/pyqgis"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-PyQGIS lets you control QGIS with Python. Where to run it, a first script, and a test of how often chatbot-written PyQGIS works, with a no-code option.
+Where to run PyQGIS, a first script, and a test on six tasks: chatbot code always ran, but one result was silently wrong when given only layer names.

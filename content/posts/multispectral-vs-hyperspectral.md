@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "Multispectral vs Hyperspectral Imagery, Explained"
+title: "Multispectral vs Hyperspectral: Bands, Cost and Free Data"
 date: "2026-09-14T00:00:00"
 link: "https://terra-lab.ai/blog/multispectral-vs-hyperspectral"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Multispectral imagery records a few wide bands of light. Hyperspectral records hundreds of narrow ones. What each can tell you about a field, a roof or a mine.
+Multispectral records 4 to 13 wide bands, hyperspectral 100 to 300 narrow ones. A table of bands, free satellites, drone sensor cost and data size.

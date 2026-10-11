@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "Site Plan vs Plot Plan: What Each One Shows"
+title: "Plot Plan vs Site Plan: What 19 Permit Offices Ask For"
 date: "2026-09-11T00:00:00"
 link: "https://terra-lab.ai/blog/site-plan-vs-plot-plan"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-A plot plan draws one lot: its lines, its building, its setbacks. A site plan draws the whole project. Which one a permit asks for, and who draws it.
+A plot plan draws one lot, a site plan the whole project. We read 19 US permit checklists: the name on the form says little about what the drawing holds.

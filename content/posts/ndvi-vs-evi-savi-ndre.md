@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "NDVI vs EVI, SAVI, NDRE and NDWI: Which Index When"
+title: "NDVI vs EVI, SAVI, NDRE and NDWI: Formulas for QGIS"
 date: "2026-10-05T00:00:00"
 link: "https://terra-lab.ai/blog/ndvi-vs-evi-savi-ndre"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-NDVI flattens out over dense canopy. EVI, SAVI, NDRE, NDWI and NDMI each fix one of its blind spots. Formulas, Sentinel-2 bands and a measured test in Brazil.
+NDVI flattens out over dense canopy. EVI, SAVI, NDRE, NDWI and NDMI each fix a blind spot. Raster Calculator formulas and a measured test in Brazil.

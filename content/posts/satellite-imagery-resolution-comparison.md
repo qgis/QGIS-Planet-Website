@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "Satellite Imagery Resolution Compared: What You See at 30 m, 10 m, 3 m and 30 cm"
+title: "Satellite Imagery Resolution Compared: 30 m to 30 cm"
 date: "2026-10-05T00:00:00"
 link: "https://terra-lab.ai/blog/satellite-imagery-resolution-comparison"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Pixel sizes from Landsat to drones, one French suburb shown at each, and a count of how many of its 20,911 buildings and 2,966 pools each resolution can see.
+One French suburb at six pixel sizes. At 10 m, 0.2% of its buildings cover 16 pixels; at 50 cm, 96% do. Counts of 20,911 buildings and 2,966 pools.

@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "What Is QGIS? The Free GIS, Explained for 2026"
+title: "What Is QGIS? Free GIS Software: Uses, Download, Plugins"
 date: "2026-09-26T00:00:00"
 link: "https://terra-lab.ai/blog/what-is-qgis"
 draft: "false"

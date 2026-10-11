@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Sentinel-2 sees 10 m pixels every few days, Landsat 8 and 9 see 30 m with a thermal band and an archive back to 1972. Bands side by side, and a year of clear views counted at three farms.
+Sentinel-2: 10 m pixels, 5-day revisit. Landsat 8 and 9: 30 m, a thermal band, an archive to 1972. Bands side by side, and clear views counted at three farms.
