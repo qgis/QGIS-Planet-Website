@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "Plot Plan vs Site Plan: What 19 Permit Offices Ask For"
+title: "Plot Plan vs Site Plan: The 8 Items 19 Permit Offices Check"
 date: "2026-09-11T00:00:00"
 link: "https://terra-lab.ai/blog/site-plan-vs-plot-plan"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-A plot plan draws one lot, a site plan the whole project. We read 19 US permit checklists: the name on the form says little about what the drawing holds.
+A plot plan draws one lot, a site plan the whole project. The 8 items 19 US permit checklists ask for, who can draw a plot plan, and how to make one in QGIS.

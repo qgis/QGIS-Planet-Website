@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "What Is an Orthomosaic? Orthophoto vs Orthomosaic Map Explained"
+title: "Orthophoto vs Orthomosaic: The Difference, and 7 Free for QGIS"
 date: "2026-09-10T00:00:00"
 link: "https://terra-lab.ai/blog/orthomosaic-vs-orthophoto"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-An orthomosaic is one map-accurate image stitched from many drone or aerial photos. How it is made, how it differs from an orthophoto, and how to use it.
+An orthophoto is one corrected photo; an orthomosaic stitches many. How each is made, why one drew Berlin's TV tower 127 m off, and 7 free national services.

@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "What Is QGIS? Free GIS Software: Uses, Download, Plugins"
+title: "What Is QGIS? Free GIS Software, QGIS 4, and the 10 Top Plugins"
 date: "2026-09-26T00:00:00"
 link: "https://terra-lab.ai/blog/what-is-qgis"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-QGIS is free, open-source software for making maps and working with geographic data. What it does, what QGIS 4 changed, and 3,600 plugins counted.
+QGIS is free, open-source GIS for Windows, macOS and Linux. What people use it for, what QGIS 4 changed in 2026, and the 10 most downloaded of 3,600 plugins.

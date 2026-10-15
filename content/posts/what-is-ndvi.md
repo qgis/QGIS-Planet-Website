@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "What Is NDVI? Meaning, Values and Formula"
+title: "What Is NDVI? Formula, Value Chart and the Sentinel-2 Trap"
 date: "2026-09-26T00:00:00"
 link: "https://terra-lab.ai/blog/what-is-ndvi"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-NDVI measures how green and dense vegetation is, from red and near-infrared light. What the values mean, a season measured field by field, and QGIS steps.
+NDVI = (NIR - Red) / (NIR + Red), from -1 to 1. What each value range means, a season measured field by field, and the offset that turns 0.82 into 0.56.
