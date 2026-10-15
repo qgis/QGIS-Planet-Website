@@ -20,7 +20,6 @@ available_languages: ["en_gb"]
 <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
 <p class="wp-block-paragraph">The QGIS Layer Definition (QLR) format makes it possible to share “complete” QGIS layers with other QGIS users. QLR files contain links to the data sources and all the QGIS style information necessary to style the layer.</p>
 </blockquote>
-<figure class="wp-block-image size-large"><a href="https://hub.qgis.org/layerdefinitions/?sort=upload_date&amp;order=desc"><img alt="" class="wp-image-9864" height="425" src="/img/subscribers/anita_graser/meet-the-qgis-hub-sharing-is-caring/image-2.webp" width="1024"/></a></figure>
 <p class="wp-block-paragraph">To test the features, I uploaded QLRs for the two <a href="https://anitagraser.com/2026/07/26/new-open-basemaps-for-austria/">BEV basemap COGs I first wrote about a few weeks ago</a>.</p>
 <figure class="wp-block-image size-large"><a href="https://hub.qgis.org/layerdefinitions/?sort=upload_date&amp;order=desc"><img alt="" class="wp-image-9866" height="951" src="/img/subscribers/anita_graser/meet-the-qgis-hub-sharing-is-caring/image-3.webp" width="798"/></a></figure>
 <p class="wp-block-paragraph">The cool thing about sharing the COGs like this is that: 1. users don’t have to mess with the COG URLs and 2. the QLR stores styling information such as the recommended raster resampling settings which were previously only available in the dataset documentation.</p>
