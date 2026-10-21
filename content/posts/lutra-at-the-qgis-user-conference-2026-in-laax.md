@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "Lutra at the QGIS User Conference 2026 in Laax"
-date: "2026-10-12T15:04:12"
+date: "2026-10-21T09:20:16"
 link: "https://www.lutraconsulting.co.uk/blogs/lutra-at-the-qgis-user-conference-2026-in-laax?utm_source=qgis"
 draft: "false"
 showcase: "planet"

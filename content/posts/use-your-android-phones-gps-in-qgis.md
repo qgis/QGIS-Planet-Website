@@ -49,7 +49,7 @@ Now, in QGIS you can open the plugin dialog through <strong>Vector -&gt; GPS -&g
 
  
 
-<a class="thumbnail cboxElement" href="https://www.itopen.it/wp-content/uploads/2018/03/gps-connection-settings.png"><img alt="" class="aligncenter size-large wp-image-1890" height="800" src="/img/subscribers/itopen/use-your-android-phones-gps-in-qgis/gps-connection-settings-471x800.webp" width="471"/></a>
+<a class="thumbnail cboxElement" href="https://www.itopen.it/wp-content/uploads/2018/03/gps-connection-settings.png"><img alt="" class="aligncenter size-large wp-image-1890" height="800" src="" width="471"/></a>
 
 Click on <strong>Connect</strong> button on the top right corner (mouse over the gray square for GPS status information)
 
