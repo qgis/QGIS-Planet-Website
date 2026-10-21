@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "AI Agent for QGIS: Top Score on Google's Geospatial Benchmarks"
+title: "AI Agent QGIS Plugin: The Most Powerful AI Agent for QGIS"
 date: "2026-10-20T00:00:00"
 link: "https://terra-lab.ai/blog/ai-agent-qgis-plugin-geospatial-benchmark"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-AI Agent for QGIS scored higher than every other AI agent we tested on Google's geospatial benchmarks. Results on four benchmarks, and how we measured.
+AI Agent, a free QGIS plugin, scored 43.8 out of 100 on Google's geospatial benchmarks, against 24.9 for Claude Sonnet 5.5 with a QGIS MCP server.
