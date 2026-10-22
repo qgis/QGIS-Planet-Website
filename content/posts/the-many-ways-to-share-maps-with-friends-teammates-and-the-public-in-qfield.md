@@ -31,7 +31,7 @@ available_languages: ["en_gb"]
 <h2 id="importing-through-web-urls">Importing through web URLs</h2>
 <p>It is also possible to share maps without relying on QFieldCloud. While we strongly believe QFieldCloud offers the best user experience, QField is all about providing its users with the freedom to choose.</p>
 <p>Sharing maps can be done by compressing a QGIS project into a ZIP archive or simply sharing a georeferenced PDF and make that file available  through a web site URL. Users wanting to import these files into QField then open the local projects and datasets panel from the welcome screen, click on the bottom right plus sign ‘import’ button, and select the ‘Import from URL’ menu action.</p>
-<p><img alt="" src="/img/subscribers/qfield/the-many-ways-to-share-maps-with-friends-teammates-and-the-public-in-qfield/sharing-steps-import-web-url.webp"/></p>
+<p><img alt="" src=""/></p>
 <p><em>Importing from a URL works across all platforms QField runs on: Android, iOS, Windows, and Linux.</em></p>
 <h2 id="sharing-through-qr-codes">Sharing through QR codes</h2>
 <p>All of what’s described above can be made even easier by leveraging QR codes.</p>
