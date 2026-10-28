@@ -1,1 +1,10 @@
-{}
+{
+    "pk": 175,
+    "publish_from": 1793088000.0,
+    "publish_to": 1793376600.0,
+    "title": "QGIS Open Day: Friday from 10 UTC",
+    "image": "https://feed.qgis.org/media/feedimages/2026/10/26/teeest.jpg",
+    "content": "<p>Investigative journalism, archeological data, mobile mapping, community updates, photo &amp; docs sharing... all in one QGIS Open Day. Join us this Friday from 10h00 UTC onwards.&nbsp; Links and details here: https://github.com/qgis/QGIS/wiki/QOD-October-2026&nbsp;</p>",
+    "url": "https://feed.qgis.org/175",
+    "sticky": false
+}

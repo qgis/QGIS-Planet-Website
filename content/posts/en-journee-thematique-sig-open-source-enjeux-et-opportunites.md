@@ -1,13 +1,13 @@
 ---
 source: "blog"
-title: "(Fr) Contributing, not only code : Oslandia @ Journées QGIS-Fr 2024"
-date: "2024-04-12T12:26:59"
-link: "https://oslandia.com/en/2024/04/26/contributing-not-only-code-oslandia-journees-qgis-fr-2024/"
+title: "(Fr) Journée thématique  « SIG open source : enjeux et opportunités »"
+date: "2026-10-27T12:25:24"
+link: "https://oslandia.com/en/2026/09/27/en-journee-thematique-sig-open-source-enjeux-et-opportunites/"
 draft: "false"
 showcase: "planet"
 subscribers: ["qgis_oslandia"]
 author: "QGIS Oslandia"
-tags: ["conférence", "newsfr", "open source", "open source", "osgeo", "qgis"]
+tags: ["conférence", "event", "sig", "témoignage client", "3d", "conférence", "open source", "qgis"]
 languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
