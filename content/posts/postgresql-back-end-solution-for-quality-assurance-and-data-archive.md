@@ -19,7 +19,7 @@ It’s always the question, where to put the logical part of the solution. QGIS 
 <p>At least for that customer we got lately. The customer owns pieces of land all over Switzerland. On this pieces are forests and in the forests are - as expected - trees. Well, mostly - if you are not a bark beetle or a squirrel - you don’t care about a single tree. Except if there is something special with it. For example, a branch that could fell down on your brand new Citroën DS or if the tree has a disease that could kill the whole forest, that is actually needed to convert the carbon dioxide (from your DS) into oxygen.
 <a href="https://qfield.org/wald.png"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/wald.webp"/></a>
  The issuetrees (yellow) lie on the forest (green) - and the forest lies on the land piece (brown).
-<a href="https://qfield.org/erm2.png"><img alt="" src="/img/subscribers/qfield/postgresql-back-end-solution-for-quality-assurance-and-data-archive/erm2.webp"/></a>
+<a href="https://qfield.org/erm2.png"><img alt="" src=""/></a>
  And the (Entity Relationship Model) ERM looks like this. A land can have zero, one or more forests - and a forest can have zero, one or more trees with issues.</p>
 <h2 id="its-not-really-about-trees">It’s not really about trees</h2>
 <p>The situation is, that a lot of field workers (so called tree-inspectors) work with our mobile solution <a href="https://www.qfield.org/" rel="noopener" target="_blank">QField</a>
