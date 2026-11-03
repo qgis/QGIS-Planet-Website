@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "Greenfield vs Brownfield Sites: Meaning, Costs, How to Spot Them"
+title: "Greenfield vs Brownfield: Project, Software and Land Meaning"
 date: "2026-09-08T00:00:00"
 link: "https://terra-lab.ai/blog/greenfield-vs-brownfield"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-A greenfield site was never built on; a brownfield site was, and may hold slabs or pollution. What each costs, how it looks from the air, 314 sites counted.
+Greenfield starts from nothing, brownfield builds on what exists. What it means for a project, for IT and for land, with 314 real sites counted.
