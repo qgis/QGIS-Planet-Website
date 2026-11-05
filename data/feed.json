@@ -1,1 +1,10 @@
-{}
+{
+    "pk": 178,
+    "publish_from": 1793807400.0,
+    "publish_to": 1794671400.0,
+    "title": "Where is QGIS 4.4.0?",
+    "image": "https://feed.qgis.org/media/feedimages/2026/11/04/roadmap.jpg",
+    "content": "<p>If you are wondering when QGIS 4.4.0 will be released, please see our latest blog post for an update.</p>",
+    "url": "https://feed.qgis.org/178",
+    "sticky": false
+}
