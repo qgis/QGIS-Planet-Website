@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-How to use AI Agent in QGIS: install it, write your first request, find examples and data sources, stay in control, then 5 real tasks, from open data to an HTML report.
+Install AI Agent for QGIS and run a full project in five plain requests: load open data, analyse it, style the map and export a PDF.
