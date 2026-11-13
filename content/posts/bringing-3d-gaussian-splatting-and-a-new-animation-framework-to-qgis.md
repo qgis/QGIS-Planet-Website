@@ -1,7 +1,7 @@
 ---
 source: "blog"
 title: "Crowdfunding: Bringing 3D Gaussian Splatting and a New Animation Framework to QGIS"
-date: "2026-11-12T08:30:49"
+date: "2026-11-12T15:12:56"
 link: "https://www.lutraconsulting.co.uk/blogs/bringing-3d-gaussian-splatting-and-a-new-animation-framework-to-qgis?utm_source=qgis"
 draft: "false"
 showcase: "planet"
