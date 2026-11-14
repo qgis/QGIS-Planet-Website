@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Turn the aerial imagery in your QGIS canvas into edits, clean maps, and vector data with plain-language prompts, using AI Edit by TerraLab.
+Turn the aerial imagery in your QGIS canvas into edits, clean maps, and vector data with prompts, using AI Edit by TerraLab.

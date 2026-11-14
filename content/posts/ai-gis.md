@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-AI GIS is software that does GIS work from imagery or a plain request. The five jobs it handles in 2026, the tools for each, and where it still fails.
+AI GIS is software that does GIS work from imagery or a prompt. The five jobs it handles in 2026, the tools for each, and where it still fails.

@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Install AI Agent for QGIS and run a full project in five plain requests: load open data, analyse it, style the map and export a PDF.
+Install AI Agent for QGIS and run a full project in five prompts: load open data, analyse it, style the map and export a PDF.
