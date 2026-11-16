@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "How Tall Is a Story? 10 Feet, Measured on 307,225 Buildings"
+title: "How Tall Is a Story? Height Chart for 1 to 12 Stories, in Feet"
 date: "2026-10-11T00:00:00"
 link: "https://terra-lab.ai/blog/building-floor-height"
 draft: "false"

@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "What Is a KML File? How to Open, Edit and Convert It Free"
+title: "KML File: What It Is and How to Open It Free, No Google Earth"
 date: "2026-10-11T00:00:00"
 link: "https://terra-lab.ai/blog/what-is-a-kml-file"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-KML is map data written as XML; a KMZ is the zipped form. Open it in Google Earth or QGIS, find attributes hidden in HTML, convert to Shapefile, CSV or GeoJSON.
+A KML file is map data in XML; a KMZ is the zipped form. Open either free in your browser, Google Earth or QGIS, and convert it to Shapefile, CSV or GeoJSON.
