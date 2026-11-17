@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-Photogrammetry rebuilds a surface from overlapping photos. LiDAR measures it with a laser. One gives colour and a cheap flight, the other sees under the trees.
+LiDAR measures 3D points with laser pulses. Photogrammetry computes them from overlapping photos. Compare accuracy, cost, and how each handles forest cover.
