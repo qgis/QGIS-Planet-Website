@@ -315,5 +315,18 @@
       ],
       "main": "en_gb"
     }
+  },
+  {
+    "feed": "https://www.technicalgis.com/category/qgis/rss.xml",
+    "name": "TechnicalGIS",
+    "shortname": "technicalgis",
+    "is_active": true,
+    "logo": "technicalgis.svg",
+    "languages": {
+      "available": [
+        "en_gb"
+      ],
+      "main": "en_gb"
+    }
   }
 ]
