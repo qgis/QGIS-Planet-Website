@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "What Is a CRS in GIS? EPSG Codes and Fixing Wrong Layers"
+title: "CRS in GIS: Coordinate Reference System Meaning and EPSG Codes"
 date: "2026-09-26T00:00:00"
 link: "https://terra-lab.ai/blog/what-is-a-crs"
 draft: "false"
@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-A CRS tells software where coordinates sit on Earth. Datums, EPSG codes, 4326 vs 3857, and a step-by-step fix for a layer that lands in the wrong place.
+CRS stands for coordinate reference system: the rules that tie coordinates to a place on Earth. EPSG codes, 4326 vs 3857, and the fix for a misplaced layer.

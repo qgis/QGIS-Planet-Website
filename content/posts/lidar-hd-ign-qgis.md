@@ -12,4 +12,4 @@ languages: ["en_gb"]
 available_languages: ["en_gb"]
 ---
 
-The classified LiDAR HD cloud covered 78.4% of France on 6 September 2026, 30,933 of 34,877 communes. Map per commune, products, clicks in QGIS.
+The classified LiDAR HD cloud covered 80.9% of France on 20 November 2026, 32,224 of 34,877 communes. Map per commune, products, clicks in QGIS.

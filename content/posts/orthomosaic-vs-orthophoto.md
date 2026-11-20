@@ -1,6 +1,6 @@
 ---
 source: "blog"
-title: "Orthophoto vs Orthomosaic: The Difference, and 7 Free for QGIS"
+title: "Orthophoto Meaning, Orthomosaic Difference and 7 Free Sources"
 date: "2026-09-10T00:00:00"
 link: "https://terra-lab.ai/blog/orthomosaic-vs-orthophoto"
 draft: "false"
